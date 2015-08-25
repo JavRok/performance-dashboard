@@ -1,0 +1,38 @@
+body {
+	background: #E3D5BE;
+}
+
+
+
+.legend {
+	width: 200px;
+	border: 1px solid #999;
+	padding: 0 0.5em;
+}
+
+.legend > div:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 2em;
+	border: 0.15em solid red;
+}
+
+/* Override Chartist.js colors */
+.ct-series-a .ct-line,
+.ct-series-a .ct-point {
+	stroke: red;
+}
+.legend .ct-series-a:before {
+	border-color: red;
+}
+
+.ct-series-b .ct-line,
+.ct-series-b .ct-point {
+	stroke: green;
+}
+.legend .ct-series-b:before {
+	border-color: green;
+}
+
+

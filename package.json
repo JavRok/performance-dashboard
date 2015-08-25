@@ -1,0 +1,15 @@
+{
+  "name": "performance-board",
+  "version": "0.1.0",
+  "description": "Performance Board using Webpagetest.org API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Performance",
+    "Dashboard"
+  ],
+  "author": "javier.rocamora@tele2.com",
+  "license": "ISC"
+}
