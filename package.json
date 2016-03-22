@@ -6,10 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "private": true,
   "keywords": [
     "Performance",
     "Dashboard"
   ],
   "author": "javier.rocamora@tele2.com",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-exec": "^0.4.6",
+    "grunt-shell": "^1.1.2",
+    "grunt-wpt": "^3.1.1",
+    "webpagetest": "^0.3.3"
+  }
 }

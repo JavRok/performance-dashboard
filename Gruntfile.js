@@ -1,23 +1,53 @@
 module.exports = function(grunt) {
 
-  grunt.initConfig({
-      jshint: {
-		files: ['Gruntfile.js', 'src/**/*.js', 'test/**/*.js'],
-		  options: {
-			  globals: {
-					jQuery: true
-						}
-				  }
-			  },
-			  watch: {
-				files: ['<%= jshint.files %>'],
-				  tasks: ['jshint']
-					  }
-					});
+	var curDate = new Date();
+	var timestamp = '' + curDate.getFullYear() + '-' + curDate.getMonth() + '-' + curDate.getDay() + '-' + curDate.getHours() + 'h';
 
-  	grunt.loadNpmTasks('grunt-contrib-jshint');
-	grunt.loadNpmTasks('grunt-contrib-watch');
 
-	  grunt.registerTask('default', ['jshint']);
+	grunt.initConfig({
+
+		wpt: {   // Not working quite well, timeout
+			options: {
+				locations: ['ec2-eu-west-1:Chrome'],  // , 'EU_Ams_Wptdriver', 'Amsterdam_IISpeed', 'Brussels'],
+				key: "A.436734427d77b65cb53d08490c1eab45"
+			},
+			tele2: {
+				options: {
+					url: [
+						'https://www.tele2.nl/'
+						// 'https://sideroad.secret.jp/articles/',
+					]
+				},
+				dest: 'tmp/tele2nl/'
+			}
+		},
+
+		/*shell: {
+			options: {
+				execOptions: {
+					cwd: 'node_modules/webpagetest/bin/'
+				}
+			},
+			runTests: {
+				// command: 'mkdir test'
+				command: 'node_modules/webpagetest/bin/webpagetest batch ../../../wpt.org.json/batch.txt'
+			}
+		}*/
+
+		exec: {
+			runTest: 'node node_modules/webpagetest/bin/webpagetest batch wpt.org.json/batch.txt > wpt.org.json/status/result_'+ timestamp +'.json'
+		}
+
+	});
+
+	// node_modules/webpagetest/bin/webpagetest locations > ../../../wpt.org.json/locations2.json
+
+	// grunt.loadNpmTasks('grunt-wpt');
+	// require('load-grunt-tasks')(grunt); // npm install --save-dev load-grunt-tasks
+	// grunt.loadNpmTasks('grunt-shell');
+
+	grunt.loadNpmTasks('grunt-exec');
+
+	grunt.registerTask('default', ['exec']);
 
 };

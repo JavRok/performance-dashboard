@@ -1,0 +1,19 @@
+[
+  {
+    "statusCode": 200,
+    "statusText": "Ok",
+    "data": {
+      "testId": "150918_C2_SMN",
+      "ownerKey": "d82e0a8ae155c599a784cf364f3fd2ca7764a5b0",
+      "jsonUrl": "http://www.webpagetest.org/jsonResult.php?test=150918_C2_SMN",
+      "xmlUrl": "http://www.webpagetest.org/xmlResult/150918_C2_SMN/",
+      "userUrl": "http://www.webpagetest.org/result/150918_C2_SMN/",
+      "summaryCSV": "http://www.webpagetest.org/result/150918_C2_SMN/page_data.csv",
+      "detailCSV": "http://www.webpagetest.org/result/150918_C2_SMN/requests.csv"
+    }
+  },
+  {
+    "statusCode": 400,
+    "statusText": "Invalid Location, please try submitting your test request again."
+  }
+]
