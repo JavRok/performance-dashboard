@@ -2,8 +2,10 @@
 
 var fs = require('fs');
 var WebPageTest = require('webpagetest');
+var url = require('url');
 
 var TestResult = require('./TestResult.js');
+var TestResultCollection = require('./TestResultCollection.js');
 
 var pendingDir = "wpt.org.json/pending/";
 var apiKey;
@@ -62,9 +64,45 @@ function checkTestStatus (id) {
 }
 
 
+// Returns a filename based on the URL being tested
+function getFileName (testUrl) {
+    var urlObj = url.parse(testUrl);
+
+    return 'wpt.org.json/' + urlObj.hostname + '.json';
+}
+
+
+// Process the results and save the summary into a file
 function processTestResult(err, result) {
 	if (err) return console.error(err);
 
 	var test = new TestResult(result.data.id, result);
-	console.log(test);
+    var tests;
+    var fileName = getFileName(test.domain);
+
+    fs.stat(fileName, (err, stats) => {
+        // File doesn't exist, create it.
+        if (err) {
+            tests = new TestResultCollection ();
+            tests.add(test);
+            fs.writeFile(fileName, tests, function() {});
+
+        // File exists, overwrite it
+        } else {
+            fs.readFile(fileName, "utf-8", function(err, data) {
+                tests = new TestResultCollection (JSON.parse(data));
+                tests.add(test);
+                fs.writeFile(fileName, tests, function() {});
+            });
+        }
+
+
+
+    });
+	// console.log(test);
+
 }
+
+
+
+

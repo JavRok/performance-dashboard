@@ -1,0 +1,56 @@
+[
+  {
+    "id": "160318_C0_Sasdfasdf",
+    "location": "Dulles:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160318_C0_SX6",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Cable",
+    "firstView": {
+      "requests": 78,
+      "bytesIn": 1251260,
+      "ttfb": 1227,
+      "startRender": 3979,
+      "domReadyEvent": 3408,
+      "loadEvent": 6369,
+      "totalTime": 6416,
+      "visuallyComplete": 5388
+    },
+    "repeatView": {
+      "requests": 30,
+      "bytesIn": 151725,
+      "ttfb": 1064,
+      "startRender": 2689,
+      "domReadyEvent": 2506,
+      "loadEvent": 4087,
+      "totalTime": 4124,
+      "visuallyComplete": 3690
+    }
+  },
+  {
+    "id": "160318_C0_SX6",
+    "location": "Dulles:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160318_C0_SX6",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Cable",
+    "firstView": {
+      "requests": 78,
+      "bytesIn": 1251260,
+      "ttfb": 1227,
+      "startRender": 3979,
+      "domReadyEvent": 3408,
+      "loadEvent": 6369,
+      "totalTime": 6416,
+      "visuallyComplete": 5388
+    },
+    "repeatView": {
+      "requests": 30,
+      "bytesIn": 151725,
+      "ttfb": 1064,
+      "startRender": 2689,
+      "domReadyEvent": 2506,
+      "loadEvent": 4087,
+      "totalTime": 4124,
+      "visuallyComplete": 3690
+    }
+  }
+]

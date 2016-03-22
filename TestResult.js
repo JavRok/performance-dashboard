@@ -16,6 +16,7 @@ class TestResult {
 			test = test.data;
 			this.location = test.location;
 			this.url = test.summary;
+            this.domain = test.testUrl;
 			this.connectivity = test.connectivity;
 
 			var run = test.runs["1"].firstView;
@@ -43,6 +44,10 @@ class TestResult {
 			};
 		}
 	}
+
+    toString () {
+        return JSON.stringify(this, null, 2);
+    }
 
 }
 
