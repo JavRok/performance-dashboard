@@ -15,13 +15,18 @@ class TestResultCollection {
     // Add a single object of type TestResult
     add (newTest) {
         // Avoid duplicates
-        if(!this.tests.some( function(test) {
-            return test.id === newTest.id;
-        })) {
-
+        if(!this._exists(newTest)) {
             this.tests.push(newTest);
-
+        } else {
+            console.log("Test " + newTest.id + " duplicated, couldn't add.");
         }
+    }
+
+    // Check if test Id already exists in current collection
+    _exists(newTest) {
+        return this.tests.some( function(test) {
+            return test.id === newTest.id;
+        });
     }
 
 

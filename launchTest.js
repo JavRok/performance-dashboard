@@ -1,3 +1,7 @@
+/*
+ * Trigger a test on each of the sites array items. The tests results are not gathered, since it takes minutes
+ * The results are gathered by checkForPendingTests.js, that needs to be run periodically
+ */
 
 var sites = ['https://www.tele2.nl'];
 
@@ -11,12 +15,14 @@ fs.readFile("wpt.org.json/api.key", "utf-8", function (err, apiKey) {
 	// Launch the test
 	sites.forEach (function (url) {
 		wpt.runTest(url, function(err, result) {
+
 			if (err) return console.error(err);
-			if (result.status !== 200) return console.error(result.statusText);
+			if (result.statusCode !== 200) return console.error(result.statusText);
 
 			// File with timestamp and ID
-			var filename = 'wpt.org.json/pending/' + getDateTime() + "-" + result.data.testId;
-			fs.writeFile(filename, JSON.stringify(result, null, 2), (err) => {
+			var filename = 'wpt.org.json/pending/' + getDateTime() + "-" + result.data.testId + ".json";
+
+            fs.writeFile(filename, JSON.stringify(result, null, 2), (err) => {
 				if (err) {
 					console.error(err);
 				} else {

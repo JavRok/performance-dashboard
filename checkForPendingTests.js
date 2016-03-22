@@ -1,3 +1,5 @@
+/* This module checks for pending tests, run by launchTest.js before. */
+
 "use strict";
 
 var fs = require('fs');
@@ -18,6 +20,8 @@ fs.readFile("wpt.org.json/api.key", "utf-8", function (err, key) {
 	fs.readdir(pendingDir, function (err,  files) {
 
 		if (err) return console.error(err);
+
+        console.log("Found " + files.length + " pending tests.");
 
 		files.forEach(function (file) {
 
@@ -52,8 +56,9 @@ function checkTestStatus (id) {
 
 				break;
 
-			case (data.statusCode < 200):
+            case (data.statusCode < 200):
 				// Still pending, keep waiting
+                console.log("Test " + id + " still running");
 				break;
 			case (data.statusCode > 200):
 			default:
@@ -76,6 +81,7 @@ function getFileName (testUrl) {
 function processTestResult(err, result) {
 	if (err) return console.error(err);
 
+    // console.log(result.data.runs);return;
 	var test = new TestResult(result.data.id, result);
     var tests;
     var fileName = getFileName(test.domain);
@@ -95,11 +101,9 @@ function processTestResult(err, result) {
                 fs.writeFile(fileName, tests, function() {});
             });
         }
-
-
-
     });
-	// console.log(test);
+
+    console.log("Successfully gather results from test " + test.id);
 
 }
 

@@ -18,6 +18,7 @@ class TestResult {
 			this.url = test.summary;
             this.domain = test.testUrl;
 			this.connectivity = test.connectivity;
+            this.date = test.runs["1"].firstView.date;
 
 			var run = test.runs["1"].firstView;
 			this.firstView = {
