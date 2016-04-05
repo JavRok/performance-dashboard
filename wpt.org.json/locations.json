@@ -6,7 +6,7 @@
       "location": [
         {
           "id": "Dulles_MotoG:Motorola G - Chrome",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_MotoG",
           "Browser": "Motorola G - Chrome",
           "labelShort": "Dulles, VA - Motorola G - Chrome",
@@ -19,17 +19,17 @@
             "p6": 0,
             "p7": 0,
             "p8": 0,
-            "p9": 0,
-            "Total": 0,
+            "p9": 574,
+            "Total": 588,
             "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 8
+            "LowPriority": 574,
+            "Testing": 14,
+            "Idle": 0
           }
         },
         {
           "id": "Dulles_MotoG:Motorola G - Chrome Beta",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_MotoG",
           "Browser": "Motorola G - Chrome Beta",
           "labelShort": "Dulles, VA - Motorola G - Chrome Beta",
@@ -42,17 +42,17 @@
             "p6": 0,
             "p7": 0,
             "p8": 0,
-            "p9": 0,
-            "Total": 0,
+            "p9": 574,
+            "Total": 588,
             "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 8
+            "LowPriority": 574,
+            "Testing": 14,
+            "Idle": 0
           }
         },
         {
           "id": "Dulles_MotoG:Motorola G - Chrome Dev",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_MotoG",
           "Browser": "Motorola G - Chrome Dev",
           "labelShort": "Dulles, VA - Motorola G - Chrome Dev",
@@ -65,17 +65,17 @@
             "p6": 0,
             "p7": 0,
             "p8": 0,
-            "p9": 0,
-            "Total": 0,
+            "p9": 574,
+            "Total": 588,
             "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 8
+            "LowPriority": 574,
+            "Testing": 14,
+            "Idle": 0
           }
         },
         {
           "id": "Dulles_Nexus5:Nexus 5 - Chrome",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_Nexus5",
           "Browser": "Nexus 5 - Chrome",
           "labelShort": "Dulles, VA - Nexus 5 - Chrome",
@@ -98,7 +98,7 @@
         },
         {
           "id": "Dulles_Nexus5:Nexus 5 - Chrome Beta",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_Nexus5",
           "Browser": "Nexus 5 - Chrome Beta",
           "labelShort": "Dulles, VA - Nexus 5 - Chrome Beta",
@@ -121,7 +121,7 @@
         },
         {
           "id": "Dulles_Nexus5:Nexus 5 - Chrome Dev",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_Nexus5",
           "Browser": "Nexus 5 - Chrome Dev",
           "labelShort": "Dulles, VA - Nexus 5 - Chrome Dev",
@@ -144,7 +144,7 @@
         },
         {
           "id": "Dulles_MotoE:Motorola E - Chrome",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_MotoE",
           "Browser": "Motorola E - Chrome",
           "labelShort": "Dulles, VA - Motorola E - Chrome",
@@ -167,7 +167,7 @@
         },
         {
           "id": "Dulles_MotoE:Motorola E - Chrome Beta",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_MotoE",
           "Browser": "Motorola E - Chrome Beta",
           "labelShort": "Dulles, VA - Motorola E - Chrome Beta",
@@ -190,7 +190,7 @@
         },
         {
           "id": "Dulles_MotoE:Motorola E - Chrome Dev",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_MotoE",
           "Browser": "Motorola E - Chrome Dev",
           "labelShort": "Dulles, VA - Motorola E - Chrome Dev",
@@ -213,7 +213,7 @@
         },
         {
           "id": "Dulles_A1:Android One - Chrome",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_A1",
           "Browser": "Android One - Chrome",
           "labelShort": "Dulles, VA - Android One - Chrome",
@@ -236,7 +236,7 @@
         },
         {
           "id": "Dulles_A1:Android One - Chrome Beta",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_A1",
           "Browser": "Android One - Chrome Beta",
           "labelShort": "Dulles, VA - Android One - Chrome Beta",
@@ -259,7 +259,7 @@
         },
         {
           "id": "Dulles_A1:Android One - Chrome Dev",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_A1",
           "Browser": "Android One - Chrome Dev",
           "labelShort": "Dulles, VA - Android One - Chrome Dev",
@@ -282,7 +282,7 @@
         },
         {
           "id": "Dulles_Nexus7:Nexus 7 - Chrome",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_Nexus7",
           "Browser": "Nexus 7 - Chrome",
           "labelShort": "Dulles, VA - Nexus 7 - Chrome",
@@ -305,7 +305,7 @@
         },
         {
           "id": "Dulles_Nexus7:Nexus 7 - Chrome Beta",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_Nexus7",
           "Browser": "Nexus 7 - Chrome Beta",
           "labelShort": "Dulles, VA - Nexus 7 - Chrome Beta",
@@ -328,7 +328,7 @@
         },
         {
           "id": "Dulles_Nexus7:Nexus 7 - Chrome Dev",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_Nexus7",
           "Browser": "Nexus 7 - Chrome Dev",
           "labelShort": "Dulles, VA - Nexus 7 - Chrome Dev",
@@ -351,7 +351,7 @@
         },
         {
           "id": "Dulles_Nexus7L:Nexus 7 Landscape - Chrome",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_Nexus7L",
           "Browser": "Nexus 7 Landscape - Chrome",
           "labelShort": "Dulles, VA - Nexus 7 Landscape - Chrome",
@@ -374,7 +374,7 @@
         },
         {
           "id": "Dulles_Nexus7L:Nexus 7 Landscape - Chrome Beta",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_Nexus7L",
           "Browser": "Nexus 7 Landscape - Chrome Beta",
           "labelShort": "Dulles, VA - Nexus 7 Landscape - Chrome Beta",
@@ -397,7 +397,7 @@
         },
         {
           "id": "Dulles_Nexus7L:Nexus 7 Landscape - Chrome Dev",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
           "location": "Dulles_Nexus7L",
           "Browser": "Nexus 7 Landscape - Chrome Dev",
           "labelShort": "Dulles, VA - Nexus 7 Landscape - Chrome Dev",
@@ -419,241 +419,10 @@
           }
         },
         {
-          "id": "Dulles_iOS",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
-          "location": "Dulles_iOS",
-          "Browser": "iPhone 4 iOS 5.1",
-          "labelShort": "Dulles, VA",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 2
-          }
-        },
-        {
-          "id": "Dulles_IE8",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
-          "location": "Dulles_IE8",
-          "Browser": "IE 8",
-          "labelShort": "Dulles, VA",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 4
-          }
-        },
-        {
-          "id": "Dulles_IE9",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
-          "location": "Dulles_IE9",
-          "Browser": "IE 9",
-          "labelShort": "Dulles, VA",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 11
-          }
-        },
-        {
-          "id": "Dulles_IE10",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
-          "location": "Dulles_IE10",
-          "Browser": "IE 10",
-          "labelShort": "Dulles, VA",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 3,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 7,
-            "HighPriority": 0,
-            "LowPriority": 3,
-            "Testing": 4,
-            "Idle": 0
-          }
-        },
-        {
-          "id": "Dulles_IE11",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
-          "location": "Dulles_IE11",
-          "Browser": "IE 11",
-          "labelShort": "Dulles, VA",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 15
-          }
-        },
-        {
-          "id": "Dulles:Chrome",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
-          "location": "Dulles",
-          "Browser": "Chrome",
-          "labelShort": "Dulles, VA - Chrome",
-          "default": 1,
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 6,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 6,
-            "Idle": 28
-          }
-        },
-        {
-          "id": "Dulles:Canary",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
-          "location": "Dulles",
-          "Browser": "Canary",
-          "labelShort": "Dulles, VA - Canary",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 6,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 6,
-            "Idle": 28
-          }
-        },
-        {
-          "id": "Dulles:Firefox",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
-          "location": "Dulles",
-          "Browser": "Firefox",
-          "labelShort": "Dulles, VA - Firefox",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 6,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 6,
-            "Idle": 28
-          }
-        },
-        {
-          "id": "Dulles:Firefox Nightly",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
-          "location": "Dulles",
-          "Browser": "Firefox Nightly",
-          "labelShort": "Dulles, VA - Firefox Nightly",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 6,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 6,
-            "Idle": 28
-          }
-        },
-        {
-          "id": "Dulles:Safari",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
-          "location": "Dulles",
-          "Browser": "Safari",
-          "labelShort": "Dulles, VA - Safari",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 6,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 6,
-            "Idle": 28
-          }
-        },
-        {
-          "id": "Dulles_Chrome40",
-          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS)",
-          "location": "Dulles_Chrome40",
-          "Browser": "Chrome 40",
+          "id": "Dulles_iPhone5c",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
+          "location": "Dulles_iPhone5c",
+          "Browser": "iPhone 5C iOS 9",
           "labelShort": "Dulles, VA",
           "PendingTests": {
             "p1": 0,
@@ -673,11 +442,34 @@
           }
         },
         {
-          "id": "Dulles_Thinkpad:Chrome",
-          "Label": "Dulles, VA - Thinkpad T430 (IE 11,Chrome,Firefox,Safari)",
-          "location": "Dulles_Thinkpad",
-          "Browser": "Chrome",
-          "labelShort": "Dulles, VA - Thinkpad T430 - Chrome",
+          "id": "Dulles_iPhone6",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
+          "location": "Dulles_iPhone6",
+          "Browser": "iPhone 6 iOS 9",
+          "labelShort": "Dulles, VA",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 1,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 1,
+            "Idle": 0
+          }
+        },
+        {
+          "id": "Dulles_iPadMini2",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
+          "location": "Dulles_iPadMini2",
+          "Browser": "iPad Mini 2 iOS 9",
+          "labelShort": "Dulles, VA",
           "PendingTests": {
             "p1": 0,
             "p2": 0,
@@ -692,7 +484,353 @@
             "HighPriority": 0,
             "LowPriority": 0,
             "Testing": 0,
-            "Idle": 5
+            "Idle": 1
+          }
+        },
+        {
+          "id": "Bangalore_Headspin",
+          "Label": "Bangalore, India (Vodafone 2G/3G)",
+          "location": "Bangalore_Headspin",
+          "Browser": "Chrome",
+          "labelShort": "Bangalore, India (Vodafone 2G/3G)",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
+          }
+        },
+        {
+          "id": "Rio_Headspin",
+          "Label": "Rio de Janeiro, Brazil (Nextel 3G)",
+          "location": "Rio_Headspin",
+          "Browser": "Chrome",
+          "labelShort": "Rio de Janeiro, Brazil (Nextel 3G)",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
+          }
+        },
+        {
+          "id": "SaoPaulo_Headspin",
+          "Label": "Sao Paulo, Brazil (Nextel 3G)",
+          "location": "SaoPaulo_Headspin",
+          "Browser": "Chrome",
+          "labelShort": "Sao Paulo, Brazil (Nextel 3G)",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
+          }
+        },
+        {
+          "id": "Tokyo_Headspin",
+          "Label": "Tokyo, Japan (KDDI LTE)",
+          "location": "Tokyo_Headspin",
+          "Browser": "Chrome",
+          "labelShort": "Tokyo, Japan (KDDI LTE)",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
+          }
+        },
+        {
+          "id": "SanFrancisco_Headspin",
+          "Label": "San Francisco, California (TMobile LTE)",
+          "location": "SanFrancisco_Headspin",
+          "Browser": "Chrome",
+          "labelShort": "San Francisco, California (TMobile LTE)",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
+          }
+        },
+        {
+          "id": "Dulles_IE8",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
+          "location": "Dulles_IE8",
+          "Browser": "IE 8",
+          "labelShort": "Dulles, VA",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 1,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 1,
+            "Idle": 3
+          }
+        },
+        {
+          "id": "Dulles_IE9",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
+          "location": "Dulles_IE9",
+          "Browser": "IE 9",
+          "labelShort": "Dulles, VA",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 1,
+            "p6": 22,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 30,
+            "HighPriority": 0,
+            "LowPriority": 23,
+            "Testing": 7,
+            "Idle": 0
+          }
+        },
+        {
+          "id": "Dulles_IE10",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
+          "location": "Dulles_IE10",
+          "Browser": "IE 10",
+          "labelShort": "Dulles, VA",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 3
+          }
+        },
+        {
+          "id": "Dulles_IE11",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
+          "location": "Dulles_IE11",
+          "Browser": "IE 11",
+          "labelShort": "Dulles, VA",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 2,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 2,
+            "Idle": 28
+          }
+        },
+        {
+          "id": "Dulles:Chrome",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
+          "location": "Dulles",
+          "Browser": "Chrome",
+          "labelShort": "Dulles, VA - Chrome",
+          "default": 1,
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 1,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 9,
+            "HighPriority": 0,
+            "LowPriority": 1,
+            "Testing": 8,
+            "Idle": 36
+          }
+        },
+        {
+          "id": "Dulles:Canary",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
+          "location": "Dulles",
+          "Browser": "Canary",
+          "labelShort": "Dulles, VA - Canary",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 1,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 9,
+            "HighPriority": 0,
+            "LowPriority": 1,
+            "Testing": 8,
+            "Idle": 36
+          }
+        },
+        {
+          "id": "Dulles:Firefox",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
+          "location": "Dulles",
+          "Browser": "Firefox",
+          "labelShort": "Dulles, VA - Firefox",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 1,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 9,
+            "HighPriority": 0,
+            "LowPriority": 1,
+            "Testing": 8,
+            "Idle": 36
+          }
+        },
+        {
+          "id": "Dulles:Firefox Nightly",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
+          "location": "Dulles",
+          "Browser": "Firefox Nightly",
+          "labelShort": "Dulles, VA - Firefox Nightly",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 1,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 9,
+            "HighPriority": 0,
+            "LowPriority": 1,
+            "Testing": 8,
+            "Idle": 36
+          }
+        },
+        {
+          "id": "Dulles:Safari",
+          "Label": "Dulles, VA USA (IE 8-11,Chrome,Firefox,Android,iOS 9)",
+          "location": "Dulles",
+          "Browser": "Safari",
+          "labelShort": "Dulles, VA - Safari",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 1,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 9,
+            "HighPriority": 0,
+            "LowPriority": 1,
+            "Testing": 8,
+            "Idle": 36
+          }
+        },
+        {
+          "id": "Dulles_Thinkpad:Chrome",
+          "Label": "Dulles, VA - Thinkpad T430 (IE 11,Chrome,Firefox,Safari)",
+          "location": "Dulles_Thinkpad",
+          "Browser": "Chrome",
+          "labelShort": "Dulles, VA - Thinkpad T430 - Chrome",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 186,
+            "Total": 190,
+            "HighPriority": 0,
+            "LowPriority": 186,
+            "Testing": 4,
+            "Idle": 0
           }
         },
         {
@@ -710,12 +848,12 @@
             "p6": 0,
             "p7": 0,
             "p8": 0,
-            "p9": 0,
-            "Total": 0,
+            "p9": 186,
+            "Total": 190,
             "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 5
+            "LowPriority": 186,
+            "Testing": 4,
+            "Idle": 0
           }
         },
         {
@@ -733,12 +871,12 @@
             "p6": 0,
             "p7": 0,
             "p8": 0,
-            "p9": 0,
-            "Total": 0,
+            "p9": 186,
+            "Total": 190,
             "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 5
+            "LowPriority": 186,
+            "Testing": 4,
+            "Idle": 0
           }
         },
         {
@@ -756,12 +894,12 @@
             "p6": 0,
             "p7": 0,
             "p8": 0,
-            "p9": 0,
-            "Total": 0,
+            "p9": 186,
+            "Total": 190,
             "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 5
+            "LowPriority": 186,
+            "Testing": 4,
+            "Idle": 0
           }
         },
         {
@@ -779,12 +917,12 @@
             "p6": 0,
             "p7": 0,
             "p8": 0,
-            "p9": 0,
-            "Total": 0,
+            "p9": 186,
+            "Total": 190,
             "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 5
+            "LowPriority": 186,
+            "Testing": 4,
+            "Idle": 0
           }
         },
         {
@@ -802,35 +940,12 @@
             "p6": 0,
             "p7": 0,
             "p8": 0,
-            "p9": 0,
-            "Total": 0,
+            "p9": 186,
+            "Total": 190,
             "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 5
-          }
-        },
-        {
-          "id": "Dulles_Thinkpad:preconnect-dns",
-          "Label": "Dulles, VA - Thinkpad T430 (IE 11,Chrome,Firefox,Safari)",
-          "location": "Dulles_Thinkpad",
-          "Browser": "preconnect-dns",
-          "labelShort": "Dulles, VA - Thinkpad T430 - preconnect-dns",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 5
+            "LowPriority": 186,
+            "Testing": 4,
+            "Idle": 0
           }
         },
         {
@@ -849,11 +964,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
+            "Total": 0,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -872,11 +987,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
+            "Total": 0,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -895,11 +1010,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
+            "Total": 0,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -918,11 +1033,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
+            "Total": 0,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -939,11 +1054,11 @@
             "p5": 1,
             "p6": 0,
             "p7": 0,
-            "p8": 1,
+            "p8": 0,
             "p9": 0,
-            "Total": 3,
+            "Total": 2,
             "HighPriority": 0,
-            "LowPriority": 2,
+            "LowPriority": 1,
             "Testing": 1,
             "Idle": 0
           }
@@ -962,11 +1077,11 @@
             "p5": 1,
             "p6": 0,
             "p7": 0,
-            "p8": 1,
+            "p8": 0,
             "p9": 0,
-            "Total": 3,
+            "Total": 2,
             "HighPriority": 0,
-            "LowPriority": 2,
+            "LowPriority": 1,
             "Testing": 1,
             "Idle": 0
           }
@@ -985,21 +1100,21 @@
             "p5": 1,
             "p6": 0,
             "p7": 0,
-            "p8": 1,
+            "p8": 0,
             "p9": 0,
-            "Total": 3,
+            "Total": 2,
             "HighPriority": 0,
-            "LowPriority": 2,
+            "LowPriority": 1,
             "Testing": 1,
             "Idle": 0
           }
         },
         {
-          "id": "Miami_IE8",
-          "Label": "Miami, FL USA (IE8, Chrome,Firefox)",
-          "location": "Miami_IE8",
-          "Browser": "IE 8",
-          "labelShort": "Miami, FL",
+          "id": "Chicago_IE10",
+          "Label": "Chicago, IL USA (IE9-10, Chrome,Firefox)",
+          "location": "Chicago_IE10",
+          "Browser": "IE 10",
+          "labelShort": "Chicago, IL",
           "PendingTests": {
             "p1": 0,
             "p2": 0,
@@ -1018,11 +1133,34 @@
           }
         },
         {
-          "id": "Miami:Chrome",
-          "Label": "Miami, FL USA (IE8, Chrome,Firefox)",
-          "location": "Miami",
+          "id": "Nebraska:IE 11",
+          "Label": "Lincoln, Nebraska (IE 11, Chrome, Firefox)",
+          "location": "Nebraska",
+          "Browser": "IE 11",
+          "labelShort": "Lincoln, Nebraska USA - IE 11",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
+          }
+        },
+        {
+          "id": "Nebraska:Chrome",
+          "Label": "Lincoln, Nebraska (IE 11, Chrome, Firefox)",
+          "location": "Nebraska",
           "Browser": "Chrome",
-          "labelShort": "Miami, FL - Chrome",
+          "labelShort": "Lincoln, Nebraska USA - Chrome",
           "PendingTests": {
             "p1": 0,
             "p2": 0,
@@ -1033,42 +1171,42 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
+            "Total": 0,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
-          "id": "Miami:Firefox",
-          "Label": "Miami, FL USA (IE8, Chrome,Firefox)",
-          "location": "Miami",
+          "id": "Nebraska:Canary",
+          "Label": "Lincoln, Nebraska (IE 11, Chrome, Firefox)",
+          "location": "Nebraska",
+          "Browser": "Canary",
+          "labelShort": "Lincoln, Nebraska USA - Canary",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
+          }
+        },
+        {
+          "id": "Nebraska:Firefox",
+          "Label": "Lincoln, Nebraska (IE 11, Chrome, Firefox)",
+          "location": "Nebraska",
           "Browser": "Firefox",
-          "labelShort": "Miami, FL - Firefox",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 1,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
-          }
-        },
-        {
-          "id": "Chicago_IE10",
-          "Label": "Chicago, IL USA (IE9-10, Chrome,Firefox)",
-          "location": "Chicago_IE10",
-          "Browser": "IE 10",
-          "labelShort": "Chicago, IL",
+          "labelShort": "Lincoln, Nebraska USA - Firefox",
           "PendingTests": {
             "p1": 0,
             "p2": 0,
@@ -1102,11 +1240,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 0,
+            "Total": 1,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
+            "Testing": 1,
+            "Idle": 0
           }
         },
         {
@@ -1125,11 +1263,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 0,
+            "Total": 1,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
+            "Testing": 1,
+            "Idle": 0
           }
         },
         {
@@ -1148,172 +1286,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 0,
+            "Total": 1,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "US_Phx_Wptdriver:IE10",
-          "Label": "Phoenix, AZ (IE 10, Chrome, Firefox)",
-          "location": "US_Phx_Wptdriver",
-          "Browser": "IE10",
-          "labelShort": "Phoenix, AZ USA - IE10",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "US_Phx_Wptdriver:Chrome",
-          "Label": "Phoenix, AZ (IE 10, Chrome, Firefox)",
-          "location": "US_Phx_Wptdriver",
-          "Browser": "Chrome",
-          "labelShort": "Phoenix, AZ USA - Chrome",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "US_Phx_Wptdriver:Firefox",
-          "Label": "Phoenix, AZ (IE 10, Chrome, Firefox)",
-          "location": "US_Phx_Wptdriver",
-          "Browser": "Firefox",
-          "labelShort": "Phoenix, AZ USA - Firefox",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "SanFrancisco:Chrome",
-          "Label": "San Francisco, CA USA (IE 11, Chrome, Firefox, Safari)",
-          "location": "SanFrancisco",
-          "Browser": "Chrome",
-          "labelShort": "San Francisco, CA USA - Chrome",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 1,
-            "HighPriority": 1,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "SanFrancisco:IE 11",
-          "Label": "San Francisco, CA USA (IE 11, Chrome, Firefox, Safari)",
-          "location": "SanFrancisco",
-          "Browser": "IE 11",
-          "labelShort": "San Francisco, CA USA - IE 11",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 1,
-            "HighPriority": 1,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "SanFrancisco:Firefox",
-          "Label": "San Francisco, CA USA (IE 11, Chrome, Firefox, Safari)",
-          "location": "SanFrancisco",
-          "Browser": "Firefox",
-          "labelShort": "San Francisco, CA USA - Firefox",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 1,
-            "HighPriority": 1,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "SanFrancisco:Safari",
-          "Label": "San Francisco, CA USA (IE 11, Chrome, Firefox, Safari)",
-          "location": "SanFrancisco",
-          "Browser": "Safari",
-          "labelShort": "San Francisco, CA USA - Safari",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 1,
-            "HighPriority": 1,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
+            "Testing": 1,
+            "Idle": 0
           }
         },
         {
@@ -1332,11 +1309,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
+            "Total": 0,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -1355,11 +1332,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
+            "Total": 0,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -1378,11 +1355,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
+            "Total": 0,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -1401,11 +1378,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
+            "Total": 0,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -1585,11 +1562,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
+            "Total": 2,
+            "HighPriority": 1,
             "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
+            "Testing": 1,
+            "Idle": 0
           }
         },
         {
@@ -1612,7 +1589,7 @@
             "HighPriority": 0,
             "LowPriority": 0,
             "Testing": 0,
-            "Idle": 2
+            "Idle": 1
           }
         },
         {
@@ -1631,11 +1608,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
+            "Total": 0,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -1654,11 +1631,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
+            "Total": 0,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -1677,11 +1654,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
+            "Total": 0,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -1700,11 +1677,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
+            "Total": 0,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -1746,11 +1723,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
+            "Total": 0,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -1759,121 +1736,6 @@
           "location": "Montreal_wpt",
           "Browser": "Firefox",
           "labelShort": "Montreal, Canada - Akamai - Firefox",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 1,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
-          }
-        },
-        {
-          "id": "Toronto_IE8",
-          "Label": "Toronto, Canada (IE 8)",
-          "location": "Toronto_IE8",
-          "Browser": "IE 8",
-          "labelShort": "Toronto, Canada",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "Argentina:Chrome",
-          "Label": "Buenos Aires, Argentina (IE 11,Firefox,Chrome)",
-          "location": "Argentina",
-          "Browser": "Chrome",
-          "labelShort": "Buenos Aires, Argentina - Chrome",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "Argentina:Canary",
-          "Label": "Buenos Aires, Argentina (IE 11,Firefox,Chrome)",
-          "location": "Argentina",
-          "Browser": "Canary",
-          "labelShort": "Buenos Aires, Argentina - Canary",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "Argentina:Firefox",
-          "Label": "Buenos Aires, Argentina (IE 11,Firefox,Chrome)",
-          "location": "Argentina",
-          "Browser": "Firefox",
-          "labelShort": "Buenos Aires, Argentina - Firefox",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "Argentina:IE 11",
-          "Label": "Buenos Aires, Argentina (IE 11,Firefox,Chrome)",
-          "location": "Argentina",
-          "Browser": "IE 11",
-          "labelShort": "Buenos Aires, Argentina - IE 11",
           "PendingTests": {
             "p1": 0,
             "p2": 0,
@@ -1902,16 +1764,16 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 0,
-            "p6": 0,
+            "p5": 22,
+            "p6": 3,
             "p7": 0,
-            "p8": 0,
+            "p8": 4,
             "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
+            "Total": 44,
+            "HighPriority": 15,
+            "LowPriority": 29,
             "Testing": 0,
-            "Idle": 1
+            "Idle": 0
           }
         },
         {
@@ -1925,16 +1787,16 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 0,
-            "p6": 0,
+            "p5": 22,
+            "p6": 3,
             "p7": 0,
-            "p8": 0,
+            "p8": 4,
             "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
+            "Total": 44,
+            "HighPriority": 15,
+            "LowPriority": 29,
             "Testing": 0,
-            "Idle": 1
+            "Idle": 0
           }
         },
         {
@@ -1948,16 +1810,16 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 0,
-            "p6": 0,
+            "p5": 22,
+            "p6": 3,
             "p7": 0,
-            "p8": 0,
+            "p8": 4,
             "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
+            "Total": 44,
+            "HighPriority": 15,
+            "LowPriority": 29,
             "Testing": 0,
-            "Idle": 1
+            "Idle": 0
           }
         },
         {
@@ -1971,108 +1833,16 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 0,
-            "p6": 0,
+            "p5": 22,
+            "p6": 3,
             "p7": 0,
-            "p8": 0,
+            "p8": 4,
             "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
+            "Total": 44,
+            "HighPriority": 15,
+            "LowPriority": 29,
             "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "Iceland:Chrome",
-          "Label": "Reykjavik, Iceland (IE 11,Chrome,Canary,Firefox)",
-          "location": "Iceland",
-          "Browser": "Chrome",
-          "labelShort": "Reykjavik, Iceland - Chrome",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "Iceland:Canary",
-          "Label": "Reykjavik, Iceland (IE 11,Chrome,Canary,Firefox)",
-          "location": "Iceland",
-          "Browser": "Canary",
-          "labelShort": "Reykjavik, Iceland - Canary",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "Iceland:Firefox",
-          "Label": "Reykjavik, Iceland (IE 11,Chrome,Canary,Firefox)",
-          "location": "Iceland",
-          "Browser": "Firefox",
-          "labelShort": "Reykjavik, Iceland - Firefox",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "Iceland:IE 11",
-          "Label": "Reykjavik, Iceland (IE 11,Chrome,Canary,Firefox)",
-          "location": "Iceland",
-          "Browser": "IE 11",
-          "labelShort": "Reykjavik, Iceland - IE 11",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
+            "Idle": 0
           }
         },
         {
@@ -2086,15 +1856,15 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
+            "p5": 82,
             "p6": 0,
             "p7": 0,
-            "p8": 0,
+            "p8": 50,
             "p9": 0,
-            "Total": 2,
+            "Total": 134,
             "HighPriority": 0,
-            "LowPriority": 1,
-            "Testing": 1,
+            "LowPriority": 132,
+            "Testing": 2,
             "Idle": 0
           }
         },
@@ -2109,15 +1879,15 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
+            "p5": 82,
             "p6": 0,
             "p7": 0,
-            "p8": 0,
+            "p8": 50,
             "p9": 0,
-            "Total": 2,
+            "Total": 134,
             "HighPriority": 0,
-            "LowPriority": 1,
-            "Testing": 1,
+            "LowPriority": 132,
+            "Testing": 2,
             "Idle": 0
           }
         },
@@ -2132,15 +1902,15 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
+            "p5": 82,
             "p6": 0,
             "p7": 0,
-            "p8": 0,
+            "p8": 50,
             "p9": 0,
-            "Total": 2,
+            "Total": 134,
             "HighPriority": 0,
-            "LowPriority": 1,
-            "Testing": 1,
+            "LowPriority": 132,
+            "Testing": 2,
             "Idle": 0
           }
         },
@@ -2155,15 +1925,15 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
+            "p5": 82,
             "p6": 0,
             "p7": 0,
-            "p8": 0,
+            "p8": 50,
             "p9": 0,
-            "Total": 2,
+            "Total": 134,
             "HighPriority": 0,
-            "LowPriority": 1,
-            "Testing": 1,
+            "LowPriority": 132,
+            "Testing": 2,
             "Idle": 0
           }
         },
@@ -2178,16 +1948,16 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 10,
-            "HighPriority": 8,
-            "LowPriority": 1,
-            "Testing": 1,
-            "Idle": 0
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -2201,16 +1971,16 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 10,
-            "HighPriority": 8,
-            "LowPriority": 1,
-            "Testing": 1,
-            "Idle": 0
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -2224,16 +1994,16 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 10,
-            "HighPriority": 8,
-            "LowPriority": 1,
-            "Testing": 1,
-            "Idle": 0
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -2252,8 +2022,8 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 4,
-            "HighPriority": 3,
+            "Total": 23,
+            "HighPriority": 22,
             "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
@@ -2275,8 +2045,8 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 4,
-            "HighPriority": 3,
+            "Total": 23,
+            "HighPriority": 22,
             "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
@@ -2298,8 +2068,8 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 4,
-            "HighPriority": 3,
+            "Total": 23,
+            "HighPriority": 22,
             "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
@@ -2321,8 +2091,8 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 4,
-            "HighPriority": 3,
+            "Total": 23,
+            "HighPriority": 22,
             "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
@@ -2352,6 +2122,29 @@
           }
         },
         {
+          "id": "Paris_wpt",
+          "Label": "Paris, FR (IE 8, Chrome)",
+          "location": "Paris_wpt",
+          "Browser": "Chrome",
+          "labelShort": "Paris, FR",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 3,
+            "HighPriority": 2,
+            "LowPriority": 0,
+            "Testing": 1,
+            "Idle": 0
+          }
+        },
+        {
           "id": "Brussels:IE 8",
           "Label": "Brussels, BE (IE 8,Chrome,Canary,Firefox,Safari)",
           "location": "Brussels",
@@ -2362,14 +2155,14 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 2,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 8,
-            "HighPriority": 5,
-            "LowPriority": 2,
+            "Total": 1,
+            "HighPriority": 0,
+            "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
           }
@@ -2385,14 +2178,14 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 2,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 8,
-            "HighPriority": 5,
-            "LowPriority": 2,
+            "Total": 1,
+            "HighPriority": 0,
+            "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
           }
@@ -2408,14 +2201,14 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 2,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 8,
-            "HighPriority": 5,
-            "LowPriority": 2,
+            "Total": 1,
+            "HighPriority": 0,
+            "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
           }
@@ -2431,14 +2224,14 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 2,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 8,
-            "HighPriority": 5,
-            "LowPriority": 2,
+            "Total": 1,
+            "HighPriority": 0,
+            "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
           }
@@ -2454,14 +2247,14 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 2,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 8,
-            "HighPriority": 5,
-            "LowPriority": 2,
+            "Total": 1,
+            "HighPriority": 0,
+            "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
           }
@@ -2477,14 +2270,14 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 3,
-            "HighPriority": 1,
-            "LowPriority": 1,
+            "Total": 5,
+            "HighPriority": 4,
+            "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
           }
@@ -2500,14 +2293,14 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 3,
-            "HighPriority": 1,
-            "LowPriority": 1,
+            "Total": 5,
+            "HighPriority": 4,
+            "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
           }
@@ -2523,14 +2316,14 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 3,
-            "HighPriority": 1,
-            "LowPriority": 1,
+            "Total": 5,
+            "HighPriority": 4,
+            "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
           }
@@ -2546,16 +2339,16 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 5,
-            "HighPriority": 3,
-            "LowPriority": 1,
-            "Testing": 1,
-            "Idle": 0
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -2569,16 +2362,16 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 5,
-            "HighPriority": 3,
-            "LowPriority": 1,
-            "Testing": 1,
-            "Idle": 0
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -2592,16 +2385,16 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 5,
-            "HighPriority": 3,
-            "LowPriority": 1,
-            "Testing": 1,
-            "Idle": 0
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -2615,108 +2408,16 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 5,
-            "HighPriority": 3,
-            "LowPriority": 1,
-            "Testing": 1,
-            "Idle": 0
-          }
-        },
-        {
-          "id": "Geneva:IE 11",
-          "Label": "Geneva, Switzerland (IE 11,Chrome,Firefox)",
-          "location": "Geneva",
-          "Browser": "IE 11",
-          "labelShort": "Geneva, Switzerland - IE 11",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
             "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 4,
-            "HighPriority": 3,
+            "Total": 0,
+            "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
-          }
-        },
-        {
-          "id": "Geneva:Chrome",
-          "Label": "Geneva, Switzerland (IE 11,Chrome,Firefox)",
-          "location": "Geneva",
-          "Browser": "Chrome",
-          "labelShort": "Geneva, Switzerland - Chrome",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 4,
-            "HighPriority": 3,
-            "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
-          }
-        },
-        {
-          "id": "Geneva:Firefox",
-          "Label": "Geneva, Switzerland (IE 11,Chrome,Firefox)",
-          "location": "Geneva",
-          "Browser": "Firefox",
-          "labelShort": "Geneva, Switzerland - Firefox",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 4,
-            "HighPriority": 3,
-            "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
-          }
-        },
-        {
-          "id": "Geneva:Safari",
-          "Label": "Geneva, Switzerland (IE 11,Chrome,Firefox)",
-          "location": "Geneva",
-          "Browser": "Safari",
-          "labelShort": "Geneva, Switzerland - Safari",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 4,
-            "HighPriority": 3,
-            "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -2735,8 +2436,8 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 3,
-            "HighPriority": 2,
+            "Total": 13,
+            "HighPriority": 12,
             "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
@@ -2758,8 +2459,8 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 3,
-            "HighPriority": 2,
+            "Total": 13,
+            "HighPriority": 12,
             "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
@@ -2781,111 +2482,19 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 3,
-            "HighPriority": 2,
+            "Total": 13,
+            "HighPriority": 12,
             "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
           }
         },
         {
-          "id": "Falkenstein_IE9",
-          "Label": "Falkenstein, Germany (IE 9,Chrome,Firefox,Safari)",
-          "location": "Falkenstein_IE9",
-          "Browser": "IE 9",
-          "labelShort": "Falkenstein, Germany",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "Falkenstein:Chrome",
-          "Label": "Falkenstein, Germany (IE 9,Chrome,Firefox,Safari)",
-          "location": "Falkenstein",
-          "Browser": "Chrome",
-          "labelShort": "Falkenstein, Germany - Chrome",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "Falkenstein:Firefox",
-          "Label": "Falkenstein, Germany (IE 9,Chrome,Firefox,Safari)",
-          "location": "Falkenstein",
-          "Browser": "Firefox",
-          "labelShort": "Falkenstein, Germany - Firefox",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "Falkenstein:Safari",
-          "Label": "Falkenstein, Germany (IE 9,Chrome,Firefox,Safari)",
-          "location": "Falkenstein",
-          "Browser": "Safari",
-          "labelShort": "Falkenstein, Germany - Safari",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "Prague:IE 11",
-          "Label": "Prague, Czech Republic (IE 11,Chrome,Canary,Firefox,Safari)",
-          "location": "Prague",
+          "id": "Frankfurt_Ruxit:IE 11",
+          "Label": "Frankfurt, Germany - Ruxit (IE 11,Chrome,Firefox)",
+          "location": "Frankfurt_Ruxit",
           "Browser": "IE 11",
-          "labelShort": "Prague, Czech Republic - IE 11",
+          "labelShort": "Frankfurt, Germany - Ruxit - IE 11",
           "PendingTests": {
             "p1": 0,
             "p2": 0,
@@ -2904,11 +2513,11 @@
           }
         },
         {
-          "id": "Prague:Chrome",
-          "Label": "Prague, Czech Republic (IE 11,Chrome,Canary,Firefox,Safari)",
-          "location": "Prague",
+          "id": "Frankfurt_Ruxit:Chrome",
+          "Label": "Frankfurt, Germany - Ruxit (IE 11,Chrome,Firefox)",
+          "location": "Frankfurt_Ruxit",
           "Browser": "Chrome",
-          "labelShort": "Prague, Czech Republic - Chrome",
+          "labelShort": "Frankfurt, Germany - Ruxit - Chrome",
           "PendingTests": {
             "p1": 0,
             "p2": 0,
@@ -2927,218 +2536,11 @@
           }
         },
         {
-          "id": "Prague:Canary",
-          "Label": "Prague, Czech Republic (IE 11,Chrome,Canary,Firefox,Safari)",
-          "location": "Prague",
-          "Browser": "Canary",
-          "labelShort": "Prague, Czech Republic - Canary",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 1,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
-          }
-        },
-        {
-          "id": "Prague:Firefox",
-          "Label": "Prague, Czech Republic (IE 11,Chrome,Canary,Firefox,Safari)",
-          "location": "Prague",
+          "id": "Frankfurt_Ruxit:Firefox",
+          "Label": "Frankfurt, Germany - Ruxit (IE 11,Chrome,Firefox)",
+          "location": "Frankfurt_Ruxit",
           "Browser": "Firefox",
-          "labelShort": "Prague, Czech Republic - Firefox",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 1,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
-          }
-        },
-        {
-          "id": "Prague:Safari",
-          "Label": "Prague, Czech Republic (IE 11,Chrome,Canary,Firefox,Safari)",
-          "location": "Prague",
-          "Browser": "Safari",
-          "labelShort": "Prague, Czech Republic - Safari",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 1,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
-          }
-        },
-        {
-          "id": "Vienna:IE 11",
-          "Label": "Vienna, Austria (IE 11,Chrome,Firefox,Safari)",
-          "location": "Vienna",
-          "Browser": "IE 11",
-          "labelShort": "Vienna, Austria - IE 11",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 5,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 6,
-            "HighPriority": 0,
-            "LowPriority": 5,
-            "Testing": 1,
-            "Idle": 0
-          }
-        },
-        {
-          "id": "Vienna:Chrome",
-          "Label": "Vienna, Austria (IE 11,Chrome,Firefox,Safari)",
-          "location": "Vienna",
-          "Browser": "Chrome",
-          "labelShort": "Vienna, Austria - Chrome",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 5,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 6,
-            "HighPriority": 0,
-            "LowPriority": 5,
-            "Testing": 1,
-            "Idle": 0
-          }
-        },
-        {
-          "id": "Vienna:Firefox",
-          "Label": "Vienna, Austria (IE 11,Chrome,Firefox,Safari)",
-          "location": "Vienna",
-          "Browser": "Firefox",
-          "labelShort": "Vienna, Austria - Firefox",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 5,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 6,
-            "HighPriority": 0,
-            "LowPriority": 5,
-            "Testing": 1,
-            "Idle": 0
-          }
-        },
-        {
-          "id": "Vienna:Safari",
-          "Label": "Vienna, Austria (IE 11,Chrome,Firefox,Safari)",
-          "location": "Vienna",
-          "Browser": "Safari",
-          "labelShort": "Vienna, Austria - Safari",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 5,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 6,
-            "HighPriority": 0,
-            "LowPriority": 5,
-            "Testing": 1,
-            "Idle": 0
-          }
-        },
-        {
-          "id": "Copenhagen:IE 10",
-          "Label": "Copenhagen, Denmark (IE 10,Chrome,Firefox)",
-          "location": "Copenhagen",
-          "Browser": "IE 10",
-          "labelShort": "Copenhagen, Denmark - IE 10",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 1,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
-          }
-        },
-        {
-          "id": "Copenhagen:Chrome",
-          "Label": "Copenhagen, Denmark (IE 10,Chrome,Firefox)",
-          "location": "Copenhagen",
-          "Browser": "Chrome",
-          "labelShort": "Copenhagen, Denmark - Chrome",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 1,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
-          }
-        },
-        {
-          "id": "Copenhagen:Firefox",
-          "Label": "Copenhagen, Denmark (IE 10,Chrome,Firefox)",
-          "location": "Copenhagen",
-          "Browser": "Firefox",
-          "labelShort": "Copenhagen, Denmark - Firefox",
+          "labelShort": "Frankfurt, Germany - Ruxit - Firefox",
           "PendingTests": {
             "p1": 0,
             "p2": 0,
@@ -3195,8 +2597,8 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
-            "HighPriority": 0,
+            "Total": 2,
+            "HighPriority": 1,
             "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
@@ -3218,8 +2620,8 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
-            "HighPriority": 0,
+            "Total": 2,
+            "HighPriority": 1,
             "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
@@ -3241,11 +2643,287 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
+            "Total": 2,
+            "HighPriority": 1,
+            "LowPriority": 0,
+            "Testing": 1,
+            "Idle": 0
+          }
+        },
+        {
+          "id": "Moscow_IE9:IE 9",
+          "Label": "Moscow, Russia - WEBO (IE 9,Chrome,Firefox)",
+          "location": "Moscow_IE9",
+          "Browser": "IE 9",
+          "labelShort": "Moscow, Russia - IE 9",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
+          }
+        },
+        {
+          "id": "Moscow_IE9:Chrome",
+          "Label": "Moscow, Russia - WEBO (IE 9,Chrome,Firefox)",
+          "location": "Moscow_IE9",
+          "Browser": "Chrome",
+          "labelShort": "Moscow, Russia - Chrome",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
+          }
+        },
+        {
+          "id": "Moscow_IE9:Firefox",
+          "Label": "Moscow, Russia - WEBO (IE 9,Chrome,Firefox)",
+          "location": "Moscow_IE9",
+          "Browser": "Firefox",
+          "labelShort": "Moscow, Russia - Firefox",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
+          }
+        },
+        {
+          "id": "SouthAfrica:Chrome",
+          "Label": "Johannesburg, South Africa (IE 11,Chrome,Canary,Firefox,Safari)",
+          "location": "SouthAfrica",
+          "Browser": "Chrome",
+          "labelShort": "Johannesburg, South Africa - Chrome",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
             "Total": 1,
             "HighPriority": 0,
             "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
+          }
+        },
+        {
+          "id": "SouthAfrica:Canary",
+          "Label": "Johannesburg, South Africa (IE 11,Chrome,Canary,Firefox,Safari)",
+          "location": "SouthAfrica",
+          "Browser": "Canary",
+          "labelShort": "Johannesburg, South Africa - Canary",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 1,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 1,
+            "Idle": 0
+          }
+        },
+        {
+          "id": "SouthAfrica:Firefox",
+          "Label": "Johannesburg, South Africa (IE 11,Chrome,Canary,Firefox,Safari)",
+          "location": "SouthAfrica",
+          "Browser": "Firefox",
+          "labelShort": "Johannesburg, South Africa - Firefox",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 1,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 1,
+            "Idle": 0
+          }
+        },
+        {
+          "id": "SouthAfrica:Safari",
+          "Label": "Johannesburg, South Africa (IE 11,Chrome,Canary,Firefox,Safari)",
+          "location": "SouthAfrica",
+          "Browser": "Safari",
+          "labelShort": "Johannesburg, South Africa - Safari",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 1,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 1,
+            "Idle": 0
+          }
+        },
+        {
+          "id": "SouthAfrica:IE 11",
+          "Label": "Johannesburg, South Africa (IE 11,Chrome,Canary,Firefox,Safari)",
+          "location": "SouthAfrica",
+          "Browser": "IE 11",
+          "labelShort": "Johannesburg, South Africa - IE 11",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 1,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 1,
+            "Idle": 0
+          }
+        },
+        {
+          "id": "Mauritius:Chrome",
+          "Label": "Rose Hill, Mauritius (IE 11,Chrome,Canary,Firefox)",
+          "location": "Mauritius",
+          "Browser": "Chrome",
+          "labelShort": "Rose Hill, Mauritius - Chrome",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
+          }
+        },
+        {
+          "id": "Mauritius:Canary",
+          "Label": "Rose Hill, Mauritius (IE 11,Chrome,Canary,Firefox)",
+          "location": "Mauritius",
+          "Browser": "Canary",
+          "labelShort": "Rose Hill, Mauritius - Canary",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
+          }
+        },
+        {
+          "id": "Mauritius:Firefox",
+          "Label": "Rose Hill, Mauritius (IE 11,Chrome,Canary,Firefox)",
+          "location": "Mauritius",
+          "Browser": "Firefox",
+          "labelShort": "Rose Hill, Mauritius - Firefox",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
+          }
+        },
+        {
+          "id": "Mauritius:IE 11",
+          "Label": "Rose Hill, Mauritius (IE 11,Chrome,Canary,Firefox)",
+          "location": "Mauritius",
+          "Browser": "IE 11",
+          "labelShort": "Rose Hill, Mauritius - IE 11",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -3341,75 +3019,6 @@
           }
         },
         {
-          "id": "Moscow_IE9:IE 9",
-          "Label": "Moscow, Russia - WEBO (IE 9,Chrome,Firefox)",
-          "location": "Moscow_IE9",
-          "Browser": "IE 9",
-          "labelShort": "Moscow, Russia - IE 9",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "Moscow_IE9:Chrome",
-          "Label": "Moscow, Russia - WEBO (IE 9,Chrome,Firefox)",
-          "location": "Moscow_IE9",
-          "Browser": "Chrome",
-          "labelShort": "Moscow, Russia - Chrome",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "Moscow_IE9:Firefox",
-          "Label": "Moscow, Russia - WEBO (IE 9,Chrome,Firefox)",
-          "location": "Moscow_IE9",
-          "Browser": "Firefox",
-          "labelShort": "Moscow, Russia - Firefox",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
           "id": "Indore_IE9",
           "Label": "Indore, M.P., India (IE 9,Chrome,Firefox,Safari)",
           "location": "Indore_IE9",
@@ -3443,16 +3052,16 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 3,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 30,
-            "HighPriority": 26,
-            "LowPriority": 3,
-            "Testing": 1,
-            "Idle": 0
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -3466,16 +3075,16 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 3,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 30,
-            "HighPriority": 26,
-            "LowPriority": 3,
-            "Testing": 1,
-            "Idle": 0
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -3489,16 +3098,16 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 3,
+            "p5": 0,
             "p6": 0,
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 30,
-            "HighPriority": 26,
-            "LowPriority": 3,
-            "Testing": 1,
-            "Idle": 0
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -3535,14 +3144,14 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
-            "p6": 10,
+            "p5": 0,
+            "p6": 0,
             "p7": 0,
-            "p8": 3,
+            "p8": 0,
             "p9": 0,
-            "Total": 15,
+            "Total": 1,
             "HighPriority": 0,
-            "LowPriority": 14,
+            "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
           }
@@ -3558,14 +3167,14 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
-            "p6": 10,
+            "p5": 0,
+            "p6": 0,
             "p7": 0,
-            "p8": 3,
+            "p8": 0,
             "p9": 0,
-            "Total": 15,
+            "Total": 1,
             "HighPriority": 0,
-            "LowPriority": 14,
+            "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
           }
@@ -3581,14 +3190,14 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
-            "p6": 10,
+            "p5": 0,
+            "p6": 0,
             "p7": 0,
-            "p8": 3,
+            "p8": 0,
             "p9": 0,
-            "Total": 15,
+            "Total": 1,
             "HighPriority": 0,
-            "LowPriority": 14,
+            "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
           }
@@ -3604,14 +3213,14 @@
             "p2": 0,
             "p3": 0,
             "p4": 0,
-            "p5": 1,
-            "p6": 10,
+            "p5": 0,
+            "p6": 0,
             "p7": 0,
-            "p8": 3,
+            "p8": 0,
             "p9": 0,
-            "Total": 15,
+            "Total": 1,
             "HighPriority": 0,
-            "LowPriority": 14,
+            "LowPriority": 0,
             "Testing": 1,
             "Idle": 0
           }
@@ -3668,6 +3277,144 @@
           "location": "HongKong",
           "Browser": "Firefox",
           "labelShort": "Hong Kong, China - Firefox",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
+          }
+        },
+        {
+          "id": "Shanghai:IE 11",
+          "Label": "Shanghai, China (IE 11,Chrome,Firefox)",
+          "location": "Shanghai",
+          "Browser": "IE 11",
+          "labelShort": "Shanghai, China - IE 11",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 2,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 45,
+            "HighPriority": 42,
+            "LowPriority": 2,
+            "Testing": 1,
+            "Idle": 0
+          }
+        },
+        {
+          "id": "Shanghai:Chrome",
+          "Label": "Shanghai, China (IE 11,Chrome,Firefox)",
+          "location": "Shanghai",
+          "Browser": "Chrome",
+          "labelShort": "Shanghai, China - Chrome",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 2,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 45,
+            "HighPriority": 42,
+            "LowPriority": 2,
+            "Testing": 1,
+            "Idle": 0
+          }
+        },
+        {
+          "id": "Shanghai:Firefox",
+          "Label": "Shanghai, China (IE 11,Chrome,Firefox)",
+          "location": "Shanghai",
+          "Browser": "Firefox",
+          "labelShort": "Shanghai, China - Firefox",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 2,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 45,
+            "HighPriority": 42,
+            "LowPriority": 2,
+            "Testing": 1,
+            "Idle": 0
+          }
+        },
+        {
+          "id": "Seoul_EC2:Chrome",
+          "Label": "Seoul, Korea EC2 (IE 11,Chrome,Firefox)",
+          "location": "Seoul_EC2",
+          "Browser": "Chrome",
+          "labelShort": "Seoul, Korea EC2 - Chrome",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
+          }
+        },
+        {
+          "id": "Seoul_EC2:Firefox",
+          "Label": "Seoul, Korea EC2 (IE 11,Chrome,Firefox)",
+          "location": "Seoul_EC2",
+          "Browser": "Firefox",
+          "labelShort": "Seoul, Korea EC2 - Firefox",
+          "PendingTests": {
+            "p1": 0,
+            "p2": 0,
+            "p3": 0,
+            "p4": 0,
+            "p5": 0,
+            "p6": 0,
+            "p7": 0,
+            "p8": 0,
+            "p9": 0,
+            "Total": 0,
+            "HighPriority": 0,
+            "LowPriority": 0,
+            "Testing": 0,
+            "Idle": 1
+          }
+        },
+        {
+          "id": "Seoul_EC2:IE 11",
+          "Label": "Seoul, Korea EC2 (IE 11,Chrome,Firefox)",
+          "location": "Seoul_EC2",
+          "Browser": "IE 11",
+          "labelShort": "Seoul, Korea EC2 - IE 11",
           "PendingTests": {
             "p1": 0,
             "p2": 0,
@@ -3885,11 +3632,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
+            "Total": 0,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -3908,11 +3655,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 1,
+            "Total": 0,
             "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -4008,11 +3755,11 @@
           }
         },
         {
-          "id": "Sydney3:IE 11",
-          "Label": "Sydney, Australia - Anchor (IE 11,Chrome,Canary,Firefox)",
-          "location": "Sydney3",
-          "Browser": "IE 11",
-          "labelShort": "Sydney, Australia (Anchor) - IE 11",
+          "id": "Sydney2:IE 10",
+          "Label": "Sydney - Servers Australia (IE 10,Chrome,Canary,Firefox)",
+          "location": "Sydney2",
+          "Browser": "IE 10",
+          "labelShort": "Sydney, Australia (Servers Australia) - IE 10",
           "PendingTests": {
             "p1": 0,
             "p2": 0,
@@ -4023,19 +3770,19 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 2,
-            "HighPriority": 1,
+            "Total": 0,
+            "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
-          "id": "Sydney3:Chrome",
-          "Label": "Sydney, Australia - Anchor (IE 11,Chrome,Canary,Firefox)",
-          "location": "Sydney3",
+          "id": "Sydney2:Chrome",
+          "Label": "Sydney - Servers Australia (IE 10,Chrome,Canary,Firefox)",
+          "location": "Sydney2",
           "Browser": "Chrome",
-          "labelShort": "Sydney, Australia (Anchor) - Chrome",
+          "labelShort": "Sydney, Australia (Servers Australia) - Chrome",
           "PendingTests": {
             "p1": 0,
             "p2": 0,
@@ -4046,19 +3793,19 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 2,
-            "HighPriority": 1,
+            "Total": 0,
+            "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
-          "id": "Sydney3:Canary",
-          "Label": "Sydney, Australia - Anchor (IE 11,Chrome,Canary,Firefox)",
-          "location": "Sydney3",
+          "id": "Sydney2:Canary",
+          "Label": "Sydney - Servers Australia (IE 10,Chrome,Canary,Firefox)",
+          "location": "Sydney2",
           "Browser": "Canary",
-          "labelShort": "Sydney, Australia (Anchor) - Canary",
+          "labelShort": "Sydney, Australia (Servers Australia) - Canary",
           "PendingTests": {
             "p1": 0,
             "p2": 0,
@@ -4069,19 +3816,19 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 2,
-            "HighPriority": 1,
+            "Total": 0,
+            "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
-          "id": "Sydney3:Firefox",
-          "Label": "Sydney, Australia - Anchor (IE 11,Chrome,Canary,Firefox)",
-          "location": "Sydney3",
+          "id": "Sydney2:Firefox",
+          "Label": "Sydney - Servers Australia (IE 10,Chrome,Canary,Firefox)",
+          "location": "Sydney2",
           "Browser": "Firefox",
-          "labelShort": "Sydney, Australia (Anchor) - Firefox",
+          "labelShort": "Sydney, Australia (Servers Australia) - Firefox",
           "PendingTests": {
             "p1": 0,
             "p2": 0,
@@ -4092,11 +3839,11 @@
             "p7": 0,
             "p8": 0,
             "p9": 0,
-            "Total": 2,
-            "HighPriority": 1,
+            "Total": 0,
+            "HighPriority": 0,
             "LowPriority": 0,
-            "Testing": 1,
-            "Idle": 0
+            "Testing": 0,
+            "Idle": 1
           }
         },
         {
@@ -4113,13 +3860,13 @@
             "p5": 0,
             "p6": 0,
             "p7": 0,
-            "p8": 0,
+            "p8": 19,
             "p9": 0,
-            "Total": 0,
+            "Total": 20,
             "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
+            "LowPriority": 19,
+            "Testing": 1,
+            "Idle": 0
           }
         },
         {
@@ -4136,13 +3883,13 @@
             "p5": 0,
             "p6": 0,
             "p7": 0,
-            "p8": 0,
+            "p8": 19,
             "p9": 0,
-            "Total": 0,
+            "Total": 20,
             "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
+            "LowPriority": 19,
+            "Testing": 1,
+            "Idle": 0
           }
         },
         {
@@ -4159,13 +3906,13 @@
             "p5": 0,
             "p6": 0,
             "p7": 0,
-            "p8": 0,
+            "p8": 19,
             "p9": 0,
-            "Total": 0,
+            "Total": 20,
             "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
+            "LowPriority": 19,
+            "Testing": 1,
+            "Idle": 0
           }
         },
         {
@@ -4182,13 +3929,13 @@
             "p5": 0,
             "p6": 0,
             "p7": 0,
-            "p8": 0,
+            "p8": 19,
             "p9": 0,
-            "Total": 0,
+            "Total": 20,
             "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
+            "LowPriority": 19,
+            "Testing": 1,
+            "Idle": 0
           }
         },
         {
@@ -4197,52 +3944,6 @@
           "location": "Wellington_IE9",
           "Browser": "IE 11",
           "labelShort": "Wellington, NZ",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "Wellington:Chrome",
-          "Label": "Wellington, NZ (IE 11,Chrome,Firefox)",
-          "location": "Wellington",
-          "Browser": "Chrome",
-          "labelShort": "Wellington, NZ - Chrome",
-          "PendingTests": {
-            "p1": 0,
-            "p2": 0,
-            "p3": 0,
-            "p4": 0,
-            "p5": 0,
-            "p6": 0,
-            "p7": 0,
-            "p8": 0,
-            "p9": 0,
-            "Total": 0,
-            "HighPriority": 0,
-            "LowPriority": 0,
-            "Testing": 0,
-            "Idle": 1
-          }
-        },
-        {
-          "id": "Wellington:Firefox",
-          "Label": "Wellington, NZ (IE 11,Chrome,Firefox)",
-          "location": "Wellington",
-          "Browser": "Firefox",
-          "labelShort": "Wellington, NZ - Firefox",
           "PendingTests": {
             "p1": 0,
             "p2": 0,

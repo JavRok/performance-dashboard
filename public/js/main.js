@@ -29,7 +29,6 @@ if (AJAX) {
 			}
 		});
 	});
-
 }
 
 // Create a new line chart object where as first parameter we pass in a selector
@@ -60,3 +59,33 @@ function createChart () {
 	});
 
 }
+
+
+// Require AJAX util library
+if (AJAX) {
+	// Wait for all the AJAX calls
+
+	AJAX.promiseGet("/urls").then(JSON.parse).then(function(response) {
+		console.log("Success!", response);
+		response.map(function(url) {
+			return AJAX.promiseGet("/urls")
+		})
+	});
+
+
+	/*results.forEach(function (res) {
+		pending.push(true);
+		AJAX.getJson ('wpt.org.json/'+res+".json", function (json) {
+			chartData.series[0].push(json.data.runs["1"].firstView.loadTime);
+			pending.pop();
+
+			if (pending.length === 0) {
+				createChart ();
+			}
+		});
+	});*/
+}
+
+/*homes.sort(function(a, b) {
+	return parseFloat(a.price) - parseFloat(b.price);
+});*/
