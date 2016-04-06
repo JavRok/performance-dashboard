@@ -28,5 +28,5 @@ var checkInterval = setInterval (() => {
 
 
 // Call it first time
-// LaunchTests.run();
-CheckForTests.run();
+LaunchTests.run();
+// CheckForTests.run();

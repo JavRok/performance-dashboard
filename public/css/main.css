@@ -5,7 +5,7 @@ body {
 
 
 .legend {
-	width: 200px;
+	width: 400px;
 	border: 1px solid #999;
 	padding: 0 0.5em;
 }
@@ -17,6 +17,8 @@ body {
 	width: 2em;
 	border: 0.15em solid red;
 }
+
+
 
 /* Override Chartist.js colors */
 .ct-series-a .ct-line,
@@ -35,4 +37,34 @@ body {
 	border-color: green;
 }
 
+.ct-series-c .ct-line,
+.ct-series-c .ct-point {
+	stroke: blue;
+}
+.legend .ct-series-c:before {
+	border-color: blue;
+}
 
+.ct-series-d .ct-line,
+.ct-series-d .ct-point {
+	stroke: yellow;
+}
+.legend .ct-series-d:before {
+	border-color: yellow;
+}
+
+.ct-series-e .ct-line,
+.ct-series-e .ct-point {
+	stroke: pink;
+}
+.legend .ct-series-e:before {
+	border-color: pink;
+}
+
+.ct-series-f .ct-line,
+.ct-series-f .ct-point {
+	stroke: black;
+}
+.legend .ct-series-f:before {
+	border-color: black;
+}

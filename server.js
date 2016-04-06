@@ -40,11 +40,10 @@ app.get('/test/:name', function (req, res) {
 
 	fs.readFile(fileName, "utf-8", function(err, data) {
 		if (err) {
-			return res.json({"status": "ok", "data": err});
+			return res.json({"status": "error", "data": "Test not found"});
 		}
-
 		try {
-			return res.json({"status": "error", "data": JSON.parse(data)});
+			return res.json({"status": "ok", "data": JSON.parse(data)});
 		} catch(ex) {
 			return res.json({"status": "error", "data": ex});
 		}
