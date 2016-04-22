@@ -3,6 +3,8 @@
  * value, calculated with the median.
   */
 
+"use strict";
+
 var fs = require('fs');
 var Config = require('../Model/TestConfig.js');
 // var TestResult = require('../Model/TestResult.js');
@@ -26,10 +28,12 @@ function run () {
 			fs.readFile(resultsDir + file, function (err, data) {
 				if (err) return Config.log(err, true);
 
+				console.time(file);
+
 				var tests = new TestResultCollection (JSON.parse(data));
 				var days = getDays(tests);
 
-				console.log(days);
+				console.timeEnd(file);
 
 
 				// Get days that are over the limit
@@ -45,10 +49,16 @@ function run () {
 
 /*
  * Gets an array of different days (no matter how many test results) stored in the results file
+ * @param [TestResultCollection]
  */
 function getDays(testResults) {
-	// Loop over the tests and get
-	testResults.tests.forEach()
+
+	var days = [];
+
+	// testResults is an Iterable
+	for(let test of testResults) {
+		// console.log(test.date);
+	}
 }
 
 run();

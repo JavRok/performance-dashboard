@@ -3722,5 +3722,61 @@
       "totalTime": 4737,
       "visuallyComplete": 4103
     }
+  },
+  {
+    "id": "160422_27_10YA",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160422_27_10YA",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Cable",
+    "date": 1461327912,
+    "firstView": {
+      "requests": 167,
+      "bytesIn": 3133309,
+      "ttfb": 1051,
+      "startRender": 4909,
+      "domReadyEvent": 4963,
+      "loadEvent": 9387,
+      "totalTime": 9610,
+      "visuallyComplete": 6956
+    },
+    "repeatView": {
+      "requests": 106,
+      "bytesIn": 225095,
+      "ttfb": 992,
+      "startRender": 3682,
+      "domReadyEvent": 3897,
+      "loadEvent": 5924,
+      "totalTime": 6080,
+      "visuallyComplete": 5018
+    }
+  },
+  {
+    "id": "160422_GX_130W",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160422_GX_130W",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Cable",
+    "date": 1461332001,
+    "firstView": {
+      "requests": 179,
+      "bytesIn": 3184010,
+      "ttfb": 1020,
+      "startRender": 4499,
+      "domReadyEvent": 4464,
+      "loadEvent": 8478,
+      "totalTime": 8690,
+      "visuallyComplete": 8290
+    },
+    "repeatView": {
+      "requests": 53,
+      "bytesIn": 236220,
+      "ttfb": 929,
+      "startRender": 2656,
+      "domReadyEvent": 2840,
+      "loadEvent": 4328,
+      "totalTime": 4452,
+      "visuallyComplete": 3679
+    }
   }
 ]

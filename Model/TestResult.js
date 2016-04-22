@@ -3,17 +3,27 @@
 
 class TestResult {
 
-	constructor(id, resultJson) {
-		this.id = id;
-		if (resultJson) {
+	constructor(resultJson) {
+		if (this.isOriginalResult(resultJson)) {
 			this.fillFromResult(resultJson);
+		} else {
+			// this = resultJson;
+			Object.assign(this, resultJson);
 		}
+	}
+
+	/*
+	 * Check if Test Result comes directly from webpagetest.org or it's the reduced version we save
+	 */
+	isOriginalResult (resultJson) {
+		return (resultJson && resultJson.data && resultJson.statusCode);
 	}
 
 	/* Fills the object with results JSON coming from WebPageTest.org */
 	fillFromResult(test) {
 		if (test.statusCode && test.statusCode === 200) {
 			test = test.data;
+			this.id = test.id;
 			this.location = test.location;
 			this.url = test.summary;
             this.domain = test.testUrl;
@@ -44,6 +54,18 @@ class TestResult {
 				visuallyComplete: run.visualComplete
 			};
 		}
+	}
+
+	/*
+	 * @return [string] current timestamp in format yyyymmdd
+	 */
+	getUniqueDay() {
+		var dateObj = new Date(this.date * 1000);
+		var month = dateObj.getUTCMonth() + 1; //months from 1-12
+		var day = dateObj.getUTCDate();
+		var year = dateObj.getUTCFullYear();
+
+		return "" + year + month + day;
 	}
 
     toString () {

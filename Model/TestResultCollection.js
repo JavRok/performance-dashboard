@@ -1,16 +1,32 @@
-/* Test result Collection Model */
+/*
+ * Test result Collection Model
+ * Holds a collection of TestResult objects. Implements Iterable interface.
+ **/
 "use strict";
+
+var TestResult = require('../Model/TestResult.js');
 
 class TestResultCollection {
 
 	constructor(tests) {
-        if (tests) {
-            this.tests = tests;
-        }
-		else {
-            this.tests = [];
+		this.tests = [];
+
+        if (tests && tests.length > 0) {
+			tests.forEach( (test) => {
+				this.addOrdered(new TestResult(test));
+			});
         }
 	}
+
+	// Implements Iterable 'interface'
+	[Symbol.iterator]() {
+		var index = 0;
+		var data  = this.tests;
+
+		return {
+				next: () => ({ value: data[++index], done: index++ >= data.length })
+		}
+	};
 
     // Add a single object of type TestResult
     add (newTest) {
@@ -27,13 +43,16 @@ class TestResultCollection {
 
 	// Add a single object mainting order by timestamp. Don't mix with normal add, or it won't work
 	addOrdered (newTest) {
-		var i=0, len=this.tests.length;
+		var len=this.tests.length;
+		var i=len-1;
 
-		while(i<len && newTest.date > this.tests[i].date) {
-			i++;
+		// Inverse order to improve performance (newest tests are at the end)
+		while(i>=0 && newTest.date <= this.tests[i].date) {
+			i--;
 		}
 
-		if (i === len) {
+
+		if (i === len-1) {
 			this.tests.push(newTest);
 			return true;
 		}
