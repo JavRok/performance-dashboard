@@ -3639,32 +3639,87 @@
       "visuallyComplete": 3477
     }
   },
-	{
-		"id": "160406_MP_3CQ",
-		"location": "Amsterdam_IISpeed:Chrome",
-		"url": "http://www.webpagetest.org/results.php?test=160406_MP_3CQ",
-		"domain": "https://forum.tele2.nl",
-		"connectivity": "Cable",
-		"date": 1459909530,
-		"firstView": {
-			"requests": 108,
-			"bytesIn": 1922387,
-			"ttfb": 1464,
-			"startRender": 3887,
-			"domReadyEvent": 3778,
-			"loadEvent": 6035,
-			"totalTime": 6175,
-			"visuallyComplete": 6141
-		},
-		"repeatView": {
-			"requests": 20,
-			"bytesIn": 235705,
-			"ttfb": 1123,
-			"startRender": 2268,
-			"domReadyEvent": 2243,
-			"loadEvent": 3105,
-			"totalTime": 3190,
-			"visuallyComplete": 3477
-		}
-	}
+  {
+    "id": "160406_MP_3CQ",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160406_MP_3CQ",
+    "domain": "https://forum.tele2.nl",
+    "connectivity": "Cable",
+    "date": 1459909530,
+    "firstView": {
+      "requests": 108,
+      "bytesIn": 1922387,
+      "ttfb": 1464,
+      "startRender": 3887,
+      "domReadyEvent": 3778,
+      "loadEvent": 6035,
+      "totalTime": 6175,
+      "visuallyComplete": 6141
+    },
+    "repeatView": {
+      "requests": 20,
+      "bytesIn": 235705,
+      "ttfb": 1123,
+      "startRender": 2268,
+      "domReadyEvent": 2243,
+      "loadEvent": 3105,
+      "totalTime": 3190,
+      "visuallyComplete": 3477
+    }
+  },
+  {
+    "id": "160422_V9_T26",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160422_V9_T26",
+    "domain": "https://forum.tele2.nl",
+    "connectivity": "Cable",
+    "date": 1461316678,
+    "firstView": {
+      "requests": 106,
+      "bytesIn": 1839681,
+      "ttfb": 1881,
+      "startRender": 5423,
+      "domReadyEvent": 5291,
+      "loadEvent": 8194,
+      "totalTime": 8437,
+      "visuallyComplete": 7610
+    },
+    "repeatView": {
+      "requests": 1,
+      "bytesIn": 12628,
+      "ttfb": 15101,
+      "startRender": 0,
+      "domReadyEvent": 14799,
+      "loadEvent": 14799,
+      "totalTime": 15168
+    }
+  },
+  {
+    "id": "160422_YT_YKG",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160422_YT_YKG",
+    "domain": "https://forum.tele2.nl",
+    "connectivity": "Cable",
+    "date": 1461324128,
+    "firstView": {
+      "requests": 107,
+      "bytesIn": 1876075,
+      "ttfb": 1578,
+      "startRender": 4190,
+      "domReadyEvent": 4081,
+      "loadEvent": 7806,
+      "totalTime": 8002,
+      "visuallyComplete": 8186
+    },
+    "repeatView": {
+      "requests": 20,
+      "bytesIn": 255577,
+      "ttfb": 882,
+      "startRender": 2758,
+      "domReadyEvent": 2683,
+      "loadEvent": 4063,
+      "totalTime": 4162,
+      "visuallyComplete": 3682
+    }
+  }
 ]

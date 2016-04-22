@@ -3,15 +3,15 @@
 
 class TestResult {
 
-	constructor(id, resultsJson) {
+	constructor(id, resultJson) {
 		this.id = id;
-		if (resultsJson) {
-			this.fillFromResults(resultsJson);
+		if (resultJson) {
+			this.fillFromResult(resultJson);
 		}
 	}
 
 	/* Fills the object with results JSON coming from WebPageTest.org */
-	fillFromResults(test) {
+	fillFromResult(test) {
 		if (test.statusCode && test.statusCode === 200) {
 			test = test.data;
 			this.location = test.location;

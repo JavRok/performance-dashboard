@@ -10,7 +10,9 @@ var TestResult = require('../Model/TestResult.js');
 var TestResultCollection = require('../Model/TestResultCollection.js');
 var Config = require('../Model/TestConfig.js');
 
+// TODO: To config
 var pendingDir = "wpt.org.json/pending/";
+var resultsDir = "wpt.org.json/results/";
 
 
 // Checks for tests in pending state, and tries to get the result if they're finished
@@ -80,7 +82,7 @@ function getFileName (testUrl) {
 	var path = urlObj.pathname.replace(/\//g, "_");
 	path = path.trimRight("_");
 
-    return 'wpt.org.json/results/' + urlObj.hostname + path + '.json';
+    return resultsDir + urlObj.hostname + path + '.json';
 }
 
 

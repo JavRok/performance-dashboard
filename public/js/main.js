@@ -8,6 +8,11 @@ var chartData = {
 };
 
 
+// TODO: Array of TestCollections -> Put it on the server, and make the rest based on today, yesterday, this week...
+var urls;
+var tests = [];
+
+
 // Create a new line chart object where as first parameter we pass in a selector
 // that is resolving to our chart container element. The Second parameter
 // is the actual data object.
@@ -16,10 +21,12 @@ function createChart () {
 		// Options
 		axisY: {
 			labelInterpolationFnc: function(value) {
-				return value / 1000 + ' s';
+				return value / 1000 + 's';
 			}
 		}
 	});
+
+	console.log(chartData);
 
 	chart.on('draw', function(data) {
 		if(data.type === 'line' || data.type === 'area') {
@@ -43,6 +50,7 @@ if (AJAX) {
 	// Wait for all the AJAX calls with Promises. First get the tested URLs
 	AJAX.promiseGet("/urls").then(JSON.parse).then(function(response) {
 		console.log("Success!", response);
+		urls = response;
 
 		// Get the test results for each URL
 		return Promise.all(
@@ -57,38 +65,19 @@ if (AJAX) {
 		responses.forEach(function(response) {
 			var singleTest = JSON.parse(response);
 
-			maxLength = (singleTest.data.length > maxLength)? singleTest.data.length : maxLength;
-			console.log("length", singleTest.data.length);
-
-			var serie = singleTest.data.map(function(singleTest) {
-				return singleTest.firstView.visuallyComplete;
+			// Let's try with last 24h results
+			var slice = singleTest.data.slice(-24);
+			var serie = slice.map(function(singleTest) {
+				return singleTest.firstView.totalTime;
 			});
+
 			chartData.series.push(serie);
 		});
 
-		for (var i=0; i < maxLength; i++) {
+		for (var i=0; i < 24; i++) {
 			chartData.labels[i] = i;
 		}
 
 		createChart();
 	});
-
 }
-
-/*
- * @param data Test historic data in json
- */
- /*function addChartLine(data) {
-	 var chart = new Chartist.Line('.loading-time-chart', chartData, {
-		 // Options
-		 axisY: {
-			 labelInterpolationFnc: function(value) {
-				 return value / 1000 + ' s';
-			 }
-		 }
-	 });
-}*/
-
-/*homes.sort(function(a, b) {
-	return parseFloat(a.price) - parseFloat(b.price);
-});*/
