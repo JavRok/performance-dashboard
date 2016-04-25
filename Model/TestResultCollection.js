@@ -4,6 +4,10 @@
  **/
 "use strict";
 
+if ( global.v8debug ) {
+	global.v8debug.Debug.setBreakOnException(); // speaks for itself
+}
+
 var TestResult = require('../Model/TestResult.js');
 
 class TestResultCollection {
@@ -18,7 +22,9 @@ class TestResultCollection {
         }
 	}
 
-	// Implements Iterable 'interface'
+	/*
+	 * Implements Iterable 'interface'
+	 */
 	[Symbol.iterator]() {
 		var index = 0;
 		var data  = this.tests;
@@ -28,7 +34,9 @@ class TestResultCollection {
 		}
 	};
 
-    // Add a single object of type TestResult
+	/*
+ 	 * Add a single object of type TestResult
+ 	 */
     add (newTest) {
         // Avoid duplicates
         if(!this._exists(newTest)) {
@@ -41,26 +49,31 @@ class TestResultCollection {
     }
 
 
-	// Add a single object mainting order by timestamp. Don't mix with normal add, or it won't work
+	/*
+ 	 * Add a single object maintaining order by timestamp. Don't mix with normal add, or it won't work
+ 	 */
 	addOrdered (newTest) {
 		var len=this.tests.length;
 		var i=len-1;
+
+		if (newTest.id === "160406_MP_3CQ") debugger;
 
 		// Inverse order to improve performance (newest tests are at the end)
 		while(i>=0 && newTest.date <= this.tests[i].date) {
 			i--;
 		}
 
-
-		if (i === len-1) {
-			this.tests.push(newTest);
-			return true;
-		}
-
-		if (this.tests[i].id === newTest.id) {
+		if (i === -1) {
+			i = 0;
+		} else if (this.tests[i].id === newTest.id) {
 			console.log("Test " + newTest.id + " duplicated, couldn't add.");
 			return false;
 		}
+
+		/*if (i === len-1) {
+			this.tests.push(newTest);
+			return true;
+		}*/
 
 		this.tests.splice(i, 0, newTest);
 		return true;

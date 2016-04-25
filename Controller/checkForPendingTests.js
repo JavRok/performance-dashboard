@@ -14,7 +14,6 @@ var Config = require('../Model/TestConfig.js');
 var pendingDir = "wpt.org.json/pending/";
 var resultsDir = "wpt.org.json/results/";
 
-
 // Checks for tests in pending state, and tries to get the result if they're finished
 function run () {
 	// Read the contents of the status directory to get test Ids
@@ -91,7 +90,7 @@ function processTestResult(err, result) {
 	if (err) return Config.log(err, true);
 
     // console.log(result.data.runs);return;
-	var test = new TestResult(result.data.id, result);
+	var test = new TestResult(result);
     var tests;
     var fileName = getFileName(test.domain);
 
@@ -115,5 +114,12 @@ function processTestResult(err, result) {
 	Config.log("Successfully gather results from test " + test.id);
 
 }
+
+
+// Run if file was invoked directly, otherwise leverage on outside script
+if (process && process.argv.length > 1 && process.argv[1].indexOf("checkForPendingTests.js") !== -1) {
+	run();
+}
+
 
 module.exports = {run: run};

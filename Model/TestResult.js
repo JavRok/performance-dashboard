@@ -43,16 +43,23 @@ class TestResult {
 			};
 
 			run = test.runs["1"].repeatView;
-			this.repeatView = {
-				requests: run.requests.length,
-				bytesIn: run.bytesIn,
-				ttfb : run.TTFB,
-				startRender: run.render,
-				domReadyEvent: run.domContentLoadedEventStart,
-				loadEvent: run.loadEventStart,
-				totalTime: run.loadTime,
-				visuallyComplete: run.visualComplete
-			};
+			if (run) {
+				this.repeatView = {
+					requests: run.requests.length,
+					bytesIn: run.bytesIn,
+					ttfb : run.TTFB,
+					startRender: run.render,
+					domReadyEvent: run.domContentLoadedEventStart,
+					loadEvent: run.loadEventStart,
+					totalTime: run.loadTime,
+					visuallyComplete: run.visualComplete
+				};
+			} else {
+				// If there's a timeout on the firstView, repeated view is null
+				console.error("RepeatView is null for test " + this.id);
+				this.repeatView = null;
+			}
+
 		}
 	}
 

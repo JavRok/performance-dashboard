@@ -28,12 +28,8 @@ function run () {
 			fs.readFile(resultsDir + file, function (err, data) {
 				if (err) return Config.log(err, true);
 
-				console.time(file);
-
 				var tests = new TestResultCollection (JSON.parse(data));
 				var days = getDays(tests);
-
-				console.timeEnd(file);
 
 
 				// Get days that are over the limit
@@ -56,8 +52,9 @@ function getDays(testResults) {
 	var days = [];
 
 	// testResults is an Iterable
+	console.log(testResults.tests.length);
 	for(let test of testResults) {
-		// console.log(test.date);
+
 	}
 }
 

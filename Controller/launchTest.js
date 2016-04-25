@@ -38,6 +38,9 @@ function run () {
 }
 
 
-
+// Run if file was invoked directly, otherwise leverage on outside script
+if (process && process.argv.length > 1 && process.argv[1].indexOf("launchTest.js") !== -1) {
+	run();
+}
 
 module.exports = {run: run};

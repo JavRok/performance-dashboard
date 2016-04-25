@@ -1,33 +1,5 @@
 [
   {
-    "id": "160422_ZQ_T25",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160422_ZQ_T25",
-    "domain": "https://www.tele2.nl/shop/thuis/postcodecheck/",
-    "connectivity": "Cable",
-    "date": 1461316639,
-    "firstView": {
-      "requests": 87,
-      "bytesIn": 1260663,
-      "ttfb": 1021,
-      "startRender": 2554,
-      "domReadyEvent": 3112,
-      "loadEvent": 5265,
-      "totalTime": 5403,
-      "visuallyComplete": 4807
-    },
-    "repeatView": {
-      "requests": 37,
-      "bytesIn": 169534,
-      "ttfb": 840,
-      "startRender": 2246,
-      "domReadyEvent": 2934,
-      "loadEvent": 4041,
-      "totalTime": 4143,
-      "visuallyComplete": 3988
-    }
-  },
-  {
     "id": "160422_JG_YKH",
     "location": "Amsterdam_IISpeed:Chrome",
     "url": "http://www.webpagetest.org/results.php?test=160422_JG_YKH",
@@ -109,6 +81,286 @@
       "loadEvent": 3614,
       "totalTime": 3700,
       "visuallyComplete": 3576
+    }
+  },
+  {
+    "id": "160422_VT_15CF",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160422_VT_15CF",
+    "domain": "https://www.tele2.nl/shop/thuis/postcodecheck/",
+    "connectivity": "Cable",
+    "date": 1461335216,
+    "firstView": {
+      "requests": 88,
+      "bytesIn": 1286692,
+      "ttfb": 885,
+      "startRender": 2247,
+      "domReadyEvent": 2994,
+      "loadEvent": 4553,
+      "totalTime": 4667,
+      "visuallyComplete": 4501
+    },
+    "repeatView": {
+      "requests": 36,
+      "bytesIn": 170211,
+      "ttfb": 856,
+      "startRender": 1736,
+      "domReadyEvent": 2300,
+      "loadEvent": 3328,
+      "totalTime": 3418,
+      "visuallyComplete": 3280
+    }
+  },
+  {
+    "id": "160422_92_17VM",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160422_92_17VM",
+    "domain": "https://www.tele2.nl/shop/thuis/postcodecheck/",
+    "connectivity": "Cable",
+    "date": 1461338562,
+    "firstView": {
+      "requests": 73,
+      "bytesIn": 1210616,
+      "ttfb": 985,
+      "startRender": 2144,
+      "domReadyEvent": 3118,
+      "loadEvent": 4621,
+      "totalTime": 4743,
+      "visuallyComplete": 5321
+    },
+    "repeatView": {
+      "requests": 23,
+      "bytesIn": 157231,
+      "ttfb": 893,
+      "startRender": 1940,
+      "domReadyEvent": 2594,
+      "loadEvent": 3946,
+      "totalTime": 4047,
+      "visuallyComplete": 3477
+    }
+  },
+  {
+    "id": "160422_SX_1A92",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160422_SX_1A92",
+    "domain": "https://www.tele2.nl/shop/thuis/postcodecheck/",
+    "connectivity": "Cable",
+    "date": 1461342128,
+    "firstView": {
+      "requests": 88,
+      "bytesIn": 1100573,
+      "ttfb": 936,
+      "startRender": 2043,
+      "domReadyEvent": 2792,
+      "loadEvent": 4551,
+      "totalTime": 4664,
+      "visuallyComplete": 4193
+    },
+    "repeatView": {
+      "requests": 42,
+      "bytesIn": 176964,
+      "ttfb": 822,
+      "startRender": 1736,
+      "domReadyEvent": 2382,
+      "loadEvent": 3284,
+      "totalTime": 3368,
+      "visuallyComplete": 3068
+    }
+  },
+  {
+    "id": "160422_A4_1CHM",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160422_A4_1CHM",
+    "domain": "https://www.tele2.nl/shop/thuis/postcodecheck/",
+    "connectivity": "Cable",
+    "date": 1461345759,
+    "firstView": {
+      "requests": 87,
+      "bytesIn": 1071935,
+      "ttfb": 887,
+      "startRender": 1942,
+      "domReadyEvent": 2693,
+      "loadEvent": 4301,
+      "totalTime": 4407,
+      "visuallyComplete": 5116
+    },
+    "repeatView": {
+      "requests": 42,
+      "bytesIn": 182558,
+      "ttfb": 776,
+      "startRender": 1733,
+      "domReadyEvent": 2263,
+      "loadEvent": 3028,
+      "totalTime": 3106,
+      "visuallyComplete": 2864
+    }
+  },
+  {
+    "id": "160422_SW_1EPG",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160422_SW_1EPG",
+    "domain": "https://www.tele2.nl/shop/thuis/postcodecheck/",
+    "connectivity": "Cable",
+    "date": 1461349360,
+    "firstView": {
+      "requests": 74,
+      "bytesIn": 1219748,
+      "ttfb": 905,
+      "startRender": 2045,
+      "domReadyEvent": 2828,
+      "loadEvent": 4129,
+      "totalTime": 4228,
+      "visuallyComplete": 4706
+    },
+    "repeatView": {
+      "requests": 29,
+      "bytesIn": 156974,
+      "ttfb": 1068,
+      "startRender": 1838,
+      "domReadyEvent": 2463,
+      "loadEvent": 3377,
+      "totalTime": 3467,
+      "visuallyComplete": 3169
+    }
+  },
+  {
+    "id": "160422_7Y_1GMS",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160422_7Y_1GMS",
+    "domain": "https://www.tele2.nl/shop/thuis/postcodecheck/",
+    "connectivity": "Cable",
+    "date": 1461352963,
+    "firstView": {
+      "requests": 87,
+      "bytesIn": 1092654,
+      "ttfb": 922,
+      "startRender": 2040,
+      "domReadyEvent": 2807,
+      "loadEvent": 4331,
+      "totalTime": 4432,
+      "visuallyComplete": 5113
+    },
+    "repeatView": {
+      "requests": 43,
+      "bytesIn": 173214,
+      "ttfb": 850,
+      "startRender": 2245,
+      "domReadyEvent": 2880,
+      "loadEvent": 3889,
+      "totalTime": 3992,
+      "visuallyComplete": 3884
+    }
+  },
+  {
+    "id": "160422_JM_1JNW",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160422_JM_1JNW",
+    "domain": "https://www.tele2.nl/shop/thuis/postcodecheck/",
+    "connectivity": "Cable",
+    "date": 1461356559,
+    "firstView": {
+      "requests": 73,
+      "bytesIn": 1029122,
+      "ttfb": 918,
+      "startRender": 2044,
+      "domReadyEvent": 2737,
+      "loadEvent": 4250,
+      "totalTime": 4357,
+      "visuallyComplete": 4911
+    },
+    "repeatView": {
+      "requests": 30,
+      "bytesIn": 157174,
+      "ttfb": 823,
+      "startRender": 1937,
+      "domReadyEvent": 2566,
+      "loadEvent": 3582,
+      "totalTime": 3677,
+      "visuallyComplete": 3370
+    }
+  },
+  {
+    "id": "160422_G9_1N8X",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160422_G9_1N8X",
+    "domain": "https://www.tele2.nl/shop/thuis/postcodecheck/",
+    "connectivity": "Cable",
+    "date": 1461360124,
+    "firstView": {
+      "requests": 88,
+      "bytesIn": 1264532,
+      "ttfb": 894,
+      "startRender": 2349,
+      "domReadyEvent": 3193,
+      "loadEvent": 4814,
+      "totalTime": 4936,
+      "visuallyComplete": 4703
+    },
+    "repeatView": {
+      "requests": 43,
+      "bytesIn": 177482,
+      "ttfb": 846,
+      "startRender": 1736,
+      "domReadyEvent": 2323,
+      "loadEvent": 3473,
+      "totalTime": 3567,
+      "visuallyComplete": 3372
+    }
+  },
+  {
+    "id": "160425_NX_SB5",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160425_NX_SB5",
+    "domain": "https://www.tele2.nl/shop/thuis/postcodecheck/",
+    "connectivity": "Cable",
+    "date": 1461591364,
+    "firstView": {
+      "requests": 88,
+      "bytesIn": 1283665,
+      "ttfb": 961,
+      "startRender": 2248,
+      "domReadyEvent": 3129,
+      "loadEvent": 4635,
+      "totalTime": 4752,
+      "visuallyComplete": 4298
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 180318,
+      "ttfb": 874,
+      "startRender": 1836,
+      "domReadyEvent": 2486,
+      "loadEvent": 3530,
+      "totalTime": 3616,
+      "visuallyComplete": 3377
+    }
+  },
+  {
+    "id": "160422_ZQ_T25",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160422_ZQ_T25",
+    "domain": "https://www.tele2.nl/shop/thuis/postcodecheck/",
+    "connectivity": "Cable",
+    "date": 1461316639,
+    "firstView": {
+      "requests": 87,
+      "bytesIn": 1260663,
+      "ttfb": 1021,
+      "startRender": 2554,
+      "domReadyEvent": 3112,
+      "loadEvent": 5265,
+      "totalTime": 5403,
+      "visuallyComplete": 4807
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 169534,
+      "ttfb": 840,
+      "startRender": 2246,
+      "domReadyEvent": 2934,
+      "loadEvent": 4041,
+      "totalTime": 4143,
+      "visuallyComplete": 3988
     }
   }
 ]
