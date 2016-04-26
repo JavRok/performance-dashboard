@@ -5,6 +5,7 @@
 
 var CheckForTests = require('./checkForPendingTests.js');
 var LaunchTests = require('./launchTest.js');
+var SaveHistory = require('./saveTestHistory.js');
 var Config = require('../Model/TestConfig.js');
 var conf = new Config('./config.json');
 
@@ -12,6 +13,8 @@ var conf = new Config('./config.json');
 var checkTimeout = 15 * 60 * 1000;
 // Every 1h
 var launchTestTimeout = 60 * 60 * 1000;
+// Every 24h
+var saveHistoryTimeout = 24 * 60 * 60 * 1000;
 
 Config.log("Starting the performance-dashboard application. Ctrl+C to terminate it.");
 
@@ -25,6 +28,12 @@ var testInterval = setInterval(() => {
 var checkInterval = setInterval (() => {
 	CheckForTests.run();
 }, checkTimeout);
+
+
+// Save history every 24h
+var historyInterval = setInterval (() => {
+	SaveHistory.run();
+}, saveHistoryTimeout);
 
 
 // Call it first time

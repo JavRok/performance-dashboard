@@ -30,9 +30,13 @@ class TestResultCollection {
 		var data  = this.tests;
 
 		return {
-				next: () => ({ value: data[++index], done: index++ >= data.length })
+				next: () => ({ value: data[index], done: ++index >= data.length })
 		}
-	};
+	}
+
+	length() {
+		return this.tests.length;
+	}
 
 	/*
  	 * Add a single object of type TestResult
@@ -54,26 +58,17 @@ class TestResultCollection {
  	 */
 	addOrdered (newTest) {
 		var len=this.tests.length;
-		var i=len-1;
-
-		if (newTest.id === "160406_MP_3CQ") debugger;
+		var i=len;
 
 		// Inverse order to improve performance (newest tests are at the end)
-		while(i>=0 && newTest.date <= this.tests[i].date) {
+		while(i>0 && newTest.date < this.tests[i-1].date) {
 			i--;
 		}
 
-		if (i === -1) {
-			i = 0;
-		} else if (this.tests[i].id === newTest.id) {
+		if (i > 0 && this.tests[i-1].id === newTest.id) {
 			console.log("Test " + newTest.id + " duplicated, couldn't add.");
 			return false;
 		}
-
-		/*if (i === len-1) {
-			this.tests.push(newTest);
-			return true;
-		}*/
 
 		this.tests.splice(i, 0, newTest);
 		return true;
@@ -86,6 +81,18 @@ class TestResultCollection {
             return test.id === newTest.id;
         });
     }
+
+
+	/*
+	 * Removes all tests happened in a certain day, specified by the parameter
+	 * @param [string] day in yyyy-mm-dd format
+	 */
+	removeTestsFromDay (day) {
+
+		this.tests = this.tests.filter((test) => {
+			return day !== test.getUniqueDay();
+		});
+	}
 
 
     toString () {

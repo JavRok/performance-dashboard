@@ -64,15 +64,11 @@ class TestResult {
 	}
 
 	/*
-	 * @return [string] current timestamp in format yyyymmdd
+	 * @return [string] current timestamp in format yyyy-mm-dd
 	 */
 	getUniqueDay() {
 		var dateObj = new Date(this.date * 1000);
-		var month = dateObj.getUTCMonth() + 1; //months from 1-12
-		var day = dateObj.getUTCDate();
-		var year = dateObj.getUTCFullYear();
-
-		return "" + year + month + day;
+		return dateObj.toISOString().substr(0, 10);
 	}
 
     toString () {
