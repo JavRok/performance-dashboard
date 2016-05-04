@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id": "2016-04-22",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160429_6X_EZ2",
+    "domain": "https://www.tele2.nl/shop/thuis/postcodecheck/",
+    "connectivity": "Cable",
+    "date": 1461283200,
+    "firstView": {
+      "requests": 87,
+      "bytesIn": 1154216.5,
+      "ttfb": 920,
+      "startRender": 2191.5,
+      "domReadyEvent": 3003,
+      "loadEvent": 4559,
+      "totalTime": 4674,
+      "visuallyComplete": 4756.5
+    },
+    "repeatView": {
+      "requests": 36.5,
+      "bytesIn": 169872.5,
+      "ttfb": 835,
+      "startRender": 1938,
+      "domReadyEvent": 2517.5,
+      "loadEvent": 3527.5,
+      "totalTime": 3622,
+      "visuallyComplete": 3371
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "statusCode": 200,
+  "statusText": "Ok",
+  "data": {
+    "testId": "160502_RM_AQS",
+    "ownerKey": "848d548d593a0c2a727528a0fcf1b5344289e326",
+    "jsonUrl": "http://www.webpagetest.org/jsonResult.php?test=160502_RM_AQS",
+    "xmlUrl": "http://www.webpagetest.org/xmlResult/160502_RM_AQS/",
+    "userUrl": "http://www.webpagetest.org/result/160502_RM_AQS/",
+    "summaryCSV": "http://www.webpagetest.org/result/160502_RM_AQS/page_data.csv",
+    "detailCSV": "http://www.webpagetest.org/result/160502_RM_AQS/requests.csv"
+  }
+}

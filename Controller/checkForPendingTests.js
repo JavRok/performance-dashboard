@@ -4,29 +4,28 @@
 
 var fs = require('fs');
 var WebPageTest = require('webpagetest');
-var url = require('url');
 
 var TestResult = require('../Model/TestResult.js');
 var TestResultCollection = require('../Model/TestResultCollection.js');
-var Config = require('../Model/TestConfig.js');
+var Util = require('../Helper/util.js');
+var Config = require('../Model/TestConfig.js'),
+	conf = Config();
+var pendingDir = conf.getPath("pending");
 
-// TODO: To config
-var pendingDir = "wpt.org.json/pending/";
-var resultsDir = "wpt.org.json/results/";
 
 // Checks for tests in pending state, and tries to get the result if they're finished
 function run () {
 	// Read the contents of the status directory to get test Ids
 	fs.readdir(pendingDir, function (err,  files) {
-		if (err) return Config.log(err, true);
+		if (err) return conf.log(err, true);
 
-		Config.log("Found " + files.length + " pending tests.");
+		conf.log("Found " + files.length + " pending tests.");
 
 		files.forEach(function (file) {
 
 			// For each file in pending, look for finished tests
 			fs.readFile(pendingDir + file, function (err, data) {
-				if (err) return Config.log(err, true);
+				if (err) return conf.log(err, true);
 
 				var result = JSON.parse(data);
 				if (result.statusCode === 200) {
@@ -41,12 +40,11 @@ function run () {
 
 // Checks if a test has been finished (by using wpt.org API). If so, process the results and cleans the files
 function checkTestStatus (id, fileName) {
-	var conf = new Config('./config.json');
 
 	var wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
 
 	wpt.status( id, function (err, data) {
-		if (err) return Config.log(err, true);
+		if (err) return conf.log(err, true);
 
 		switch(true) {
 			case (data.statusCode === 200):
@@ -57,7 +55,7 @@ function checkTestStatus (id, fileName) {
 				break;
             case (data.statusCode < 200):
 				// Still pending, keep waiting
-				Config.log("Test " + id + " still running (" + data.statusText + ")");
+				conf.log("Test " + id + " still running (" + data.statusText + ")");
 				break;
 			case (data.statusCode > 200):
 			default:
@@ -68,31 +66,14 @@ function checkTestStatus (id, fileName) {
 }
 
 
-String.prototype.trimRight = function(charlist) {
-	if (charlist === undefined)
-		charlist = "\s";
-
-	return this.replace(new RegExp("[" + charlist + "]+$"), "");
-};
-
-// Returns a filename based on the URL being tested
-function getFileName (testUrl) {
-    var urlObj = url.parse(testUrl);
-	var path = urlObj.pathname.replace(/\//g, "_");
-	path = path.trimRight("_");
-
-    return resultsDir + urlObj.hostname + path + '.json';
-}
-
-
 // Process the results and save the summary into a file
 function processTestResult(err, result) {
-	if (err) return Config.log(err, true);
+	if (err) return conf.log(err, true);
 
     // console.log(result.data.runs);return;
 	var test = new TestResult(result);
     var tests;
-    var fileName = getFileName(test.domain);
+    var fileName = conf.getPath('results') + Util.getFileNameFromUrl(test.domain);
 
     fs.stat(fileName, (err, stats) => {
         // File doesn't exist, create it.
@@ -111,13 +92,13 @@ function processTestResult(err, result) {
         }
     });
 
-	Config.log("Successfully gather results from test " + test.id);
+	conf.log("Successfully gather results from test " + test.id);
 
 }
 
 
 // Run if file was invoked directly, otherwise leverage on outside script
-if (process && process.argv.length > 1 && process.argv[1].indexOf("checkForPendingTests.js") !== -1) {
+if (Util.isCalledFromCommandLine("checkForPendingTests.js")) {
 	run();
 }
 

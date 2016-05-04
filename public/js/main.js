@@ -10,7 +10,13 @@ var chartData = {
 
 // TODO: Array of TestCollections -> Put it on the server, and make the rest based on today, yesterday, this week...
 var urls;
-var tests = [];
+var hourlyTests = [];
+
+// Nodes
+var nodes = {
+	daySelect: document.querySelector(".filters-day-select"),
+	monthSelect: document.querySelector(".filters-month-select")
+};
 
 
 // Create a new line chart object where as first parameter we pass in a selector
@@ -62,8 +68,10 @@ if (AJAX) {
 	}).then(function(responses) {
 		var maxLength = 0;
 
-		responses.forEach(function(response) {
+		responses.forEach(function(response, i) {
 			var singleTest = JSON.parse(response);
+
+			hourlyTests[i] = singleTest.data;
 
 			// Let's try with last 24h results
 			var slice = singleTest.data.slice(-24);
@@ -81,3 +89,34 @@ if (AJAX) {
 		createChart();
 	});
 }
+
+
+var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+function fillFilterDropdowns() {
+
+	var options = [], option,
+		dateObj;
+
+	option = document.createElement("option");
+	option.textContent = option.value = "today";
+	options.push(option);
+
+	dateObj = new Date();
+
+	for (var i=1; i < 7; i++) {
+		// Substract one day at a time
+		dateObj.setDate(dateObj.getDate() - 1);
+		option = document.createElement("option");
+		option.textContent = days[dateObj.getDate()];
+		option.value = "today";
+		options.push(option);
+	}
+
+
+}
+
+nodes.daySelect.addEventListener("change", function(evt){
+	console.log("change!");
+}, false);

@@ -1,0 +1,13 @@
+{
+  "statusCode": 200,
+  "statusText": "Ok",
+  "data": {
+    "testId": "160503_DG_JD4",
+    "ownerKey": "325cc71d407c46120000e10fddf42bcd28b46757",
+    "jsonUrl": "http://www.webpagetest.org/jsonResult.php?test=160503_DG_JD4",
+    "xmlUrl": "http://www.webpagetest.org/xmlResult/160503_DG_JD4/",
+    "userUrl": "http://www.webpagetest.org/result/160503_DG_JD4/",
+    "summaryCSV": "http://www.webpagetest.org/result/160503_DG_JD4/page_data.csv",
+    "detailCSV": "http://www.webpagetest.org/result/160503_DG_JD4/requests.csv"
+  }
+}

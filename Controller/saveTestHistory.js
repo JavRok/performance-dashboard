@@ -10,16 +10,17 @@ if ( global.v8debug ) {
 }
 
 var fs = require('fs');
-var Config = require('../Model/TestConfig.js');
+var Config = require('../Model/TestConfig.js'),
+	conf = Config();
+var Util = require('../Helper/util.js');
 var TestResult = require('../Model/TestResult.js');
 var TestResultCollection = require('../Model/TestResultCollection.js');
 
 // Limit on the number of days stored with all the test information
 var limit24hDays = 7;
 
-// TODO: To Config
-var resultsDir = "wpt.org.json/results/";  // 24h results
-var historyDir = "wpt.org.json/history/";  // days median result
+var resultsDir = conf.getPath("results");  // 24h results
+var historyDir = conf.getPath("history");  // days median result
 
 function run () {
 	// Calculate the limit date to exclude from the history saving
@@ -27,7 +28,7 @@ function run () {
 	var limitDate = today.setDate(today.getDate() - limit24hDays);
 
 	fs.readdir(resultsDir, function (err,  files) {
-		if (err) return Config.log(err, true);
+		if (err) return conf.log(err, true);
 
 		files.forEach(function (file) {
 
@@ -162,23 +163,6 @@ function getMedianForDay(tests, day) {
 }
 
 
-/*
- * Calculates median value for an array of objects, by comparing the property set by 2nd argument
- * @param {array} array of objects
- * @param {string} name of the property to be used to calculate the median. Only 1st level properties supported
- */
-function medianForObject(values, propertyToOrder) {
-	if (!values || values.length === 0) return 0;
-
-	values.sort( function(a, b) {return a[propertyToOrder] - b[propertyToOrder];} );
-
-	var half = Math.floor(values.length/2);
-
-	if(values.length % 2)
-		return values[half][propertyToOrder];
-	else
-		return (values[half-1][propertyToOrder] + values[half][propertyToOrder]) / 2.0;
-}
 
 
 
@@ -204,7 +188,7 @@ function getDays(testResults) {
 
 
 // Run if file was invoked directly, otherwise leverage on outside script
-if (process && process.argv.length > 1 && process.argv[1].indexOf("saveTestHistory.js") !== -1) {
+if (Util.isCalledFromCommandLine("saveTestHistory.js")) {
 	run();
 }
 

@@ -6,7 +6,9 @@ var fs = require('fs');
 var express = require('express');
 var app = express();
 
-var resultsDir = "wpt.org.json/results/";
+var Config = require('./Model/TestConfig.js'),
+	conf = Config();
+var resultsDir = conf.getPath("results");
 
 app.use(express.static('public'));
 
@@ -36,7 +38,7 @@ app.get('/urls', function (req, res) {
 
 // Endpoint for getting test results (per hour for now)
 app.get('/test/:name', function (req, res) {
-	var fileName = "wpt.org.json/results/" + req.params.name + ".json";
+	var fileName = conf.getPath("results") + req.params.name + ".json";
 
 	fs.readFile(fileName, "utf-8", function(err, data) {
 		if (err) {
@@ -53,7 +55,7 @@ app.get('/test/:name', function (req, res) {
 
 
 app.listen(3030, function () {
-	console.log('Dashboard app listening on http://localhost:3030');
+	conf.log('Dashboard app listening on http://localhost:3030');
 });
 
 

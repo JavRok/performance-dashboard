@@ -6,22 +6,26 @@
 var CheckForTests = require('./checkForPendingTests.js');
 var LaunchTests = require('./launchTest.js');
 var SaveHistory = require('./saveTestHistory.js');
-var Config = require('../Model/TestConfig.js');
-var conf = new Config('./config.json');
+var Config = require('../Model/TestConfig.js'),
+	conf = Config();
 
 // Every 15 minutes
 var checkTimeout = 15 * 60 * 1000;
 // Every 1h
 var launchTestTimeout = 60 * 60 * 1000;
+// Delay the execution 1 min to ensure check timer runs before
+var delayTestLaunch = 60 * 1000;
 // Every 24h
 var saveHistoryTimeout = 24 * 60 * 60 * 1000;
 
-Config.log("Starting the performance-dashboard application. Ctrl+C to terminate it.");
+conf.log("Starting the performance-dashboard application. Ctrl+C to terminate it.");
 
-// Launch one test for every site in config.json
-var testInterval = setInterval(() => {
-	LaunchTests.run();
-}, launchTestTimeout);
+// Launch one test for every site in config
+setTimeout(()=> {
+	var testInterval = setInterval(() => {
+		LaunchTests.run();
+	}, launchTestTimeout);
+}, delayTestLaunch);
 
 
 // Check for test results, for tests that are on pending state
@@ -37,5 +41,5 @@ var historyInterval = setInterval (() => {
 
 
 // Call it first time
-LaunchTests.run();
-// CheckForTests.run();
+CheckForTests.run();
+// LaunchTests.run();

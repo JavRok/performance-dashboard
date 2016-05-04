@@ -3,34 +3,37 @@
  * The results are gathered by checkForPendingTests.js, that needs to be run periodically
  */
 
-// var sites = ['https://www.tele2.nl'];
-
 var fs = require('fs');
 var WebPageTest = require('webpagetest');
 
-var Config = require('../Model/TestConfig.js');
+var Config = require('../Model/TestConfig.js'),
+	conf = Config();
+var Util = require('../Helper/util.js');
+var Locations = require('../Model/Locations.js'),
+	locs = new Locations();
+
 
 function run () {
-	var conf = new Config('./config.json');
 	var wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
-	var locations = conf.get('locations');
+	var location = locs.getBestLocation()
 	var sites = conf.get('sites');
 
 	// Launch the test
 	sites.forEach (function (url) {
-		wpt.runTest(url, {'location': locations[0]} ,(err, result) => {
+		wpt.runTest(url, {'location': location} ,(err, result) => {
 
-			if (err) return Config.log(err, true);
-			if (result.statusCode !== 200) return Config.log(result.statusText, true);
+			if (err) return conf.log(err, true);
+			if (result.statusCode !== 200) return conf.log(result.statusText, true);
+			// TODO: On error, select next location
 
 			// File with timestamp and ID
-			var filename = 'wpt.org.json/pending/' + Config.getDateTime() + "-" + result.data.testId + ".json";
+			var filename = conf.getPath('pending') + Util.getDateTime() + "-" + result.data.testId + ".json";
 
             fs.writeFile(filename, JSON.stringify(result, null, 2), (err) => {
 				if (err) {
-					Config.log(err, true);
+					conf.log(err, true);
 				} else {
-					Config.log("Test launched, file created in "+ filename);
+					conf.log(`Test launched in ${location}, file created in ${filename}`);
 				}
 			});
 		});
@@ -39,7 +42,7 @@ function run () {
 
 
 // Run if file was invoked directly, otherwise leverage on outside script
-if (process && process.argv.length > 1 && process.argv[1].indexOf("launchTest.js") !== -1) {
+if (Util.isCalledFromCommandLine("launchTest.js")) {
 	run();
 }
 

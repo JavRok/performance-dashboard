@@ -1,7 +1,15 @@
-/* Config for the tests, including sites to test, locations and API key */
+/*
+ * Config for the tests, including sites to test, locations and API key
+ * Uses singleton pattern
+ */
 "use strict";
 
 var fs = require('fs');
+var defaultConfig = "./config.json";
+var util = require('../Helper/util.js');
+
+var config;
+
 
 class TestConfig {
 	constructor (filePath) {
@@ -20,42 +28,30 @@ class TestConfig {
 		return this.config[prop];
 	}
 
-	/* Get Date Time in a filename friendly format */
-	static getDateTime() {
-
-		var date = new Date();
-
-		var hour = date.getHours();
-		hour = (hour < 10 ? "0" : "") + hour;
-
-		var min  = date.getMinutes();
-		min = (min < 10 ? "0" : "") + min;
-
-		var sec  = date.getSeconds();
-		sec = (sec < 10 ? "0" : "") + sec;
-
-		var year = date.getFullYear();
-
-		var month = date.getMonth() + 1;
-		month = (month < 10 ? "0" : "") + month;
-
-		var day  = date.getDate();
-		day = (day < 10 ? "0" : "") + day;
-
-		return year + "" + month + "" + day + "-" + hour + "" + min + "" + sec;
-
+	// Returns a folder path
+	getPath(folder) {
+		return this.config.outputFolder.path + "/" + this.config.outputFolder.subfolders[folder] + "/";
 	}
 
-	/* Log everything with a timestamp */
-	static log (text, error) {
+	// Log everything with a timestamp
+	log (text, error) {
 		if (error) {
-			console.error(this.getDateTime() + ": [ERROR] " + text);
+			console.error(util.getDateTime() + ": [ERROR] " + text);
 		} else {
-			console.log(this.getDateTime() + ": " + text);
+			console.log(util.getDateTime() + ": " + text);
 		}
 
 	}
 
 }
 
-module.exports = TestConfig;
+var createConfig = function createConfig() {
+	if (!config) {
+		config = new TestConfig(defaultConfig);
+	}
+	return config;
+}
+
+
+
+module.exports = createConfig;

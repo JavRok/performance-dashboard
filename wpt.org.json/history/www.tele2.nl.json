@@ -250,5 +250,33 @@
       "totalTime": 3073.5,
       "visuallyComplete": 2607.5
     }
+  },
+  {
+    "id": "2016-04-22",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160429_ZJ_EZ3",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Cable",
+    "date": 1461283200,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 2004649,
+      "ttfb": 835,
+      "startRender": 2452,
+      "domReadyEvent": 2251,
+      "loadEvent": 5061,
+      "totalTime": 5187.5,
+      "visuallyComplete": 5062
+    },
+    "repeatView": {
+      "requests": 30,
+      "bytesIn": 130704.5,
+      "ttfb": 729.5,
+      "startRender": 2038,
+      "domReadyEvent": 1887,
+      "loadEvent": 3059,
+      "totalTime": 3137.5,
+      "visuallyComplete": 2759
+    }
   }
 ]

@@ -68,3 +68,13 @@ body {
 .legend .ct-series-f:before {
 	border-color: black;
 }
+
+
+select {
+	padding: .5em 1em;
+	cursor: pointer;
+}
+.filters{
+	float: right;
+	margin-right: 1em;
+}

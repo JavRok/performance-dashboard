@@ -240,5 +240,33 @@
       "totalTime": 3229,
       "visuallyComplete": 3221
     }
+  },
+  {
+    "id": "2016-04-22",
+    "location": "Amsterdam_IISpeed:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160429_K6_EZ5",
+    "domain": "https://forum.tele2.nl",
+    "connectivity": "Cable",
+    "date": 1461283200,
+    "firstView": {
+      "requests": 106.5,
+      "bytesIn": 1870328.5,
+      "ttfb": 1718,
+      "startRender": 4194,
+      "domReadyEvent": 4101.5,
+      "loadEvent": 7321,
+      "totalTime": 7504,
+      "visuallyComplete": 6549
+    },
+    "repeatView": {
+      "requests": 23.5,
+      "bytesIn": 253371.5,
+      "ttfb": 1045,
+      "startRender": 2601.5,
+      "domReadyEvent": 2569,
+      "loadEvent": 3936.5,
+      "totalTime": 4044,
+      "visuallyComplete": 3373
+    }
   }
 ]
