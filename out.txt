@@ -1,0 +1,29 @@
+{
+  "id": "160509_38_TZF",
+  "location": "EU_Ams_Wptdriver:Chrome",
+  "url": "http://www.webpagetest.org/results.php?test=160509_38_TZF",
+  "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+  "connectivity": "Cable",
+  "date": 1462800823,
+  "firstView": {
+    "requests": 174,
+    "bytesIn": 3166715,
+    "ttfb": 1016,
+    "startRender": 9801,
+    "domReadyEvent": 6545,
+    "loadEvent": 13005,
+    "totalTime": 13011,
+    "visuallyComplete": 11906
+  },
+  "repeatView": {
+    "requests": 129,
+    "bytesIn": 256057,
+    "ttfb": 1045,
+    "startRender": 5985,
+    "domReadyEvent": 6119,
+    "loadEvent": 10187,
+    "totalTime": 10245,
+    "visuallyComplete": 10886
+  },
+  "queuedTime": "2016-05-09T15:31:33.000Z"
+}

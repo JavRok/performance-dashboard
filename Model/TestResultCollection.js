@@ -95,6 +95,66 @@ class TestResultCollection {
 	}
 
 
+	/*
+	 * Returns a subset of current tests of a certain recent day
+	 * @param {int} day in relative to current day, where 0=today, -1=yesterday, etc
+	 * @return {array} Array of exactly 24 test objects, with possible null values
+	 */
+	get24hResults(day) {
+
+		var dateObj = new Date();
+		var result = {
+			"hours": [],
+			"tests": []
+		};
+
+		dateObj.setDate(dateObj.getDate() + day);
+		// Last 24h (includes today and possibly yesterday partly)
+		if(day === 0) {
+			var hour = new Date().getHours();  // Get current hour
+			for (let i=0; i<24; i++){
+				if (hour === -1) {
+					hour = 23;
+					dateObj.setDate(dateObj.getDate()-1);  // Move day to yesterday
+				}
+				result.hours.unshift(hour);
+				dateObj.setHours(hour);
+				result.tests.unshift(this.getSingleResultByHour(dateObj.getTime()));
+				hour--;
+			}
+
+		// A whole day from 0 to 23h
+		} else {
+			for (let i=0; i<24; i++){
+				result.hours.push(i);
+				dateObj.setHours(i);
+				result.tests.push(this.getSingleResultByHour(dateObj.getTime()));
+			}
+		}
+
+		return result;
+	}
+
+
+	/*
+	 * Searches for a test with the specified date time, within the same hour.
+	 * @return {TestResult} or null
+	 */
+	getSingleResultByHour(timestamp) {
+		// isoTime contains date and hour only, f.i. "2016-05-05T13"
+		var isoTime = new Date(timestamp).toISOString().substr(0, 13);
+		var dateObj;
+		// Get results from same day
+		for(var i=0; i<this.tests.length; i++) {
+			dateObj = new Date(this.tests[i].date * 1000);
+			if(dateObj.toISOString().substr(0, 13) === isoTime) {
+				return this.tests[i];
+			}
+		}
+		return null;
+	}
+
+
     toString () {
         return JSON.stringify(this.tests, null, 2);
     }

@@ -7,11 +7,14 @@ var WebPageTest = require('webpagetest');
 
 var TestResult = require('../Model/TestResult.js');
 var TestResultCollection = require('../Model/TestResultCollection.js');
-var Util = require('../Helper/util.js');
+var util = require('../Helper/util.js');
 var Config = require('../Model/TestConfig.js'),
 	conf = Config();
 var pendingDir = conf.getPath("pending");
 
+
+// Map of the queued time (when we requested the test), used to calculate waiting times on specific locations
+var queuedTimes = new Map();
 
 // Checks for tests in pending state, and tries to get the result if they're finished
 function run () {
@@ -48,6 +51,7 @@ function checkTestStatus (id, fileName) {
 
 		switch(true) {
 			case (data.statusCode === 200):
+				queuedTimes.set(id, util.parseDateFromFile(fileName));
 				wpt.results(id, processTestResult);
 				// Delete the pending state file
 				fs.unlink(pendingDir + fileName, ()=>{});
@@ -73,7 +77,10 @@ function processTestResult(err, result) {
     // console.log(result.data.runs);return;
 	var test = new TestResult(result);
     var tests;
-    var fileName = conf.getPath('results') + Util.getFileNameFromUrl(test.domain);
+    var fileName = conf.getPath('results') + util.getFileNameFromUrl(test.domain);
+
+	// Add starting time (not when the test actually started)
+	test.queuedTime = queuedTimes.get(test.id);
 
     fs.stat(fileName, (err, stats) => {
         // File doesn't exist, create it.
@@ -85,6 +92,8 @@ function processTestResult(err, result) {
         // File exists, overwrite it
         } else {
             fs.readFile(fileName, "utf-8", function(err, data) {
+				if (err) return conf.log(err, true);
+				
                 tests = new TestResultCollection (JSON.parse(data));
                 tests.addOrdered(test);
                 fs.writeFile(fileName, tests, function() {});
@@ -98,7 +107,7 @@ function processTestResult(err, result) {
 
 
 // Run if file was invoked directly, otherwise leverage on outside script
-if (Util.isCalledFromCommandLine("checkForPendingTests.js")) {
+if (util.isCalledFromCommandLine("checkForPendingTests.js")) {
 	run();
 }
 

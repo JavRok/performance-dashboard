@@ -11,6 +11,8 @@ var util = require('../Helper/util.js')
 
 var locationsFile = conf.get("outputFolder").path + "/locations.json";
 
+var locations;
+
 class Locations {
 
 	constructor (filePath) {
@@ -27,17 +29,16 @@ class Locations {
 		var wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
 		wpt.getLocations({}, (err, result) => {
 			if (err) return conf.log(err, true);
-			if (result.statusCode !== 200) return conf.log(result.statusText, true);
+			if (result.response.statusCode !== 200) return conf.log(result.response.statusText, true);
 
 			// Fill the array with usage data.
-			this.locations = result.data;
+			this.locations = result.response.data;
 			// Write the file
-			fs.writeFile(locationsFile, this.locations, ()=>{});
+			fs.writeFile(locationsFile, JSON.stringify(this.locations, null, 2), ()=>{});
 		});
 	}
 
 	getBestLocation() {
-		debugger;
 		if (!this.preferred) {
 			this.preferred = conf.get('locations');
 		}
@@ -59,6 +60,12 @@ class Locations {
 
 }
 
-var locations = new Locations();
-locations.update();
-console.log(locations.getBestLocation());
+/* Singleton pattern */
+var createLocation = function createLocation() {
+	if (!locations) {
+		locations = new Locations();
+	}
+	return locations;
+}
+
+module.exports = createLocation;

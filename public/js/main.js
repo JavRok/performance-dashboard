@@ -29,7 +29,11 @@ function createChart () {
 			labelInterpolationFnc: function(value) {
 				return value / 1000 + 's';
 			}
-		}
+		},
+		lineSmooth: Chartist.Interpolation.cardinal({
+			fillHoles: true
+		}),
+		low: 0
 	});
 
 	console.log(chartData);
@@ -61,7 +65,7 @@ if (AJAX) {
 		// Get the test results for each URL
 		return Promise.all(
 			response.map(function(url) {
-				return AJAX.promiseGet("/test/" + url);
+				return AJAX.promiseGet("/test/" + url + "/day/0");
 			})
 		);
 
@@ -71,24 +75,39 @@ if (AJAX) {
 		responses.forEach(function(response, i) {
 			var singleTest = JSON.parse(response);
 
-			hourlyTests[i] = singleTest.data;
+			hourlyTests[i] = singleTest.data.tests;
 
 			// Let's try with last 24h results
-			var slice = singleTest.data.slice(-24);
-			var serie = slice.map(function(singleTest) {
-				return singleTest.firstView.totalTime;
+			// var slice = singleTest.data.slice(-24);
+			var serie = hourlyTests[i].map(function(singleTest) {
+				if (singleTest) {
+					return singleTest.firstView.totalTime;
+				}
+				return null;
 			});
 
 			chartData.series.push(serie);
+			chartData.labels = singleTest.data.hours;
 		});
 
-		for (var i=0; i < 24; i++) {
-			chartData.labels[i] = i;
-		}
+
 
 		createChart();
 	});
 }
+
+
+// Array with hours starting now
+/*var hours = [];
+var now = new Date().getHours();
+for (i=0; i<24; i++){
+	now = now - i;
+	if (now === -1) {
+		now = 23;
+	}
+	hours.push(now);
+}*/
+
 
 
 var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
@@ -113,7 +132,6 @@ function fillFilterDropdowns() {
 		option.value = "today";
 		options.push(option);
 	}
-
 
 }
 

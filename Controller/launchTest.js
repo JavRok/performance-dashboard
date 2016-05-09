@@ -10,17 +10,17 @@ var Config = require('../Model/TestConfig.js'),
 	conf = Config();
 var Util = require('../Helper/util.js');
 var Locations = require('../Model/Locations.js'),
-	locs = new Locations();
+	locs = Locations();
 
 
 function run () {
 	var wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
-	var location = locs.getBestLocation()
+	var location = locs.getBestLocation();
 	var sites = conf.get('sites');
 
 	// Launch the test
 	sites.forEach (function (url) {
-		wpt.runTest(url, {'location': location} ,(err, result) => {
+		wpt.runTest(url, {'location': location} , (err, result) => {
 
 			if (err) return conf.log(err, true);
 			if (result.statusCode !== 200) return conf.log(result.statusText, true);

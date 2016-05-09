@@ -5,7 +5,7 @@
 		"https://www.tele2.nl/shop/mobiel/smartphones",
 		"https://forum.tele2.nl"
 	],
-	"locations": ["Amsterdam_IISpeed:Chrome", "EU_Ams_Wptdriver:Chrome", "Brussels:Chrome", "ec2-eu-west-1:Chrome"],
+	"locations": ["EU_Ams_Wptdriver:Chrome", "Amsterdam_IISpeed:Chrome", "Brussels:Chrome", "ec2-eu-west-1:Chrome"],
 	"outputFolder": {
 		"path": "wpt.org.json",
 		"subfolders": {

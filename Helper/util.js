@@ -53,14 +53,17 @@ function medianForObject(values, propertyToOrder) {
  * Get Date Time in a filename friendly format (yyyy-mm-ddThh_mm_ss)
  */
 function getDateTime() {
-	return new Date().toISOString().substr(0, 19).replace(/:/g,"_");
+	// toISOString returns UTC instead of our timezone, let's apply the correct offset
+	var tzoffset = (new Date()).getTimezoneOffset() * 60000; //offset in milliseconds
+	var now = new Date(Date.now() - tzoffset);
+	return now.toISOString().substr(0, 19).replace(/:/g,"_");
 }
 /*
  * Parses the date from a file with date format as returned by 'getDateTime()'
  * @return {Date}
  */
 function parseDateFromFile(filename) {
-	return new Date(x.replace(/_/g, ":"));
+	return new Date(filename.substr(0, 19).replace(/_/g, ":"));
 }
 
 
@@ -83,6 +86,7 @@ function maxPos(arr) {
 module.exports = {
 	isCalledFromCommandLine: isCalledFromCommandLine,
 	getFileNameFromUrl: getFileNameFromUrl,
+	parseDateFromFile: parseDateFromFile,
 	medianForObject: medianForObject,
 	getDateTime: getDateTime,
 	minPos: minPos,
