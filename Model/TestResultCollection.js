@@ -154,6 +154,68 @@ class TestResultCollection {
 		return null;
 	}
 
+	/*
+	 * Returns a subset of current tests of a certain recent day
+	 * @param {int} month in relative to current month, where 0=this month, -1=last month, etc
+	 * @return {array} Array of ~30 test objects, with possible null values
+	 */
+	getMonthResults(month) {
+
+		var dateObj = new Date();
+		var result = {
+			"days": [],
+			"tests": []
+		};
+
+		dateObj.setMonth(dateObj.getMonth() + month);
+		// Current month (30 days of history starting today)
+		if(month === 0) {
+			var day = new Date().getDate();  // Get current day
+			for (let i=0; i<30; i++){
+				dateObj.setDate(day);
+				if (day === 0) {
+					day = dateObj.getDate();   // Move day to last day of previous month
+				}
+				result.days.unshift(day);
+				result.tests.unshift(this.getSingleResultByDay(dateObj.getTime()));
+				day--;
+			}
+
+			// A whole month
+		} else {
+			var nDays = this.daysInMonth(dateObj.getMonth() + 1, dateObj.getFullYear())
+			for (let i=0; i<nDays; i++){
+				result.days.push(i);
+				dateObj.setDate(i);
+				result.tests.push(this.getSingleResultByDay(dateObj.getTime()));
+			}
+		}
+
+		return result;
+	}
+
+	/*
+	 * Searches for a test with the specified timestamp, within the same day.
+	 * @return {TestResult} or null
+	 */
+	getSingleResultByDay(timestamp) {
+		// isoTime contains date only, f.i. "2016-05-05"
+		var isoTime = new Date(timestamp).toISOString().substr(0, 10);
+
+		// Get results from same day. The ISO date is already on the ID of the test
+		for(var i=0; i<this.tests.length; i++) {
+			if(this.tests[i].id === isoTime) {
+				return this.tests[i];
+			}
+		}
+		return null;
+	}
+
+
+	//Month is 1 based
+	daysInMonth(month,year) {
+		return new Date(year, month, 0).getDate();
+	}
 
     toString () {
         return JSON.stringify(this.tests, null, 2);

@@ -55,10 +55,9 @@ app.get('/test/:name/week', function (req, res) {
 
 
 // Endpoint for getting test results for a specific day (24h)
-// Receives a query param ?day=-1
+// Receives a named param day/1
 app.get('/test/:name/day/:day', function (req, res) {
 	var fileName = conf.getPath("results") + req.params.name + ".json";
-	// var day = req.query.day || 0;
 	var day = parseInt(req.params.day) || 0;
 	var testsCollection;
 
@@ -74,6 +73,28 @@ app.get('/test/:name/day/:day', function (req, res) {
 		}
 	});
 });
+
+
+// Endpoint for getting test results for a specific month (Daily result)
+// Receives a named param month/0
+app.get('/test/:name/month/:month', function (req, res) {
+	var fileName = conf.getPath("history") + req.params.name + ".json";
+	var month = parseInt(req.params.month) || 0;
+	var testsCollection;
+
+	fs.readFile(fileName, "utf-8", function(err, data) {
+		if (err) {
+			return res.json({"status": "error", "data": "Test not found"});
+		}
+		try {
+			testsCollection = new TestResultCollection(JSON.parse(data));
+			return res.json({"status": "ok", "data": testsCollection.getMonthResults(month)});
+		} catch(ex) {
+			return res.json({"status": "error", "data": ex});
+		}
+	});
+});
+
 
 
 

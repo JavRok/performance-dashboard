@@ -3099,5 +3099,36 @@
       "speedIndex": 2722
     },
     "queuedTime": "2016-05-11T15:40:50.000Z"
+  },
+  {
+    "id": "160511_YX_1ZDJ",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_YX_1ZDJ",
+    "domain": "https://forum.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462981417,
+    "firstView": {
+      "requests": 112,
+      "bytesIn": 1577574,
+      "ttfb": 298,
+      "startRender": 3020,
+      "domReadyEvent": 2828,
+      "loadEvent": 5081,
+      "totalTime": 5087,
+      "visuallyComplete": 3653,
+      "speedIndex": 3254
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 286203,
+      "ttfb": 243,
+      "startRender": 3061,
+      "domReadyEvent": 2750,
+      "loadEvent": 3971,
+      "totalTime": 3974,
+      "visuallyComplete": 8278,
+      "speedIndex": 3304
+    },
+    "queuedTime": "2016-05-11T17:40:50.000Z"
   }
 ]

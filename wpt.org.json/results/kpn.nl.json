@@ -649,5 +649,36 @@
       "speedIndex": 2425
     },
     "queuedTime": "2016-05-11T14:40:51.000Z"
+  },
+  {
+    "id": "160511_D9_1ZDK",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_D9_1ZDK",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462981461,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1733340,
+      "ttfb": 30,
+      "startRender": 1810,
+      "domReadyEvent": 1582,
+      "loadEvent": 3297,
+      "totalTime": 3343,
+      "visuallyComplete": 3926,
+      "speedIndex": 2591
+    },
+    "repeatView": {
+      "requests": 18,
+      "bytesIn": 116733,
+      "ttfb": 23,
+      "startRender": 2269,
+      "domReadyEvent": 845,
+      "loadEvent": 2566,
+      "totalTime": 2641,
+      "visuallyComplete": 3780,
+      "speedIndex": 2401
+    },
+    "queuedTime": "2016-05-11T17:40:50.000Z"
   }
 ]

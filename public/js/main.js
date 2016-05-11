@@ -120,13 +120,19 @@ function processTests(responses){
 	responses.forEach(function(response, i) {
 		var singleUrl = JSON.parse(response);
 
-		chartData.labels = singleUrl.data.hours;
+		if (singleUrl.data.hours) {
+			chartData.labels = singleUrl.data.hours;
+		} else if(singleUrl.data.days) {
+			chartData.labels = singleUrl.data.days;
+		}
+
 		singleUrl = singleUrl.data.tests;
 
 		// Store in the global variable
 		currentTests[i] = singleUrl;
-
-		fillChartData(singleUrl, 'totalTime');
+		if(singleUrl) {
+			fillChartData(singleUrl, 'totalTime');
+		}
 	});
 
 	createChart();
@@ -137,7 +143,6 @@ function processTests(responses){
  * @param {string} measureUnit can be 'totalTime', 'speedIndex', 'visuallyComplete', 'ttfb', etc.
  */
 function fillChartData(tests, measureUnit) {
-
 	var serie = tests.map(function(singleTest) {
 		if (singleTest && singleTest.firstView[measureUnit]) {
 			return singleTest.firstView[measureUnit];
@@ -158,6 +163,7 @@ function fillFilterDropdowns() {
 
 	var option,	dateObj;
 
+	// Fill the days dropdown
 	option = document.createElement("option");
 	option.textContent = "Yesterday";
 	option.value = -1;
@@ -173,6 +179,20 @@ function fillFilterDropdowns() {
 		option.value = -i;
 		nodes.daySelect.appendChild(option);
 	}
+
+	// Now the months
+	option = document.createElement("option");
+	option.textContent = "last 30 days";
+	option.value = 0;
+	nodes.monthSelect.appendChild(option);
+	for (var i=1; i < 12; i++) {
+		// Substract one month at a time
+		dateObj.setMonth(dateObj.getMonth() - i);
+		option = document.createElement("option");
+		option.textContent = months[dateObj.getMonth()];
+		option.value = -i;
+		nodes.monthSelect.appendChild(option);
+	}
 }
 
 fillFilterDropdowns();
@@ -185,6 +205,16 @@ nodes.daySelect.addEventListener("change", function(evt) {
 	).then(processTests);
 	nodes.measureSelect.selectedIndex = 0;
 }, false);
+
+nodes.monthSelect.addEventListener("change", function(evt) {
+	Promise.all(
+		urls.map(function(url) {
+			return AJAX.promiseGet("/test/" + url + "/month/"+ evt.target.value);
+		})
+	).then(processTests);
+	nodes.measureSelect.selectedIndex = 0;
+}, false);
+
 
 
 /*
