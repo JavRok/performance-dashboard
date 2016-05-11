@@ -15,12 +15,13 @@ var Locations = require('../Model/Locations.js'),
 
 function run () {
 	var wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
-	var location = locs.getBestLocation();
 	var sites = conf.get('sites');
+	var options = conf.get('testOptions');
+	options.location = locs.getBestLocation();
 
 	// Launch the test
 	sites.forEach (function (url) {
-		wpt.runTest(url, {'location': location} , (err, result) => {
+		wpt.runTest(url, options , (err, result) => {
 
 			if (err) return conf.log(err, true);
 			if (result.statusCode !== 200) return conf.log(result.statusText, true);
@@ -33,7 +34,7 @@ function run () {
 				if (err) {
 					conf.log(err, true);
 				} else {
-					conf.log(`Test launched in ${location}, file created in ${filename}`);
+					conf.log(`Test launched in ${options.location}, file created in ${filename}`);
 				}
 			});
 		});

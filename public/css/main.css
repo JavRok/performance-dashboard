@@ -1,5 +1,6 @@
 body {
 	background: #E3D5BE;
+	padding: 0 10px;
 }
 
 
@@ -9,18 +10,44 @@ body {
 	border: 1px solid #999;
 	padding: 0 0.5em;
 }
+.legend label {
+	display:block;
+	cursor: pointer;
+}
+.legend label input {
+	display: inline-block;
+	margin-right: 0.3em;
+}
 
-.legend > div:before {
+.legend > label:before {
 	content: "";
 	display: inline-block;
 	vertical-align: middle;
 	width: 2em;
 	border: 0.15em solid red;
+	margin-right: 0.5em;
+}
+
+select {
+	padding: .5em 1em;
+	cursor: pointer;
+}
+.filters{
+	float: right;
+	margin-right: 1em;
 }
 
 
 
-/* Override Chartist.js colors */
+/* Override Chartist.js styles */
+.ct-point {
+	cursor: pointer;
+}
+
+.ct-series.hidden {
+	display: none;
+}
+
 .ct-series-a .ct-line,
 .ct-series-a .ct-point {
 	stroke: red;
@@ -55,10 +82,10 @@ body {
 
 .ct-series-e .ct-line,
 .ct-series-e .ct-point {
-	stroke: pink;
+	stroke: darkorange;
 }
 .legend .ct-series-e:before {
-	border-color: pink;
+	border-color: darkorange;
 }
 
 .ct-series-f .ct-line,
@@ -69,12 +96,3 @@ body {
 	border-color: black;
 }
 
-
-select {
-	padding: .5em 1em;
-	cursor: pointer;
-}
-.filters{
-	float: right;
-	margin-right: 1em;
-}

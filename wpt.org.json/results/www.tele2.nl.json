@@ -1,5092 +1,5 @@
 [
   {
-    "id": "160425_78_S6J",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160425_78_S6J",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461591165,
-    "firstView": {
-      "requests": 72,
-      "bytesIn": 1948360,
-      "ttfb": 773,
-      "startRender": 2759,
-      "domReadyEvent": 2731,
-      "loadEvent": 5489,
-      "totalTime": 5635,
-      "visuallyComplete": 4912
-    },
-    "repeatView": {
-      "requests": 20,
-      "bytesIn": 112799,
-      "ttfb": 828,
-      "startRender": 2144,
-      "domReadyEvent": 2092,
-      "loadEvent": 3232,
-      "totalTime": 3313,
-      "visuallyComplete": 2879
-    }
-  },
-  {
-    "id": "160425_5W_SB4",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160425_5W_SB4",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461591334,
-    "firstView": {
-      "requests": 73,
-      "bytesIn": 1921389,
-      "ttfb": 761,
-      "startRender": 1631,
-      "domReadyEvent": 1821,
-      "loadEvent": 5509,
-      "totalTime": 5651,
-      "visuallyComplete": 5931
-    },
-    "repeatView": {
-      "requests": 22,
-      "bytesIn": 132982,
-      "ttfb": 767,
-      "startRender": 1938,
-      "domReadyEvent": 1881,
-      "loadEvent": 3108,
-      "totalTime": 3192,
-      "visuallyComplete": 2759
-    }
-  },
-  {
-    "id": "160425_MS_WKM",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160425_MS_WKM",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461595821,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2004961,
-      "ttfb": 866,
-      "startRender": 2451,
-      "domReadyEvent": 2442,
-      "loadEvent": 6194,
-      "totalTime": 6356,
-      "visuallyComplete": 6548
-    },
-    "repeatView": {
-      "requests": 30,
-      "bytesIn": 129134,
-      "ttfb": 760,
-      "startRender": 4091,
-      "domReadyEvent": 3902,
-      "loadEvent": 6240,
-      "totalTime": 6397,
-      "visuallyComplete": 4705
-    }
-  },
-  {
-    "id": "160425_NM_YNQ",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160425_NM_YNQ",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461599657,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2001185,
-      "ttfb": 851,
-      "startRender": 2556,
-      "domReadyEvent": 2526,
-      "loadEvent": 5679,
-      "totalTime": 5822,
-      "visuallyComplete": 4605
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131330,
-      "ttfb": 689,
-      "startRender": 1736,
-      "domReadyEvent": 1740,
-      "loadEvent": 3004,
-      "totalTime": 3082,
-      "visuallyComplete": 2657
-    }
-  },
-  {
-    "id": "160425_GD_10Z0",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160425_GD_10Z0",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461602837,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2006071,
-      "ttfb": 815,
-      "startRender": 3069,
-      "domReadyEvent": 2823,
-      "loadEvent": 5567,
-      "totalTime": 5708,
-      "visuallyComplete": 5015
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 130857,
-      "ttfb": 704,
-      "startRender": 1834,
-      "domReadyEvent": 1657,
-      "loadEvent": 2739,
-      "totalTime": 2798,
-      "visuallyComplete": 2553
-    }
-  },
-  {
-    "id": "160425_W7_1339",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160425_W7_1339",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461606597,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2006083,
-      "ttfb": 788,
-      "startRender": 2659,
-      "domReadyEvent": 2456,
-      "loadEvent": 5043,
-      "totalTime": 5169,
-      "visuallyComplete": 4295
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131258,
-      "ttfb": 749,
-      "startRender": 1735,
-      "domReadyEvent": 1690,
-      "loadEvent": 2725,
-      "totalTime": 2795,
-      "visuallyComplete": 2452
-    }
-  },
-  {
-    "id": "160425_SA_157R",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160425_SA_157R",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461610112,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2006678,
-      "ttfb": 827,
-      "startRender": 2450,
-      "domReadyEvent": 2311,
-      "loadEvent": 5141,
-      "totalTime": 5268,
-      "visuallyComplete": 3165
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 131047,
-      "ttfb": 786,
-      "startRender": 1835,
-      "domReadyEvent": 1806,
-      "loadEvent": 2875,
-      "totalTime": 2950,
-      "visuallyComplete": 2558
-    }
-  },
-  {
-    "id": "160425_C8_1DPZ",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160425_C8_1DPZ",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461613634,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 1998858,
-      "ttfb": 839,
-      "startRender": 2455,
-      "domReadyEvent": 2359,
-      "loadEvent": 5272,
-      "totalTime": 5400,
-      "visuallyComplete": 4707
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 131003,
-      "ttfb": 721,
-      "startRender": 1839,
-      "domReadyEvent": 1804,
-      "loadEvent": 2838,
-      "totalTime": 2914,
-      "visuallyComplete": 2557
-    }
-  },
-  {
-    "id": "160425_M0_1JS7",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160425_M0_1JS7",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461617234,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2006166,
-      "ttfb": 828,
-      "startRender": 2353,
-      "domReadyEvent": 2338,
-      "loadEvent": 5500,
-      "totalTime": 5633,
-      "visuallyComplete": 3272
-    },
-    "repeatView": {
-      "requests": 29,
-      "bytesIn": 128636,
-      "ttfb": 730,
-      "startRender": 1942,
-      "domReadyEvent": 1876,
-      "loadEvent": 3014,
-      "totalTime": 3086,
-      "visuallyComplete": 2761
-    }
-  },
-  {
-    "id": "160425_X1_1MN7",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160425_X1_1MN7",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461620833,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2002351,
-      "ttfb": 815,
-      "startRender": 2348,
-      "domReadyEvent": 2201,
-      "loadEvent": 4948,
-      "totalTime": 5071,
-      "visuallyComplete": 5727
-    },
-    "repeatView": {
-      "requests": 30,
-      "bytesIn": 128929,
-      "ttfb": 704,
-      "startRender": 1933,
-      "domReadyEvent": 1936,
-      "loadEvent": 2976,
-      "totalTime": 3043,
-      "visuallyComplete": 2856
-    }
-  },
-  {
-    "id": "160425_9R_1P7D",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160425_9R_1P7D",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461624463,
-    "firstView": {
-      "requests": 72,
-      "bytesIn": 1959519,
-      "ttfb": 754,
-      "startRender": 2452,
-      "domReadyEvent": 2272,
-      "loadEvent": 5041,
-      "totalTime": 5166,
-      "visuallyComplete": 4401
-    },
-    "repeatView": {
-      "requests": 20,
-      "bytesIn": 108765,
-      "ttfb": 812,
-      "startRender": 1738,
-      "domReadyEvent": 1705,
-      "loadEvent": 2775,
-      "totalTime": 2849,
-      "visuallyComplete": 2460
-    }
-  },
-  {
-    "id": "160425_KG_1S5Z",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160425_KG_1S5Z",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461628390,
-    "firstView": {
-      "requests": 72,
-      "bytesIn": 1960413,
-      "ttfb": 760,
-      "startRender": 2145,
-      "domReadyEvent": 2147,
-      "loadEvent": 4843,
-      "totalTime": 4967,
-      "visuallyComplete": 5319
-    },
-    "repeatView": {
-      "requests": 24,
-      "bytesIn": 110993,
-      "ttfb": 663,
-      "startRender": 1632,
-      "domReadyEvent": 1626,
-      "loadEvent": 2787,
-      "totalTime": 2858,
-      "visuallyComplete": 2452
-    }
-  },
-  {
-    "id": "160426_5F_1SP",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_5F_1SP",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461631671,
-    "firstView": {
-      "requests": 38,
-      "bytesIn": 909975,
-      "ttfb": 833,
-      "startRender": 2837,
-      "domReadyEvent": 0,
-      "loadEvent": 0,
-      "totalTime": 4115,
-      "visuallyComplete": 3067
-    },
-    "repeatView": null
-  },
-  {
-    "id": "160426_4Z_3CB",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_4Z_3CB",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461635237,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1953337,
-      "ttfb": 789,
-      "startRender": 2248,
-      "domReadyEvent": 2185,
-      "loadEvent": 4970,
-      "totalTime": 5088,
-      "visuallyComplete": 5527
-    },
-    "repeatView": {
-      "requests": 24,
-      "bytesIn": 110999,
-      "ttfb": 708,
-      "startRender": 1735,
-      "domReadyEvent": 1707,
-      "loadEvent": 3147,
-      "totalTime": 3222,
-      "visuallyComplete": 2659
-    }
-  },
-  {
-    "id": "160426_ZM_539",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_ZM_539",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461638906,
-    "firstView": {
-      "requests": 73,
-      "bytesIn": 1964089,
-      "ttfb": 776,
-      "startRender": 1941,
-      "domReadyEvent": 2438,
-      "loadEvent": 4832,
-      "totalTime": 4957,
-      "visuallyComplete": 3583
-    },
-    "repeatView": {
-      "requests": 23,
-      "bytesIn": 110688,
-      "ttfb": 724,
-      "startRender": 2143,
-      "domReadyEvent": 2072,
-      "loadEvent": 3160,
-      "totalTime": 3242,
-      "visuallyComplete": 2861
-    }
-  },
-  {
-    "id": "160426_2M_6S0",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_2M_6S0",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461642471,
-    "firstView": {
-      "requests": 72,
-      "bytesIn": 1962429,
-      "ttfb": 758,
-      "startRender": 2450,
-      "domReadyEvent": 2289,
-      "loadEvent": 5106,
-      "totalTime": 5234,
-      "visuallyComplete": 4089
-    },
-    "repeatView": {
-      "requests": 24,
-      "bytesIn": 110962,
-      "ttfb": 958,
-      "startRender": 1939,
-      "domReadyEvent": 1862,
-      "loadEvent": 2879,
-      "totalTime": 2946,
-      "visuallyComplete": 2656
-    }
-  },
-  {
-    "id": "160426_MG_8BV",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_MG_8BV",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461646062,
-    "firstView": {
-      "requests": 72,
-      "bytesIn": 1959400,
-      "ttfb": 829,
-      "startRender": 2251,
-      "domReadyEvent": 2244,
-      "loadEvent": 5647,
-      "totalTime": 5785,
-      "visuallyComplete": 4299
-    },
-    "repeatView": {
-      "requests": 24,
-      "bytesIn": 110903,
-      "ttfb": 688,
-      "startRender": 1636,
-      "domReadyEvent": 1552,
-      "loadEvent": 2611,
-      "totalTime": 2682,
-      "visuallyComplete": 2350
-    }
-  },
-  {
-    "id": "160426_0F_AA7",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_0F_AA7",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461649664,
-    "firstView": {
-      "requests": 72,
-      "bytesIn": 1959401,
-      "ttfb": 768,
-      "startRender": 2356,
-      "domReadyEvent": 2255,
-      "loadEvent": 5259,
-      "totalTime": 5390,
-      "visuallyComplete": 4092
-    },
-    "repeatView": {
-      "requests": 24,
-      "bytesIn": 110660,
-      "ttfb": 770,
-      "startRender": 1836,
-      "domReadyEvent": 1783,
-      "loadEvent": 2942,
-      "totalTime": 3017,
-      "visuallyComplete": 2673
-    }
-  },
-  {
-    "id": "160426_7A_C36",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_7A_C36",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461653275,
-    "firstView": {
-      "requests": 72,
-      "bytesIn": 1952514,
-      "ttfb": 812,
-      "startRender": 2349,
-      "domReadyEvent": 2305,
-      "loadEvent": 5290,
-      "totalTime": 5419,
-      "visuallyComplete": 5319
-    },
-    "repeatView": {
-      "requests": 24,
-      "bytesIn": 111137,
-      "ttfb": 818,
-      "startRender": 2352,
-      "domReadyEvent": 2367,
-      "loadEvent": 3710,
-      "totalTime": 3813,
-      "visuallyComplete": 3476
-    }
-  },
-  {
-    "id": "160426_TG_E1P",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_TG_E1P",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461660148,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 1997823,
-      "ttfb": 920,
-      "startRender": 2861,
-      "domReadyEvent": 2774,
-      "loadEvent": 6126,
-      "totalTime": 6296,
-      "visuallyComplete": 4910
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 131251,
-      "ttfb": 737,
-      "startRender": 2549,
-      "domReadyEvent": 2264,
-      "loadEvent": 3874,
-      "totalTime": 3975,
-      "visuallyComplete": 3369
-    }
-  },
-  {
-    "id": "160426_3J_G4V",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_3J_G4V",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461660438,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1958507,
-      "ttfb": 764,
-      "startRender": 2547,
-      "domReadyEvent": 2399,
-      "loadEvent": 5818,
-      "totalTime": 5964,
-      "visuallyComplete": 3469
-    },
-    "repeatView": {
-      "requests": 23,
-      "bytesIn": 110657,
-      "ttfb": 788,
-      "startRender": 2245,
-      "domReadyEvent": 2198,
-      "loadEvent": 3422,
-      "totalTime": 3503,
-      "visuallyComplete": 3273
-    }
-  },
-  {
-    "id": "160426_0K_JFR",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_0K_JFR",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461664712,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2008476,
-      "ttfb": 821,
-      "startRender": 2552,
-      "domReadyEvent": 2571,
-      "loadEvent": 6061,
-      "totalTime": 6207,
-      "visuallyComplete": 6339
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 126442,
-      "ttfb": 726,
-      "startRender": 2248,
-      "domReadyEvent": 2196,
-      "loadEvent": 3283,
-      "totalTime": 3376,
-      "visuallyComplete": 2964
-    }
-  },
-  {
-    "id": "160426_K0_MJZ",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_K0_MJZ",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461668983,
-    "firstView": {
-      "requests": 81,
-      "bytesIn": 2011000,
-      "ttfb": 769,
-      "startRender": 2247,
-      "domReadyEvent": 2123,
-      "loadEvent": 5106,
-      "totalTime": 5228,
-      "visuallyComplete": 4398
-    },
-    "repeatView": {
-      "requests": 32,
-      "bytesIn": 135068,
-      "ttfb": 884,
-      "startRender": 2342,
-      "domReadyEvent": 0,
-      "loadEvent": 0,
-      "totalTime": 3658,
-      "visuallyComplete": 3271
-    }
-  },
-  {
-    "id": "160426_DE_PJG",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_DE_PJG",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461672648,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2000463,
-      "ttfb": 788,
-      "startRender": 2441,
-      "domReadyEvent": 2440,
-      "loadEvent": 5399,
-      "totalTime": 5532,
-      "visuallyComplete": 4696
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 135128,
-      "ttfb": 702,
-      "startRender": 813,
-      "domReadyEvent": 1949,
-      "loadEvent": 3446,
-      "totalTime": 3538,
-      "visuallyComplete": 2966
-    }
-  },
-  {
-    "id": "160426_80_RXK",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_80_RXK",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461675079,
-    "firstView": {
-      "requests": 81,
-      "bytesIn": 1984112,
-      "ttfb": 876,
-      "startRender": 2037,
-      "domReadyEvent": 2022,
-      "loadEvent": 4596,
-      "totalTime": 4721,
-      "visuallyComplete": 5213
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 130859,
-      "ttfb": 783,
-      "startRender": 1734,
-      "domReadyEvent": 1685,
-      "loadEvent": 2860,
-      "totalTime": 2939,
-      "visuallyComplete": 2654
-    }
-  },
-  {
-    "id": "160426_CY_V53",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_CY_V53",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461678528,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2008443,
-      "ttfb": 861,
-      "startRender": 2659,
-      "domReadyEvent": 2659,
-      "loadEvent": 6045,
-      "totalTime": 6197,
-      "visuallyComplete": 4707
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135401,
-      "ttfb": 763,
-      "startRender": 2246,
-      "domReadyEvent": 2067,
-      "loadEvent": 3375,
-      "totalTime": 3458,
-      "visuallyComplete": 3269
-    }
-  },
-  {
-    "id": "160426_NG_XR4",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_NG_XR4",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461682171,
-    "firstView": {
-      "requests": 81,
-      "bytesIn": 1989442,
-      "ttfb": 800,
-      "startRender": 1837,
-      "domReadyEvent": 1761,
-      "loadEvent": 4914,
-      "totalTime": 5033,
-      "visuallyComplete": 5525
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 150497,
-      "ttfb": 745,
-      "startRender": 2047,
-      "domReadyEvent": 1860,
-      "loadEvent": 3062,
-      "totalTime": 3142,
-      "visuallyComplete": 2761
-    }
-  },
-  {
-    "id": "160426_4S_ZV3",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_4S_ZV3",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461685725,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2008207,
-      "ttfb": 796,
-      "startRender": 2452,
-      "domReadyEvent": 2258,
-      "loadEvent": 4728,
-      "totalTime": 4849,
-      "visuallyComplete": 5320
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131698,
-      "ttfb": 736,
-      "startRender": 1939,
-      "domReadyEvent": 1940,
-      "loadEvent": 3127,
-      "totalTime": 3208,
-      "visuallyComplete": 2860
-    }
-  },
-  {
-    "id": "160426_0B_1V3B",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_0B_1V3B",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461691947,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2005296,
-      "ttfb": 832,
-      "startRender": 2555,
-      "domReadyEvent": 2510,
-      "loadEvent": 4886,
-      "totalTime": 5023,
-      "visuallyComplete": 5526
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 131549,
-      "ttfb": 864,
-      "startRender": 2247,
-      "domReadyEvent": 2108,
-      "loadEvent": 3316,
-      "totalTime": 3401,
-      "visuallyComplete": 3067
-    }
-  },
-  {
-    "id": "160426_WQ_2Q2N",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_WQ_2Q2N",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461692237,
-    "firstView": {
-      "requests": 72,
-      "bytesIn": 1963363,
-      "ttfb": 858,
-      "startRender": 2862,
-      "domReadyEvent": 2783,
-      "loadEvent": 5447,
-      "totalTime": 5588,
-      "visuallyComplete": 3680
-    },
-    "repeatView": {
-      "requests": 24,
-      "bytesIn": 111183,
-      "ttfb": 711,
-      "startRender": 1833,
-      "domReadyEvent": 1840,
-      "loadEvent": 3208,
-      "totalTime": 3289,
-      "visuallyComplete": 2858
-    }
-  },
-  {
-    "id": "160426_KF_32RE",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_KF_32RE",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461695876,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2005716,
-      "ttfb": 791,
-      "startRender": 2143,
-      "domReadyEvent": 2107,
-      "loadEvent": 5478,
-      "totalTime": 5617,
-      "visuallyComplete": 3985
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 131567,
-      "ttfb": 804,
-      "startRender": 2245,
-      "domReadyEvent": 2051,
-      "loadEvent": 3324,
-      "totalTime": 3415,
-      "visuallyComplete": 2968
-    }
-  },
-  {
-    "id": "160426_8K_3HMW",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_8K_3HMW",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461699438,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2004901,
-      "ttfb": 899,
-      "startRender": 2764,
-      "domReadyEvent": 2784,
-      "loadEvent": 6084,
-      "totalTime": 6249,
-      "visuallyComplete": 7058
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 131351,
-      "ttfb": 823,
-      "startRender": 2552,
-      "domReadyEvent": 2320,
-      "loadEvent": 3743,
-      "totalTime": 3854,
-      "visuallyComplete": 3375
-    }
-  },
-  {
-    "id": "160426_K4_3KXT",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_K4_3KXT",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461703062,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2006997,
-      "ttfb": 886,
-      "startRender": 2352,
-      "domReadyEvent": 2348,
-      "loadEvent": 4757,
-      "totalTime": 4877,
-      "visuallyComplete": 5318
-    },
-    "repeatView": {
-      "requests": 29,
-      "bytesIn": 128811,
-      "ttfb": 735,
-      "startRender": 1734,
-      "domReadyEvent": 1703,
-      "loadEvent": 2760,
-      "totalTime": 2829,
-      "visuallyComplete": 2455
-    }
-  },
-  {
-    "id": "160426_51_3PCA",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_51_3PCA",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461706672,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2005644,
-      "ttfb": 738,
-      "startRender": 2146,
-      "domReadyEvent": 2089,
-      "loadEvent": 4836,
-      "totalTime": 4950,
-      "visuallyComplete": 5424
-    },
-    "repeatView": {
-      "requests": 30,
-      "bytesIn": 129442,
-      "ttfb": 745,
-      "startRender": 1734,
-      "domReadyEvent": 1723,
-      "loadEvent": 2897,
-      "totalTime": 2974,
-      "visuallyComplete": 2348
-    }
-  },
-  {
-    "id": "160426_ZH_3R7R",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_ZH_3R7R",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461710606,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2007794,
-      "ttfb": 809,
-      "startRender": 2145,
-      "domReadyEvent": 2109,
-      "loadEvent": 5425,
-      "totalTime": 5561,
-      "visuallyComplete": 6039
-    },
-    "repeatView": {
-      "requests": 30,
-      "bytesIn": 129405,
-      "ttfb": 705,
-      "startRender": 1735,
-      "domReadyEvent": 1591,
-      "loadEvent": 2606,
-      "totalTime": 2676,
-      "visuallyComplete": 2352
-    }
-  },
-  {
-    "id": "160426_V2_3SNK",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160426_V2_3SNK",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461713870,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2007821,
-      "ttfb": 848,
-      "startRender": 2959,
-      "domReadyEvent": 2896,
-      "loadEvent": 5422,
-      "totalTime": 5549,
-      "visuallyComplete": 5007
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131615,
-      "ttfb": 671,
-      "startRender": 1838,
-      "domReadyEvent": 1685,
-      "loadEvent": 2846,
-      "totalTime": 2912,
-      "visuallyComplete": 2560
-    }
-  },
-  {
-    "id": "160427_GY_1M1",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_GY_1M1",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461717442,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2007790,
-      "ttfb": 810,
-      "startRender": 2461,
-      "domReadyEvent": 2390,
-      "loadEvent": 5277,
-      "totalTime": 5411,
-      "visuallyComplete": 5934
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 132204,
-      "ttfb": 736,
-      "startRender": 1829,
-      "domReadyEvent": 1841,
-      "loadEvent": 3050,
-      "totalTime": 3121,
-      "visuallyComplete": 2752
-    }
-  },
-  {
-    "id": "160427_1A_38N",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_1A_38N",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461721053,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2007804,
-      "ttfb": 953,
-      "startRender": 2657,
-      "domReadyEvent": 2640,
-      "loadEvent": 4965,
-      "totalTime": 5086,
-      "visuallyComplete": 5729
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 132057,
-      "ttfb": 799,
-      "startRender": 2139,
-      "domReadyEvent": 2039,
-      "loadEvent": 3278,
-      "totalTime": 3363,
-      "visuallyComplete": 2962
-    }
-  },
-  {
-    "id": "160427_68_53R",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_68_53R",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461724709,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2009543,
-      "ttfb": 766,
-      "startRender": 2248,
-      "domReadyEvent": 2225,
-      "loadEvent": 4895,
-      "totalTime": 5018,
-      "visuallyComplete": 3167
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 132132,
-      "ttfb": 712,
-      "startRender": 2144,
-      "domReadyEvent": 1904,
-      "loadEvent": 3111,
-      "totalTime": 3192,
-      "visuallyComplete": 2861
-    }
-  },
-  {
-    "id": "160427_AD_6ZD",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_AD_6ZD",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461728238,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2004682,
-      "ttfb": 854,
-      "startRender": 2145,
-      "domReadyEvent": 2142,
-      "loadEvent": 5095,
-      "totalTime": 5223,
-      "visuallyComplete": 5628
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131617,
-      "ttfb": 866,
-      "startRender": 2144,
-      "domReadyEvent": 1940,
-      "loadEvent": 3017,
-      "totalTime": 3092,
-      "visuallyComplete": 2760
-    }
-  },
-  {
-    "id": "160427_GN_8Q8",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_GN_8Q8",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461731966,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2005051,
-      "ttfb": 768,
-      "startRender": 2349,
-      "domReadyEvent": 2271,
-      "loadEvent": 5102,
-      "totalTime": 5226,
-      "visuallyComplete": 4606
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131532,
-      "ttfb": 711,
-      "startRender": 1637,
-      "domReadyEvent": 1606,
-      "loadEvent": 2780,
-      "totalTime": 2853,
-      "visuallyComplete": 2248
-    }
-  },
-  {
-    "id": "160427_YV_AR2",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_YV_AR2",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461735471,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2009278,
-      "ttfb": 771,
-      "startRender": 2246,
-      "domReadyEvent": 2220,
-      "loadEvent": 4722,
-      "totalTime": 4826,
-      "visuallyComplete": 4192
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131748,
-      "ttfb": 737,
-      "startRender": 1735,
-      "domReadyEvent": 1671,
-      "loadEvent": 2615,
-      "totalTime": 2683,
-      "visuallyComplete": 2350
-    }
-  },
-  {
-    "id": "160427_M9_CMV",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_M9_CMV",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461739037,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2005465,
-      "ttfb": 803,
-      "startRender": 2556,
-      "domReadyEvent": 2345,
-      "loadEvent": 4939,
-      "totalTime": 5072,
-      "visuallyComplete": 4298
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 131359,
-      "ttfb": 707,
-      "startRender": 1942,
-      "domReadyEvent": 1812,
-      "loadEvent": 3059,
-      "totalTime": 3138,
-      "visuallyComplete": 2763
-    }
-  },
-  {
-    "id": "160427_4M_EVC",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_4M_EVC",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461742637,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2009366,
-      "ttfb": 841,
-      "startRender": 2655,
-      "domReadyEvent": 2590,
-      "loadEvent": 5472,
-      "totalTime": 5608,
-      "visuallyComplete": 4601
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 132161,
-      "ttfb": 822,
-      "startRender": 1837,
-      "domReadyEvent": 1831,
-      "loadEvent": 2827,
-      "totalTime": 2903,
-      "visuallyComplete": 2658
-    }
-  },
-  {
-    "id": "160427_MD_H14",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_MD_H14",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461747456,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2007728,
-      "ttfb": 806,
-      "startRender": 2550,
-      "domReadyEvent": 2468,
-      "loadEvent": 5818,
-      "totalTime": 5964,
-      "visuallyComplete": 4495
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 132264,
-      "ttfb": 744,
-      "startRender": 1838,
-      "domReadyEvent": 1817,
-      "loadEvent": 2854,
-      "totalTime": 2928,
-      "visuallyComplete": 2557
-    }
-  },
-  {
-    "id": "160427_QM_KCF",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_QM_KCF",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461750211,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2007252,
-      "ttfb": 852,
-      "startRender": 2350,
-      "domReadyEvent": 2340,
-      "loadEvent": 5306,
-      "totalTime": 5433,
-      "visuallyComplete": 5933
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131411,
-      "ttfb": 697,
-      "startRender": 1633,
-      "domReadyEvent": 1586,
-      "loadEvent": 2756,
-      "totalTime": 2826,
-      "visuallyComplete": 2350
-    }
-  },
-  {
-    "id": "160427_XT_NM4",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_XT_NM4",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461753479,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2004199,
-      "ttfb": 841,
-      "startRender": 2352,
-      "domReadyEvent": 2358,
-      "loadEvent": 4998,
-      "totalTime": 5119,
-      "visuallyComplete": 5628
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131716,
-      "ttfb": 733,
-      "startRender": 1838,
-      "domReadyEvent": 1777,
-      "loadEvent": 3040,
-      "totalTime": 3109,
-      "visuallyComplete": 2657
-    }
-  },
-  {
-    "id": "160427_P9_QS8",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_P9_QS8",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461757708,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2011935,
-      "ttfb": 846,
-      "startRender": 2350,
-      "domReadyEvent": 2324,
-      "loadEvent": 5088,
-      "totalTime": 5220,
-      "visuallyComplete": 4092
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131629,
-      "ttfb": 801,
-      "startRender": 2041,
-      "domReadyEvent": 1862,
-      "loadEvent": 2971,
-      "totalTime": 3043,
-      "visuallyComplete": 2758
-    }
-  },
-  {
-    "id": "160427_FK_TNE",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_FK_TNE",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461760833,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2005068,
-      "ttfb": 814,
-      "startRender": 2356,
-      "domReadyEvent": 2355,
-      "loadEvent": 5554,
-      "totalTime": 5694,
-      "visuallyComplete": 6446
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 131343,
-      "ttfb": 723,
-      "startRender": 1736,
-      "domReadyEvent": 1725,
-      "loadEvent": 2795,
-      "totalTime": 2866,
-      "visuallyComplete": 2555
-    }
-  },
-  {
-    "id": "160427_0S_XVT",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_0S_XVT",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461765638,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1955009,
-      "ttfb": 843,
-      "startRender": 2456,
-      "domReadyEvent": 2417,
-      "loadEvent": 4844,
-      "totalTime": 4970,
-      "visuallyComplete": 5427
-    },
-    "repeatView": {
-      "requests": 23,
-      "bytesIn": 110913,
-      "ttfb": 704,
-      "startRender": 1841,
-      "domReadyEvent": 1684,
-      "loadEvent": 2780,
-      "totalTime": 2847,
-      "visuallyComplete": 2454
-    }
-  },
-  {
-    "id": "160427_4T_105A",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_4T_105A",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461768048,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2005693,
-      "ttfb": 862,
-      "startRender": 2454,
-      "domReadyEvent": 2289,
-      "loadEvent": 5532,
-      "totalTime": 5672,
-      "visuallyComplete": 3170
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131617,
-      "ttfb": 741,
-      "startRender": 1920,
-      "domReadyEvent": 1832,
-      "loadEvent": 2978,
-      "totalTime": 3067,
-      "visuallyComplete": 2637
-    }
-  },
-  {
-    "id": "160427_XT_12FE",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_XT_12FE",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461771436,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2008419,
-      "ttfb": 791,
-      "startRender": 2248,
-      "domReadyEvent": 2222,
-      "loadEvent": 5112,
-      "totalTime": 5239,
-      "visuallyComplete": 4297
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 131398,
-      "ttfb": 694,
-      "startRender": 1731,
-      "domReadyEvent": 1689,
-      "loadEvent": 2948,
-      "totalTime": 3028,
-      "visuallyComplete": 2550
-    }
-  },
-  {
-    "id": "160427_0B_14QF",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_0B_14QF",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461775046,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1958496,
-      "ttfb": 822,
-      "startRender": 2351,
-      "domReadyEvent": 2329,
-      "loadEvent": 5374,
-      "totalTime": 5501,
-      "visuallyComplete": 4092
-    },
-    "repeatView": {
-      "requests": 23,
-      "bytesIn": 110798,
-      "ttfb": 766,
-      "startRender": 1836,
-      "domReadyEvent": 1848,
-      "loadEvent": 2917,
-      "totalTime": 2992,
-      "visuallyComplete": 2659
-    }
-  },
-  {
-    "id": "160427_2N_16P0",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_2N_16P0",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461778673,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2001060,
-      "ttfb": 772,
-      "startRender": 2761,
-      "domReadyEvent": 2698,
-      "loadEvent": 5842,
-      "totalTime": 5991,
-      "visuallyComplete": 4707
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 131090,
-      "ttfb": 778,
-      "startRender": 2044,
-      "domReadyEvent": 1847,
-      "loadEvent": 3004,
-      "totalTime": 3083,
-      "visuallyComplete": 2662
-    }
-  },
-  {
-    "id": "160427_KZ_18SY",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_KZ_18SY",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461782238,
-    "firstView": {
-      "requests": 84,
-      "bytesIn": 2013641,
-      "ttfb": 2084,
-      "startRender": 3581,
-      "domReadyEvent": 9069,
-      "loadEvent": 10258,
-      "totalTime": 10504,
-      "visuallyComplete": 9832
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 131269,
-      "ttfb": 715,
-      "startRender": 1941,
-      "domReadyEvent": 1765,
-      "loadEvent": 2748,
-      "totalTime": 2807,
-      "visuallyComplete": 2453
-    }
-  },
-  {
-    "id": "160427_5Y_1B41",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_5Y_1B41",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461785841,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2008980,
-      "ttfb": 816,
-      "startRender": 2144,
-      "domReadyEvent": 2138,
-      "loadEvent": 4626,
-      "totalTime": 4745,
-      "visuallyComplete": 3475
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 131260,
-      "ttfb": 720,
-      "startRender": 2144,
-      "domReadyEvent": 2119,
-      "loadEvent": 3289,
-      "totalTime": 3373,
-      "visuallyComplete": 3069
-    }
-  },
-  {
-    "id": "160427_00_1DX5",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_00_1DX5",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461789472,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2005053,
-      "ttfb": 781,
-      "startRender": 2353,
-      "domReadyEvent": 2345,
-      "loadEvent": 5238,
-      "totalTime": 5370,
-      "visuallyComplete": 3169
-    },
-    "repeatView": {
-      "requests": 29,
-      "bytesIn": 129036,
-      "ttfb": 738,
-      "startRender": 1633,
-      "domReadyEvent": 1630,
-      "loadEvent": 2743,
-      "totalTime": 2814,
-      "visuallyComplete": 2353
-    }
-  },
-  {
-    "id": "160427_QQ_1FV1",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_QQ_1FV1",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461793037,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2013390,
-      "ttfb": 887,
-      "startRender": 2858,
-      "domReadyEvent": 2756,
-      "loadEvent": 5908,
-      "totalTime": 6056,
-      "visuallyComplete": 6545
-    },
-    "repeatView": {
-      "requests": 30,
-      "bytesIn": 129418,
-      "ttfb": 760,
-      "startRender": 1838,
-      "domReadyEvent": 1662,
-      "loadEvent": 2635,
-      "totalTime": 2708,
-      "visuallyComplete": 2453
-    }
-  },
-  {
-    "id": "160427_8S_1J7G",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_8S_1J7G",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461796640,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2007994,
-      "ttfb": 817,
-      "startRender": 2350,
-      "domReadyEvent": 2330,
-      "loadEvent": 5311,
-      "totalTime": 5450,
-      "visuallyComplete": 4501
-    },
-    "repeatView": {
-      "requests": 30,
-      "bytesIn": 129293,
-      "ttfb": 736,
-      "startRender": 1737,
-      "domReadyEvent": 1692,
-      "loadEvent": 2850,
-      "totalTime": 2927,
-      "visuallyComplete": 2460
-    }
-  },
-  {
-    "id": "160427_KX_1KMZ",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160427_KX_1KMZ",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461800240,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2007293,
-      "ttfb": 864,
-      "startRender": 2352,
-      "domReadyEvent": 2305,
-      "loadEvent": 6984,
-      "totalTime": 7154,
-      "visuallyComplete": 4194
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131695,
-      "ttfb": 689,
-      "startRender": 1943,
-      "domReadyEvent": 1905,
-      "loadEvent": 2979,
-      "totalTime": 3057,
-      "visuallyComplete": 2762
-    }
-  },
-  {
-    "id": "160428_M2_1NG",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_M2_1NG",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461803837,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2002934,
-      "ttfb": 812,
-      "startRender": 2451,
-      "domReadyEvent": 2417,
-      "loadEvent": 4886,
-      "totalTime": 5017,
-      "visuallyComplete": 5521
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131622,
-      "ttfb": 698,
-      "startRender": 2129,
-      "domReadyEvent": 2102,
-      "loadEvent": 3524,
-      "totalTime": 3626,
-      "visuallyComplete": 3152
-    }
-  },
-  {
-    "id": "160428_W7_3MG",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_W7_3MG",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461807563,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2008637,
-      "ttfb": 802,
-      "startRender": 2553,
-      "domReadyEvent": 2433,
-      "loadEvent": 5618,
-      "totalTime": 5756,
-      "visuallyComplete": 4499
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 130843,
-      "ttfb": 802,
-      "startRender": 2342,
-      "domReadyEvent": 2287,
-      "loadEvent": 3707,
-      "totalTime": 3810,
-      "visuallyComplete": 3475
-    }
-  },
-  {
-    "id": "160428_V0_5QF",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_V0_5QF",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461811084,
-    "firstView": {
-      "requests": 74,
-      "bytesIn": 1958104,
-      "ttfb": 871,
-      "startRender": 2656,
-      "domReadyEvent": 2486,
-      "loadEvent": 5984,
-      "totalTime": 6133,
-      "visuallyComplete": 4400
-    },
-    "repeatView": {
-      "requests": 25,
-      "bytesIn": 111851,
-      "ttfb": 772,
-      "startRender": 2031,
-      "domReadyEvent": 2019,
-      "loadEvent": 3131,
-      "totalTime": 3208,
-      "visuallyComplete": 2855
-    }
-  },
-  {
-    "id": "160428_3N_7P7",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_3N_7P7",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461814675,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2009314,
-      "ttfb": 732,
-      "startRender": 2248,
-      "domReadyEvent": 2259,
-      "loadEvent": 5061,
-      "totalTime": 5182,
-      "visuallyComplete": 3990
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 132210,
-      "ttfb": 707,
-      "startRender": 1737,
-      "domReadyEvent": 1599,
-      "loadEvent": 2633,
-      "totalTime": 2700,
-      "visuallyComplete": 2351
-    }
-  },
-  {
-    "id": "160428_FM_9GE",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_FM_9GE",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461818241,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2003638,
-      "ttfb": 820,
-      "startRender": 2658,
-      "domReadyEvent": 2547,
-      "loadEvent": 5956,
-      "totalTime": 6107,
-      "visuallyComplete": 3682
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131655,
-      "ttfb": 686,
-      "startRender": 1634,
-      "domReadyEvent": 1631,
-      "loadEvent": 2752,
-      "totalTime": 2819,
-      "visuallyComplete": 2454
-    }
-  },
-  {
-    "id": "160428_HX_BKE",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_HX_BKE",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461821841,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1958726,
-      "ttfb": 780,
-      "startRender": 2250,
-      "domReadyEvent": 2241,
-      "loadEvent": 4828,
-      "totalTime": 4951,
-      "visuallyComplete": 4506
-    },
-    "repeatView": {
-      "requests": 24,
-      "bytesIn": 111326,
-      "ttfb": 779,
-      "startRender": 1940,
-      "domReadyEvent": 1920,
-      "loadEvent": 2973,
-      "totalTime": 3055,
-      "visuallyComplete": 2658
-    }
-  },
-  {
-    "id": "160428_89_DTV",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_89_DTV",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461825686,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2012651,
-      "ttfb": 859,
-      "startRender": 2348,
-      "domReadyEvent": 2198,
-      "loadEvent": 5269,
-      "totalTime": 5401,
-      "visuallyComplete": 5830
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131649,
-      "ttfb": 713,
-      "startRender": 1735,
-      "domReadyEvent": 1671,
-      "loadEvent": 2708,
-      "totalTime": 2775,
-      "visuallyComplete": 2351
-    }
-  },
-  {
-    "id": "160428_68_FWW",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_68_FWW",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461829079,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2005591,
-      "ttfb": 914,
-      "startRender": 2350,
-      "domReadyEvent": 2315,
-      "loadEvent": 5881,
-      "totalTime": 6027,
-      "visuallyComplete": 4503
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 126123,
-      "ttfb": 776,
-      "startRender": 1938,
-      "domReadyEvent": 1919,
-      "loadEvent": 3040,
-      "totalTime": 3120,
-      "visuallyComplete": 2867
-    }
-  },
-  {
-    "id": "160428_5S_J1R",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_5S_J1R",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461832744,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2005726,
-      "ttfb": 851,
-      "startRender": 2859,
-      "domReadyEvent": 2521,
-      "loadEvent": 5245,
-      "totalTime": 5372,
-      "visuallyComplete": 4807
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 131294,
-      "ttfb": 708,
-      "startRender": 2246,
-      "domReadyEvent": 2163,
-      "loadEvent": 3670,
-      "totalTime": 3766,
-      "visuallyComplete": 3272
-    }
-  },
-  {
-    "id": "160428_PR_M7T",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_PR_M7T",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461836240,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2007816,
-      "ttfb": 834,
-      "startRender": 2555,
-      "domReadyEvent": 2415,
-      "loadEvent": 5582,
-      "totalTime": 5723,
-      "visuallyComplete": 3988
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 132202,
-      "ttfb": 717,
-      "startRender": 2145,
-      "domReadyEvent": 1991,
-      "loadEvent": 3321,
-      "totalTime": 3408,
-      "visuallyComplete": 3071
-    }
-  },
-  {
-    "id": "160428_FX_PJE",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_FX_PJE",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461839912,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2022330,
-      "ttfb": 801,
-      "startRender": 2144,
-      "domReadyEvent": 3175,
-      "loadEvent": 6189,
-      "totalTime": 6345,
-      "visuallyComplete": 4192
-    },
-    "repeatView": {
-      "requests": 31,
-      "bytesIn": 129953,
-      "ttfb": 694,
-      "startRender": 1939,
-      "domReadyEvent": 1901,
-      "loadEvent": 3114,
-      "totalTime": 3197,
-      "visuallyComplete": 2757
-    }
-  },
-  {
-    "id": "160428_2D_RP4",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_2D_RP4",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461843733,
-    "firstView": {
-      "requests": 74,
-      "bytesIn": 1974076,
-      "ttfb": 1142,
-      "startRender": 2461,
-      "domReadyEvent": 3301,
-      "loadEvent": 6256,
-      "totalTime": 6418,
-      "visuallyComplete": 4194
-    },
-    "repeatView": {
-      "requests": 22,
-      "bytesIn": 109600,
-      "ttfb": 964,
-      "startRender": 2042,
-      "domReadyEvent": 1887,
-      "loadEvent": 2958,
-      "totalTime": 3038,
-      "visuallyComplete": 2658
-    }
-  },
-  {
-    "id": "160428_3B_V35",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_3B_V35",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461847064,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2003386,
-      "ttfb": 740,
-      "startRender": 2859,
-      "domReadyEvent": 2760,
-      "loadEvent": 5224,
-      "totalTime": 5368,
-      "visuallyComplete": 4395
-    },
-    "repeatView": {
-      "requests": 29,
-      "bytesIn": 129114,
-      "ttfb": 811,
-      "startRender": 2043,
-      "domReadyEvent": 1973,
-      "loadEvent": 3353,
-      "totalTime": 3446,
-      "visuallyComplete": 3274
-    }
-  },
-  {
-    "id": "160428_VD_XCA",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_VD_XCA",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461850709,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2003152,
-      "ttfb": 854,
-      "startRender": 2748,
-      "domReadyEvent": 2721,
-      "loadEvent": 5751,
-      "totalTime": 5898,
-      "visuallyComplete": 4410
-    },
-    "repeatView": {
-      "requests": 30,
-      "bytesIn": 129476,
-      "ttfb": 732,
-      "startRender": 2347,
-      "domReadyEvent": 2361,
-      "loadEvent": 3766,
-      "totalTime": 3864,
-      "visuallyComplete": 3371
-    }
-  },
-  {
-    "id": "160428_6K_100P",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_6K_100P",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461854277,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1962017,
-      "ttfb": 768,
-      "startRender": 2755,
-      "domReadyEvent": 2772,
-      "loadEvent": 5326,
-      "totalTime": 5464,
-      "visuallyComplete": 4699
-    },
-    "repeatView": {
-      "requests": 19,
-      "bytesIn": 109951,
-      "ttfb": 711,
-      "startRender": 1731,
-      "domReadyEvent": 0,
-      "loadEvent": 0,
-      "totalTime": 3137,
-      "visuallyComplete": 2754
-    }
-  },
-  {
-    "id": "160428_WP_147A",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_WP_147A",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461858378,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2012127,
-      "ttfb": 890,
-      "startRender": 2860,
-      "domReadyEvent": 2692,
-      "loadEvent": 5100,
-      "totalTime": 5232,
-      "visuallyComplete": 5216
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131709,
-      "ttfb": 789,
-      "startRender": 2044,
-      "domReadyEvent": 1832,
-      "loadEvent": 2868,
-      "totalTime": 2944,
-      "visuallyComplete": 2555
-    }
-  },
-  {
-    "id": "160428_JF_16BS",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_JF_16BS",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461865001,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1962151,
-      "ttfb": 768,
-      "startRender": 2450,
-      "domReadyEvent": 2170,
-      "loadEvent": 4653,
-      "totalTime": 4770,
-      "visuallyComplete": 3167
-    },
-    "repeatView": {
-      "requests": 23,
-      "bytesIn": 110820,
-      "ttfb": 818,
-      "startRender": 2140,
-      "domReadyEvent": 2052,
-      "loadEvent": 3204,
-      "totalTime": 3283,
-      "visuallyComplete": 2959
-    }
-  },
-  {
-    "id": "160428_34_18C7",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_34_18C7",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461865065,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2008935,
-      "ttfb": 784,
-      "startRender": 2246,
-      "domReadyEvent": 2051,
-      "loadEvent": 4706,
-      "totalTime": 4814,
-      "visuallyComplete": 3069
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 131163,
-      "ttfb": 712,
-      "startRender": 1941,
-      "domReadyEvent": 1954,
-      "loadEvent": 3162,
-      "totalTime": 3243,
-      "visuallyComplete": 2969
-    }
-  },
-  {
-    "id": "160428_V2_1AD3",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_V2_1AD3",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461868640,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1961740,
-      "ttfb": 940,
-      "startRender": 2759,
-      "domReadyEvent": 2537,
-      "loadEvent": 5233,
-      "totalTime": 5369,
-      "visuallyComplete": 4192
-    },
-    "repeatView": {
-      "requests": 23,
-      "bytesIn": 110708,
-      "ttfb": 732,
-      "startRender": 1634,
-      "domReadyEvent": 1610,
-      "loadEvent": 2581,
-      "totalTime": 2645,
-      "visuallyComplete": 2352
-    }
-  },
-  {
-    "id": "160428_Q4_1BZ5",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_Q4_1BZ5",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461872274,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2008436,
-      "ttfb": 785,
-      "startRender": 2246,
-      "domReadyEvent": 3263,
-      "loadEvent": 5400,
-      "totalTime": 5544,
-      "visuallyComplete": 4192
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 131225,
-      "ttfb": 812,
-      "startRender": 2147,
-      "domReadyEvent": 2125,
-      "loadEvent": 3215,
-      "totalTime": 3303,
-      "visuallyComplete": 2863
-    }
-  },
-  {
-    "id": "160428_13_1DZQ",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_13_1DZQ",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461878718,
-    "firstView": {
-      "requests": 88,
-      "bytesIn": 2009907,
-      "ttfb": 808,
-      "startRender": 2555,
-      "domReadyEvent": 2477,
-      "loadEvent": 5429,
-      "totalTime": 5565,
-      "visuallyComplete": 4603
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135573,
-      "ttfb": 750,
-      "startRender": 1632,
-      "domReadyEvent": 1611,
-      "loadEvent": 2622,
-      "totalTime": 2686,
-      "visuallyComplete": 2963
-    }
-  },
-  {
-    "id": "160428_76_1FRF",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_76_1FRF",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461879438,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2007766,
-      "ttfb": 819,
-      "startRender": 2146,
-      "domReadyEvent": 2049,
-      "loadEvent": 4523,
-      "totalTime": 4638,
-      "visuallyComplete": 5117
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131579,
-      "ttfb": 728,
-      "startRender": 1633,
-      "domReadyEvent": 1632,
-      "loadEvent": 2621,
-      "totalTime": 2684,
-      "visuallyComplete": 2357
-    }
-  },
-  {
-    "id": "160428_C8_1HFJ",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_C8_1HFJ",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461883074,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2007642,
-      "ttfb": 807,
-      "startRender": 2454,
-      "domReadyEvent": 2400,
-      "loadEvent": 4755,
-      "totalTime": 4876,
-      "visuallyComplete": 3991
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 132618,
-      "ttfb": 693,
-      "startRender": 1736,
-      "domReadyEvent": 1545,
-      "loadEvent": 2958,
-      "totalTime": 3033,
-      "visuallyComplete": 2253
-    }
-  },
-  {
-    "id": "160428_28_1P1S",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160428_28_1P1S",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461886672,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2006386,
-      "ttfb": 753,
-      "startRender": 2454,
-      "domReadyEvent": 2241,
-      "loadEvent": 6010,
-      "totalTime": 6162,
-      "visuallyComplete": 6250
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131456,
-      "ttfb": 909,
-      "startRender": 2042,
-      "domReadyEvent": 1854,
-      "loadEvent": 2916,
-      "totalTime": 2991,
-      "visuallyComplete": 2554
-    }
-  },
-  {
-    "id": "160429_TN_1P1",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_TN_1P1",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461890240,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2012917,
-      "ttfb": 818,
-      "startRender": 2349,
-      "domReadyEvent": 2227,
-      "loadEvent": 5626,
-      "totalTime": 5768,
-      "visuallyComplete": 3476
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131582,
-      "ttfb": 716,
-      "startRender": 2044,
-      "domReadyEvent": 1903,
-      "loadEvent": 3036,
-      "totalTime": 3102,
-      "visuallyComplete": 2653
-    }
-  },
-  {
-    "id": "160429_4J_3E4",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_4J_3E4",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461893839,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1959243,
-      "ttfb": 837,
-      "startRender": 2858,
-      "domReadyEvent": 2860,
-      "loadEvent": 5383,
-      "totalTime": 5523,
-      "visuallyComplete": 3780
-    },
-    "repeatView": {
-      "requests": 24,
-      "bytesIn": 111094,
-      "ttfb": 758,
-      "startRender": 2248,
-      "domReadyEvent": 2115,
-      "loadEvent": 3483,
-      "totalTime": 3576,
-      "visuallyComplete": 3168
-    }
-  },
-  {
-    "id": "160429_8P_579",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_8P_579",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461897473,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2006119,
-      "ttfb": 796,
-      "startRender": 2965,
-      "domReadyEvent": 2894,
-      "loadEvent": 5794,
-      "totalTime": 5940,
-      "visuallyComplete": 4399
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131574,
-      "ttfb": 741,
-      "startRender": 1853,
-      "domReadyEvent": 1879,
-      "loadEvent": 2915,
-      "totalTime": 2979,
-      "visuallyComplete": 2663
-    }
-  },
-  {
-    "id": "160429_4R_74J",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_4R_74J",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461901040,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2011045,
-      "ttfb": 773,
-      "startRender": 2254,
-      "domReadyEvent": 2274,
-      "loadEvent": 4938,
-      "totalTime": 5049,
-      "visuallyComplete": 3377
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131633,
-      "ttfb": 742,
-      "startRender": 1735,
-      "domReadyEvent": 1663,
-      "loadEvent": 2577,
-      "totalTime": 2651,
-      "visuallyComplete": 2350
-    }
-  },
-  {
-    "id": "160429_54_8VF",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_54_8VF",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461904639,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2007202,
-      "ttfb": 862,
-      "startRender": 2454,
-      "domReadyEvent": 2367,
-      "loadEvent": 4934,
-      "totalTime": 5058,
-      "visuallyComplete": 3269
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131641,
-      "ttfb": 696,
-      "startRender": 1736,
-      "domReadyEvent": 1674,
-      "loadEvent": 2690,
-      "totalTime": 2761,
-      "visuallyComplete": 2457
-    }
-  },
-  {
-    "id": "160429_36_AZA",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_36_AZA",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461908272,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2004611,
-      "ttfb": 725,
-      "startRender": 2558,
-      "domReadyEvent": 2380,
-      "loadEvent": 5521,
-      "totalTime": 5653,
-      "visuallyComplete": 4503
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 131573,
-      "ttfb": 694,
-      "startRender": 1736,
-      "domReadyEvent": 1711,
-      "loadEvent": 2711,
-      "totalTime": 2779,
-      "visuallyComplete": 2453
-    }
-  },
-  {
-    "id": "160429_TT_CYA",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_TT_CYA",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461911909,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2009007,
-      "ttfb": 751,
-      "startRender": 2554,
-      "domReadyEvent": 2482,
-      "loadEvent": 5318,
-      "totalTime": 5441,
-      "visuallyComplete": 4605
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 127193,
-      "ttfb": 761,
-      "startRender": 1942,
-      "domReadyEvent": 1771,
-      "loadEvent": 2907,
-      "totalTime": 2985,
-      "visuallyComplete": 2555
-    }
-  },
-  {
-    "id": "160429_ZJ_EZ3",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_ZJ_EZ3",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461915478,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1954915,
-      "ttfb": 767,
-      "startRender": 2254,
-      "domReadyEvent": 2252,
-      "loadEvent": 6216,
-      "totalTime": 6365,
-      "visuallyComplete": 4193
-    },
-    "repeatView": {
-      "requests": 23,
-      "bytesIn": 110716,
-      "ttfb": 765,
-      "startRender": 1733,
-      "domReadyEvent": 1730,
-      "loadEvent": 2830,
-      "totalTime": 2903,
-      "visuallyComplete": 2452
-    }
-  },
-  {
-    "id": "160429_Q3_HAF",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_Q3_HAF",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461949438,
-    "firstView": {
-      "requests": 72,
-      "bytesIn": 1968603,
-      "ttfb": 905,
-      "startRender": 2248,
-      "domReadyEvent": 3188,
-      "loadEvent": 6221,
-      "totalTime": 6401,
-      "visuallyComplete": 4093
-    },
-    "repeatView": {
-      "requests": 26,
-      "bytesIn": 116005,
-      "ttfb": 716,
-      "startRender": 2451,
-      "domReadyEvent": 2383,
-      "loadEvent": 3889,
-      "totalTime": 4010,
-      "visuallyComplete": 3375
-    }
-  },
-  {
-    "id": "160429_3H_P1G",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_3H_P1G",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461949728,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1973345,
-      "ttfb": 852,
-      "startRender": 2758,
-      "domReadyEvent": 2538,
-      "loadEvent": 5077,
-      "totalTime": 5235,
-      "visuallyComplete": 4807
-    },
-    "repeatView": {
-      "requests": 25,
-      "bytesIn": 118532,
-      "ttfb": 750,
-      "startRender": 2655,
-      "domReadyEvent": 2468,
-      "loadEvent": 4236,
-      "totalTime": 4368,
-      "visuallyComplete": 3678
-    }
-  },
-  {
-    "id": "160429_19_WW0",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_19_WW0",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461950135,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2023618,
-      "ttfb": 840,
-      "startRender": 2554,
-      "domReadyEvent": 2564,
-      "loadEvent": 5800,
-      "totalTime": 5992,
-      "visuallyComplete": 6139
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 138961,
-      "ttfb": 783,
-      "startRender": 2245,
-      "domReadyEvent": 2082,
-      "loadEvent": 3816,
-      "totalTime": 3935,
-      "visuallyComplete": 3064
-    }
-  },
-  {
-    "id": "160429_0H_11DQ",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_0H_11DQ",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461950341,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2026734,
-      "ttfb": 801,
-      "startRender": 2450,
-      "domReadyEvent": 2398,
-      "loadEvent": 5567,
-      "totalTime": 5745,
-      "visuallyComplete": 4297
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 138986,
-      "ttfb": 826,
-      "startRender": 2245,
-      "domReadyEvent": 2125,
-      "loadEvent": 3633,
-      "totalTime": 3737,
-      "visuallyComplete": 4191
-    }
-  },
-  {
-    "id": "160429_HN_THP",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_HN_THP",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461951785,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2019045,
-      "ttfb": 832,
-      "startRender": 2658,
-      "domReadyEvent": 2447,
-      "loadEvent": 5296,
-      "totalTime": 5450,
-      "visuallyComplete": 4399
-    },
-    "repeatView": {
-      "requests": 36,
-      "bytesIn": 135151,
-      "ttfb": 769,
-      "startRender": 2041,
-      "domReadyEvent": 2024,
-      "loadEvent": 3409,
-      "totalTime": 3519,
-      "visuallyComplete": 3068
-    }
-  },
-  {
-    "id": "160429_K6_13MW",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_K6_13MW",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461951965,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2019894,
-      "ttfb": 861,
-      "startRender": 2350,
-      "domReadyEvent": 2325,
-      "loadEvent": 5624,
-      "totalTime": 5805,
-      "visuallyComplete": 6241
-    },
-    "repeatView": {
-      "requests": 37,
-      "bytesIn": 135225,
-      "ttfb": 773,
-      "startRender": 2045,
-      "domReadyEvent": 2105,
-      "loadEvent": 3538,
-      "totalTime": 3659,
-      "visuallyComplete": 3066
-    }
-  },
-  {
-    "id": "160429_P1_KMQ",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_P1_KMQ",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461952347,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2014262,
-      "ttfb": 834,
-      "startRender": 2657,
-      "domReadyEvent": 3326,
-      "loadEvent": 5779,
-      "totalTime": 5950,
-      "visuallyComplete": 4398
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135320,
-      "ttfb": 704,
-      "startRender": 1938,
-      "domReadyEvent": 1915,
-      "loadEvent": 3414,
-      "totalTime": 3512,
-      "visuallyComplete": 2961
-    }
-  },
-  {
-    "id": "160429_PF_Z8K",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_PF_Z8K",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461952441,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2022537,
-      "ttfb": 842,
-      "startRender": 2653,
-      "domReadyEvent": 2559,
-      "loadEvent": 6611,
-      "totalTime": 6782,
-      "visuallyComplete": 6856
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135238,
-      "ttfb": 777,
-      "startRender": 2043,
-      "domReadyEvent": 2020,
-      "loadEvent": 3267,
-      "totalTime": 3384,
-      "visuallyComplete": 2862
-    }
-  },
-  {
-    "id": "160429_PN_R3H",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_PN_R3H",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461952536,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2022997,
-      "ttfb": 803,
-      "startRender": 2555,
-      "domReadyEvent": 2444,
-      "loadEvent": 5121,
-      "totalTime": 5278,
-      "visuallyComplete": 3478
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135444,
-      "ttfb": 749,
-      "startRender": 2556,
-      "domReadyEvent": 2336,
-      "loadEvent": 3964,
-      "totalTime": 4100,
-      "visuallyComplete": 3578
-    }
-  },
-  {
-    "id": "160429_4M_15XA",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_4M_15XA",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461959600,
-    "firstView": {
-      "requests": 84,
-      "bytesIn": 2020679,
-      "ttfb": 825,
-      "startRender": 2555,
-      "domReadyEvent": 2987,
-      "loadEvent": 5839,
-      "totalTime": 6033,
-      "visuallyComplete": 5218
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 129441,
-      "ttfb": 948,
-      "startRender": 2245,
-      "domReadyEvent": 2276,
-      "loadEvent": 4085,
-      "totalTime": 4219,
-      "visuallyComplete": 3576
-    }
-  },
-  {
-    "id": "160429_YN_17RR",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_YN_17RR",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461964473,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2024348,
-      "ttfb": 869,
-      "startRender": 2758,
-      "domReadyEvent": 2688,
-      "loadEvent": 5888,
-      "totalTime": 6082,
-      "visuallyComplete": 4806
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135250,
-      "ttfb": 769,
-      "startRender": 2043,
-      "domReadyEvent": 2010,
-      "loadEvent": 3544,
-      "totalTime": 3657,
-      "visuallyComplete": 2965
-    }
-  },
-  {
-    "id": "160429_E2_1BGQ",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_E2_1BGQ",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461964935,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1972414,
-      "ttfb": 818,
-      "startRender": 2553,
-      "domReadyEvent": 2359,
-      "loadEvent": 4739,
-      "totalTime": 4879,
-      "visuallyComplete": 5319
-    },
-    "repeatView": {
-      "requests": 23,
-      "bytesIn": 114866,
-      "ttfb": 731,
-      "startRender": 2040,
-      "domReadyEvent": 1885,
-      "loadEvent": 3466,
-      "totalTime": 3588,
-      "visuallyComplete": 2861
-    }
-  },
-  {
-    "id": "160429_EN_19H3",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_EN_19H3",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461965027,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2020645,
-      "ttfb": 829,
-      "startRender": 2554,
-      "domReadyEvent": 2510,
-      "loadEvent": 5908,
-      "totalTime": 6057,
-      "visuallyComplete": 6652
-    },
-    "repeatView": {
-      "requests": 37,
-      "bytesIn": 135274,
-      "ttfb": 749,
-      "startRender": 2042,
-      "domReadyEvent": 1976,
-      "loadEvent": 3328,
-      "totalTime": 3461,
-      "visuallyComplete": 3069
-    }
-  },
-  {
-    "id": "160429_AZ_1DBV",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_AZ_1DBV",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461966763,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1970041,
-      "ttfb": 825,
-      "startRender": 2561,
-      "domReadyEvent": 2551,
-      "loadEvent": 5114,
-      "totalTime": 5271,
-      "visuallyComplete": 5629
-    },
-    "repeatView": {
-      "requests": 24,
-      "bytesIn": 114909,
-      "ttfb": 725,
-      "startRender": 1945,
-      "domReadyEvent": 1934,
-      "loadEvent": 3228,
-      "totalTime": 3333,
-      "visuallyComplete": 2862
-    }
-  },
-  {
-    "id": "160429_4K_1F21",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_4K_1F21",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461969593,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2015463,
-      "ttfb": 898,
-      "startRender": 2454,
-      "domReadyEvent": 2364,
-      "loadEvent": 5133,
-      "totalTime": 5293,
-      "visuallyComplete": 4297
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 136446,
-      "ttfb": 788,
-      "startRender": 2243,
-      "domReadyEvent": 2164,
-      "loadEvent": 3525,
-      "totalTime": 3641,
-      "visuallyComplete": 3172
-    }
-  },
-  {
-    "id": "160429_N4_1GGM",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160429_N4_1GGM",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461973161,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2016741,
-      "ttfb": 867,
-      "startRender": 2453,
-      "domReadyEvent": 2339,
-      "loadEvent": 4976,
-      "totalTime": 5148,
-      "visuallyComplete": 5729
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 139435,
-      "ttfb": 770,
-      "startRender": 2447,
-      "domReadyEvent": 2352,
-      "loadEvent": 3969,
-      "totalTime": 4088,
-      "visuallyComplete": 3573
-    }
-  },
-  {
-    "id": "160430_NG_2X1",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_NG_2X1",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461976669,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2021351,
-      "ttfb": 793,
-      "startRender": 2453,
-      "domReadyEvent": 2978,
-      "loadEvent": 5015,
-      "totalTime": 5170,
-      "visuallyComplete": 4091
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 135777,
-      "ttfb": 720,
-      "startRender": 2247,
-      "domReadyEvent": 2134,
-      "loadEvent": 3825,
-      "totalTime": 3959,
-      "visuallyComplete": 3476
-    }
-  },
-  {
-    "id": "160430_ZG_9NT",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_ZG_9NT",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461980534,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2019625,
-      "ttfb": 798,
-      "startRender": 2759,
-      "domReadyEvent": 2593,
-      "loadEvent": 5788,
-      "totalTime": 5982,
-      "visuallyComplete": 4502
-    },
-    "repeatView": {
-      "requests": 36,
-      "bytesIn": 130323,
-      "ttfb": 782,
-      "startRender": 2143,
-      "domReadyEvent": 2067,
-      "loadEvent": 3474,
-      "totalTime": 3595,
-      "visuallyComplete": 2963
-    }
-  },
-  {
-    "id": "160430_DF_BJ8",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_DF_BJ8",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461983978,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1969704,
-      "ttfb": 821,
-      "startRender": 3163,
-      "domReadyEvent": 3027,
-      "loadEvent": 5581,
-      "totalTime": 5765,
-      "visuallyComplete": 6544
-    },
-    "repeatView": {
-      "requests": 26,
-      "bytesIn": 122000,
-      "ttfb": 770,
-      "startRender": 2347,
-      "domReadyEvent": 2316,
-      "loadEvent": 3934,
-      "totalTime": 4068,
-      "visuallyComplete": 3474
-    }
-  },
-  {
-    "id": "160430_1F_DW3",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_1F_DW3",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461987641,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2023959,
-      "ttfb": 772,
-      "startRender": 2557,
-      "domReadyEvent": 2449,
-      "loadEvent": 4797,
-      "totalTime": 4940,
-      "visuallyComplete": 4502
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 139490,
-      "ttfb": 829,
-      "startRender": 2044,
-      "domReadyEvent": 2106,
-      "loadEvent": 3437,
-      "totalTime": 3534,
-      "visuallyComplete": 3067
-    }
-  },
-  {
-    "id": "160430_07_FDG",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_07_FDG",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461991071,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2018111,
-      "ttfb": 905,
-      "startRender": 2452,
-      "domReadyEvent": 2398,
-      "loadEvent": 5951,
-      "totalTime": 6123,
-      "visuallyComplete": 3375
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 135331,
-      "ttfb": 728,
-      "startRender": 2041,
-      "domReadyEvent": 2010,
-      "loadEvent": 3305,
-      "totalTime": 3418,
-      "visuallyComplete": 2967
-    }
-  },
-  {
-    "id": "160430_29_H3N",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_29_H3N",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461994671,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1973764,
-      "ttfb": 799,
-      "startRender": 2554,
-      "domReadyEvent": 2566,
-      "loadEvent": 5186,
-      "totalTime": 5342,
-      "visuallyComplete": 3474
-    },
-    "repeatView": {
-      "requests": 22,
-      "bytesIn": 109169,
-      "ttfb": 723,
-      "startRender": 1940,
-      "domReadyEvent": 1825,
-      "loadEvent": 3133,
-      "totalTime": 3236,
-      "visuallyComplete": 2657
-    }
-  },
-  {
-    "id": "160430_J6_JMY",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_J6_JMY",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1461999209,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2023275,
-      "ttfb": 847,
-      "startRender": 3066,
-      "domReadyEvent": 2815,
-      "loadEvent": 5953,
-      "totalTime": 6130,
-      "visuallyComplete": 4501
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135268,
-      "ttfb": 759,
-      "startRender": 1942,
-      "domReadyEvent": 1921,
-      "loadEvent": 3156,
-      "totalTime": 3261,
-      "visuallyComplete": 2863
-    }
-  },
-  {
-    "id": "160430_WG_M3R",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_WG_M3R",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462002411,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2022907,
-      "ttfb": 836,
-      "startRender": 2863,
-      "domReadyEvent": 2650,
-      "loadEvent": 5704,
-      "totalTime": 5874,
-      "visuallyComplete": 4911
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 134956,
-      "ttfb": 707,
-      "startRender": 1940,
-      "domReadyEvent": 1831,
-      "loadEvent": 3309,
-      "totalTime": 3425,
-      "visuallyComplete": 2862
-    }
-  },
-  {
-    "id": "160430_YC_NSH",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_YC_NSH",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462005501,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2019084,
-      "ttfb": 835,
-      "startRender": 2666,
-      "domReadyEvent": 2640,
-      "loadEvent": 5110,
-      "totalTime": 5241,
-      "visuallyComplete": 5730
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 139037,
-      "ttfb": 848,
-      "startRender": 2141,
-      "domReadyEvent": 2040,
-      "loadEvent": 3360,
-      "totalTime": 3465,
-      "visuallyComplete": 3063
-    }
-  },
-  {
-    "id": "160430_KG_QBZ",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_KG_QBZ",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462009161,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2020806,
-      "ttfb": 848,
-      "startRender": 2556,
-      "domReadyEvent": 2463,
-      "loadEvent": 4816,
-      "totalTime": 4948,
-      "visuallyComplete": 3785
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 134813,
-      "ttfb": 804,
-      "startRender": 2247,
-      "domReadyEvent": 2104,
-      "loadEvent": 3977,
-      "totalTime": 4110,
-      "visuallyComplete": 3272
-    }
-  },
-  {
-    "id": "160430_55_S2D",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_55_S2D",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462012669,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2018194,
-      "ttfb": 890,
-      "startRender": 2760,
-      "domReadyEvent": 2598,
-      "loadEvent": 5324,
-      "totalTime": 5489,
-      "visuallyComplete": 3477
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 134899,
-      "ttfb": 694,
-      "startRender": 2039,
-      "domReadyEvent": 1868,
-      "loadEvent": 3417,
-      "totalTime": 3542,
-      "visuallyComplete": 2858
-    }
-  },
-  {
-    "id": "160430_9E_TJ0",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_9E_TJ0",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462016273,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2019713,
-      "ttfb": 830,
-      "startRender": 2649,
-      "domReadyEvent": 2508,
-      "loadEvent": 5053,
-      "totalTime": 5211,
-      "visuallyComplete": 5722
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 134917,
-      "ttfb": 745,
-      "startRender": 2042,
-      "domReadyEvent": 2017,
-      "loadEvent": 3561,
-      "totalTime": 3686,
-      "visuallyComplete": 3169
-    }
-  },
-  {
-    "id": "160430_26_W3V",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_26_W3V",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462019957,
-    "firstView": {
-      "requests": 80,
-      "bytesIn": 1988974,
-      "ttfb": 828,
-      "startRender": 2350,
-      "domReadyEvent": 2136,
-      "loadEvent": 4871,
-      "totalTime": 5018,
-      "visuallyComplete": 4194
-    },
-    "repeatView": {
-      "requests": 36,
-      "bytesIn": 159605,
-      "ttfb": 716,
-      "startRender": 2349,
-      "domReadyEvent": 2070,
-      "loadEvent": 4132,
-      "totalTime": 4261,
-      "visuallyComplete": 2964
-    }
-  },
-  {
-    "id": "160430_TT_XB2",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_TT_XB2",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462023471,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2020144,
-      "ttfb": 1018,
-      "startRender": 2555,
-      "domReadyEvent": 2416,
-      "loadEvent": 5378,
-      "totalTime": 5556,
-      "visuallyComplete": 6036
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135110,
-      "ttfb": 737,
-      "startRender": 2041,
-      "domReadyEvent": 2000,
-      "loadEvent": 3365,
-      "totalTime": 3476,
-      "visuallyComplete": 3066
-    }
-  },
-  {
-    "id": "160430_1P_YRM",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_1P_YRM",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462027183,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2022112,
-      "ttfb": 839,
-      "startRender": 2860,
-      "domReadyEvent": 2661,
-      "loadEvent": 6264,
-      "totalTime": 6487,
-      "visuallyComplete": 6546
-    },
-    "repeatView": {
-      "requests": 30,
-      "bytesIn": 133076,
-      "ttfb": 721,
-      "startRender": 1940,
-      "domReadyEvent": 1799,
-      "loadEvent": 3325,
-      "totalTime": 3434,
-      "visuallyComplete": 2663
-    }
-  },
-  {
-    "id": "160430_KX_1093",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_KX_1093",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462030850,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1974036,
-      "ttfb": 872,
-      "startRender": 2658,
-      "domReadyEvent": 2665,
-      "loadEvent": 5195,
-      "totalTime": 5355,
-      "visuallyComplete": 4707
-    },
-    "repeatView": {
-      "requests": 19,
-      "bytesIn": 112166,
-      "ttfb": 741,
-      "startRender": 2044,
-      "domReadyEvent": 1889,
-      "loadEvent": 3223,
-      "totalTime": 3326,
-      "visuallyComplete": 2862
-    }
-  },
-  {
-    "id": "160430_W3_11W7",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_W3_11W7",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462034301,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2026752,
-      "ttfb": 845,
-      "startRender": 2557,
-      "domReadyEvent": 2473,
-      "loadEvent": 4963,
-      "totalTime": 5139,
-      "visuallyComplete": 4298
-    },
-    "repeatView": {
-      "requests": 30,
-      "bytesIn": 138114,
-      "ttfb": 733,
-      "startRender": 2143,
-      "domReadyEvent": 2002,
-      "loadEvent": 3830,
-      "totalTime": 3964,
-      "visuallyComplete": 3065
-    }
-  },
-  {
-    "id": "160430_DM_13AF",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_DM_13AF",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462037870,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2023427,
-      "ttfb": 872,
-      "startRender": 2655,
-      "domReadyEvent": 2616,
-      "loadEvent": 5391,
-      "totalTime": 5564,
-      "visuallyComplete": 3987
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135300,
-      "ttfb": 732,
-      "startRender": 2146,
-      "domReadyEvent": 1958,
-      "loadEvent": 3407,
-      "totalTime": 3525,
-      "visuallyComplete": 2863
-    }
-  },
-  {
-    "id": "160430_4A_14P9",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_4A_14P9",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462041471,
-    "firstView": {
-      "requests": 84,
-      "bytesIn": 2022926,
-      "ttfb": 841,
-      "startRender": 3675,
-      "domReadyEvent": 3385,
-      "loadEvent": 6608,
-      "totalTime": 6802,
-      "visuallyComplete": 5315
-    },
-    "repeatView": {
-      "requests": 36,
-      "bytesIn": 136036,
-      "ttfb": 760,
-      "startRender": 2043,
-      "domReadyEvent": 2071,
-      "loadEvent": 3500,
-      "totalTime": 3604,
-      "visuallyComplete": 3271
-    }
-  },
-  {
-    "id": "160430_3N_15S6",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_3N_15S6",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462045069,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2026486,
-      "ttfb": 918,
-      "startRender": 3273,
-      "domReadyEvent": 2985,
-      "loadEvent": 5522,
-      "totalTime": 5696,
-      "visuallyComplete": 4914
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 135958,
-      "ttfb": 780,
-      "startRender": 2455,
-      "domReadyEvent": 2345,
-      "loadEvent": 3999,
-      "totalTime": 4125,
-      "visuallyComplete": 3584
-    }
-  },
-  {
-    "id": "160430_J1_176A",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_J1_176A",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462048670,
-    "firstView": {
-      "requests": 74,
-      "bytesIn": 1965282,
-      "ttfb": 804,
-      "startRender": 2657,
-      "domReadyEvent": 2911,
-      "loadEvent": 6957,
-      "totalTime": 7151,
-      "visuallyComplete": 4501
-    },
-    "repeatView": {
-      "requests": 19,
-      "bytesIn": 85555,
-      "ttfb": 783,
-      "startRender": 2145,
-      "domReadyEvent": 0,
-      "loadEvent": 0,
-      "totalTime": 11274,
-      "visuallyComplete": 9417
-    }
-  },
-  {
-    "id": "160430_PN_18AC",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_PN_18AC",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462052366,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1976500,
-      "ttfb": 839,
-      "startRender": 2453,
-      "domReadyEvent": 2327,
-      "loadEvent": 5358,
-      "totalTime": 5527,
-      "visuallyComplete": 3581
-    },
-    "repeatView": {
-      "requests": 26,
-      "bytesIn": 114882,
-      "ttfb": 748,
-      "startRender": 2350,
-      "domReadyEvent": 2332,
-      "loadEvent": 3877,
-      "totalTime": 4017,
-      "visuallyComplete": 3373
-    }
-  },
-  {
-    "id": "160430_N1_19BG",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_N1_19BG",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462055903,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2016049,
-      "ttfb": 827,
-      "startRender": 2142,
-      "domReadyEvent": 2624,
-      "loadEvent": 5499,
-      "totalTime": 5644,
-      "visuallyComplete": 4293
-    },
-    "repeatView": {
-      "requests": 36,
-      "bytesIn": 135432,
-      "ttfb": 707,
-      "startRender": 2040,
-      "domReadyEvent": 1941,
-      "loadEvent": 3376,
-      "totalTime": 3484,
-      "visuallyComplete": 2962
-    }
-  },
-  {
-    "id": "160430_H3_1A81",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160430_H3_1A81",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462059473,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2027268,
-      "ttfb": 1146,
-      "startRender": 3171,
-      "domReadyEvent": 3497,
-      "loadEvent": 6132,
-      "totalTime": 6301,
-      "visuallyComplete": 4709
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135315,
-      "ttfb": 708,
-      "startRender": 1940,
-      "domReadyEvent": 1924,
-      "loadEvent": 3182,
-      "totalTime": 3292,
-      "visuallyComplete": 2862
-    }
-  },
-  {
-    "id": "160501_Y8_1K2",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_Y8_1K2",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462063327,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2015796,
-      "ttfb": 876,
-      "startRender": 2556,
-      "domReadyEvent": 2951,
-      "loadEvent": 5396,
-      "totalTime": 5552,
-      "visuallyComplete": 4605
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135308,
-      "ttfb": 708,
-      "startRender": 816,
-      "domReadyEvent": 1931,
-      "loadEvent": 3463,
-      "totalTime": 3584,
-      "visuallyComplete": 3171
-    }
-  },
-  {
-    "id": "160501_ME_32P",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_ME_32P",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462066797,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2018659,
-      "ttfb": 857,
-      "startRender": 2762,
-      "domReadyEvent": 0,
-      "loadEvent": 0,
-      "totalTime": 6559,
-      "visuallyComplete": 6147
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 147054,
-      "ttfb": 848,
-      "startRender": 2551,
-      "domReadyEvent": 2375,
-      "loadEvent": 4080,
-      "totalTime": 4205,
-      "visuallyComplete": 3572
-    }
-  },
-  {
-    "id": "160501_SX_4FH",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_SX_4FH",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462070300,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2026050,
-      "ttfb": 1098,
-      "startRender": 2760,
-      "domReadyEvent": 2685,
-      "loadEvent": 5239,
-      "totalTime": 5383,
-      "visuallyComplete": 4194
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135279,
-      "ttfb": 821,
-      "startRender": 2146,
-      "domReadyEvent": 2077,
-      "loadEvent": 3553,
-      "totalTime": 3678,
-      "visuallyComplete": 2965
-    }
-  },
-  {
-    "id": "160501_S0_5Z8",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_S0_5Z8",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462074084,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2014818,
-      "ttfb": 887,
-      "startRender": 2658,
-      "domReadyEvent": 2475,
-      "loadEvent": 5274,
-      "totalTime": 5437,
-      "visuallyComplete": 5936
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 136336,
-      "ttfb": 705,
-      "startRender": 2042,
-      "domReadyEvent": 1937,
-      "loadEvent": 3210,
-      "totalTime": 3327,
-      "visuallyComplete": 2964
-    }
-  },
-  {
-    "id": "160501_87_78T",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_87_78T",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462077953,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2019551,
-      "ttfb": 799,
-      "startRender": 2658,
-      "domReadyEvent": 2524,
-      "loadEvent": 4974,
-      "totalTime": 5141,
-      "visuallyComplete": 3990
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135500,
-      "ttfb": 685,
-      "startRender": 2146,
-      "domReadyEvent": 1988,
-      "loadEvent": 3493,
-      "totalTime": 3604,
-      "visuallyComplete": 3069
-    }
-  },
-  {
-    "id": "160501_SN_8PG",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_SN_8PG",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462081072,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2026662,
-      "ttfb": 836,
-      "startRender": 2760,
-      "domReadyEvent": 2678,
-      "loadEvent": 5476,
-      "totalTime": 5659,
-      "visuallyComplete": 5423
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135375,
-      "ttfb": 703,
-      "startRender": 814,
-      "domReadyEvent": 1830,
-      "loadEvent": 3181,
-      "totalTime": 3284,
-      "visuallyComplete": 2866
-    }
-  },
-  {
-    "id": "160501_BY_9V2",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_BY_9V2",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462085276,
-    "firstView": {
-      "requests": 73,
-      "bytesIn": 1965756,
-      "ttfb": 854,
-      "startRender": 2146,
-      "domReadyEvent": 2951,
-      "loadEvent": 5851,
-      "totalTime": 6043,
-      "visuallyComplete": 4605
-    },
-    "repeatView": {
-      "requests": 23,
-      "bytesIn": 114528,
-      "ttfb": 680,
-      "startRender": 1939,
-      "domReadyEvent": 1875,
-      "loadEvent": 3120,
-      "totalTime": 3199,
-      "visuallyComplete": 2759
-    }
-  },
-  {
-    "id": "160501_AF_B0V",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_AF_B0V",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462089279,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2018951,
-      "ttfb": 858,
-      "startRender": 2556,
-      "domReadyEvent": 2366,
-      "loadEvent": 5300,
-      "totalTime": 5442,
-      "visuallyComplete": 5936
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 135014,
-      "ttfb": 759,
-      "startRender": 2454,
-      "domReadyEvent": 2158,
-      "loadEvent": 3579,
-      "totalTime": 3699,
-      "visuallyComplete": 3069
-    }
-  },
-  {
-    "id": "160501_60_CDD",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_60_CDD",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462092603,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2025729,
-      "ttfb": 822,
-      "startRender": 3169,
-      "domReadyEvent": 2953,
-      "loadEvent": 5581,
-      "totalTime": 5745,
-      "visuallyComplete": 5320
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 136116,
-      "ttfb": 750,
-      "startRender": 2454,
-      "domReadyEvent": 2186,
-      "loadEvent": 3688,
-      "totalTime": 3826,
-      "visuallyComplete": 3171
-    }
-  },
-  {
-    "id": "160501_WC_DSN",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_WC_DSN",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462095566,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2030234,
-      "ttfb": 786,
-      "startRender": 2859,
-      "domReadyEvent": 2644,
-      "loadEvent": 5531,
-      "totalTime": 5702,
-      "visuallyComplete": 4702
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 134975,
-      "ttfb": 692,
-      "startRender": 1939,
-      "domReadyEvent": 1885,
-      "loadEvent": 3291,
-      "totalTime": 3395,
-      "visuallyComplete": 3067
-    }
-  },
-  {
-    "id": "160501_3S_F3M",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_3S_F3M",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462099273,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2026022,
-      "ttfb": 861,
-      "startRender": 2963,
-      "domReadyEvent": 2808,
-      "loadEvent": 6498,
-      "totalTime": 6695,
-      "visuallyComplete": 4601
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 140128,
-      "ttfb": 715,
-      "startRender": 2554,
-      "domReadyEvent": 2438,
-      "loadEvent": 4351,
-      "totalTime": 4491,
-      "visuallyComplete": 3577
-    }
-  },
-  {
-    "id": "160501_ZX_G75",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_ZX_G75",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462103066,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2023131,
-      "ttfb": 827,
-      "startRender": 2347,
-      "domReadyEvent": 2220,
-      "loadEvent": 4662,
-      "totalTime": 4818,
-      "visuallyComplete": 5317
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 135131,
-      "ttfb": 735,
-      "startRender": 1941,
-      "domReadyEvent": 1948,
-      "loadEvent": 3346,
-      "totalTime": 3465,
-      "visuallyComplete": 2967
-    }
-  },
-  {
-    "id": "160501_JE_HSE",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_JE_HSE",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462106601,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1977053,
-      "ttfb": 791,
-      "startRender": 2248,
-      "domReadyEvent": 2099,
-      "loadEvent": 5403,
-      "totalTime": 5565,
-      "visuallyComplete": 6140
-    },
-    "repeatView": {
-      "requests": 23,
-      "bytesIn": 114748,
-      "ttfb": 737,
-      "startRender": 2138,
-      "domReadyEvent": 2105,
-      "loadEvent": 4102,
-      "totalTime": 4222,
-      "visuallyComplete": 3162
-    }
-  },
-  {
-    "id": "160501_WQ_JXE",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_WQ_JXE",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462109874,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2026958,
-      "ttfb": 815,
-      "startRender": 2556,
-      "domReadyEvent": 2480,
-      "loadEvent": 4868,
-      "totalTime": 5028,
-      "visuallyComplete": 4706
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135570,
-      "ttfb": 718,
-      "startRender": 2040,
-      "domReadyEvent": 2018,
-      "loadEvent": 3308,
-      "totalTime": 3419,
-      "visuallyComplete": 3064
-    }
-  },
-  {
-    "id": "160501_W1_MMM",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_W1_MMM",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462118622,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2028195,
-      "ttfb": 800,
-      "startRender": 2966,
-      "domReadyEvent": 2858,
-      "loadEvent": 5334,
-      "totalTime": 5487,
-      "visuallyComplete": 4810
-    },
-    "repeatView": {
-      "requests": 30,
-      "bytesIn": 133265,
-      "ttfb": 822,
-      "startRender": 2145,
-      "domReadyEvent": 2121,
-      "loadEvent": 3441,
-      "totalTime": 3559,
-      "visuallyComplete": 3169
-    }
-  },
-  {
-    "id": "160501_KT_P9C",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_KT_P9C",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462119499,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2026399,
-      "ttfb": 805,
-      "startRender": 2051,
-      "domReadyEvent": 3170,
-      "loadEvent": 6409,
-      "totalTime": 6591,
-      "visuallyComplete": 4297
-    },
-    "repeatView": {
-      "requests": 29,
-      "bytesIn": 133105,
-      "ttfb": 723,
-      "startRender": 2141,
-      "domReadyEvent": 2131,
-      "loadEvent": 3778,
-      "totalTime": 3894,
-      "visuallyComplete": 3267
-    }
-  },
-  {
-    "id": "160501_H2_QTN",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_H2_QTN",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462122388,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2029918,
-      "ttfb": 857,
-      "startRender": 2966,
-      "domReadyEvent": 2767,
-      "loadEvent": 5579,
-      "totalTime": 5749,
-      "visuallyComplete": 4092
-    },
-    "repeatView": {
-      "requests": 31,
-      "bytesIn": 134845,
-      "ttfb": 701,
-      "startRender": 822,
-      "domReadyEvent": 2044,
-      "loadEvent": 3393,
-      "totalTime": 3502,
-      "visuallyComplete": 3074
-    }
-  },
-  {
-    "id": "160501_HH_S8Q",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_HH_S8Q",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462124729,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2024306,
-      "ttfb": 879,
-      "startRender": 3375,
-      "domReadyEvent": 3196,
-      "loadEvent": 6665,
-      "totalTime": 6873,
-      "visuallyComplete": 4092
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 135074,
-      "ttfb": 709,
-      "startRender": 2044,
-      "domReadyEvent": 1854,
-      "loadEvent": 3158,
-      "totalTime": 3259,
-      "visuallyComplete": 2761
-    }
-  },
-  {
-    "id": "160501_NC_TKE",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_NC_TKE",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462127872,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2023741,
-      "ttfb": 842,
-      "startRender": 2965,
-      "domReadyEvent": 2918,
-      "loadEvent": 5931,
-      "totalTime": 6102,
-      "visuallyComplete": 4092
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 135165,
-      "ttfb": 767,
-      "startRender": 2139,
-      "domReadyEvent": 2114,
-      "loadEvent": 3652,
-      "totalTime": 3769,
-      "visuallyComplete": 3270
-    }
-  },
-  {
-    "id": "160501_DZ_VPS",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_DZ_VPS",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462131657,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2023069,
-      "ttfb": 775,
-      "startRender": 2964,
-      "domReadyEvent": 2917,
-      "loadEvent": 5714,
-      "totalTime": 5879,
-      "visuallyComplete": 5115
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135085,
-      "ttfb": 805,
-      "startRender": 2349,
-      "domReadyEvent": 2186,
-      "loadEvent": 3523,
-      "totalTime": 3632,
-      "visuallyComplete": 3070
-    }
-  },
-  {
-    "id": "160501_1K_X1P",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_1K_X1P",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462135160,
-    "firstView": {
-      "requests": 84,
-      "bytesIn": 2030564,
-      "ttfb": 816,
-      "startRender": 2146,
-      "domReadyEvent": 2868,
-      "loadEvent": 5534,
-      "totalTime": 5699,
-      "visuallyComplete": 4912
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 135026,
-      "ttfb": 695,
-      "startRender": 2044,
-      "domReadyEvent": 1940,
-      "loadEvent": 3383,
-      "totalTime": 3487,
-      "visuallyComplete": 2863
-    }
-  },
-  {
-    "id": "160501_N5_Y4A",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_N5_Y4A",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462138670,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2026010,
-      "ttfb": 823,
-      "startRender": 2556,
-      "domReadyEvent": 2512,
-      "loadEvent": 7574,
-      "totalTime": 7787,
-      "visuallyComplete": 3889
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135433,
-      "ttfb": 758,
-      "startRender": 2043,
-      "domReadyEvent": 1976,
-      "loadEvent": 3525,
-      "totalTime": 3645,
-      "visuallyComplete": 3071
-    }
-  },
-  {
-    "id": "160501_JB_Z7A",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_JB_Z7A",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462142301,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2026953,
-      "ttfb": 798,
-      "startRender": 2450,
-      "domReadyEvent": 2295,
-      "loadEvent": 4984,
-      "totalTime": 5129,
-      "visuallyComplete": 4499
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 135515,
-      "ttfb": 759,
-      "startRender": 2042,
-      "domReadyEvent": 2040,
-      "loadEvent": 3319,
-      "totalTime": 3426,
-      "visuallyComplete": 2963
-    }
-  },
-  {
-    "id": "160501_FG_106A",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160501_FG_106A",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462145874,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2026506,
-      "ttfb": 831,
-      "startRender": 2858,
-      "domReadyEvent": 2622,
-      "loadEvent": 5714,
-      "totalTime": 5890,
-      "visuallyComplete": 4088
-    },
-    "repeatView": {
-      "requests": 34,
-      "bytesIn": 135503,
-      "ttfb": 694,
-      "startRender": 2043,
-      "domReadyEvent": 1951,
-      "loadEvent": 3305,
-      "totalTime": 3421,
-      "visuallyComplete": 2965
-    }
-  },
-  {
-    "id": "160502_0R_1FJ",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160502_0R_1FJ",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462149588,
-    "firstView": {
-      "requests": 71,
-      "bytesIn": 1973288,
-      "ttfb": 887,
-      "startRender": 2652,
-      "domReadyEvent": 2593,
-      "loadEvent": 5340,
-      "totalTime": 5509,
-      "visuallyComplete": 5929
-    },
-    "repeatView": {
-      "requests": 25,
-      "bytesIn": 119713,
-      "ttfb": 725,
-      "startRender": 2450,
-      "domReadyEvent": 2281,
-      "loadEvent": 4295,
-      "totalTime": 4438,
-      "visuallyComplete": 3585
-    }
-  },
-  {
-    "id": "160502_DS_2VH",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160502_DS_2VH",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462153396,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2027218,
-      "ttfb": 869,
-      "startRender": 2963,
-      "domReadyEvent": 2875,
-      "loadEvent": 6200,
-      "totalTime": 6385,
-      "visuallyComplete": 5728
-    },
-    "repeatView": {
-      "requests": 36,
-      "bytesIn": 139854,
-      "ttfb": 711,
-      "startRender": 2453,
-      "domReadyEvent": 2184,
-      "loadEvent": 4059,
-      "totalTime": 4191,
-      "visuallyComplete": 3682
-    }
-  },
-  {
-    "id": "160502_1M_52Y",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160502_1M_52Y",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462156702,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2017296,
-      "ttfb": 836,
-      "startRender": 2452,
-      "domReadyEvent": 2453,
-      "loadEvent": 4938,
-      "totalTime": 5089,
-      "visuallyComplete": 5626
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 130493,
-      "ttfb": 761,
-      "startRender": 2042,
-      "domReadyEvent": 2059,
-      "loadEvent": 3400,
-      "totalTime": 3517,
-      "visuallyComplete": 3168
-    }
-  },
-  {
-    "id": "160502_60_6F6",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160502_60_6F6",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462160362,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2028000,
-      "ttfb": 824,
-      "startRender": 2453,
-      "domReadyEvent": 2995,
-      "loadEvent": 6052,
-      "totalTime": 6228,
-      "visuallyComplete": 3989
-    },
-    "repeatView": {
-      "requests": 36,
-      "bytesIn": 136299,
-      "ttfb": 732,
-      "startRender": 2042,
-      "domReadyEvent": 2070,
-      "loadEvent": 3562,
-      "totalTime": 3675,
-      "visuallyComplete": 3272
-    }
-  },
-  {
-    "id": "160502_VE_7P6",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160502_VE_7P6",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462164634,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2026324,
-      "ttfb": 881,
-      "startRender": 2248,
-      "domReadyEvent": 2842,
-      "loadEvent": 5271,
-      "totalTime": 5435,
-      "visuallyComplete": 4706
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 135019,
-      "ttfb": 729,
-      "startRender": 1946,
-      "domReadyEvent": 1976,
-      "loadEvent": 3213,
-      "totalTime": 3320,
-      "visuallyComplete": 2863
-    }
-  },
-  {
-    "id": "160502_4B_99Z",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160502_4B_99Z",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462168471,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2028129,
-      "ttfb": 871,
-      "startRender": 2556,
-      "domReadyEvent": 2452,
-      "loadEvent": 5561,
-      "totalTime": 5735,
-      "visuallyComplete": 5219
-    },
-    "repeatView": {
-      "requests": 26,
-      "bytesIn": 110638,
-      "ttfb": 767,
-      "startRender": 2044,
-      "domReadyEvent": 0,
-      "loadEvent": 0,
-      "totalTime": 11896,
-      "visuallyComplete": 2863
-    }
-  },
-  {
-    "id": "160502_RM_AQS",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160502_RM_AQS",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462171407,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2023055,
-      "ttfb": 839,
-      "startRender": 2556,
-      "domReadyEvent": 2519,
-      "loadEvent": 5106,
-      "totalTime": 5261,
-      "visuallyComplete": 4399
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 129615,
-      "ttfb": 683,
-      "startRender": 1937,
-      "domReadyEvent": 1835,
-      "loadEvent": 3210,
-      "totalTime": 3319,
-      "visuallyComplete": 2653
-    }
-  },
-  {
-    "id": "160503_DG_JD4",
-    "location": "EU_Ams_Wptdriver:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160503_DG_JD4",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462264761,
-    "firstView": {
-      "requests": 86,
-      "bytesIn": 2016781,
-      "ttfb": 821,
-      "startRender": 4386,
-      "domReadyEvent": 3556,
-      "loadEvent": 6831,
-      "totalTime": 6894,
-      "visuallyComplete": 6488
-    },
-    "repeatView": {
-      "requests": 30,
-      "bytesIn": 134394,
-      "ttfb": 754,
-      "startRender": 3484,
-      "domReadyEvent": 2875,
-      "loadEvent": 5427,
-      "totalTime": 5528,
-      "visuallyComplete": 4281
-    }
-  },
-  {
-    "id": "160503_7B_J9E",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160503_7B_J9E",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462264961,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2030699,
-      "ttfb": 799,
-      "startRender": 3065,
-      "domReadyEvent": 2883,
-      "loadEvent": 5734,
-      "totalTime": 5897,
-      "visuallyComplete": 5113
-    },
-    "repeatView": {
-      "requests": 30,
-      "bytesIn": 133134,
-      "ttfb": 746,
-      "startRender": 2246,
-      "domReadyEvent": 2183,
-      "loadEvent": 3636,
-      "totalTime": 3754,
-      "visuallyComplete": 4193
-    }
-  },
-  {
-    "id": "160503_K1_KHH",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160503_K1_KHH",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462265469,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2023989,
-      "ttfb": 847,
-      "startRender": 2555,
-      "domReadyEvent": 2562,
-      "loadEvent": 4834,
-      "totalTime": 4983,
-      "visuallyComplete": 5323
-    },
-    "repeatView": {
-      "requests": 30,
-      "bytesIn": 133295,
-      "ttfb": 753,
-      "startRender": 2658,
-      "domReadyEvent": 2566,
-      "loadEvent": 4686,
-      "totalTime": 4829,
-      "visuallyComplete": 3994
-    }
-  },
-  {
-    "id": "160503_1G_R9V",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160503_1G_R9V",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462296637,
-    "firstView": {
-      "requests": 74,
-      "bytesIn": 1979018,
-      "ttfb": 1032,
-      "startRender": 2860,
-      "domReadyEvent": 2830,
-      "loadEvent": 6567,
-      "totalTime": 6807,
-      "visuallyComplete": 6854
-    },
-    "repeatView": {
-      "requests": 25,
-      "bytesIn": 116986,
-      "ttfb": 730,
-      "startRender": 2553,
-      "domReadyEvent": 2550,
-      "loadEvent": 4001,
-      "totalTime": 4125,
-      "visuallyComplete": 3584
-    }
-  },
-  {
-    "id": "160503_8J_WV5",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160503_8J_WV5",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462296728,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2022240,
-      "ttfb": 825,
-      "startRender": 3274,
-      "domReadyEvent": 3112,
-      "loadEvent": 5935,
-      "totalTime": 6134,
-      "visuallyComplete": 5525
-    },
-    "repeatView": {
-      "requests": 35,
-      "bytesIn": 140320,
-      "ttfb": 757,
-      "startRender": 2451,
-      "domReadyEvent": 2165,
-      "loadEvent": 3835,
-      "totalTime": 3966,
-      "visuallyComplete": 3270
-    }
-  },
-  {
-    "id": "160503_EG_NVQ",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160503_EG_NVQ",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462297065,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2030507,
-      "ttfb": 864,
-      "startRender": 3070,
-      "domReadyEvent": 2863,
-      "loadEvent": 5808,
-      "totalTime": 5971,
-      "visuallyComplete": 5012
-    },
-    "repeatView": {
-      "requests": 36,
-      "bytesIn": 134735,
-      "ttfb": 758,
-      "startRender": 2350,
-      "domReadyEvent": 2122,
-      "loadEvent": 4042,
-      "totalTime": 4183,
-      "visuallyComplete": 3169
-    }
-  },
-  {
-    "id": "160504_3F_JW7",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160504_3F_JW7",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462354508,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 2004682,
-      "ttfb": 957,
-      "startRender": 2445,
-      "domReadyEvent": 2203,
-      "loadEvent": 5320,
-      "totalTime": 5494,
-      "visuallyComplete": 6030
-    },
-    "repeatView": {
-      "requests": 31,
-      "bytesIn": 146701,
-      "ttfb": 733,
-      "startRender": 2248,
-      "domReadyEvent": 2166,
-      "loadEvent": 3714,
-      "totalTime": 3834,
-      "visuallyComplete": 3169
-    }
-  },
-  {
-    "id": "160504_V1_N4V",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160504_V1_N4V",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462357724,
-    "firstView": {
-      "requests": 70,
-      "bytesIn": 1935370,
-      "ttfb": 820,
-      "startRender": 1941,
-      "domReadyEvent": 2033,
-      "loadEvent": 5449,
-      "totalTime": 5620,
-      "visuallyComplete": 3991
-    },
-    "repeatView": {
-      "requests": 20,
-      "bytesIn": 135572,
-      "ttfb": 799,
-      "startRender": 2454,
-      "domReadyEvent": 2480,
-      "loadEvent": 4017,
-      "totalTime": 4169,
-      "visuallyComplete": 3477
-    }
-  },
-  {
-    "id": "160504_HS_Q8K",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160504_HS_Q8K",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462367340,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2024014,
-      "ttfb": 859,
-      "startRender": 2653,
-      "domReadyEvent": 2460,
-      "loadEvent": 5351,
-      "totalTime": 5517,
-      "visuallyComplete": 5931
-    },
-    "repeatView": {
-      "requests": 36,
-      "bytesIn": 130542,
-      "ttfb": 756,
-      "startRender": 2146,
-      "domReadyEvent": 2112,
-      "loadEvent": 4750,
-      "totalTime": 4898,
-      "visuallyComplete": 3068
-    }
-  },
-  {
-    "id": "160504_P0_XS5",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160504_P0_XS5",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462370401,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2025345,
-      "ttfb": 865,
-      "startRender": 3045,
-      "domReadyEvent": 2777,
-      "loadEvent": 5940,
-      "totalTime": 6177,
-      "visuallyComplete": 6731
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 131474,
-      "ttfb": 738,
-      "startRender": 2248,
-      "domReadyEvent": 2015,
-      "loadEvent": 3577,
-      "totalTime": 3688,
-      "visuallyComplete": 3074
-    }
-  },
-  {
-    "id": "160504_WB_11X6",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160504_WB_11X6",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462372686,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2022515,
-      "ttfb": 900,
-      "startRender": 2656,
-      "domReadyEvent": 2654,
-      "loadEvent": 5368,
-      "totalTime": 5544,
-      "visuallyComplete": 4502
-    },
-    "repeatView": {
-      "requests": 37,
-      "bytesIn": 125004,
-      "ttfb": 735,
-      "startRender": 2236,
-      "domReadyEvent": 2230,
-      "loadEvent": 3554,
-      "totalTime": 3661,
-      "visuallyComplete": 3258
-    }
-  },
-  {
-    "id": "160504_Y7_16X8",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160504_Y7_16X8",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462378600,
-    "firstView": {
-      "requests": 86,
-      "bytesIn": 2024510,
-      "ttfb": 883,
-      "startRender": 2557,
-      "domReadyEvent": 2503,
-      "loadEvent": 5131,
-      "totalTime": 5297,
-      "visuallyComplete": 5832
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 135779,
-      "ttfb": 754,
-      "startRender": 2140,
-      "domReadyEvent": 2238,
-      "loadEvent": 3867,
-      "totalTime": 4002,
-      "visuallyComplete": 3266
-    }
-  },
-  {
-    "id": "160504_CC_19GZ",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160504_CC_19GZ",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462382617,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2029132,
-      "ttfb": 820,
-      "startRender": 2351,
-      "domReadyEvent": 2215,
-      "loadEvent": 5467,
-      "totalTime": 5629,
-      "visuallyComplete": 4194
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 130641,
-      "ttfb": 762,
-      "startRender": 2144,
-      "domReadyEvent": 2105,
-      "loadEvent": 3721,
-      "totalTime": 3853,
-      "visuallyComplete": 3169
-    }
-  },
-  {
-    "id": "160504_J0_1BF5",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160504_J0_1BF5",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462385964,
-    "firstView": {
-      "requests": 72,
-      "bytesIn": 1972920,
-      "ttfb": 850,
-      "startRender": 2346,
-      "domReadyEvent": 2398,
-      "loadEvent": 4778,
-      "totalTime": 4947,
-      "visuallyComplete": 5418
-    },
-    "repeatView": {
-      "requests": 29,
-      "bytesIn": 114476,
-      "ttfb": 738,
-      "startRender": 2245,
-      "domReadyEvent": 1959,
-      "loadEvent": 3465,
-      "totalTime": 3596,
-      "visuallyComplete": 2863
-    }
-  },
-  {
-    "id": "160504_2J_1D68",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160504_2J_1D68",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462389474,
-    "firstView": {
-      "requests": 85,
-      "bytesIn": 2028870,
-      "ttfb": 807,
-      "startRender": 2655,
-      "domReadyEvent": 5867,
-      "loadEvent": 7559,
-      "totalTime": 7770,
-      "visuallyComplete": 6962
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 134556,
-      "ttfb": 776,
-      "startRender": 2554,
-      "domReadyEvent": 2533,
-      "loadEvent": 4573,
-      "totalTime": 4724,
-      "visuallyComplete": 3782
-    }
-  },
-  {
-    "id": "160504_8E_1F2A",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160504_8E_1F2A",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462393074,
-    "firstView": {
-      "requests": 84,
-      "bytesIn": 2023654,
-      "ttfb": 834,
-      "startRender": 3166,
-      "domReadyEvent": 2744,
-      "loadEvent": 6533,
-      "totalTime": 6745,
-      "visuallyComplete": 7263
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 125098,
-      "ttfb": 724,
-      "startRender": 2655,
-      "domReadyEvent": 2411,
-      "loadEvent": 5024,
-      "totalTime": 5189,
-      "visuallyComplete": 3374
-    }
-  },
-  {
-    "id": "160504_S3_1GQX",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160504_S3_1GQX",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462396768,
-    "firstView": {
-      "requests": 85,
-      "bytesIn": 2020935,
-      "ttfb": 806,
-      "startRender": 2760,
-      "domReadyEvent": 2478,
-      "loadEvent": 5435,
-      "totalTime": 5608,
-      "visuallyComplete": 6140
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 124856,
-      "ttfb": 792,
-      "startRender": 2247,
-      "domReadyEvent": 2167,
-      "loadEvent": 3481,
-      "totalTime": 3606,
-      "visuallyComplete": 3271
-    }
-  },
-  {
-    "id": "160504_4C_1J8A",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160504_4C_1J8A",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462400270,
-    "firstView": {
-      "requests": 68,
-      "bytesIn": 1900553,
-      "ttfb": 906,
-      "startRender": 2555,
-      "domReadyEvent": 2884,
-      "loadEvent": 23843,
-      "totalTime": 24441,
-      "visuallyComplete": 5832
-    },
-    "repeatView": {
-      "requests": 32,
-      "bytesIn": 196685,
-      "ttfb": 893,
-      "startRender": 2658,
-      "domReadyEvent": 2573,
-      "loadEvent": 4271,
-      "totalTime": 4403,
-      "visuallyComplete": 3681
-    }
-  },
-  {
-    "id": "160504_VX_1KY5",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160504_VX_1KY5",
-    "domain": "https://www.tele2.nl",
-    "connectivity": "Cable",
-    "date": 1462404069,
-    "firstView": {
-      "requests": 83,
-      "bytesIn": 2019499,
-      "ttfb": 798,
-      "startRender": 2653,
-      "domReadyEvent": 2574,
-      "loadEvent": 5478,
-      "totalTime": 5642,
-      "visuallyComplete": 6135
-    },
-    "repeatView": {
-      "requests": 33,
-      "bytesIn": 130501,
-      "ttfb": 737,
-      "startRender": 2552,
-      "domReadyEvent": 2385,
-      "loadEvent": 4433,
-      "totalTime": 4581,
-      "visuallyComplete": 4190
-    }
-  },
-  {
     "id": "160505_3Q_10B",
     "location": "Amsterdam_IISpeed:Chrome",
     "url": "http://www.webpagetest.org/results.php?test=160505_3Q_10B",
@@ -6795,5 +1708,1367 @@
       "visuallyComplete": 5545
     },
     "queuedTime": "2016-05-09T15:31:33.000Z"
+  },
+  {
+    "id": "160509_TT_WFT",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160509_TT_WFT",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Cable",
+    "date": 1462803571,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 2022078,
+      "ttfb": 829,
+      "startRender": 3591,
+      "domReadyEvent": 3371,
+      "loadEvent": 6551,
+      "totalTime": 6648,
+      "visuallyComplete": 6388
+    },
+    "repeatView": {
+      "requests": 32,
+      "bytesIn": 131757,
+      "ttfb": 808,
+      "startRender": 10295,
+      "domReadyEvent": 3622,
+      "loadEvent": 5850,
+      "totalTime": 5875,
+      "visuallyComplete": 10295
+    },
+    "queuedTime": "2016-05-09T16:07:37.000Z"
+  },
+  {
+    "id": "160509_GD_YM8",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160509_GD_YM8",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462806359,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 2018234,
+      "ttfb": 640,
+      "startRender": 4784,
+      "domReadyEvent": 4585,
+      "loadEvent": 7323,
+      "totalTime": 7329,
+      "visuallyComplete": 7182,
+      "speedIndex": 5011
+    },
+    "repeatView": {
+      "requests": 35,
+      "bytesIn": 133644,
+      "ttfb": 638,
+      "startRender": 3286,
+      "domReadyEvent": 2638,
+      "loadEvent": 5009,
+      "totalTime": 5090,
+      "visuallyComplete": 4185,
+      "speedIndex": 3394
+    },
+    "queuedTime": "2016-05-09T16:59:38.000Z"
+  },
+  {
+    "id": "160509_C2_11F8",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160509_C2_11F8",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462809717,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 2009506,
+      "ttfb": 619,
+      "startRender": 5986,
+      "domReadyEvent": 4347,
+      "loadEvent": 7993,
+      "totalTime": 8097,
+      "visuallyComplete": 10686,
+      "speedIndex": 6127
+    },
+    "repeatView": {
+      "requests": 35,
+      "bytesIn": 137753,
+      "ttfb": 685,
+      "startRender": 10154,
+      "domReadyEvent": 8561,
+      "loadEvent": 11537,
+      "totalTime": 11543,
+      "visuallyComplete": 14279,
+      "speedIndex": 10731
+    },
+    "queuedTime": "2016-05-09T18:00:37.000Z"
+  },
+  {
+    "id": "160509_X0_13KE",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160509_X0_13KE",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462813251,
+    "firstView": {
+      "requests": 83,
+      "bytesIn": 2010807,
+      "ttfb": 690,
+      "startRender": 2984,
+      "domReadyEvent": 3122,
+      "loadEvent": 5871,
+      "totalTime": 5878,
+      "visuallyComplete": 5383,
+      "speedIndex": 3327
+    },
+    "repeatView": {
+      "requests": 34,
+      "bytesIn": 127988,
+      "ttfb": 612,
+      "startRender": 5284,
+      "domReadyEvent": 2758,
+      "loadEvent": 5261,
+      "totalTime": 5310,
+      "visuallyComplete": 5783,
+      "speedIndex": 5358
+    },
+    "queuedTime": "2016-05-09T19:00:38.000Z"
+  },
+  {
+    "id": "160509_2P_1617",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160509_2P_1617",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462816848,
+    "firstView": {
+      "requests": 88,
+      "bytesIn": 2015602,
+      "ttfb": 720,
+      "startRender": 12780,
+      "domReadyEvent": 4465,
+      "loadEvent": 14560,
+      "totalTime": 14600,
+      "visuallyComplete": 13680,
+      "speedIndex": 12888
+    },
+    "repeatView": {
+      "requests": 32,
+      "bytesIn": 131529,
+      "ttfb": 648,
+      "startRender": 3085,
+      "domReadyEvent": 2648,
+      "loadEvent": 4958,
+      "totalTime": 4963,
+      "visuallyComplete": 7380,
+      "speedIndex": 3293
+    },
+    "queuedTime": "2016-05-09T20:00:38.000Z"
+  },
+  {
+    "id": "160509_P2_1869",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160509_P2_1869",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462820453,
+    "firstView": {
+      "requests": 71,
+      "bytesIn": 1972476,
+      "ttfb": 649,
+      "startRender": 6486,
+      "domReadyEvent": 2962,
+      "loadEvent": 5507,
+      "totalTime": 5598,
+      "visuallyComplete": 6686,
+      "speedIndex": 6516
+    },
+    "repeatView": {
+      "requests": 22,
+      "bytesIn": 112677,
+      "ttfb": 622,
+      "startRender": 7183,
+      "domReadyEvent": 5130,
+      "loadEvent": 7744,
+      "totalTime": 7749,
+      "visuallyComplete": 7183,
+      "speedIndex": 7183
+    },
+    "queuedTime": "2016-05-09T21:00:38.000Z"
+  },
+  {
+    "id": "160509_8K_1AKT",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160509_8K_1AKT",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462824050,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 2017873,
+      "ttfb": 714,
+      "startRender": 6382,
+      "domReadyEvent": 4181,
+      "loadEvent": 7589,
+      "totalTime": 7644,
+      "visuallyComplete": 6884,
+      "speedIndex": 6421
+    },
+    "repeatView": {
+      "requests": 32,
+      "bytesIn": 131750,
+      "ttfb": 674,
+      "startRender": 3285,
+      "domReadyEvent": 2665,
+      "loadEvent": 5370,
+      "totalTime": 5422,
+      "visuallyComplete": 8683,
+      "speedIndex": 4042
+    },
+    "queuedTime": "2016-05-09T22:00:38.000Z"
+  },
+  {
+    "id": "160509_YH_1CPR",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160509_YH_1CPR",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462827709,
+    "firstView": {
+      "requests": 70,
+      "bytesIn": 1960291,
+      "ttfb": 614,
+      "startRender": 3385,
+      "domReadyEvent": 2722,
+      "loadEvent": 5260,
+      "totalTime": 5408,
+      "visuallyComplete": 4887,
+      "speedIndex": 3596
+    },
+    "repeatView": {
+      "requests": 23,
+      "bytesIn": 112915,
+      "ttfb": 736,
+      "startRender": 6682,
+      "domReadyEvent": 3775,
+      "loadEvent": 5935,
+      "totalTime": 5957,
+      "visuallyComplete": 6682,
+      "speedIndex": 6682
+    },
+    "queuedTime": "2016-05-09T23:00:38.000Z"
+  },
+  {
+    "id": "160509_8B_1EGD",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160509_8B_1EGD",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462831308,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 2010437,
+      "ttfb": 649,
+      "startRender": 5683,
+      "domReadyEvent": 2757,
+      "loadEvent": 5186,
+      "totalTime": 5193,
+      "visuallyComplete": 5783,
+      "speedIndex": 5698
+    },
+    "repeatView": {
+      "requests": 32,
+      "bytesIn": 131700,
+      "ttfb": 654,
+      "startRender": 3085,
+      "domReadyEvent": 2601,
+      "loadEvent": 4770,
+      "totalTime": 4867,
+      "visuallyComplete": 6283,
+      "speedIndex": 3564
+    },
+    "queuedTime": "2016-05-10T00:00:38.000Z"
+  },
+  {
+    "id": "160509_0V_1G97",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160509_0V_1G97",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462834903,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 2020194,
+      "ttfb": 594,
+      "startRender": 3283,
+      "domReadyEvent": 2756,
+      "loadEvent": 5564,
+      "totalTime": 5579,
+      "visuallyComplete": 4880,
+      "speedIndex": 3431
+    },
+    "repeatView": {
+      "requests": 32,
+      "bytesIn": 131752,
+      "ttfb": 635,
+      "startRender": 3185,
+      "domReadyEvent": 2510,
+      "loadEvent": 5232,
+      "totalTime": 5318,
+      "visuallyComplete": 4185,
+      "speedIndex": 3335
+    },
+    "queuedTime": "2016-05-10T01:00:38.000Z"
+  },
+  {
+    "id": "160510_5T_6Y",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160510_5T_6Y",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462838539,
+    "firstView": {
+      "requests": 71,
+      "bytesIn": 1967486,
+      "ttfb": 627,
+      "startRender": 3381,
+      "domReadyEvent": 2789,
+      "loadEvent": 6850,
+      "totalTime": 6946,
+      "visuallyComplete": 6480,
+      "speedIndex": 3815
+    },
+    "repeatView": {
+      "requests": 22,
+      "bytesIn": 112745,
+      "ttfb": 681,
+      "startRender": 3186,
+      "domReadyEvent": 2514,
+      "loadEvent": 4889,
+      "totalTime": 4974,
+      "visuallyComplete": 4185,
+      "speedIndex": 3306
+    },
+    "queuedTime": "2016-05-10T02:00:38.000Z"
+  },
+  {
+    "id": "160510_Z0_2DT",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160510_Z0_2DT",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462842052,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 2006495,
+      "ttfb": 753,
+      "startRender": 6182,
+      "domReadyEvent": 3184,
+      "loadEvent": 5667,
+      "totalTime": 5789,
+      "visuallyComplete": 6283,
+      "speedIndex": 6197
+    },
+    "repeatView": {
+      "requests": 32,
+      "bytesIn": 131675,
+      "ttfb": 600,
+      "startRender": 3187,
+      "domReadyEvent": 2576,
+      "loadEvent": 4782,
+      "totalTime": 4848,
+      "visuallyComplete": 3987,
+      "speedIndex": 3273
+    },
+    "queuedTime": "2016-05-10T03:00:38.000Z"
+  },
+  {
+    "id": "160510_SD_3XZ",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160510_SD_3XZ",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462845700,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 2021614,
+      "ttfb": 891,
+      "startRender": 4180,
+      "domReadyEvent": 3191,
+      "loadEvent": 6868,
+      "totalTime": 6917,
+      "visuallyComplete": 5082,
+      "speedIndex": 4285
+    },
+    "repeatView": {
+      "requests": 33,
+      "bytesIn": 136250,
+      "ttfb": 711,
+      "startRender": 10877,
+      "domReadyEvent": 4631,
+      "loadEvent": 12731,
+      "totalTime": 12794,
+      "visuallyComplete": 12376,
+      "speedIndex": 11003
+    },
+    "queuedTime": "2016-05-10T04:00:38.000Z"
+  },
+  {
+    "id": "160510_QX_5Q5",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160510_QX_5Q5",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462849293,
+    "firstView": {
+      "requests": 86,
+      "bytesIn": 2004512,
+      "ttfb": 575,
+      "startRender": 4982,
+      "domReadyEvent": 4268,
+      "loadEvent": 7751,
+      "totalTime": 7840,
+      "visuallyComplete": 10380,
+      "speedIndex": 5297
+    },
+    "repeatView": {
+      "requests": 32,
+      "bytesIn": 131645,
+      "ttfb": 637,
+      "startRender": 5986,
+      "domReadyEvent": 2810,
+      "loadEvent": 4834,
+      "totalTime": 4934,
+      "visuallyComplete": 6685,
+      "speedIndex": 6090
+    },
+    "queuedTime": "2016-05-10T05:00:38.000Z"
+  },
+  {
+    "id": "160510_01_7H9",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160510_01_7H9",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462852898,
+    "firstView": {
+      "requests": 77,
+      "bytesIn": 1932095,
+      "ttfb": 720,
+      "startRender": 6279,
+      "domReadyEvent": 2890,
+      "loadEvent": 28752,
+      "totalTime": 28803,
+      "visuallyComplete": 7778,
+      "speedIndex": 6383
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 210740,
+      "ttfb": 629,
+      "startRender": 3187,
+      "domReadyEvent": 2519,
+      "loadEvent": 4869,
+      "totalTime": 4890,
+      "visuallyComplete": 3916,
+      "speedIndex": 3244
+    },
+    "queuedTime": "2016-05-10T06:00:38.000Z"
+  },
+  {
+    "id": "160510_45_91P",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160510_45_91P",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462856493,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 2005525,
+      "ttfb": 625,
+      "startRender": 3386,
+      "domReadyEvent": 2767,
+      "loadEvent": 5369,
+      "totalTime": 5409,
+      "visuallyComplete": 4793,
+      "speedIndex": 3584
+    },
+    "repeatView": {
+      "requests": 32,
+      "bytesIn": 127636,
+      "ttfb": 690,
+      "startRender": 6481,
+      "domReadyEvent": 3927,
+      "loadEvent": 6107,
+      "totalTime": 6111,
+      "visuallyComplete": 6481,
+      "speedIndex": 6481
+    },
+    "queuedTime": "2016-05-10T07:00:38.000Z"
+  },
+  {
+    "id": "160510_V8_AXP",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160510_V8_AXP",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462860237,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 2011318,
+      "ttfb": 587,
+      "startRender": 3184,
+      "domReadyEvent": 2717,
+      "loadEvent": 5244,
+      "totalTime": 5251,
+      "visuallyComplete": 7183,
+      "speedIndex": 3783
+    },
+    "repeatView": {
+      "requests": 32,
+      "bytesIn": 131698,
+      "ttfb": 627,
+      "startRender": 3089,
+      "domReadyEvent": 2506,
+      "loadEvent": 7735,
+      "totalTime": 7826,
+      "visuallyComplete": 3884,
+      "speedIndex": 3161
+    },
+    "queuedTime": "2016-05-10T08:00:38.000Z"
+  },
+  {
+    "id": "160510_F8_D5J",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160510_F8_D5J",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462863688,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 2006473,
+      "ttfb": 834,
+      "startRender": 7992,
+      "domReadyEvent": 4134,
+      "loadEvent": 8298,
+      "totalTime": 8419,
+      "visuallyComplete": 9283,
+      "speedIndex": 8185
+    },
+    "repeatView": {
+      "requests": 33,
+      "bytesIn": 127832,
+      "ttfb": 570,
+      "startRender": 5287,
+      "domReadyEvent": 4674,
+      "loadEvent": 6798,
+      "totalTime": 6877,
+      "visuallyComplete": 7685,
+      "speedIndex": 5646
+    },
+    "queuedTime": "2016-05-10T09:00:38.000Z"
+  },
+  {
+    "id": "160510_WQ_F7H",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160510_WQ_F7H",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462877555,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1748032,
+      "ttfb": 600,
+      "startRender": 3186,
+      "domReadyEvent": 2948,
+      "loadEvent": 7168,
+      "totalTime": 7173,
+      "visuallyComplete": 9481,
+      "speedIndex": 4130
+    },
+    "repeatView": {
+      "requests": 27,
+      "bytesIn": 128665,
+      "ttfb": 615,
+      "startRender": 3185,
+      "domReadyEvent": 2393,
+      "loadEvent": 5551,
+      "totalTime": 5589,
+      "visuallyComplete": 8483,
+      "speedIndex": 3979
+    },
+    "queuedTime": "2016-05-10T10:00:38.000Z"
+  },
+  {
+    "id": "160510_1R_HQR",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160510_1R_HQR",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462878346,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1755727,
+      "ttfb": 963,
+      "startRender": 8586,
+      "domReadyEvent": 3655,
+      "loadEvent": 8179,
+      "totalTime": 8324,
+      "visuallyComplete": 9180,
+      "speedIndex": 8603
+    },
+    "repeatView": {
+      "requests": 36,
+      "bytesIn": 133701,
+      "ttfb": 752,
+      "startRender": 5682,
+      "domReadyEvent": 4857,
+      "loadEvent": 10711,
+      "totalTime": 10805,
+      "visuallyComplete": 7183,
+      "speedIndex": 5907
+    },
+    "queuedTime": "2016-05-10T11:00:38.000Z"
+  },
+  {
+    "id": "160510_D4_M0A",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160510_D4_M0A",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462878803,
+    "firstView": {
+      "requests": 70,
+      "bytesIn": 1713070,
+      "ttfb": 590,
+      "startRender": 5184,
+      "domReadyEvent": 2878,
+      "loadEvent": 5505,
+      "totalTime": 5706,
+      "visuallyComplete": 5710,
+      "speedIndex": 5262
+    },
+    "repeatView": {
+      "requests": 26,
+      "bytesIn": 123145,
+      "ttfb": 623,
+      "startRender": 3184,
+      "domReadyEvent": 2612,
+      "loadEvent": 6043,
+      "totalTime": 6104,
+      "visuallyComplete": 5392,
+      "speedIndex": 3493
+    },
+    "queuedTime": "2016-05-10T12:00:38.000Z"
+  },
+  {
+    "id": "160510_3K_NXE",
+    "location": "EU_Ams_Wptdriver:Chrome",
+    "url": "http://www.webpagetest.org/results.php?test=160510_3K_NXE",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462879022,
+    "firstView": {
+      "requests": 86,
+      "bytesIn": 1758310,
+      "ttfb": 635,
+      "startRender": 6179,
+      "domReadyEvent": 2918,
+      "loadEvent": 7333,
+      "totalTime": 7437,
+      "visuallyComplete": 9381,
+      "speedIndex": 6627
+    },
+    "repeatView": {
+      "requests": 35,
+      "bytesIn": 137669,
+      "ttfb": 597,
+      "startRender": 3089,
+      "domReadyEvent": 2490,
+      "loadEvent": 5551,
+      "totalTime": 5642,
+      "visuallyComplete": 6282,
+      "speedIndex": 3567
+    },
+    "queuedTime": "2016-05-10T13:00:38.000Z"
+  },
+  {
+    "id": "160510_20_RXN",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_20_RXN",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462889120,
+    "firstView": {
+      "requests": 83,
+      "bytesIn": 1200660,
+      "ttfb": 253,
+      "startRender": 1911,
+      "domReadyEvent": 1664,
+      "loadEvent": 3171,
+      "totalTime": 3192,
+      "visuallyComplete": 2021,
+      "speedIndex": 1925
+    },
+    "repeatView": {
+      "requests": 33,
+      "bytesIn": 151731,
+      "ttfb": 226,
+      "startRender": 2198,
+      "domReadyEvent": 1643,
+      "loadEvent": 2806,
+      "totalTime": 2853,
+      "visuallyComplete": 2307,
+      "speedIndex": 2212
+    },
+    "queuedTime": "2016-05-10T14:27:31.000Z"
+  },
+  {
+    "id": "160510_B3_RZ9",
+    "location": "Amsterdam_IISpeed:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_B3_RZ9",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462897483,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1238868,
+      "ttfb": 121,
+      "startRender": 1629,
+      "domReadyEvent": 1422,
+      "loadEvent": 2578,
+      "totalTime": 2667,
+      "visuallyComplete": 2139,
+      "speedIndex": 1695
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 162872,
+      "ttfb": 98,
+      "startRender": 1465,
+      "domReadyEvent": 1078,
+      "loadEvent": 1797,
+      "totalTime": 1842,
+      "visuallyComplete": 1844,
+      "speedIndex": 1499
+    },
+    "queuedTime": "2016-05-10T14:29:30.000Z"
+  },
+  {
+    "id": "160510_GX_14H5",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_GX_14H5",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462898531,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1246750,
+      "ttfb": 225,
+      "startRender": 2175,
+      "domReadyEvent": 1603,
+      "loadEvent": 3041,
+      "totalTime": 3070,
+      "visuallyComplete": 2175,
+      "speedIndex": 2175
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 161843,
+      "ttfb": 255,
+      "startRender": 2324,
+      "domReadyEvent": 1660,
+      "loadEvent": 2756,
+      "totalTime": 2793,
+      "visuallyComplete": 8110,
+      "speedIndex": 2549
+    },
+    "queuedTime": "2016-05-10T18:40:50.000Z"
+  },
+  {
+    "id": "160510_C5_XJB",
+    "location": "Amsterdam_IISpeed:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_C5_XJB",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462898654,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1239604,
+      "ttfb": 123,
+      "startRender": 1589,
+      "domReadyEvent": 1328,
+      "loadEvent": 2156,
+      "totalTime": 2215,
+      "visuallyComplete": 2060,
+      "speedIndex": 1650
+    },
+    "repeatView": {
+      "requests": 39,
+      "bytesIn": 161363,
+      "ttfb": 99,
+      "startRender": 1552,
+      "domReadyEvent": 1157,
+      "loadEvent": 1860,
+      "totalTime": 1920,
+      "visuallyComplete": 1923,
+      "speedIndex": 1589
+    },
+    "queuedTime": "2016-05-10T15:30:29.000Z"
+  },
+  {
+    "id": "160510_SK_ZW4",
+    "location": "Amsterdam_IISpeed:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_SK_ZW4",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462901994,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1238570,
+      "ttfb": 154,
+      "startRender": 1956,
+      "domReadyEvent": 1515,
+      "loadEvent": 2437,
+      "totalTime": 2497,
+      "visuallyComplete": 2136,
+      "speedIndex": 1979
+    },
+    "repeatView": {
+      "requests": 39,
+      "bytesIn": 161901,
+      "ttfb": 95,
+      "startRender": 1564,
+      "domReadyEvent": 1187,
+      "loadEvent": 2062,
+      "totalTime": 2150,
+      "visuallyComplete": 1964,
+      "speedIndex": 1600
+    },
+    "queuedTime": "2016-05-10T16:30:30.000Z"
+  },
+  {
+    "id": "160510_ES_17XM",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_ES_17XM",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462902255,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1245822,
+      "ttfb": 295,
+      "startRender": 2183,
+      "domReadyEvent": 1863,
+      "loadEvent": 3483,
+      "totalTime": 3520,
+      "visuallyComplete": 2500,
+      "speedIndex": 2192
+    },
+    "repeatView": {
+      "requests": 43,
+      "bytesIn": 166559,
+      "ttfb": 225,
+      "startRender": 2012,
+      "domReadyEvent": 1567,
+      "loadEvent": 2833,
+      "totalTime": 2856,
+      "visuallyComplete": 8129,
+      "speedIndex": 2280
+    },
+    "queuedTime": "2016-05-10T19:40:50.000Z"
+  },
+  {
+    "id": "160510_BX_1P1R",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_BX_1P1R",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462905776,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1246162,
+      "ttfb": 225,
+      "startRender": 2234,
+      "domReadyEvent": 1695,
+      "loadEvent": 4100,
+      "totalTime": 4119,
+      "visuallyComplete": 2234,
+      "speedIndex": 2234
+    },
+    "repeatView": {
+      "requests": 39,
+      "bytesIn": 163188,
+      "ttfb": 249,
+      "startRender": 2198,
+      "domReadyEvent": 1479,
+      "loadEvent": 2686,
+      "totalTime": 2730,
+      "visuallyComplete": 8120,
+      "speedIndex": 2432
+    },
+    "queuedTime": "2016-05-10T20:40:50.000Z"
+  },
+  {
+    "id": "160510_RS_220X",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_RS_220X",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462909440,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1243245,
+      "ttfb": 220,
+      "startRender": 1971,
+      "domReadyEvent": 1434,
+      "loadEvent": 2720,
+      "totalTime": 2731,
+      "visuallyComplete": 3111,
+      "speedIndex": 2119
+    },
+    "repeatView": {
+      "requests": 41,
+      "bytesIn": 164920,
+      "ttfb": 220,
+      "startRender": 2111,
+      "domReadyEvent": 1461,
+      "loadEvent": 2681,
+      "totalTime": 2708,
+      "visuallyComplete": 8179,
+      "speedIndex": 2345
+    },
+    "queuedTime": "2016-05-10T21:40:50.000Z"
+  },
+  {
+    "id": "160510_14_24BD",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_14_24BD",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462912858,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1247367,
+      "ttfb": 288,
+      "startRender": 2280,
+      "domReadyEvent": 1726,
+      "loadEvent": 3299,
+      "totalTime": 3324,
+      "visuallyComplete": 2280,
+      "speedIndex": 2280
+    },
+    "repeatView": {
+      "requests": 41,
+      "bytesIn": 165478,
+      "ttfb": 221,
+      "startRender": 1991,
+      "domReadyEvent": 1592,
+      "loadEvent": 2814,
+      "totalTime": 2857,
+      "visuallyComplete": 8180,
+      "speedIndex": 2259
+    },
+    "queuedTime": "2016-05-10T22:40:50.000Z"
+  },
+  {
+    "id": "160511_HS_4N5",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_HS_4N5",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462927260,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1242260,
+      "ttfb": 284,
+      "startRender": 2191,
+      "domReadyEvent": 1740,
+      "loadEvent": 3882,
+      "totalTime": 3911,
+      "visuallyComplete": 2191,
+      "speedIndex": 2191
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 160944,
+      "ttfb": 239,
+      "startRender": 2224,
+      "domReadyEvent": 1507,
+      "loadEvent": 2712,
+      "totalTime": 2746,
+      "visuallyComplete": 8124,
+      "speedIndex": 2457
+    },
+    "queuedTime": "2016-05-11T02:40:50.000Z"
+  },
+  {
+    "id": "160511_Y2_ACX",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_Y2_ACX",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462931030,
+    "firstView": {
+      "requests": 83,
+      "bytesIn": 1204200,
+      "ttfb": 252,
+      "startRender": 1965,
+      "domReadyEvent": 1702,
+      "loadEvent": 3157,
+      "totalTime": 3176,
+      "visuallyComplete": 2208,
+      "speedIndex": 1972
+    },
+    "repeatView": {
+      "requests": 32,
+      "bytesIn": 154797,
+      "ttfb": 223,
+      "startRender": 2006,
+      "domReadyEvent": 1383,
+      "loadEvent": 2571,
+      "totalTime": 2579,
+      "visuallyComplete": 8179,
+      "speedIndex": 2362
+    },
+    "queuedTime": "2016-05-11T03:40:51.000Z"
+  },
+  {
+    "id": "160511_F1_G5V",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_F1_G5V",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462934491,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1246107,
+      "ttfb": 287,
+      "startRender": 1853,
+      "domReadyEvent": 1777,
+      "loadEvent": 3406,
+      "totalTime": 3427,
+      "visuallyComplete": 2333,
+      "speedIndex": 1894
+    },
+    "repeatView": {
+      "requests": 40,
+      "bytesIn": 164978,
+      "ttfb": 225,
+      "startRender": 1975,
+      "domReadyEvent": 1536,
+      "loadEvent": 2814,
+      "totalTime": 2855,
+      "visuallyComplete": 8128,
+      "speedIndex": 2243
+    },
+    "queuedTime": "2016-05-11T04:40:51.000Z"
+  },
+  {
+    "id": "160511_ZA_Q94",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_ZA_Q94",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462938169,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1243206,
+      "ttfb": 220,
+      "startRender": 2185,
+      "domReadyEvent": 1650,
+      "loadEvent": 3068,
+      "totalTime": 3086,
+      "visuallyComplete": 2185,
+      "speedIndex": 2185
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 161935,
+      "ttfb": 254,
+      "startRender": 2324,
+      "domReadyEvent": 1618,
+      "loadEvent": 2688,
+      "totalTime": 2717,
+      "visuallyComplete": 8116,
+      "speedIndex": 2549
+    },
+    "queuedTime": "2016-05-11T05:40:51.000Z"
+  },
+  {
+    "id": "160511_QC_VNV",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_QC_VNV",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462941821,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1241063,
+      "ttfb": 221,
+      "startRender": 1763,
+      "domReadyEvent": 1592,
+      "loadEvent": 3049,
+      "totalTime": 3073,
+      "visuallyComplete": 2144,
+      "speedIndex": 1788
+    },
+    "repeatView": {
+      "requests": 39,
+      "bytesIn": 164164,
+      "ttfb": 247,
+      "startRender": 2303,
+      "domReadyEvent": 1530,
+      "loadEvent": 2754,
+      "totalTime": 2778,
+      "visuallyComplete": 8112,
+      "speedIndex": 2529
+    },
+    "queuedTime": "2016-05-11T06:40:50.000Z"
+  },
+  {
+    "id": "160511_6A_10Y8",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_6A_10Y8",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462945475,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1244443,
+      "ttfb": 225,
+      "startRender": 2035,
+      "domReadyEvent": 1499,
+      "loadEvent": 2885,
+      "totalTime": 2921,
+      "visuallyComplete": 3302,
+      "speedIndex": 2199
+    },
+    "repeatView": {
+      "requests": 40,
+      "bytesIn": 165177,
+      "ttfb": 250,
+      "startRender": 2191,
+      "domReadyEvent": 1569,
+      "loadEvent": 2718,
+      "totalTime": 2760,
+      "visuallyComplete": 8116,
+      "speedIndex": 2422
+    },
+    "queuedTime": "2016-05-11T07:40:51.000Z"
+  },
+  {
+    "id": "160511_WS_12RT",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_WS_12RT",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462948859,
+    "firstView": {
+      "requests": 83,
+      "bytesIn": 1199556,
+      "ttfb": 283,
+      "startRender": 2315,
+      "domReadyEvent": 1748,
+      "loadEvent": 3290,
+      "totalTime": 3312,
+      "visuallyComplete": 2315,
+      "speedIndex": 2315
+    },
+    "repeatView": {
+      "requests": 34,
+      "bytesIn": 149660,
+      "ttfb": 220,
+      "startRender": 2207,
+      "domReadyEvent": 1553,
+      "loadEvent": 2717,
+      "totalTime": 2755,
+      "visuallyComplete": 8181,
+      "speedIndex": 2437
+    },
+    "queuedTime": "2016-05-11T08:40:50.000Z"
+  },
+  {
+    "id": "160511_88_14FN",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_88_14FN",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462953914,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1244625,
+      "ttfb": 247,
+      "startRender": 2161,
+      "domReadyEvent": 1647,
+      "loadEvent": 3098,
+      "totalTime": 3116,
+      "visuallyComplete": 2161,
+      "speedIndex": 2161
+    },
+    "repeatView": {
+      "requests": 40,
+      "bytesIn": 216736,
+      "ttfb": 224,
+      "startRender": 2240,
+      "domReadyEvent": 1472,
+      "loadEvent": 2665,
+      "totalTime": 2709,
+      "visuallyComplete": 7180,
+      "speedIndex": 2429
+    },
+    "queuedTime": "2016-05-11T09:40:50.000Z"
+  },
+  {
+    "id": "160511_5X_16MM",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_5X_16MM",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462956084,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1241503,
+      "ttfb": 280,
+      "startRender": 1904,
+      "domReadyEvent": 1577,
+      "loadEvent": 2974,
+      "totalTime": 3011,
+      "visuallyComplete": 3199,
+      "speedIndex": 2072
+    },
+    "repeatView": {
+      "requests": 34,
+      "bytesIn": 161054,
+      "ttfb": 225,
+      "startRender": 2221,
+      "domReadyEvent": 1454,
+      "loadEvent": 2568,
+      "totalTime": 2599,
+      "visuallyComplete": 8181,
+      "speedIndex": 2451
+    },
+    "queuedTime": "2016-05-11T10:40:51.000Z"
+  },
+  {
+    "id": "160511_7K_18ZM",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_7K_18ZM",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462959705,
+    "firstView": {
+      "requests": 83,
+      "bytesIn": 1201942,
+      "ttfb": 224,
+      "startRender": 1940,
+      "domReadyEvent": 1642,
+      "loadEvent": 3972,
+      "totalTime": 3992,
+      "visuallyComplete": 2180,
+      "speedIndex": 1947
+    },
+    "repeatView": {
+      "requests": 28,
+      "bytesIn": 146784,
+      "ttfb": 330,
+      "startRender": 2314,
+      "domReadyEvent": 1592,
+      "loadEvent": 2727,
+      "totalTime": 2766,
+      "visuallyComplete": 2314,
+      "speedIndex": 2314
+    },
+    "queuedTime": "2016-05-11T11:40:51.000Z"
+  },
+  {
+    "id": "160511_S0_1B53",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_S0_1B53",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462963441,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1243995,
+      "ttfb": 254,
+      "startRender": 2139,
+      "domReadyEvent": 1851,
+      "loadEvent": 3368,
+      "totalTime": 3385,
+      "visuallyComplete": 2473,
+      "speedIndex": 2182
+    },
+    "repeatView": {
+      "requests": 36,
+      "bytesIn": 162114,
+      "ttfb": 226,
+      "startRender": 2182,
+      "domReadyEvent": 1612,
+      "loadEvent": 2847,
+      "totalTime": 2869,
+      "visuallyComplete": 8126,
+      "speedIndex": 2435
+    },
+    "queuedTime": "2016-05-11T12:40:51.000Z"
+  },
+  {
+    "id": "160511_Y1_1D37",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_Y1_1D37",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462966874,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1241508,
+      "ttfb": 295,
+      "startRender": 2219,
+      "domReadyEvent": 1641,
+      "loadEvent": 3384,
+      "totalTime": 3402,
+      "visuallyComplete": 2219,
+      "speedIndex": 2219
+    },
+    "repeatView": {
+      "requests": 41,
+      "bytesIn": 165850,
+      "ttfb": 224,
+      "startRender": 2097,
+      "domReadyEvent": 1553,
+      "loadEvent": 2741,
+      "totalTime": 2764,
+      "visuallyComplete": 8183,
+      "speedIndex": 2349
+    },
+    "queuedTime": "2016-05-11T13:40:51.000Z"
+  },
+  {
+    "id": "160511_96_1FFY",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_96_1FFY",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462970666,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1240744,
+      "ttfb": 250,
+      "startRender": 1843,
+      "domReadyEvent": 1605,
+      "loadEvent": 3166,
+      "totalTime": 3213,
+      "visuallyComplete": 2200,
+      "speedIndex": 1862
+    },
+    "repeatView": {
+      "requests": 40,
+      "bytesIn": 164646,
+      "ttfb": 224,
+      "startRender": 2200,
+      "domReadyEvent": 1476,
+      "loadEvent": 2672,
+      "totalTime": 2702,
+      "visuallyComplete": 8113,
+      "speedIndex": 2430
+    },
+    "queuedTime": "2016-05-11T14:40:51.000Z"
   }
 ]

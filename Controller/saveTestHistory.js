@@ -12,7 +12,7 @@ if ( global.v8debug ) {
 var fs = require('fs');
 var Config = require('../Model/TestConfig.js'),
 	conf = Config();
-var Util = require('../Helper/util.js');
+var util = require('../Helper/util.js');
 var TestResult = require('../Model/TestResult.js');
 var TestResultCollection = require('../Model/TestResultCollection.js');
 
@@ -31,8 +31,6 @@ function run () {
 		if (err) return conf.log(err, true);
 
 		files.forEach(function (file) {
-
-
 
 			// For each domain, get both the results and the history file
 			Promise.all([getFileJsonResults(historyDir + file), getFileJsonResults(resultsDir + file)])
@@ -135,27 +133,29 @@ function getMedianForDay(tests, day) {
 		"connectivity": sampleTest.connectivity,
 		"date": timestamp,
 		"firstView": {
-			"requests": medianForObject(dayTests1stView, "requests"),
-			"bytesIn": medianForObject(dayTests1stView, "bytesIn"),
-			"ttfb": medianForObject(dayTests1stView, "ttfb"),
-			"startRender": medianForObject(dayTests1stView, "startRender"),
-			"domReadyEvent": medianForObject(dayTests1stView, "domReadyEvent"),
-			"loadEvent": medianForObject(dayTests1stView, "loadEvent"),
-			"totalTime": medianForObject(dayTests1stView, "totalTime"),
-			"visuallyComplete": medianForObject(dayTests1stView, "visuallyComplete")
+			"requests": util.medianForObject(dayTests1stView, "requests"),
+			"bytesIn": util.medianForObject(dayTests1stView, "bytesIn"),
+			"ttfb": util.medianForObject(dayTests1stView, "ttfb"),
+			"startRender": util.medianForObject(dayTests1stView, "startRender"),
+			"domReadyEvent": util.medianForObject(dayTests1stView, "domReadyEvent"),
+			"loadEvent": util.medianForObject(dayTests1stView, "loadEvent"),
+			"totalTime": util.medianForObject(dayTests1stView, "totalTime"),
+			"visuallyComplete": util.medianForObject(dayTests1stView, "visuallyComplete"),
+			"speedIndex": util.medianForObject(dayTests1stView, "speedIndex")
 		}
 	};
 
 	if (dayTests2ndView.length > 0) {
 		medianObject.repeatView = {
-			"requests": medianForObject(dayTests2ndView, "requests"),
-			"bytesIn": medianForObject(dayTests2ndView, "bytesIn"),
-			"ttfb": medianForObject(dayTests2ndView, "ttfb"),
-			"startRender": medianForObject(dayTests2ndView, "startRender"),
-			"domReadyEvent": medianForObject(dayTests2ndView, "domReadyEvent"),
-			"loadEvent": medianForObject(dayTests2ndView, "loadEvent"),
-			"totalTime": medianForObject(dayTests2ndView, "totalTime"),
-			"visuallyComplete": medianForObject(dayTests2ndView, "visuallyComplete")
+			"requests": util.medianForObject(dayTests2ndView, "requests"),
+			"bytesIn": util.medianForObject(dayTests2ndView, "bytesIn"),
+			"ttfb": util.medianForObject(dayTests2ndView, "ttfb"),
+			"startRender": util.medianForObject(dayTests2ndView, "startRender"),
+			"domReadyEvent": util.medianForObject(dayTests2ndView, "domReadyEvent"),
+			"loadEvent": util.medianForObject(dayTests2ndView, "loadEvent"),
+			"totalTime": util.medianForObject(dayTests2ndView, "totalTime"),
+			"visuallyComplete": util.medianForObject(dayTests2ndView, "visuallyComplete"),
+			"speedIndex": util.medianForObject(dayTests1stView, "speedIndex")
 		}
 	}
 
@@ -188,7 +188,7 @@ function getDays(testResults) {
 
 
 // Run if file was invoked directly, otherwise leverage on outside script
-if (Util.isCalledFromCommandLine("saveTestHistory.js")) {
+if (util.isCalledFromCommandLine("saveTestHistory.js")) {
 	run();
 }
 

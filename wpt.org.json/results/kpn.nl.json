@@ -1,0 +1,653 @@
+[
+  {
+    "id": "160510_1D_RZB",
+    "location": "Amsterdam_IISpeed:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_1D_RZB",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462897663,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1739176,
+      "ttfb": 30,
+      "startRender": 956,
+      "domReadyEvent": 735,
+      "loadEvent": 3500,
+      "totalTime": 3594,
+      "visuallyComplete": 8173,
+      "speedIndex": 1802
+    },
+    "repeatView": {
+      "requests": 18,
+      "bytesIn": 115743,
+      "ttfb": 26,
+      "startRender": 1027,
+      "domReadyEvent": 657,
+      "loadEvent": 1704,
+      "totalTime": 1866,
+      "visuallyComplete": 4500,
+      "speedIndex": 1733
+    },
+    "queuedTime": "2016-05-10T14:29:30.000Z"
+  },
+  {
+    "id": "160510_5T_14H8",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_5T_14H8",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462898660,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1731883,
+      "ttfb": 29,
+      "startRender": 1626,
+      "domReadyEvent": 1740,
+      "loadEvent": 5461,
+      "totalTime": 5504,
+      "visuallyComplete": 3382,
+      "speedIndex": 2707
+    },
+    "repeatView": {
+      "requests": 17,
+      "bytesIn": 115497,
+      "ttfb": 21,
+      "startRender": 2146,
+      "domReadyEvent": 1420,
+      "loadEvent": 2935,
+      "totalTime": 2982,
+      "visuallyComplete": 2986,
+      "speedIndex": 2364
+    },
+    "queuedTime": "2016-05-10T18:40:50.000Z"
+  },
+  {
+    "id": "160510_G4_XJH",
+    "location": "Amsterdam_IISpeed:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_G4_XJH",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462899204,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1735610,
+      "ttfb": 30,
+      "startRender": 1124,
+      "domReadyEvent": 875,
+      "loadEvent": 3500,
+      "totalTime": 3646,
+      "visuallyComplete": 8178,
+      "speedIndex": 1707
+    },
+    "repeatView": {
+      "requests": 20,
+      "bytesIn": 116349,
+      "ttfb": 27,
+      "startRender": 1212,
+      "domReadyEvent": 953,
+      "loadEvent": 3578,
+      "totalTime": 3664,
+      "visuallyComplete": 9007,
+      "speedIndex": 1802
+    },
+    "queuedTime": "2016-05-10T15:30:29.000Z"
+  },
+  {
+    "id": "160510_SN_ZW5",
+    "location": "Amsterdam_IISpeed:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_SN_ZW5",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462902093,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1735414,
+      "ttfb": 34,
+      "startRender": 1033,
+      "domReadyEvent": 812,
+      "loadEvent": 2000,
+      "totalTime": 2055,
+      "visuallyComplete": 9008,
+      "speedIndex": 1902
+    },
+    "repeatView": {
+      "requests": 17,
+      "bytesIn": 115843,
+      "ttfb": 24,
+      "startRender": 1737,
+      "domReadyEvent": 890,
+      "loadEvent": 2328,
+      "totalTime": 2424,
+      "visuallyComplete": 4909,
+      "speedIndex": 1858
+    },
+    "queuedTime": "2016-05-10T16:30:30.000Z"
+  },
+  {
+    "id": "160510_W8_17XQ",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_W8_17XQ",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462902388,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1735500,
+      "ttfb": 31,
+      "startRender": 1597,
+      "domReadyEvent": 1479,
+      "loadEvent": 3268,
+      "totalTime": 3312,
+      "visuallyComplete": 3682,
+      "speedIndex": 2518
+    },
+    "repeatView": {
+      "requests": 17,
+      "bytesIn": 113313,
+      "ttfb": 22,
+      "startRender": 1345,
+      "domReadyEvent": 798,
+      "loadEvent": 4161,
+      "totalTime": 4240,
+      "visuallyComplete": 8480,
+      "speedIndex": 2459
+    },
+    "queuedTime": "2016-05-10T19:40:51.000Z"
+  },
+  {
+    "id": "160510_KY_1P1S",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_KY_1P1S",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462905697,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1734889,
+      "ttfb": 44,
+      "startRender": 1745,
+      "domReadyEvent": 1592,
+      "loadEvent": 3247,
+      "totalTime": 3291,
+      "visuallyComplete": 3983,
+      "speedIndex": 2631
+    },
+    "repeatView": {
+      "requests": 17,
+      "bytesIn": 115709,
+      "ttfb": 22,
+      "startRender": 1395,
+      "domReadyEvent": 1307,
+      "loadEvent": 2757,
+      "totalTime": 2833,
+      "visuallyComplete": 3580,
+      "speedIndex": 2533
+    },
+    "queuedTime": "2016-05-10T20:40:50.000Z"
+  },
+  {
+    "id": "160510_Q4_220Z",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_Q4_220Z",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462909524,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1733396,
+      "ttfb": 41,
+      "startRender": 1738,
+      "domReadyEvent": 1179,
+      "loadEvent": 3197,
+      "totalTime": 3238,
+      "visuallyComplete": 4381,
+      "speedIndex": 2641
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 116216,
+      "ttfb": 25,
+      "startRender": 2170,
+      "domReadyEvent": 995,
+      "loadEvent": 2855,
+      "totalTime": 2898,
+      "visuallyComplete": 3483,
+      "speedIndex": 2435
+    },
+    "queuedTime": "2016-05-10T21:40:50.000Z"
+  },
+  {
+    "id": "160510_HA_24BK",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160510_HA_24BK",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462913036,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1734035,
+      "ttfb": 31,
+      "startRender": 1561,
+      "domReadyEvent": 1606,
+      "loadEvent": 3337,
+      "totalTime": 3439,
+      "visuallyComplete": 6196,
+      "speedIndex": 2724
+    },
+    "repeatView": {
+      "requests": 17,
+      "bytesIn": 115981,
+      "ttfb": 21,
+      "startRender": 1486,
+      "domReadyEvent": 983,
+      "loadEvent": 3722,
+      "totalTime": 3724,
+      "visuallyComplete": 8070,
+      "speedIndex": 2524
+    },
+    "queuedTime": "2016-05-10T22:40:51.000Z"
+  },
+  {
+    "id": "160511_7A_4NB",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_7A_4NB",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462927473,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1734579,
+      "ttfb": 27,
+      "startRender": 2934,
+      "domReadyEvent": 1723,
+      "loadEvent": 4782,
+      "totalTime": 4856,
+      "visuallyComplete": 3781,
+      "speedIndex": 3107
+    },
+    "repeatView": {
+      "requests": 20,
+      "bytesIn": 116901,
+      "ttfb": 23,
+      "startRender": 1381,
+      "domReadyEvent": 1293,
+      "loadEvent": 30605,
+      "totalTime": 30723,
+      "visuallyComplete": 30988,
+      "speedIndex": 2710
+    },
+    "queuedTime": "2016-05-11T02:40:51.000Z"
+  },
+  {
+    "id": "160511_8P_ACW",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_8P_ACW",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462931065,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1735411,
+      "ttfb": 41,
+      "startRender": 1497,
+      "domReadyEvent": 1561,
+      "loadEvent": 4904,
+      "totalTime": 4953,
+      "visuallyComplete": 3584,
+      "speedIndex": 2833
+    },
+    "repeatView": {
+      "requests": 20,
+      "bytesIn": 116743,
+      "ttfb": 22,
+      "startRender": 2078,
+      "domReadyEvent": 1382,
+      "loadEvent": 30582,
+      "totalTime": 30664,
+      "visuallyComplete": 30827,
+      "speedIndex": 2542
+    },
+    "queuedTime": "2016-05-11T03:40:51.000Z"
+  },
+  {
+    "id": "160511_SE_G5Y",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_SE_G5Y",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462934575,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1733906,
+      "ttfb": 29,
+      "startRender": 1498,
+      "domReadyEvent": 1589,
+      "loadEvent": 4151,
+      "totalTime": 4224,
+      "visuallyComplete": 6789,
+      "speedIndex": 2878
+    },
+    "repeatView": {
+      "requests": 17,
+      "bytesIn": 115959,
+      "ttfb": 21,
+      "startRender": 1347,
+      "domReadyEvent": 918,
+      "loadEvent": 2636,
+      "totalTime": 2712,
+      "visuallyComplete": 3386,
+      "speedIndex": 2497
+    },
+    "queuedTime": "2016-05-11T04:40:51.000Z"
+  },
+  {
+    "id": "160511_0T_Q91",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_0T_Q91",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462938057,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1734157,
+      "ttfb": 31,
+      "startRender": 1637,
+      "domReadyEvent": 1452,
+      "loadEvent": 3463,
+      "totalTime": 3539,
+      "visuallyComplete": 4982,
+      "speedIndex": 2781
+    },
+    "repeatView": {
+      "requests": 20,
+      "bytesIn": 117000,
+      "ttfb": 22,
+      "startRender": 1360,
+      "domReadyEvent": 945,
+      "loadEvent": 30593,
+      "totalTime": 30708,
+      "visuallyComplete": 30978,
+      "speedIndex": 2682
+    },
+    "queuedTime": "2016-05-11T05:40:51.000Z"
+  },
+  {
+    "id": "160511_C2_VNW",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_C2_VNW",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462941862,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1734298,
+      "ttfb": 31,
+      "startRender": 1451,
+      "domReadyEvent": 1400,
+      "loadEvent": 4900,
+      "totalTime": 4977,
+      "visuallyComplete": 3984,
+      "speedIndex": 2892
+    },
+    "repeatView": {
+      "requests": 20,
+      "bytesIn": 117070,
+      "ttfb": 22,
+      "startRender": 1371,
+      "domReadyEvent": 1316,
+      "loadEvent": 30593,
+      "totalTime": 30678,
+      "visuallyComplete": 30848,
+      "speedIndex": 2678
+    },
+    "queuedTime": "2016-05-11T06:40:51.000Z"
+  },
+  {
+    "id": "160511_RV_10Y6",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_RV_10Y6",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462945387,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1733895,
+      "ttfb": 26,
+      "startRender": 1560,
+      "domReadyEvent": 963,
+      "loadEvent": 3486,
+      "totalTime": 3562,
+      "visuallyComplete": 2882,
+      "speedIndex": 2768
+    },
+    "repeatView": {
+      "requests": 17,
+      "bytesIn": 113690,
+      "ttfb": 23,
+      "startRender": 1439,
+      "domReadyEvent": 1014,
+      "loadEvent": 3265,
+      "totalTime": 3340,
+      "visuallyComplete": 8684,
+      "speedIndex": 2647
+    },
+    "queuedTime": "2016-05-11T07:40:51.000Z"
+  },
+  {
+    "id": "160511_75_12RX",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_75_12RX",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462948968,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1736689,
+      "ttfb": 46,
+      "startRender": 1711,
+      "domReadyEvent": 1510,
+      "loadEvent": 3117,
+      "totalTime": 3282,
+      "visuallyComplete": 3288,
+      "speedIndex": 2880
+    },
+    "repeatView": {
+      "requests": 18,
+      "bytesIn": 113803,
+      "ttfb": 23,
+      "startRender": 1412,
+      "domReadyEvent": 962,
+      "loadEvent": 4133,
+      "totalTime": 4206,
+      "visuallyComplete": 8680,
+      "speedIndex": 2553
+    },
+    "queuedTime": "2016-05-11T08:40:50.000Z"
+  },
+  {
+    "id": "160511_2T_14FM",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_2T_14FM",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462953880,
+    "firstView": {
+      "requests": 62,
+      "bytesIn": 1732263,
+      "ttfb": 31,
+      "startRender": 1581,
+      "domReadyEvent": 1665,
+      "loadEvent": 3331,
+      "totalTime": 3379,
+      "visuallyComplete": 4888,
+      "speedIndex": 2833
+    },
+    "repeatView": {
+      "requests": 17,
+      "bytesIn": 115484,
+      "ttfb": 47,
+      "startRender": 1426,
+      "domReadyEvent": 961,
+      "loadEvent": 2629,
+      "totalTime": 2706,
+      "visuallyComplete": 3882,
+      "speedIndex": 2450
+    },
+    "queuedTime": "2016-05-11T09:40:50.000Z"
+  },
+  {
+    "id": "160511_C8_16MS",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_C8_16MS",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462956334,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1734572,
+      "ttfb": 31,
+      "startRender": 1682,
+      "domReadyEvent": 1395,
+      "loadEvent": 2985,
+      "totalTime": 3062,
+      "visuallyComplete": 3682,
+      "speedIndex": 2696
+    },
+    "repeatView": {
+      "requests": 17,
+      "bytesIn": 115626,
+      "ttfb": 27,
+      "startRender": 1353,
+      "domReadyEvent": 930,
+      "loadEvent": 2509,
+      "totalTime": 2583,
+      "visuallyComplete": 3280,
+      "speedIndex": 2343
+    },
+    "queuedTime": "2016-05-11T10:40:51.000Z"
+  },
+  {
+    "id": "160511_4B_18ZR",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_4B_18ZR",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462959910,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1742338,
+      "ttfb": 35,
+      "startRender": 1597,
+      "domReadyEvent": 1541,
+      "loadEvent": 3257,
+      "totalTime": 3301,
+      "visuallyComplete": 4953,
+      "speedIndex": 2761
+    },
+    "repeatView": {
+      "requests": 17,
+      "bytesIn": 115757,
+      "ttfb": 23,
+      "startRender": 1363,
+      "domReadyEvent": 935,
+      "loadEvent": 2580,
+      "totalTime": 2715,
+      "visuallyComplete": 3482,
+      "speedIndex": 2406
+    },
+    "queuedTime": "2016-05-11T11:40:51.000Z"
+  },
+  {
+    "id": "160511_3R_1B52",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_3R_1B52",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462963378,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1733565,
+      "ttfb": 25,
+      "startRender": 1625,
+      "domReadyEvent": 1453,
+      "loadEvent": 3130,
+      "totalTime": 3209,
+      "visuallyComplete": 3782,
+      "speedIndex": 2796
+    },
+    "repeatView": {
+      "requests": 18,
+      "bytesIn": 116395,
+      "ttfb": 247,
+      "startRender": 1595,
+      "domReadyEvent": 1067,
+      "loadEvent": 2831,
+      "totalTime": 2909,
+      "visuallyComplete": 4280,
+      "speedIndex": 2723
+    },
+    "queuedTime": "2016-05-11T12:40:51.000Z"
+  },
+  {
+    "id": "160511_22_1D3C",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_22_1D3C",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462967297,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1731515,
+      "ttfb": 32,
+      "startRender": 1957,
+      "domReadyEvent": 1613,
+      "loadEvent": 3225,
+      "totalTime": 3303,
+      "visuallyComplete": 4983,
+      "speedIndex": 2887
+    },
+    "repeatView": {
+      "requests": 16,
+      "bytesIn": 115428,
+      "ttfb": 22,
+      "startRender": 1433,
+      "domReadyEvent": 1359,
+      "loadEvent": 2709,
+      "totalTime": 2875,
+      "visuallyComplete": 3787,
+      "speedIndex": 2608
+    },
+    "queuedTime": "2016-05-11T13:40:51.000Z"
+  },
+  {
+    "id": "160511_FP_1FFV",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_FP_1FFV",
+    "domain": "https://kpn.nl/",
+    "connectivity": "Native",
+    "date": 1462970462,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 1733347,
+      "ttfb": 33,
+      "startRender": 1539,
+      "domReadyEvent": 1553,
+      "loadEvent": 3026,
+      "totalTime": 3067,
+      "visuallyComplete": 2923,
+      "speedIndex": 2781
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 114714,
+      "ttfb": 24,
+      "startRender": 1426,
+      "domReadyEvent": 1245,
+      "loadEvent": 2540,
+      "totalTime": 2615,
+      "visuallyComplete": 3782,
+      "speedIndex": 2425
+    },
+    "queuedTime": "2016-05-11T14:40:51.000Z"
+  }
+]

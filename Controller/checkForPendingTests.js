@@ -93,7 +93,7 @@ function processTestResult(err, result) {
         } else {
             fs.readFile(fileName, "utf-8", function(err, data) {
 				if (err) return conf.log(err, true);
-				
+
                 tests = new TestResultCollection (JSON.parse(data));
                 tests.addOrdered(test);
                 fs.writeFile(fileName, tests, function() {});

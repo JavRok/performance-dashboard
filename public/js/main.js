@@ -1,4 +1,5 @@
 
+// TODO: Switch to ES6 + Babel
 
 var chartData = {
 	// A labels array that can contain any sort of values
@@ -7,15 +8,17 @@ var chartData = {
 	series: []
 };
 
-
-// TODO: Array of TestCollections -> Put it on the server, and make the rest based on today, yesterday, this week...
 var urls;
-var hourlyTests = [];
+var chart;
+// 2-dimensions array with all the tests received, each array 1st-level element corresponds with an url (line)
+var currentTests = [];
 
 // Nodes
 var nodes = {
 	daySelect: document.querySelector(".filters-day-select"),
-	monthSelect: document.querySelector(".filters-month-select")
+	monthSelect: document.querySelector(".filters-month-select"),
+	measureSelect: document.querySelector(".filters-measure-unit"),
+	legend: document.querySelector(".legend")
 };
 
 
@@ -23,36 +26,68 @@ var nodes = {
 // that is resolving to our chart container element. The Second parameter
 // is the actual data object.
 function createChart () {
-	var chart = new Chartist.Line('.loading-time-chart', chartData, {
-		// Options
-		axisY: {
-			labelInterpolationFnc: function(value) {
-				return value / 1000 + 's';
-			}
-		},
-		lineSmooth: Chartist.Interpolation.cardinal({
-			fillHoles: true
-		}),
-		low: 0
-	});
-
-	console.log(chartData);
-
-	chart.on('draw', function(data) {
-		if(data.type === 'line' || data.type === 'area') {
-			data.element.animate({
-				d: {
-					begin: 2000 * data.index,
-					dur: 1000,
-					from: data.path.clone().scale(1, 0).translate(0, data.chartRect.height()).stringify(),
-					to: data.path.clone().stringify(),
-					easing: Chartist.Svg.Easing.easeOutQuint
+	if (!chart) {
+		chart = new Chartist.Line('.loading-time-chart', chartData, {
+			// Options
+			axisY: {
+				labelInterpolationFnc: function(value) {
+					return value / 1000 + 's';
 				}
-			});
-		}
-	});
+			},
+			lineSmooth: Chartist.Interpolation.simple({
+				fillHoles: true
+			}),
+			low: 0
+			// high: 20000
+		});
 
+		// Listening for draw events that get emitted by the Chartist chart
+		chart.on('draw', function(data) {
+			if(data.type === 'line' || data.type === 'area') {
+				data.element.animate({
+					d: {
+						// begin: 1000 * data.index,
+						dur: 1000,
+						from: data.path.clone().scale(1, 0).translate(0, data.chartRect.height()).stringify(),
+						to: data.path.clone().stringify(),
+						easing: Chartist.Svg.Easing.easeOutQuint
+					}
+				});
+
+			// Add the possibility to click a point (single test) and visit the test results
+			} else if(data.type === 'point') {
+
+				addPointEvent(data.element._node, data.index);
+
+			}
+		});
+
+
+	} else {
+		chart.update(chartData);
+		applyUrlFilters();
+	}
 }
+
+
+// Add click event to points in the line, to visit the test results
+function addPointEvent(node, index) {
+	// Identify which of the lines in the graph we're in
+	var lineMatches = node.parentNode.getAttribute("class").match(/ct-series-([a-z])/);
+	if (lineMatches[1]) {
+		var lineIndex = lineMatches[1].charCodeAt(0) - "a".charCodeAt(0);
+	}
+	// And set the Test id to be able to click it
+	node.setAttribute("id", currentTests[lineIndex][index].id);
+	var title = document.createElement("title");
+	title.textContent = "Click to see test details";
+	node.appendChild(title);
+
+	node.addEventListener("click", function(evt){
+		window.open("http://www.webpagetest.org/result/" + evt.target.id, '_blank');
+	}, false);
+}
+
 
 
 // Require AJAX util library
@@ -62,6 +97,8 @@ if (AJAX) {
 		console.log("Success!", response);
 		urls = response;
 
+		drawLegend();
+
 		// Get the test results for each URL
 		return Promise.all(
 			response.map(function(url) {
@@ -69,44 +106,48 @@ if (AJAX) {
 			})
 		);
 
-	}).then(function(responses) {
-		var maxLength = 0;
-
-		responses.forEach(function(response, i) {
-			var singleTest = JSON.parse(response);
-
-			hourlyTests[i] = singleTest.data.tests;
-
-			// Let's try with last 24h results
-			// var slice = singleTest.data.slice(-24);
-			var serie = hourlyTests[i].map(function(singleTest) {
-				if (singleTest) {
-					return singleTest.firstView.totalTime;
-				}
-				return null;
-			});
-
-			chartData.series.push(serie);
-			chartData.labels = singleTest.data.hours;
-		});
-
-
-
-		createChart();
-	});
+	}).then(processTests);
 }
 
 
-// Array with hours starting now
-/*var hours = [];
-var now = new Date().getHours();
-for (i=0; i<24; i++){
-	now = now - i;
-	if (now === -1) {
-		now = 23;
-	}
-	hours.push(now);
-}*/
+/*
+ * Process the tests coming from the tests/ Api call
+ */
+function processTests(responses){
+	var maxLength = 0;
+
+	chartData.series = [];
+	responses.forEach(function(response, i) {
+		var singleUrl = JSON.parse(response);
+
+		chartData.labels = singleUrl.data.hours;
+		singleUrl = singleUrl.data.tests;
+
+		// Store in the global variable
+		currentTests[i] = singleUrl;
+
+		fillChartData(singleUrl, 'totalTime');
+	});
+
+	createChart();
+	// drawLegend();
+}
+
+/*
+ * @param {string} measureUnit can be 'totalTime', 'speedIndex', 'visuallyComplete', 'ttfb', etc.
+ */
+function fillChartData(tests, measureUnit) {
+
+	var serie = tests.map(function(singleTest) {
+		if (singleTest && singleTest.firstView[measureUnit]) {
+			return singleTest.firstView[measureUnit];
+		}
+		return null;
+	});
+
+	removePeaks(serie);
+	chartData.series.push(serie);
+}
 
 
 
@@ -115,26 +156,121 @@ var months = ['January','February','March','April','May','June','July','August',
 
 function fillFilterDropdowns() {
 
-	var options = [], option,
-		dateObj;
+	var option,	dateObj;
 
 	option = document.createElement("option");
-	option.textContent = option.value = "today";
-	options.push(option);
+	option.textContent = "Yesterday";
+	option.value = -1;
+	nodes.daySelect.appendChild(option);
 
 	dateObj = new Date();
-
-	for (var i=1; i < 7; i++) {
+	dateObj.setDate(dateObj.getDate() - 1);
+	for (var i=2; i < 7; i++) {
 		// Substract one day at a time
 		dateObj.setDate(dateObj.getDate() - 1);
 		option = document.createElement("option");
-		option.textContent = days[dateObj.getDate()];
-		option.value = "today";
-		options.push(option);
+		option.textContent = days[dateObj.getDay()];
+		option.value = -i;
+		nodes.daySelect.appendChild(option);
+	}
+}
+
+fillFilterDropdowns();
+
+nodes.daySelect.addEventListener("change", function(evt) {
+	Promise.all(
+		urls.map(function(url) {
+			return AJAX.promiseGet("/test/" + url + "/day/"+ evt.target.value);
+		})
+	).then(processTests);
+	nodes.measureSelect.selectedIndex = 0;
+}, false);
+
+
+/*
+ * Event for switching measurement unit via dropdown
+ */
+nodes.measureSelect.addEventListener("change", function(evt) {
+	chartData.series = [];
+	currentTests.forEach(function(test) {
+		fillChartData(test, evt.target.value);
+	});
+	createChart();
+
+}, false);
+
+
+/*
+ * Event for switching measurement unit via dropdown
+ */
+nodes.measureSelect.addEventListener("change", function(evt) {
+	chartData.series = [];
+	currentTests.forEach(function(test) {
+		fillChartData(test, evt.target.value);
+	});
+	createChart();
+
+}, false);
+
+
+
+/*
+ * Sometimes there's a peak of more than 20s that makes the graph more difficult to see, let's remove them
+ * TODO: Detect somehow else continuous peaks on a server
+ */
+function removePeaks (serie) {
+	serie.forEach((value, i, serie) => {
+		if (value > 20000)  {
+		serie[i] = null;
+	}
+});
+}
+
+
+function increaseChar(c, sum) {
+	return String.fromCharCode(c.charCodeAt(0) + sum);
+}
+
+
+/*************************   LEGEND   *********************/
+function drawLegend() {
+	var line, checkbox, text, char = 'a';
+	nodes.legend.innerHTML = "";
+	urls.forEach((url, i) => {
+		line = document.createElement("label");
+		line.className = "ct-series-" + increaseChar(char, i);
+		checkbox = document.createElement("input");
+		checkbox.type = "checkbox";
+		checkbox.name = "line-" + i;
+		checkbox.checked = true;
+		line.appendChild(checkbox);
+		text = document.createTextNode(url);
+		line.appendChild(text);
+		nodes.legend.appendChild(line);
+	});
+}
+
+/*
+ * Event for showing/hiding lines in the graph (evt delegated)
+ */
+nodes.legend.addEventListener("change", function(evt) {
+	var index = parseInt(evt.target.name.replace("line-", ""));
+	var line = document.getElementsByClassName("ct-series ct-series-" + increaseChar("a", index))[0];
+	if (line) {
+		line.classList.toggle("hidden");
+	}
+}, false);
+
+/* Apply the filters if graph is reloaded */
+function applyUrlFilters () {
+	var filters = nodes.legend.querySelectorAll("input[type=checkbox]");
+	var i, line;
+	for(i=0; i<filters.length; i++) {
+		if (!filters[i].checked) {
+			line = document.getElementsByClassName("ct-series ct-series-" + increaseChar("a", i))[0];
+			line.classList.add("hidden");
+		}
 	}
 
 }
 
-nodes.daySelect.addEventListener("change", function(evt){
-	console.log("change!");
-}, false);

@@ -39,7 +39,8 @@ class TestResult {
 				domReadyEvent: run.domContentLoadedEventStart,
 				loadEvent: run.loadEventStart,
 				totalTime: run.loadTime,
-				visuallyComplete: run.visualComplete
+				visuallyComplete: run.visualComplete,
+				speedIndex: run.SpeedIndex
 			};
 
 			run = test.runs["1"].repeatView;
@@ -52,7 +53,8 @@ class TestResult {
 					domReadyEvent: run.domContentLoadedEventStart,
 					loadEvent: run.loadEventStart,
 					totalTime: run.loadTime,
-					visuallyComplete: run.visualComplete
+					visuallyComplete: run.visualComplete,
+					speedIndex: run.SpeedIndex
 				};
 			} else {
 				// If there's a timeout on the firstView, repeated view is null
