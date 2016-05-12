@@ -3132,5 +3132,253 @@
       "speedIndex": 2648
     },
     "queuedTime": "2016-05-11T17:40:50.000Z"
+  },
+  {
+    "id": "160511_5X_229R",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_5X_229R",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462987406,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1245355,
+      "ttfb": 219,
+      "startRender": 2098,
+      "domReadyEvent": 1556,
+      "loadEvent": 2925,
+      "totalTime": 2964,
+      "visuallyComplete": 3186,
+      "speedIndex": 2239
+    },
+    "repeatView": {
+      "requests": 40,
+      "bytesIn": 162502,
+      "ttfb": 256,
+      "startRender": 2366,
+      "domReadyEvent": 1577,
+      "loadEvent": 2779,
+      "totalTime": 2811,
+      "visuallyComplete": 8280,
+      "speedIndex": 2591
+    },
+    "queuedTime": "2016-05-11T18:55:57.000Z"
+  },
+  {
+    "id": "160511_G7_24FJ",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_G7_24FJ",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1462989404,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1243525,
+      "ttfb": 280,
+      "startRender": 2023,
+      "domReadyEvent": 1724,
+      "loadEvent": 3325,
+      "totalTime": 3363,
+      "visuallyComplete": 2271,
+      "speedIndex": 2030
+    },
+    "repeatView": {
+      "requests": 40,
+      "bytesIn": 164439,
+      "ttfb": 225,
+      "startRender": 2222,
+      "domReadyEvent": 1480,
+      "loadEvent": 2617,
+      "totalTime": 2658,
+      "visuallyComplete": 8082,
+      "speedIndex": 2451
+    },
+    "queuedTime": "2016-05-11T19:55:57.000Z"
+  },
+  {
+    "id": "160512_WG_2ER",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160512_WG_2ER",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1463014571,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1241516,
+      "ttfb": 297,
+      "startRender": 2091,
+      "domReadyEvent": 1550,
+      "loadEvent": 2921,
+      "totalTime": 2974,
+      "visuallyComplete": 3305,
+      "speedIndex": 2248
+    },
+    "repeatView": {
+      "requests": 40,
+      "bytesIn": 163432,
+      "ttfb": 227,
+      "startRender": 2202,
+      "domReadyEvent": 1473,
+      "loadEvent": 2619,
+      "totalTime": 2658,
+      "visuallyComplete": 8119,
+      "speedIndex": 2432
+    },
+    "queuedTime": "2016-05-12T02:55:59.000Z"
+  },
+  {
+    "id": "160512_XZ_7A2",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160512_XZ_7A2",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1463018215,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1241760,
+      "ttfb": 226,
+      "startRender": 1869,
+      "domReadyEvent": 1601,
+      "loadEvent": 2950,
+      "totalTime": 2968,
+      "visuallyComplete": 2110,
+      "speedIndex": 1876
+    },
+    "repeatView": {
+      "requests": 40,
+      "bytesIn": 164753,
+      "ttfb": 251,
+      "startRender": 2192,
+      "domReadyEvent": 1544,
+      "loadEvent": 2674,
+      "totalTime": 2726,
+      "visuallyComplete": 8123,
+      "speedIndex": 2427
+    },
+    "queuedTime": "2016-05-12T03:55:59.000Z"
+  },
+  {
+    "id": "160512_F6_8ST",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160512_F6_8ST",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1463021963,
+    "firstView": {
+      "requests": 89,
+      "bytesIn": 1208694,
+      "ttfb": 296,
+      "startRender": 2856,
+      "domReadyEvent": 2191,
+      "loadEvent": 3579,
+      "totalTime": 3575,
+      "visuallyComplete": 2856,
+      "speedIndex": 2856
+    },
+    "repeatView": {
+      "requests": 53,
+      "bytesIn": 195591,
+      "ttfb": 242,
+      "startRender": 2325,
+      "domReadyEvent": 1495,
+      "loadEvent": 2231,
+      "totalTime": 2243,
+      "visuallyComplete": 8093,
+      "speedIndex": 2710
+    },
+    "queuedTime": "2016-05-12T04:55:59.000Z"
+  },
+  {
+    "id": "160512_1C_ABE",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160512_1C_ABE",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1463025365,
+    "firstView": {
+      "requests": 90,
+      "bytesIn": 1241457,
+      "ttfb": 302,
+      "startRender": 1899,
+      "domReadyEvent": 1696,
+      "loadEvent": 3261,
+      "totalTime": 3272,
+      "visuallyComplete": 2116,
+      "speedIndex": 1927
+    },
+    "repeatView": {
+      "requests": 43,
+      "bytesIn": 166250,
+      "ttfb": 229,
+      "startRender": 2095,
+      "domReadyEvent": 1513,
+      "loadEvent": 2652,
+      "totalTime": 2711,
+      "visuallyComplete": 7116,
+      "speedIndex": 2304
+    },
+    "queuedTime": "2016-05-12T05:55:59.000Z"
+  },
+  {
+    "id": "160512_B1_BRT",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160512_B1_BRT",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1463029052,
+    "firstView": {
+      "requests": 83,
+      "bytesIn": 1199958,
+      "ttfb": 225,
+      "startRender": 1937,
+      "domReadyEvent": 1665,
+      "loadEvent": 3191,
+      "totalTime": 3219,
+      "visuallyComplete": 2194,
+      "speedIndex": 1944
+    },
+    "repeatView": {
+      "requests": 33,
+      "bytesIn": 151203,
+      "ttfb": 225,
+      "startRender": 2201,
+      "domReadyEvent": 1472,
+      "loadEvent": 2661,
+      "totalTime": 2690,
+      "visuallyComplete": 2201,
+      "speedIndex": 2201
+    },
+    "queuedTime": "2016-05-12T06:56:00.000Z"
+  },
+  {
+    "id": "160512_64_DT2",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160512_64_DT2",
+    "domain": "https://www.tele2.nl",
+    "connectivity": "Native",
+    "date": 1463032613,
+    "firstView": {
+      "requests": 83,
+      "bytesIn": 1202863,
+      "ttfb": 224,
+      "startRender": 2107,
+      "domReadyEvent": 1596,
+      "loadEvent": 2987,
+      "totalTime": 3004,
+      "visuallyComplete": 2107,
+      "speedIndex": 2107
+    },
+    "repeatView": {
+      "requests": 32,
+      "bytesIn": 148885,
+      "ttfb": 251,
+      "startRender": 2020,
+      "domReadyEvent": 1490,
+      "loadEvent": 2578,
+      "totalTime": 2646,
+      "visuallyComplete": 8180,
+      "speedIndex": 2285
+    },
+    "queuedTime": "2016-05-12T07:56:00.000Z"
   }
 ]

@@ -1,5 +1,6 @@
 
 // TODO: Switch to ES6 + Babel
+// TODO: Refactor this mess
 
 var chartData = {
 	// A labels array that can contain any sort of values
@@ -20,6 +21,9 @@ var nodes = {
 	measureSelect: document.querySelector(".filters-measure-unit"),
 	legend: document.querySelector(".legend")
 };
+
+
+var localStorageAvailable = localStorageAvailable();
 
 
 // Create a new line chart object where as first parameter we pass in a selector
@@ -62,6 +66,7 @@ function createChart () {
 			}
 		});
 
+		loadSelectionFromLS();
 
 	} else {
 		chart.update(chartData);
@@ -289,6 +294,7 @@ nodes.legend.addEventListener("change", function(evt) {
 	if (line) {
 		line.classList.toggle("hidden");
 	}
+	saveSelectionInLS();
 }, false);
 
 /* Apply the filters if graph is reloaded */
@@ -301,6 +307,83 @@ function applyUrlFilters () {
 			line.classList.add("hidden");
 		}
 	}
-
+	saveSelectionInLS();
 }
+
+
+
+
+/******************   LOCAL STORAGE    ************************/
+function saveSelectionInLS() {
+	if(!localStorageAvailable) return;
+
+	var legendUrls = nodes.legend.childNodes,
+		legend = {}, input;
+
+	for (var i=0; i<legendUrls.length; i++) {
+		input = legendUrls[i].querySelector("input[type=checkbox]");
+		legend[legendUrls[i].className] = input.checked;
+	}
+	var selection = {
+		"daySelect": nodes.daySelect.value,
+		"monthSelect": nodes.monthSelect.value,
+		"measureSelect": nodes.measureSelect.value,
+		"legend": legend
+	};
+
+	localStorage.setItem("perf-dashboard-selection", JSON.stringify(selection));
+}
+
+function loadSelectionFromLS () {
+	if(!localStorageAvailable) return;
+	var selection = localStorage.getItem("perf-dashboard-selection");
+	var legendUrls = nodes.legend.childNodes;
+
+	selection = JSON.parse(selection);
+
+	inputChange(nodes.daySelect, selection.daySelect);
+	inputChange(nodes.monthSelect, selection.monthSelect);
+	inputChange(nodes.measureSelect, selection.measureSelect);
+
+	for (var i=0; i<legendUrls.length; i++) {
+		inputChange(
+			legendUrls[i].querySelector("input[type=checkbox]"),
+			selection.legend[legendUrls[i].className]
+		);
+	}
+}
+
+/*
+ * Changes input/select value if different, and triggers 'change' event
+ */
+function inputChange (node, newValue) {
+	if (node.type === "checkbox" || node.type === "radio") {
+		if (node.checked !== newValue) {
+			node.checked = newValue;
+			node.dispatchEvent(new CustomEvent('change'));
+		}
+	} else {
+		if (node.value !== newValue) {
+			node.value = newValue;
+			node.dispatchEvent(new CustomEvent('change'));
+		}
+	}
+}
+
+/*
+ * make sure that localStorage is accesible
+ * if gets to the error and returns QUOTA_EXCEEDED that means the device it's in private mode
+ */
+function localStorageAvailable () {
+	try {
+		localStorage.setItem('t2', 'privateBrowsing');
+		localStorage.removeItem('t2');
+		return true;
+	} catch (e) {
+		// error returned when local storage is not available or the user is in private browsing
+		return false;
+	}
+}
+
+
 

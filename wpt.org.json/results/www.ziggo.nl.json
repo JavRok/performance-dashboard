@@ -711,5 +711,253 @@
       "speedIndex": 1540
     },
     "queuedTime": "2016-05-11T17:40:50.000Z"
+  },
+  {
+    "id": "160511_5Y_229N",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_5Y_229N",
+    "domain": "https://www.ziggo.nl/",
+    "connectivity": "Native",
+    "date": 1462985849,
+    "firstView": {
+      "requests": 46,
+      "bytesIn": 1192870,
+      "ttfb": 44,
+      "startRender": 1242,
+      "domReadyEvent": 710,
+      "loadEvent": 2114,
+      "totalTime": 2109,
+      "visuallyComplete": 2113,
+      "speedIndex": 2002
+    },
+    "repeatView": {
+      "requests": 82,
+      "bytesIn": 300478,
+      "ttfb": 419,
+      "startRender": 1266,
+      "domReadyEvent": 620,
+      "loadEvent": 3837,
+      "totalTime": 3834,
+      "visuallyComplete": 7019,
+      "speedIndex": 2076
+    },
+    "queuedTime": "2016-05-11T18:55:57.000Z"
+  },
+  {
+    "id": "160511_40_24FH",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160511_40_24FH",
+    "domain": "https://www.ziggo.nl/",
+    "connectivity": "Native",
+    "date": 1462989370,
+    "firstView": {
+      "requests": 46,
+      "bytesIn": 1193014,
+      "ttfb": 39,
+      "startRender": 1679,
+      "domReadyEvent": 684,
+      "loadEvent": 2041,
+      "totalTime": 2037,
+      "visuallyComplete": 2041,
+      "speedIndex": 1826
+    },
+    "repeatView": {
+      "requests": 77,
+      "bytesIn": 288641,
+      "ttfb": 407,
+      "startRender": 1365,
+      "domReadyEvent": 718,
+      "loadEvent": 3545,
+      "totalTime": 3546,
+      "visuallyComplete": 8167,
+      "speedIndex": 1616
+    },
+    "queuedTime": "2016-05-11T19:55:57.000Z"
+  },
+  {
+    "id": "160512_6Q_2EW",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160512_6Q_2EW",
+    "domain": "https://www.ziggo.nl/",
+    "connectivity": "Native",
+    "date": 1463014739,
+    "firstView": {
+      "requests": 46,
+      "bytesIn": 1192953,
+      "ttfb": 46,
+      "startRender": 1725,
+      "domReadyEvent": 861,
+      "loadEvent": 2040,
+      "totalTime": 2034,
+      "visuallyComplete": 2038,
+      "speedIndex": 1853
+    },
+    "repeatView": {
+      "requests": 78,
+      "bytesIn": 296271,
+      "ttfb": 433,
+      "startRender": 1123,
+      "domReadyEvent": 644,
+      "loadEvent": 3351,
+      "totalTime": 3360,
+      "visuallyComplete": 8169,
+      "speedIndex": 1363
+    },
+    "queuedTime": "2016-05-12T02:55:59.000Z"
+  },
+  {
+    "id": "160512_AB_7A4",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160512_AB_7A4",
+    "domain": "https://www.ziggo.nl/",
+    "connectivity": "Native",
+    "date": 1463018295,
+    "firstView": {
+      "requests": 46,
+      "bytesIn": 1193004,
+      "ttfb": 34,
+      "startRender": 1179,
+      "domReadyEvent": 825,
+      "loadEvent": 1844,
+      "totalTime": 1841,
+      "visuallyComplete": 1845,
+      "speedIndex": 1734
+    },
+    "repeatView": {
+      "requests": 77,
+      "bytesIn": 295439,
+      "ttfb": 419,
+      "startRender": 1285,
+      "domReadyEvent": 642,
+      "loadEvent": 3311,
+      "totalTime": 3317,
+      "visuallyComplete": 8166,
+      "speedIndex": 1808
+    },
+    "queuedTime": "2016-05-12T03:55:59.000Z"
+  },
+  {
+    "id": "160512_R0_8SY",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160512_R0_8SY",
+    "domain": "https://www.ziggo.nl/",
+    "connectivity": "Native",
+    "date": 1463022137,
+    "firstView": {
+      "requests": 46,
+      "bytesIn": 1192495,
+      "ttfb": 38,
+      "startRender": 1266,
+      "domReadyEvent": 680,
+      "loadEvent": 2173,
+      "totalTime": 2169,
+      "visuallyComplete": 2173,
+      "speedIndex": 2040
+    },
+    "repeatView": {
+      "requests": 80,
+      "bytesIn": 363399,
+      "ttfb": 399,
+      "startRender": 1239,
+      "domReadyEvent": 602,
+      "loadEvent": 3556,
+      "totalTime": 3570,
+      "visuallyComplete": 8169,
+      "speedIndex": 1718
+    },
+    "queuedTime": "2016-05-12T04:55:59.000Z"
+  },
+  {
+    "id": "160512_R2_ABK",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160512_R2_ABK",
+    "domain": "https://www.ziggo.nl/",
+    "connectivity": "Native",
+    "date": 1463025564,
+    "firstView": {
+      "requests": 46,
+      "bytesIn": 1187782,
+      "ttfb": 44,
+      "startRender": 1281,
+      "domReadyEvent": 690,
+      "loadEvent": 2093,
+      "totalTime": 2105,
+      "visuallyComplete": 2144,
+      "speedIndex": 1770
+    },
+    "repeatView": {
+      "requests": 78,
+      "bytesIn": 352621,
+      "ttfb": 390,
+      "startRender": 1056,
+      "domReadyEvent": 518,
+      "loadEvent": 3435,
+      "totalTime": 3451,
+      "visuallyComplete": 8169,
+      "speedIndex": 1634
+    },
+    "queuedTime": "2016-05-12T05:56:00.000Z"
+  },
+  {
+    "id": "160512_9P_BRV",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160512_9P_BRV",
+    "domain": "https://www.ziggo.nl/",
+    "connectivity": "Native",
+    "date": 1463029085,
+    "firstView": {
+      "requests": 46,
+      "bytesIn": 1192773,
+      "ttfb": 38,
+      "startRender": 1339,
+      "domReadyEvent": 876,
+      "loadEvent": 2176,
+      "totalTime": 2170,
+      "visuallyComplete": 2174,
+      "speedIndex": 1709
+    },
+    "repeatView": {
+      "requests": 78,
+      "bytesIn": 352068,
+      "ttfb": 395,
+      "startRender": 1112,
+      "domReadyEvent": 728,
+      "loadEvent": 3478,
+      "totalTime": 3479,
+      "visuallyComplete": 8170,
+      "speedIndex": 1853
+    },
+    "queuedTime": "2016-05-12T06:56:00.000Z"
+  },
+  {
+    "id": "160512_8F_DT5",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160512_8F_DT5",
+    "domain": "https://www.ziggo.nl/",
+    "connectivity": "Native",
+    "date": 1463032733,
+    "firstView": {
+      "requests": 46,
+      "bytesIn": 1193106,
+      "ttfb": 36,
+      "startRender": 1165,
+      "domReadyEvent": 826,
+      "loadEvent": 2121,
+      "totalTime": 2122,
+      "visuallyComplete": 2126,
+      "speedIndex": 1677
+    },
+    "repeatView": {
+      "requests": 78,
+      "bytesIn": 357412,
+      "ttfb": 425,
+      "startRender": 1236,
+      "domReadyEvent": 663,
+      "loadEvent": 3796,
+      "totalTime": 3798,
+      "visuallyComplete": 1893,
+      "speedIndex": 1373
+    },
+    "queuedTime": "2016-05-12T07:56:00.000Z"
   }
 ]

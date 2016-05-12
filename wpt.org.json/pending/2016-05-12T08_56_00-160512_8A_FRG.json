@@ -1,0 +1,13 @@
+{
+  "statusCode": 200,
+  "statusText": "Ok",
+  "data": {
+    "testId": "160512_8A_FRG",
+    "ownerKey": "000b7676160e3f4e358651aace2e198ad4da1129",
+    "jsonUrl": "http://www.webpagetest.org/jsonResult.php?test=160512_8A_FRG",
+    "xmlUrl": "http://www.webpagetest.org/xmlResult/160512_8A_FRG/",
+    "userUrl": "http://www.webpagetest.org/result/160512_8A_FRG/",
+    "summaryCSV": "http://www.webpagetest.org/result/160512_8A_FRG/page_data.csv",
+    "detailCSV": "http://www.webpagetest.org/result/160512_8A_FRG/requests.csv"
+  }
+}
