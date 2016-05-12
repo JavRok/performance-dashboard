@@ -192,7 +192,7 @@ function fillFilterDropdowns() {
 	nodes.monthSelect.appendChild(option);
 	for (var i=1; i < 12; i++) {
 		// Substract one month at a time
-		dateObj.setMonth(dateObj.getMonth() - i);
+		dateObj.setMonth(dateObj.getMonth() - 1);
 		option = document.createElement("option");
 		option.textContent = months[dateObj.getMonth()];
 		option.value = -i;

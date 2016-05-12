@@ -43,7 +43,9 @@ select {
 .ct-point {
 	cursor: pointer;
 }
-
+.ct-line {
+	stroke-width: 2px;
+}
 .ct-series.hidden {
 	display: none;
 }
