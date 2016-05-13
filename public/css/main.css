@@ -98,3 +98,12 @@ select {
 	border-color: black;
 }
 
+.ct-series-g .ct-line,
+.ct-series-g .ct-point {
+	stroke: white;
+}
+.legend .ct-series-g:before {
+	border-color: white;
+}
+
+
