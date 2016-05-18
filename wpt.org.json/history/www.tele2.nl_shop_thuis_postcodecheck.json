@@ -306,5 +306,123 @@
       "totalTime": 4828,
       "visuallyComplete": 4397
     }
+  },
+  {
+    "id": "2016-05-05",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160513_9H_W7J",
+    "domain": "https://www.tele2.nl/shop/thuis/postcodecheck/",
+    "connectivity": "Native",
+    "date": 1462406400,
+    "firstView": {
+      "requests": 88,
+      "bytesIn": 1089550.5,
+      "ttfb": 986.5,
+      "startRender": 2553,
+      "domReadyEvent": 3197,
+      "loadEvent": 5225.5,
+      "totalTime": 5505,
+      "visuallyComplete": 4606,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 42,
+      "bytesIn": 175528,
+      "ttfb": 886,
+      "startRender": 2144.5,
+      "domReadyEvent": 2757.5,
+      "loadEvent": 4099,
+      "totalTime": 4234,
+      "visuallyComplete": 3784,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2016-05-06",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160513_9H_W7J",
+    "domain": "https://www.tele2.nl/shop/thuis/postcodecheck/",
+    "connectivity": "Native",
+    "date": 1462492800,
+    "firstView": {
+      "requests": 88,
+      "bytesIn": 1089790,
+      "ttfb": 965,
+      "startRender": 2552,
+      "domReadyEvent": 3438.5,
+      "loadEvent": 5209.5,
+      "totalTime": 5371,
+      "visuallyComplete": 4910,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 42,
+      "bytesIn": 175470,
+      "ttfb": 916,
+      "startRender": 2144,
+      "domReadyEvent": 2893.5,
+      "loadEvent": 4276,
+      "totalTime": 4412,
+      "visuallyComplete": 3935,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2016-05-07",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160514_WS_RD3",
+    "domain": "https://www.tele2.nl/shop/thuis/postcodecheck/",
+    "connectivity": "Native",
+    "date": 1462579200,
+    "firstView": {
+      "requests": 88,
+      "bytesIn": 1093418,
+      "ttfb": 956,
+      "startRender": 2653,
+      "domReadyEvent": 3244,
+      "loadEvent": 5033,
+      "totalTime": 5204,
+      "visuallyComplete": 4706
+    },
+    "repeatView": {
+      "requests": 45,
+      "bytesIn": 176044,
+      "ttfb": 892,
+      "startRender": 2050,
+      "domReadyEvent": 2840,
+      "loadEvent": 4516,
+      "totalTime": 4656,
+      "visuallyComplete": 3784
+    }
+  },
+  {
+    "id": "2016-05-09",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160516_J7_PKM",
+    "domain": "https://www.tele2.nl/shop/thuis/postcodecheck/",
+    "connectivity": "Native",
+    "date": 1462752000,
+    "firstView": {
+      "requests": 86.5,
+      "bytesIn": 1079191,
+      "ttfb": 933,
+      "startRender": 3389,
+      "domReadyEvent": 5009.5,
+      "loadEvent": 7770,
+      "totalTime": 7852.5,
+      "visuallyComplete": 8282,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 40,
+      "bytesIn": 173775,
+      "ttfb": 831.5,
+      "startRender": 3083.5,
+      "domReadyEvent": 3978.5,
+      "loadEvent": 6235.5,
+      "totalTime": 6366,
+      "visuallyComplete": 7734,
+      "speedIndex": 7388
+    }
   }
 ]

@@ -1,1821 +1,5 @@
 [
   {
-    "id": "160505_HB_10E",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_HB_10E",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462407873,
-    "firstView": {
-      "requests": 176,
-      "bytesIn": 3163571,
-      "ttfb": 1127,
-      "startRender": 4291,
-      "domReadyEvent": 4365,
-      "loadEvent": 9521,
-      "totalTime": 9856,
-      "visuallyComplete": 6953
-    },
-    "repeatView": {
-      "requests": 144,
-      "bytesIn": 236267,
-      "ttfb": 963,
-      "startRender": 3984,
-      "domReadyEvent": 4133,
-      "loadEvent": 6576,
-      "totalTime": 6789,
-      "visuallyComplete": 5632
-    }
-  },
-  {
-    "id": "160505_50_2HA",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_50_2HA",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462411271,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3211529,
-      "ttfb": 1157,
-      "startRender": 5320,
-      "domReadyEvent": 5598,
-      "loadEvent": 9865,
-      "totalTime": 10216,
-      "visuallyComplete": 6857
-    },
-    "repeatView": {
-      "requests": 139,
-      "bytesIn": 242036,
-      "ttfb": 1253,
-      "startRender": 4699,
-      "domReadyEvent": 4942,
-      "loadEvent": 7634,
-      "totalTime": 7938,
-      "visuallyComplete": 6643
-    }
-  },
-  {
-    "id": "160505_Q1_3XD",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_Q1_3XD",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462415525,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3207412,
-      "ttfb": 1028,
-      "startRender": 4706,
-      "domReadyEvent": 5223,
-      "loadEvent": 10316,
-      "totalTime": 10584,
-      "visuallyComplete": 7058
-    },
-    "repeatView": {
-      "requests": 138,
-      "bytesIn": 241586,
-      "ttfb": 1047,
-      "startRender": 4395,
-      "domReadyEvent": 4567,
-      "loadEvent": 7151,
-      "totalTime": 7403,
-      "visuallyComplete": 6241
-    }
-  },
-  {
-    "id": "160505_QF_5KW",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_QF_5KW",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462418604,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3208165,
-      "ttfb": 1025,
-      "startRender": 5319,
-      "domReadyEvent": 5415,
-      "loadEvent": 9831,
-      "totalTime": 10155,
-      "visuallyComplete": 7264
-    },
-    "repeatView": {
-      "requests": 156,
-      "bytesIn": 277941,
-      "ttfb": 926,
-      "startRender": 3172,
-      "domReadyEvent": 3434,
-      "loadEvent": 5585,
-      "totalTime": 5792,
-      "visuallyComplete": 4604
-    }
-  },
-  {
-    "id": "160505_QR_7CX",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_QR_7CX",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462422059,
-    "firstView": {
-      "requests": 176,
-      "bytesIn": 3166744,
-      "ttfb": 1052,
-      "startRender": 3988,
-      "domReadyEvent": 4098,
-      "loadEvent": 8806,
-      "totalTime": 9080,
-      "visuallyComplete": 6138
-    },
-    "repeatView": {
-      "requests": 127,
-      "bytesIn": 225984,
-      "ttfb": 974,
-      "startRender": 3476,
-      "domReadyEvent": 3490,
-      "loadEvent": 5807,
-      "totalTime": 6020,
-      "visuallyComplete": 4807
-    }
-  },
-  {
-    "id": "160505_6T_99X",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_6T_99X",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462425656,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3225535,
-      "ttfb": 1069,
-      "startRender": 4500,
-      "domReadyEvent": 4550,
-      "loadEvent": 9454,
-      "totalTime": 9710,
-      "visuallyComplete": 6035
-    },
-    "repeatView": {
-      "requests": 153,
-      "bytesIn": 249910,
-      "ttfb": 976,
-      "startRender": 3373,
-      "domReadyEvent": 3428,
-      "loadEvent": 5458,
-      "totalTime": 5673,
-      "visuallyComplete": 4917
-    }
-  },
-  {
-    "id": "160505_7Q_AZ5",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_7Q_AZ5",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462429449,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3209637,
-      "ttfb": 1065,
-      "startRender": 4805,
-      "domReadyEvent": 4984,
-      "loadEvent": 9234,
-      "totalTime": 9516,
-      "visuallyComplete": 6751
-    },
-    "repeatView": {
-      "requests": 138,
-      "bytesIn": 252484,
-      "ttfb": 919,
-      "startRender": 3583,
-      "domReadyEvent": 3771,
-      "loadEvent": 5935,
-      "totalTime": 6135,
-      "visuallyComplete": 5219
-    }
-  },
-  {
-    "id": "160505_WK_CKV",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_WK_CKV",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462432858,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3222095,
-      "ttfb": 1007,
-      "startRender": 1131,
-      "domReadyEvent": 4330,
-      "loadEvent": 9167,
-      "totalTime": 9489,
-      "visuallyComplete": 6350
-    },
-    "repeatView": {
-      "requests": 140,
-      "bytesIn": 262030,
-      "ttfb": 969,
-      "startRender": 3476,
-      "domReadyEvent": 3560,
-      "loadEvent": 5443,
-      "totalTime": 5659,
-      "visuallyComplete": 4500
-    }
-  },
-  {
-    "id": "160505_QM_EGP",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_QM_EGP",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462436562,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3211138,
-      "ttfb": 2359,
-      "startRender": 6142,
-      "domReadyEvent": 6160,
-      "loadEvent": 11293,
-      "totalTime": 11571,
-      "visuallyComplete": 7983
-    },
-    "repeatView": {
-      "requests": 64,
-      "bytesIn": 228069,
-      "ttfb": 921,
-      "startRender": 3371,
-      "domReadyEvent": 3446,
-      "loadEvent": 5399,
-      "totalTime": 5590,
-      "visuallyComplete": 4804
-    }
-  },
-  {
-    "id": "160505_FD_GM8",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_FD_GM8",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462440271,
-    "firstView": {
-      "requests": 176,
-      "bytesIn": 3164639,
-      "ttfb": 1099,
-      "startRender": 4397,
-      "domReadyEvent": 4488,
-      "loadEvent": 9774,
-      "totalTime": 10086,
-      "visuallyComplete": 7167
-    },
-    "repeatView": {
-      "requests": 54,
-      "bytesIn": 222864,
-      "ttfb": 935,
-      "startRender": 3681,
-      "domReadyEvent": 3683,
-      "loadEvent": 6226,
-      "totalTime": 6452,
-      "visuallyComplete": 5525
-    }
-  },
-  {
-    "id": "160505_JE_JP9",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_JE_JP9",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462444259,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3207335,
-      "ttfb": 1036,
-      "startRender": 4399,
-      "domReadyEvent": 4409,
-      "loadEvent": 9802,
-      "totalTime": 10111,
-      "visuallyComplete": 6859
-    },
-    "repeatView": {
-      "requests": 69,
-      "bytesIn": 235478,
-      "ttfb": 1016,
-      "startRender": 3372,
-      "domReadyEvent": 3387,
-      "loadEvent": 5526,
-      "totalTime": 5746,
-      "visuallyComplete": 4907
-    }
-  },
-  {
-    "id": "160505_QH_MP6",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_QH_MP6",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462456341,
-    "firstView": {
-      "requests": 187,
-      "bytesIn": 3214024,
-      "ttfb": 1097,
-      "startRender": 4926,
-      "domReadyEvent": 5050,
-      "loadEvent": 9364,
-      "totalTime": 9621,
-      "visuallyComplete": 7680
-    },
-    "repeatView": {
-      "requests": 126,
-      "bytesIn": 246608,
-      "ttfb": 954,
-      "startRender": 2758,
-      "domReadyEvent": 3035,
-      "loadEvent": 5401,
-      "totalTime": 5628,
-      "visuallyComplete": 5017
-    }
-  },
-  {
-    "id": "160505_W2_PR8",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_W2_PR8",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462456574,
-    "firstView": {
-      "requests": 187,
-      "bytesIn": 3211523,
-      "ttfb": 1041,
-      "startRender": 4296,
-      "domReadyEvent": 4229,
-      "loadEvent": 9357,
-      "totalTime": 9595,
-      "visuallyComplete": 6242
-    },
-    "repeatView": {
-      "requests": 142,
-      "bytesIn": 256005,
-      "ttfb": 912,
-      "startRender": 3476,
-      "domReadyEvent": 3469,
-      "loadEvent": 5649,
-      "totalTime": 5863,
-      "visuallyComplete": 4810
-    }
-  },
-  {
-    "id": "160505_HK_RQP",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_HK_RQP",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462457161,
-    "firstView": {
-      "requests": 182,
-      "bytesIn": 3180336,
-      "ttfb": 1081,
-      "startRender": 4295,
-      "domReadyEvent": 4152,
-      "loadEvent": 10475,
-      "totalTime": 10759,
-      "visuallyComplete": 5831
-    },
-    "repeatView": {
-      "requests": 131,
-      "bytesIn": 280366,
-      "ttfb": 940,
-      "startRender": 3478,
-      "domReadyEvent": 3578,
-      "loadEvent": 6014,
-      "totalTime": 6257,
-      "visuallyComplete": 5317
-    }
-  },
-  {
-    "id": "160505_8V_TTV",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_8V_TTV",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462458155,
-    "firstView": {
-      "requests": 186,
-      "bytesIn": 3211998,
-      "ttfb": 1270,
-      "startRender": 4603,
-      "domReadyEvent": 4591,
-      "loadEvent": 10092,
-      "totalTime": 10420,
-      "visuallyComplete": 6653
-    },
-    "repeatView": {
-      "requests": 141,
-      "bytesIn": 265619,
-      "ttfb": 1127,
-      "startRender": 3580,
-      "domReadyEvent": 3725,
-      "loadEvent": 6198,
-      "totalTime": 6448,
-      "visuallyComplete": 5115
-    }
-  },
-  {
-    "id": "160505_53_XHS",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_53_XHS",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462462283,
-    "firstView": {
-      "requests": 176,
-      "bytesIn": 3165671,
-      "ttfb": 1038,
-      "startRender": 4906,
-      "domReadyEvent": 4680,
-      "loadEvent": 9029,
-      "totalTime": 9284,
-      "visuallyComplete": 6646
-    },
-    "repeatView": {
-      "requests": 142,
-      "bytesIn": 237868,
-      "ttfb": 996,
-      "startRender": 4194,
-      "domReadyEvent": 4129,
-      "loadEvent": 6582,
-      "totalTime": 6819,
-      "visuallyComplete": 5432
-    }
-  },
-  {
-    "id": "160505_NB_ZWR",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_NB_ZWR",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462465276,
-    "firstView": {
-      "requests": 187,
-      "bytesIn": 3216479,
-      "ttfb": 1008,
-      "startRender": 4398,
-      "domReadyEvent": 4434,
-      "loadEvent": 9303,
-      "totalTime": 9605,
-      "visuallyComplete": 5934
-    },
-    "repeatView": {
-      "requests": 126,
-      "bytesIn": 236126,
-      "ttfb": 1129,
-      "startRender": 3577,
-      "domReadyEvent": 3763,
-      "loadEvent": 5735,
-      "totalTime": 5963,
-      "visuallyComplete": 5216
-    }
-  },
-  {
-    "id": "160505_AP_125P",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_AP_125P",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462469139,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3212582,
-      "ttfb": 1088,
-      "startRender": 4611,
-      "domReadyEvent": 4544,
-      "loadEvent": 10615,
-      "totalTime": 10981,
-      "visuallyComplete": 7165
-    },
-    "repeatView": {
-      "requests": 140,
-      "bytesIn": 268012,
-      "ttfb": 1029,
-      "startRender": 3579,
-      "domReadyEvent": 3691,
-      "loadEvent": 5653,
-      "totalTime": 5799,
-      "visuallyComplete": 4808
-    }
-  },
-  {
-    "id": "160505_FC_146W",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_FC_146W",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462472577,
-    "firstView": {
-      "requests": 187,
-      "bytesIn": 3213283,
-      "ttfb": 1018,
-      "startRender": 4602,
-      "domReadyEvent": 4433,
-      "loadEvent": 8765,
-      "totalTime": 9058,
-      "visuallyComplete": 6036
-    },
-    "repeatView": {
-      "requests": 128,
-      "bytesIn": 255544,
-      "ttfb": 1142,
-      "startRender": 4297,
-      "domReadyEvent": 4276,
-      "loadEvent": 6776,
-      "totalTime": 7057,
-      "visuallyComplete": 5937
-    }
-  },
-  {
-    "id": "160505_0T_1624",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_0T_1624",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462477302,
-    "firstView": {
-      "requests": 187,
-      "bytesIn": 3212355,
-      "ttfb": 1085,
-      "startRender": 4598,
-      "domReadyEvent": 4361,
-      "loadEvent": 9224,
-      "totalTime": 9577,
-      "visuallyComplete": 9002
-    },
-    "repeatView": {
-      "requests": 126,
-      "bytesIn": 235172,
-      "ttfb": 976,
-      "startRender": 3679,
-      "domReadyEvent": 3697,
-      "loadEvent": 5647,
-      "totalTime": 5885,
-      "visuallyComplete": 4807
-    }
-  },
-  {
-    "id": "160505_SD_1861",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_SD_1861",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462480330,
-    "firstView": {
-      "requests": 175,
-      "bytesIn": 3168078,
-      "ttfb": 1080,
-      "startRender": 4600,
-      "domReadyEvent": 4538,
-      "loadEvent": 9430,
-      "totalTime": 9752,
-      "visuallyComplete": 8083
-    },
-    "repeatView": {
-      "requests": 115,
-      "bytesIn": 219898,
-      "ttfb": 1000,
-      "startRender": 3077,
-      "domReadyEvent": 3254,
-      "loadEvent": 5429,
-      "totalTime": 5602,
-      "visuallyComplete": 5112
-    }
-  },
-  {
-    "id": "160505_1B_1A3S",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_1B_1A3S",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462484034,
-    "firstView": {
-      "requests": 191,
-      "bytesIn": 3212379,
-      "ttfb": 1302,
-      "startRender": 5320,
-      "domReadyEvent": 5545,
-      "loadEvent": 9789,
-      "totalTime": 10056,
-      "visuallyComplete": 7265
-    },
-    "repeatView": {
-      "requests": 141,
-      "bytesIn": 262903,
-      "ttfb": 957,
-      "startRender": 3273,
-      "domReadyEvent": 3448,
-      "loadEvent": 6230,
-      "totalTime": 6509,
-      "visuallyComplete": 5116
-    }
-  },
-  {
-    "id": "160505_12_1BSR",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_12_1BSR",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462487046,
-    "firstView": {
-      "requests": 190,
-      "bytesIn": 3216781,
-      "ttfb": 1024,
-      "startRender": 5113,
-      "domReadyEvent": 4698,
-      "loadEvent": 10136,
-      "totalTime": 10474,
-      "visuallyComplete": 6956
-    },
-    "repeatView": {
-      "requests": 139,
-      "bytesIn": 251246,
-      "ttfb": 942,
-      "startRender": 3988,
-      "domReadyEvent": 4028,
-      "loadEvent": 6021,
-      "totalTime": 6254,
-      "visuallyComplete": 5320
-    }
-  },
-  {
-    "id": "160505_JY_1DA3",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160505_JY_1DA3",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462490666,
-    "firstView": {
-      "requests": 190,
-      "bytesIn": 3211578,
-      "ttfb": 1080,
-      "startRender": 5315,
-      "domReadyEvent": 5245,
-      "loadEvent": 9908,
-      "totalTime": 10223,
-      "visuallyComplete": 6852
-    },
-    "repeatView": {
-      "requests": 140,
-      "bytesIn": 255861,
-      "ttfb": 1225,
-      "startRender": 3886,
-      "domReadyEvent": 3958,
-      "loadEvent": 6097,
-      "totalTime": 6333,
-      "visuallyComplete": 5423
-    }
-  },
-  {
-    "id": "160506_3X_11S",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_3X_11S",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462494090,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3210218,
-      "ttfb": 1105,
-      "startRender": 5317,
-      "domReadyEvent": 5591,
-      "loadEvent": 10554,
-      "totalTime": 10932,
-      "visuallyComplete": 7674
-    },
-    "repeatView": {
-      "requests": 172,
-      "bytesIn": 248151,
-      "ttfb": 954,
-      "startRender": 4090,
-      "domReadyEvent": 4466,
-      "loadEvent": 7763,
-      "totalTime": 8055,
-      "visuallyComplete": 6553
-    }
-  },
-  {
-    "id": "160506_XP_2QQ",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_XP_2QQ",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462497979,
-    "firstView": {
-      "requests": 138,
-      "bytesIn": 2929716,
-      "ttfb": 1068,
-      "startRender": 5317,
-      "domReadyEvent": 0,
-      "loadEvent": 0,
-      "totalTime": 84658,
-      "visuallyComplete": 44387
-    },
-    "repeatView": null
-  },
-  {
-    "id": "160506_XT_4AY",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_XT_4AY",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462501476,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3223351,
-      "ttfb": 1092,
-      "startRender": 4808,
-      "domReadyEvent": 4870,
-      "loadEvent": 8831,
-      "totalTime": 9052,
-      "visuallyComplete": 6857
-    },
-    "repeatView": {
-      "requests": 139,
-      "bytesIn": 253075,
-      "ttfb": 969,
-      "startRender": 5725,
-      "domReadyEvent": 5863,
-      "loadEvent": 7983,
-      "totalTime": 8206,
-      "visuallyComplete": 7671
-    }
-  },
-  {
-    "id": "160506_GS_67E",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_GS_67E",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462504983,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3212171,
-      "ttfb": 1031,
-      "startRender": 4394,
-      "domReadyEvent": 4462,
-      "loadEvent": 9187,
-      "totalTime": 9508,
-      "visuallyComplete": 6550
-    },
-    "repeatView": {
-      "requests": 170,
-      "bytesIn": 256624,
-      "ttfb": 962,
-      "startRender": 3501,
-      "domReadyEvent": 3746,
-      "loadEvent": 6009,
-      "totalTime": 6175,
-      "visuallyComplete": 4809
-    }
-  },
-  {
-    "id": "160506_S0_7W5",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_S0_7W5",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462508583,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3207467,
-      "ttfb": 1034,
-      "startRender": 4706,
-      "domReadyEvent": 4631,
-      "loadEvent": 11206,
-      "totalTime": 11532,
-      "visuallyComplete": 6243
-    },
-    "repeatView": {
-      "requests": 139,
-      "bytesIn": 272539,
-      "ttfb": 903,
-      "startRender": 3476,
-      "domReadyEvent": 3545,
-      "loadEvent": 5559,
-      "totalTime": 5804,
-      "visuallyComplete": 4817
-    }
-  },
-  {
-    "id": "160506_60_9Q2",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_60_9Q2",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462512081,
-    "firstView": {
-      "requests": 176,
-      "bytesIn": 3167367,
-      "ttfb": 1099,
-      "startRender": 4911,
-      "domReadyEvent": 5082,
-      "loadEvent": 8961,
-      "totalTime": 9267,
-      "visuallyComplete": 7677
-    },
-    "repeatView": {
-      "requests": 142,
-      "bytesIn": 226767,
-      "ttfb": 916,
-      "startRender": 3375,
-      "domReadyEvent": 3349,
-      "loadEvent": 5252,
-      "totalTime": 5461,
-      "visuallyComplete": 4911
-    }
-  },
-  {
-    "id": "160506_42_B85",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_42_B85",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462516664,
-    "firstView": {
-      "requests": 176,
-      "bytesIn": 3161800,
-      "ttfb": 1015,
-      "startRender": 4704,
-      "domReadyEvent": 4503,
-      "loadEvent": 11025,
-      "totalTime": 11380,
-      "visuallyComplete": 8694
-    },
-    "repeatView": {
-      "requests": 143,
-      "bytesIn": 251862,
-      "ttfb": 1095,
-      "startRender": 3682,
-      "domReadyEvent": 0,
-      "loadEvent": 0,
-      "totalTime": 8611,
-      "visuallyComplete": 5729
-    }
-  },
-  {
-    "id": "160506_DY_CW3",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_DY_CW3",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462519569,
-    "firstView": {
-      "requests": 190,
-      "bytesIn": 3209942,
-      "ttfb": 1120,
-      "startRender": 4705,
-      "domReadyEvent": 4803,
-      "loadEvent": 9410,
-      "totalTime": 9692,
-      "visuallyComplete": 6445
-    },
-    "repeatView": {
-      "requests": 171,
-      "bytesIn": 242859,
-      "ttfb": 992,
-      "startRender": 3477,
-      "domReadyEvent": 3576,
-      "loadEvent": 5657,
-      "totalTime": 5932,
-      "visuallyComplete": 5010
-    }
-  },
-  {
-    "id": "160506_CZ_ETM",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_CZ_ETM",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462528504,
-    "firstView": {
-      "requests": 177,
-      "bytesIn": 3164435,
-      "ttfb": 1103,
-      "startRender": 5627,
-      "domReadyEvent": 5678,
-      "loadEvent": 9514,
-      "totalTime": 9823,
-      "visuallyComplete": 9417
-    },
-    "repeatView": {
-      "requests": 54,
-      "bytesIn": 203699,
-      "ttfb": 917,
-      "startRender": 3272,
-      "domReadyEvent": 3349,
-      "loadEvent": 5443,
-      "totalTime": 5593,
-      "visuallyComplete": 5116
-    }
-  },
-  {
-    "id": "160506_8W_K6V",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_8W_K6V",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462533834,
-    "firstView": {
-      "requests": 187,
-      "bytesIn": 3207107,
-      "ttfb": 1061,
-      "startRender": 5215,
-      "domReadyEvent": 5327,
-      "loadEvent": 9160,
-      "totalTime": 9400,
-      "visuallyComplete": 7571
-    },
-    "repeatView": {
-      "requests": 138,
-      "bytesIn": 263112,
-      "ttfb": 1001,
-      "startRender": 3403,
-      "domReadyEvent": 3648,
-      "loadEvent": 5799,
-      "totalTime": 6023,
-      "visuallyComplete": 5217
-    }
-  },
-  {
-    "id": "160506_ER_GZ1",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_ER_GZ1",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462534198,
-    "firstView": {
-      "requests": 176,
-      "bytesIn": 3178504,
-      "ttfb": 1083,
-      "startRender": 5110,
-      "domReadyEvent": 5049,
-      "loadEvent": 9815,
-      "totalTime": 10140,
-      "visuallyComplete": 7058
-    },
-    "repeatView": {
-      "requests": 127,
-      "bytesIn": 247547,
-      "ttfb": 947,
-      "startRender": 4907,
-      "domReadyEvent": 4941,
-      "loadEvent": 7761,
-      "totalTime": 8047,
-      "visuallyComplete": 7365
-    }
-  },
-  {
-    "id": "160506_EH_N5K",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_EH_N5K",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462535250,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3215104,
-      "ttfb": 1300,
-      "startRender": 6344,
-      "domReadyEvent": 6384,
-      "loadEvent": 11037,
-      "totalTime": 11387,
-      "visuallyComplete": 8200
-    },
-    "repeatView": {
-      "requests": 155,
-      "bytesIn": 264036,
-      "ttfb": 945,
-      "startRender": 3372,
-      "domReadyEvent": 3610,
-      "loadEvent": 5682,
-      "totalTime": 5912,
-      "visuallyComplete": 4909
-    }
-  },
-  {
-    "id": "160506_XY_Q75",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_XY_Q75",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462539574,
-    "firstView": {
-      "requests": 176,
-      "bytesIn": 3166557,
-      "ttfb": 1045,
-      "startRender": 5014,
-      "domReadyEvent": 4928,
-      "loadEvent": 9094,
-      "totalTime": 9424,
-      "visuallyComplete": 6549
-    },
-    "repeatView": {
-      "requests": 127,
-      "bytesIn": 227030,
-      "ttfb": 1109,
-      "startRender": 4092,
-      "domReadyEvent": 4128,
-      "loadEvent": 6002,
-      "totalTime": 6276,
-      "visuallyComplete": 5318
-    }
-  },
-  {
-    "id": "160506_YR_SAD",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_YR_SAD",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462540875,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3215815,
-      "ttfb": 1044,
-      "startRender": 4396,
-      "domReadyEvent": 4493,
-      "loadEvent": 9129,
-      "totalTime": 9424,
-      "visuallyComplete": 6035
-    },
-    "repeatView": {
-      "requests": 155,
-      "bytesIn": 242099,
-      "ttfb": 932,
-      "startRender": 3476,
-      "domReadyEvent": 3509,
-      "loadEvent": 5405,
-      "totalTime": 5649,
-      "visuallyComplete": 4909
-    }
-  },
-  {
-    "id": "160506_P4_VJG",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_P4_VJG",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462544486,
-    "firstView": {
-      "requests": 175,
-      "bytesIn": 3157964,
-      "ttfb": 1013,
-      "startRender": 4396,
-      "domReadyEvent": 4390,
-      "loadEvent": 9915,
-      "totalTime": 10204,
-      "visuallyComplete": 7060
-    },
-    "repeatView": {
-      "requests": 117,
-      "bytesIn": 260696,
-      "ttfb": 1014,
-      "startRender": 3374,
-      "domReadyEvent": 3565,
-      "loadEvent": 5457,
-      "totalTime": 5645,
-      "visuallyComplete": 5217
-    }
-  },
-  {
-    "id": "160506_45_XGG",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_45_XGG",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462548089,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3211372,
-      "ttfb": 1090,
-      "startRender": 4294,
-      "domReadyEvent": 4383,
-      "loadEvent": 8566,
-      "totalTime": 8852,
-      "visuallyComplete": 5939
-    },
-    "repeatView": {
-      "requests": 140,
-      "bytesIn": 242545,
-      "ttfb": 935,
-      "startRender": 3787,
-      "domReadyEvent": 3822,
-      "loadEvent": 6285,
-      "totalTime": 6524,
-      "visuallyComplete": 5523
-    }
-  },
-  {
-    "id": "160506_X9_1091",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_X9_1091",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462554780,
-    "firstView": {
-      "requests": 187,
-      "bytesIn": 3207545,
-      "ttfb": 1021,
-      "startRender": 4602,
-      "domReadyEvent": 4673,
-      "loadEvent": 8634,
-      "totalTime": 8878,
-      "visuallyComplete": 6853
-    },
-    "repeatView": {
-      "requests": 140,
-      "bytesIn": 236304,
-      "ttfb": 986,
-      "startRender": 1121,
-      "domReadyEvent": 4143,
-      "loadEvent": 6622,
-      "totalTime": 6869,
-      "visuallyComplete": 6035
-    }
-  },
-  {
-    "id": "160506_ZN_12EQ",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_ZN_12EQ",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462555790,
-    "firstView": {
-      "requests": 189,
-      "bytesIn": 3211988,
-      "ttfb": 1036,
-      "startRender": 4807,
-      "domReadyEvent": 4674,
-      "loadEvent": 10959,
-      "totalTime": 11275,
-      "visuallyComplete": 7166
-    },
-    "repeatView": {
-      "requests": 139,
-      "bytesIn": 268236,
-      "ttfb": 999,
-      "startRender": 3680,
-      "domReadyEvent": 3606,
-      "loadEvent": 5583,
-      "totalTime": 5735,
-      "visuallyComplete": 4705
-    }
-  },
-  {
-    "id": "160506_28_14C5",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_28_14C5",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462559037,
-    "firstView": {
-      "requests": 184,
-      "bytesIn": 3167398,
-      "ttfb": 1152,
-      "startRender": 4912,
-      "domReadyEvent": 5037,
-      "loadEvent": 9131,
-      "totalTime": 9470,
-      "visuallyComplete": 7269
-    },
-    "repeatView": {
-      "requests": 140,
-      "bytesIn": 243019,
-      "ttfb": 972,
-      "startRender": 3680,
-      "domReadyEvent": 3703,
-      "loadEvent": 5792,
-      "totalTime": 6016,
-      "visuallyComplete": 4910
-    }
-  },
-  {
-    "id": "160506_7B_16D6",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_7B_16D6",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462562567,
-    "firstView": {
-      "requests": 196,
-      "bytesIn": 3216558,
-      "ttfb": 1029,
-      "startRender": 5012,
-      "domReadyEvent": 5291,
-      "loadEvent": 10187,
-      "totalTime": 10610,
-      "visuallyComplete": 7060
-    },
-    "repeatView": {
-      "requests": 149,
-      "bytesIn": 269748,
-      "ttfb": 1038,
-      "startRender": 5215,
-      "domReadyEvent": 5348,
-      "loadEvent": 8266,
-      "totalTime": 8565,
-      "visuallyComplete": 7058
-    }
-  },
-  {
-    "id": "160506_80_187K",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_80_187K",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462566185,
-    "firstView": {
-      "requests": 183,
-      "bytesIn": 3168817,
-      "ttfb": 1076,
-      "startRender": 4707,
-      "domReadyEvent": 4941,
-      "loadEvent": 10579,
-      "totalTime": 10926,
-      "visuallyComplete": 7264
-    },
-    "repeatView": {
-      "requests": 127,
-      "bytesIn": 241695,
-      "ttfb": 1040,
-      "startRender": 4702,
-      "domReadyEvent": 0,
-      "loadEvent": 0,
-      "totalTime": 35784,
-      "visuallyComplete": 7339
-    }
-  },
-  {
-    "id": "160506_ME_19YE",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_ME_19YE",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462569760,
-    "firstView": {
-      "requests": 195,
-      "bytesIn": 3227385,
-      "ttfb": 1237,
-      "startRender": 4909,
-      "domReadyEvent": 5083,
-      "loadEvent": 9345,
-      "totalTime": 9665,
-      "visuallyComplete": 6547
-    },
-    "repeatView": {
-      "requests": 138,
-      "bytesIn": 243524,
-      "ttfb": 979,
-      "startRender": 3271,
-      "domReadyEvent": 3634,
-      "loadEvent": 6053,
-      "totalTime": 6370,
-      "visuallyComplete": 5321
-    }
-  },
-  {
-    "id": "160506_EY_1B9M",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_EY_1B9M",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462573489,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3224985,
-      "ttfb": 1064,
-      "startRender": 5118,
-      "domReadyEvent": 5491,
-      "loadEvent": 10879,
-      "totalTime": 11197,
-      "visuallyComplete": 8086
-    },
-    "repeatView": {
-      "requests": 127,
-      "bytesIn": 236928,
-      "ttfb": 947,
-      "startRender": 3677,
-      "domReadyEvent": 3897,
-      "loadEvent": 5939,
-      "totalTime": 6181,
-      "visuallyComplete": 5316
-    }
-  },
-  {
-    "id": "160506_B7_1CNQ",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160506_B7_1CNQ",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462576777,
-    "firstView": {
-      "requests": 176,
-      "bytesIn": 3160860,
-      "ttfb": 1001,
-      "startRender": 4603,
-      "domReadyEvent": 4388,
-      "loadEvent": 11755,
-      "totalTime": 12175,
-      "visuallyComplete": 9430
-    },
-    "repeatView": {
-      "requests": 129,
-      "bytesIn": 250041,
-      "ttfb": 980,
-      "startRender": 3679,
-      "domReadyEvent": 3733,
-      "loadEvent": 6102,
-      "totalTime": 6337,
-      "visuallyComplete": 5216
-    }
-  },
-  {
-    "id": "160507_8X_22F",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160507_8X_22F",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462580712,
-    "firstView": {
-      "requests": 192,
-      "bytesIn": 3207349,
-      "ttfb": 1393,
-      "startRender": 5829,
-      "domReadyEvent": 6328,
-      "loadEvent": 18303,
-      "totalTime": 18761,
-      "visuallyComplete": 8594
-    },
-    "repeatView": {
-      "requests": 143,
-      "bytesIn": 258483,
-      "ttfb": 994,
-      "startRender": 5620,
-      "domReadyEvent": 5698,
-      "loadEvent": 8902,
-      "totalTime": 9221,
-      "visuallyComplete": 8181
-    }
-  },
-  {
-    "id": "160507_ZT_3KT",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160507_ZT_3KT",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462591059,
-    "firstView": {
-      "requests": 176,
-      "bytesIn": 3164203,
-      "ttfb": 1090,
-      "startRender": 4806,
-      "domReadyEvent": 4948,
-      "loadEvent": 9919,
-      "totalTime": 10220,
-      "visuallyComplete": 6342
-    },
-    "repeatView": {
-      "requests": 146,
-      "bytesIn": 258802,
-      "ttfb": 956,
-      "startRender": 3375,
-      "domReadyEvent": 3459,
-      "loadEvent": 5696,
-      "totalTime": 5918,
-      "visuallyComplete": 4499
-    }
-  },
-  {
-    "id": "160507_KN_6DM",
-    "location": "Amsterdam_IISpeed:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160507_KN_6DM",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462593398,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3211557,
-      "ttfb": 1100,
-      "startRender": 5113,
-      "domReadyEvent": 5035,
-      "loadEvent": 10741,
-      "totalTime": 11012,
-      "visuallyComplete": 8186
-    },
-    "repeatView": {
-      "requests": 138,
-      "bytesIn": 254847,
-      "ttfb": 936,
-      "startRender": 3476,
-      "domReadyEvent": 3668,
-      "loadEvent": 5804,
-      "totalTime": 6061,
-      "visuallyComplete": 5219
-    }
-  },
-  {
-    "id": "160509_T1_TK1",
-    "location": "EU_Ams_Wptdriver:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160509_T1_TK1",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462800611,
-    "firstView": {
-      "requests": 187,
-      "bytesIn": 3207287,
-      "ttfb": 1051,
-      "startRender": 988,
-      "domReadyEvent": 8999,
-      "loadEvent": 16040,
-      "totalTime": 16071,
-      "visuallyComplete": 15882
-    },
-    "repeatView": {
-      "requests": 144,
-      "bytesIn": 261706,
-      "ttfb": 960,
-      "startRender": 8279,
-      "domReadyEvent": 7248,
-      "loadEvent": 10953,
-      "totalTime": 11102,
-      "visuallyComplete": 10891
-    },
-    "queuedTime": "2016-05-09T15:19:51.000Z"
-  },
-  {
-    "id": "160509_38_TZF",
-    "location": "EU_Ams_Wptdriver:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160509_38_TZF",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462800823,
-    "firstView": {
-      "requests": 174,
-      "bytesIn": 3166715,
-      "ttfb": 1016,
-      "startRender": 9801,
-      "domReadyEvent": 6545,
-      "loadEvent": 13005,
-      "totalTime": 13011,
-      "visuallyComplete": 11906
-    },
-    "repeatView": {
-      "requests": 129,
-      "bytesIn": 256057,
-      "ttfb": 1045,
-      "startRender": 5985,
-      "domReadyEvent": 6119,
-      "loadEvent": 10187,
-      "totalTime": 10245,
-      "visuallyComplete": 10886
-    },
-    "queuedTime": "2016-05-09T15:31:33.000Z"
-  },
-  {
-    "id": "160509_K9_WFQ",
-    "location": "EU_Ams_Wptdriver:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160509_K9_WFQ",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Cable",
-    "date": 1462802868,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3213061,
-      "ttfb": 1057,
-      "startRender": 6179,
-      "domReadyEvent": 6244,
-      "loadEvent": 12057,
-      "totalTime": 12165,
-      "visuallyComplete": 9878
-    },
-    "repeatView": {
-      "requests": 139,
-      "bytesIn": 271148,
-      "ttfb": 984,
-      "startRender": 1117,
-      "domReadyEvent": 7726,
-      "loadEvent": 11825,
-      "totalTime": 11920,
-      "visuallyComplete": 11792
-    },
-    "queuedTime": "2016-05-09T16:07:37.000Z"
-  },
-  {
-    "id": "160509_7E_YKR",
-    "location": "EU_Ams_Wptdriver:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160509_7E_YKR",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Native",
-    "date": 1462806208,
-    "firstView": {
-      "requests": 187,
-      "bytesIn": 3194177,
-      "ttfb": 839,
-      "startRender": 687,
-      "domReadyEvent": 6311,
-      "loadEvent": 11684,
-      "totalTime": 11694,
-      "visuallyComplete": 14882,
-      "speedIndex": 6575
-    },
-    "repeatView": {
-      "requests": 143,
-      "bytesIn": 272741,
-      "ttfb": 872,
-      "startRender": 10501,
-      "domReadyEvent": 8554,
-      "loadEvent": 14405,
-      "totalTime": 14551,
-      "visuallyComplete": 14587,
-      "speedIndex": 11297
-    },
-    "queuedTime": "2016-05-09T16:59:18.000Z"
-  },
-  {
-    "id": "160509_S2_YM9",
-    "location": "EU_Ams_Wptdriver:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160509_S2_YM9",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Native",
-    "date": 1462806402,
-    "firstView": {
-      "requests": 187,
-      "bytesIn": 3192768,
-      "ttfb": 854,
-      "startRender": 6307,
-      "domReadyEvent": 6792,
-      "loadEvent": 12073,
-      "totalTime": 12084,
-      "visuallyComplete": 13677,
-      "speedIndex": 7713
-    },
-    "repeatView": {
-      "requests": 143,
-      "bytesIn": 272763,
-      "ttfb": 940,
-      "startRender": 6186,
-      "domReadyEvent": 6333,
-      "loadEvent": 11516,
-      "totalTime": 11624,
-      "visuallyComplete": 12085,
-      "speedIndex": 6630
-    },
-    "queuedTime": "2016-05-09T16:59:38.000Z"
-  },
-  {
-    "id": "160509_ST_11FA",
-    "location": "EU_Ams_Wptdriver:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160509_ST_11FA",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Native",
-    "date": 1462809815,
-    "firstView": {
-      "requests": 206,
-      "bytesIn": 3203138,
-      "ttfb": 865,
-      "startRender": 18134,
-      "domReadyEvent": 13475,
-      "loadEvent": 17960,
-      "totalTime": 18129,
-      "visuallyComplete": 20477,
-      "speedIndex": 18602
-    },
-    "repeatView": {
-      "requests": 141,
-      "bytesIn": 250415,
-      "ttfb": 835,
-      "startRender": 8879,
-      "domReadyEvent": 9449,
-      "loadEvent": 13200,
-      "totalTime": 13293,
-      "visuallyComplete": 12977,
-      "speedIndex": 9698
-    },
-    "queuedTime": "2016-05-09T18:00:38.000Z"
-  },
-  {
-    "id": "160509_8Q_13KH",
-    "location": "EU_Ams_Wptdriver:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160509_8Q_13KH",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Native",
-    "date": 1462813385,
-    "firstView": {
-      "requests": 189,
-      "bytesIn": 3201743,
-      "ttfb": 882,
-      "startRender": 7186,
-      "domReadyEvent": 7503,
-      "loadEvent": 13757,
-      "totalTime": 13975,
-      "visuallyComplete": 9787,
-      "speedIndex": 7532
-    },
-    "repeatView": {
-      "requests": 144,
-      "bytesIn": 246000,
-      "ttfb": 813,
-      "startRender": 10379,
-      "domReadyEvent": 10558,
-      "loadEvent": 19572,
-      "totalTime": 19585,
-      "visuallyComplete": 19076,
-      "speedIndex": 12007
-    },
-    "queuedTime": "2016-05-09T19:00:38.000Z"
-  },
-  {
-    "id": "160509_TX_1619",
-    "location": "EU_Ams_Wptdriver:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160509_TX_1619",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Native",
-    "date": 1462817014,
-    "firstView": {
-      "requests": 177,
-      "bytesIn": 3169048,
-      "ttfb": 872,
-      "startRender": 6678,
-      "domReadyEvent": 7047,
-      "loadEvent": 17206,
-      "totalTime": 17310,
-      "visuallyComplete": 16873,
-      "speedIndex": 8623
-    },
-    "repeatView": {
-      "requests": 129,
-      "bytesIn": 226067,
-      "ttfb": 933,
-      "startRender": 10781,
-      "domReadyEvent": 6420,
-      "loadEvent": 13823,
-      "totalTime": 13931,
-      "visuallyComplete": 13381,
-      "speedIndex": 11099
-    },
-    "queuedTime": "2016-05-09T20:00:38.000Z"
-  },
-  {
-    "id": "160509_9T_186C",
-    "location": "EU_Ams_Wptdriver:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160509_9T_186C",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Native",
-    "date": 1462820696,
-    "firstView": {
-      "requests": 187,
-      "bytesIn": 3197736,
-      "ttfb": 840,
-      "startRender": 7681,
-      "domReadyEvent": 7755,
-      "loadEvent": 12684,
-      "totalTime": 12799,
-      "visuallyComplete": 10282,
-      "speedIndex": 8099
-    },
-    "repeatView": {
-      "requests": 141,
-      "bytesIn": 241982,
-      "ttfb": 939,
-      "startRender": 11679,
-      "domReadyEvent": 8070,
-      "loadEvent": 13042,
-      "totalTime": 13083,
-      "visuallyComplete": 12282,
-      "speedIndex": 11721
-    },
-    "queuedTime": "2016-05-09T21:00:38.000Z"
-  },
-  {
-    "id": "160509_DN_1AKX",
-    "location": "EU_Ams_Wptdriver:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160509_DN_1AKX",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Native",
-    "date": 1462824221,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3215928,
-      "ttfb": 951,
-      "startRender": 10979,
-      "domReadyEvent": 11676,
-      "loadEvent": 15925,
-      "totalTime": 16039,
-      "visuallyComplete": 18175,
-      "speedIndex": 12168
-    },
-    "repeatView": {
-      "requests": 139,
-      "bytesIn": 266655,
-      "ttfb": 1100,
-      "startRender": 6485,
-      "domReadyEvent": 6704,
-      "loadEvent": 11018,
-      "totalTime": 11111,
-      "visuallyComplete": 9104,
-      "speedIndex": 6858
-    },
-    "queuedTime": "2016-05-09T22:00:38.000Z"
-  },
-  {
-    "id": "160509_KW_1CPT",
-    "location": "EU_Ams_Wptdriver:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160509_KW_1CPT",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Native",
-    "date": 1462827830,
-    "firstView": {
-      "requests": 176,
-      "bytesIn": 3159614,
-      "ttfb": 933,
-      "startRender": 7795,
-      "domReadyEvent": 6623,
-      "loadEvent": 15413,
-      "totalTime": 15574,
-      "visuallyComplete": 15184,
-      "speedIndex": 7909
-    },
-    "repeatView": {
-      "requests": 131,
-      "bytesIn": 222307,
-      "ttfb": 893,
-      "startRender": 5684,
-      "domReadyEvent": 5809,
-      "loadEvent": 9784,
-      "totalTime": 9891,
-      "visuallyComplete": 8581,
-      "speedIndex": 6204
-    },
-    "queuedTime": "2016-05-09T23:00:38.000Z"
-  },
-  {
-    "id": "160509_NV_1EGE",
-    "location": "EU_Ams_Wptdriver:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160509_NV_1EGE",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Native",
-    "date": 1462831354,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3204656,
-      "ttfb": 866,
-      "startRender": 5685,
-      "domReadyEvent": 6096,
-      "loadEvent": 13438,
-      "totalTime": 13657,
-      "visuallyComplete": 20679,
-      "speedIndex": 7000
-    },
-    "repeatView": {
-      "requests": 139,
-      "bytesIn": 245347,
-      "ttfb": 827,
-      "startRender": 8004,
-      "domReadyEvent": 8134,
-      "loadEvent": 14010,
-      "totalTime": 14072,
-      "visuallyComplete": 13579,
-      "speedIndex": 8772
-    },
-    "queuedTime": "2016-05-10T00:00:38.000Z"
-  },
-  {
-    "id": "160509_VQ_1G99",
-    "location": "EU_Ams_Wptdriver:Chrome",
-    "url": "http://www.webpagetest.org/results.php?test=160509_VQ_1G99",
-    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
-    "connectivity": "Native",
-    "date": 1462835039,
-    "firstView": {
-      "requests": 188,
-      "bytesIn": 3201938,
-      "ttfb": 809,
-      "startRender": 7783,
-      "domReadyEvent": 7836,
-      "loadEvent": 15510,
-      "totalTime": 15531,
-      "visuallyComplete": 10581,
-      "speedIndex": 8158
-    },
-    "repeatView": {
-      "requests": 141,
-      "bytesIn": 246160,
-      "ttfb": 798,
-      "startRender": 10184,
-      "domReadyEvent": 6738,
-      "loadEvent": 10324,
-      "totalTime": 10334,
-      "visuallyComplete": 10184,
-      "speedIndex": 10184
-    },
-    "queuedTime": "2016-05-10T01:00:38.000Z"
-  },
-  {
     "id": "160510_VP_70",
     "location": "EU_Ams_Wptdriver:Chrome",
     "url": "http://www.webpagetest.org/results.php?test=160510_VP_70",
@@ -3736,5 +1920,2165 @@
       "speedIndex": 2685
     },
     "queuedTime": "2016-05-13T10:53:22.000Z"
+  },
+  {
+    "id": "160513_02_MA6",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160513_02_MA6",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463134136,
+    "firstView": {
+      "requests": 183,
+      "bytesIn": 3131464,
+      "ttfb": 277,
+      "startRender": 2565,
+      "domReadyEvent": 2488,
+      "loadEvent": 4654,
+      "totalTime": 4691,
+      "visuallyComplete": 3256,
+      "speedIndex": 2691
+    },
+    "repeatView": {
+      "requests": 144,
+      "bytesIn": 282896,
+      "ttfb": 225,
+      "startRender": 2375,
+      "domReadyEvent": 2209,
+      "loadEvent": 3959,
+      "totalTime": 4070,
+      "visuallyComplete": 8089,
+      "speedIndex": 2816
+    },
+    "queuedTime": "2016-05-13T11:53:22.000Z"
+  },
+  {
+    "id": "160513_D5_P9H",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160513_D5_P9H",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463137121,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3125503,
+      "ttfb": 282,
+      "startRender": 2614,
+      "domReadyEvent": 2571,
+      "loadEvent": 5043,
+      "totalTime": 5083,
+      "visuallyComplete": 3246,
+      "speedIndex": 2717
+    },
+    "repeatView": {
+      "requests": 144,
+      "bytesIn": 282617,
+      "ttfb": 223,
+      "startRender": 2413,
+      "domReadyEvent": 2257,
+      "loadEvent": 4102,
+      "totalTime": 4151,
+      "visuallyComplete": 8073,
+      "speedIndex": 2835
+    },
+    "queuedTime": "2016-05-13T12:53:22.000Z"
+  },
+  {
+    "id": "160513_BW_R1M",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160513_BW_R1M",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463140693,
+    "firstView": {
+      "requests": 173,
+      "bytesIn": 3085776,
+      "ttfb": 223,
+      "startRender": 2572,
+      "domReadyEvent": 2516,
+      "loadEvent": 5011,
+      "totalTime": 5050,
+      "visuallyComplete": 3510,
+      "speedIndex": 2696
+    },
+    "repeatView": {
+      "requests": 135,
+      "bytesIn": 268283,
+      "ttfb": 249,
+      "startRender": 2693,
+      "domReadyEvent": 2193,
+      "loadEvent": 3927,
+      "totalTime": 3963,
+      "visuallyComplete": 8180,
+      "speedIndex": 3061
+    },
+    "queuedTime": "2016-05-13T13:53:22.000Z"
+  },
+  {
+    "id": "160513_17_T6X",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160513_17_T6X",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463144691,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3130246,
+      "ttfb": 247,
+      "startRender": 2502,
+      "domReadyEvent": 2419,
+      "loadEvent": 4639,
+      "totalTime": 4635,
+      "visuallyComplete": 4087,
+      "speedIndex": 2757
+    },
+    "repeatView": {
+      "requests": 145,
+      "bytesIn": 305041,
+      "ttfb": 225,
+      "startRender": 2556,
+      "domReadyEvent": 2478,
+      "loadEvent": 4299,
+      "totalTime": 4333,
+      "visuallyComplete": 8095,
+      "speedIndex": 3084
+    },
+    "queuedTime": "2016-05-13T14:53:22.000Z"
+  },
+  {
+    "id": "160513_PC_W7H",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160513_PC_W7H",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463148524,
+    "firstView": {
+      "requests": 183,
+      "bytesIn": 3127086,
+      "ttfb": 356,
+      "startRender": 2663,
+      "domReadyEvent": 2602,
+      "loadEvent": 5134,
+      "totalTime": 5177,
+      "visuallyComplete": 3435,
+      "speedIndex": 2812
+    },
+    "repeatView": {
+      "requests": 149,
+      "bytesIn": 283934,
+      "ttfb": 225,
+      "startRender": 2573,
+      "domReadyEvent": 2522,
+      "loadEvent": 4220,
+      "totalTime": 4264,
+      "visuallyComplete": 8181,
+      "speedIndex": 3005
+    },
+    "queuedTime": "2016-05-13T15:53:22.000Z"
+  },
+  {
+    "id": "160513_XB_Z2H",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160513_XB_Z2H",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463151619,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3132828,
+      "ttfb": 276,
+      "startRender": 2639,
+      "domReadyEvent": 2585,
+      "loadEvent": 5398,
+      "totalTime": 5435,
+      "visuallyComplete": 3409,
+      "speedIndex": 2757
+    },
+    "repeatView": {
+      "requests": 75,
+      "bytesIn": 256434,
+      "ttfb": 220,
+      "startRender": 2368,
+      "domReadyEvent": 2312,
+      "loadEvent": 4030,
+      "totalTime": 4063,
+      "visuallyComplete": 8067,
+      "speedIndex": 2796
+    },
+    "queuedTime": "2016-05-13T16:53:23.000Z"
+  },
+  {
+    "id": "160514_GK_25A",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160514_GK_25A",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463187263,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3127304,
+      "ttfb": 225,
+      "startRender": 2732,
+      "domReadyEvent": 2410,
+      "loadEvent": 5136,
+      "totalTime": 5187,
+      "visuallyComplete": 3094,
+      "speedIndex": 2804
+    },
+    "repeatView": {
+      "requests": 133,
+      "bytesIn": 277078,
+      "ttfb": 258,
+      "startRender": 2434,
+      "domReadyEvent": 2273,
+      "loadEvent": 4192,
+      "totalTime": 4237,
+      "visuallyComplete": 8102,
+      "speedIndex": 2880
+    },
+    "queuedTime": "2016-05-14T02:53:23.000Z"
+  },
+  {
+    "id": "160514_EF_8MG",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160514_EF_8MG",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463190813,
+    "firstView": {
+      "requests": 173,
+      "bytesIn": 3083243,
+      "ttfb": 279,
+      "startRender": 2689,
+      "domReadyEvent": 2437,
+      "loadEvent": 5277,
+      "totalTime": 5306,
+      "visuallyComplete": 3230,
+      "speedIndex": 2797
+    },
+    "repeatView": {
+      "requests": 124,
+      "bytesIn": 262434,
+      "ttfb": 224,
+      "startRender": 2151,
+      "domReadyEvent": 2099,
+      "loadEvent": 3872,
+      "totalTime": 3910,
+      "visuallyComplete": 8181,
+      "speedIndex": 2642
+    },
+    "queuedTime": "2016-05-14T03:53:23.000Z"
+  },
+  {
+    "id": "160514_XN_9YQ",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160514_XN_9YQ",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463194526,
+    "firstView": {
+      "requests": 183,
+      "bytesIn": 3129599,
+      "ttfb": 233,
+      "startRender": 2832,
+      "domReadyEvent": 2531,
+      "loadEvent": 5052,
+      "totalTime": 5089,
+      "visuallyComplete": 3277,
+      "speedIndex": 2882
+    },
+    "repeatView": {
+      "requests": 134,
+      "bytesIn": 277466,
+      "ttfb": 224,
+      "startRender": 2243,
+      "domReadyEvent": 2190,
+      "loadEvent": 4109,
+      "totalTime": 4106,
+      "visuallyComplete": 8085,
+      "speedIndex": 2752
+    },
+    "queuedTime": "2016-05-14T04:53:23.000Z"
+  },
+  {
+    "id": "160514_W2_BBB",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160514_W2_BBB",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463198127,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3126788,
+      "ttfb": 234,
+      "startRender": 2494,
+      "domReadyEvent": 2377,
+      "loadEvent": 5272,
+      "totalTime": 5309,
+      "visuallyComplete": 3158,
+      "speedIndex": 2615
+    },
+    "repeatView": {
+      "requests": 145,
+      "bytesIn": 283203,
+      "ttfb": 251,
+      "startRender": 2636,
+      "domReadyEvent": 2182,
+      "loadEvent": 4044,
+      "totalTime": 4083,
+      "visuallyComplete": 8107,
+      "speedIndex": 2991
+    },
+    "queuedTime": "2016-05-14T05:53:23.000Z"
+  },
+  {
+    "id": "160514_M7_CQ4",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160514_M7_CQ4",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463201716,
+    "firstView": {
+      "requests": 181,
+      "bytesIn": 3126427,
+      "ttfb": 223,
+      "startRender": 2497,
+      "domReadyEvent": 2446,
+      "loadEvent": 4911,
+      "totalTime": 4951,
+      "visuallyComplete": 3211,
+      "speedIndex": 2626
+    },
+    "repeatView": {
+      "requests": 147,
+      "bytesIn": 284095,
+      "ttfb": 250,
+      "startRender": 2437,
+      "domReadyEvent": 2274,
+      "loadEvent": 4144,
+      "totalTime": 4180,
+      "visuallyComplete": 8092,
+      "speedIndex": 2898
+    },
+    "queuedTime": "2016-05-14T06:53:23.000Z"
+  },
+  {
+    "id": "160514_N0_EAQ",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160514_N0_EAQ",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463205213,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3126345,
+      "ttfb": 277,
+      "startRender": 2482,
+      "domReadyEvent": 2355,
+      "loadEvent": 7122,
+      "totalTime": 7170,
+      "visuallyComplete": 3152,
+      "speedIndex": 2590
+    },
+    "repeatView": {
+      "requests": 148,
+      "bytesIn": 283948,
+      "ttfb": 220,
+      "startRender": 2485,
+      "domReadyEvent": 2439,
+      "loadEvent": 4192,
+      "totalTime": 4222,
+      "visuallyComplete": 6102,
+      "speedIndex": 2812
+    },
+    "queuedTime": "2016-05-14T07:53:23.000Z"
+  },
+  {
+    "id": "160514_YN_FCA",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160514_YN_FCA",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463208961,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3128827,
+      "ttfb": 254,
+      "startRender": 3037,
+      "domReadyEvent": 2431,
+      "loadEvent": 4976,
+      "totalTime": 5018,
+      "visuallyComplete": 3221,
+      "speedIndex": 3064
+    },
+    "repeatView": {
+      "requests": 146,
+      "bytesIn": 284248,
+      "ttfb": 238,
+      "startRender": 2424,
+      "domReadyEvent": 2249,
+      "loadEvent": 4078,
+      "totalTime": 4116,
+      "visuallyComplete": 7085,
+      "speedIndex": 2829
+    },
+    "queuedTime": "2016-05-14T08:53:23.000Z"
+  },
+  {
+    "id": "160514_ZJ_GKQ",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160514_ZJ_GKQ",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463212476,
+    "firstView": {
+      "requests": 180,
+      "bytesIn": 3124857,
+      "ttfb": 2800,
+      "startRender": 4692,
+      "domReadyEvent": 4334,
+      "loadEvent": 7460,
+      "totalTime": 7507,
+      "visuallyComplete": 5006,
+      "speedIndex": 4739
+    },
+    "repeatView": {
+      "requests": 138,
+      "bytesIn": 278155,
+      "ttfb": 2864,
+      "startRender": 4327,
+      "domReadyEvent": 4274,
+      "loadEvent": 7726,
+      "totalTime": 7788,
+      "visuallyComplete": 8258,
+      "speedIndex": 4705
+    },
+    "queuedTime": "2016-05-14T09:53:23.000Z"
+  },
+  {
+    "id": "160514_TF_HTR",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160514_TF_HTR",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463216206,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3125892,
+      "ttfb": 221,
+      "startRender": 2560,
+      "domReadyEvent": 2493,
+      "loadEvent": 5211,
+      "totalTime": 5243,
+      "visuallyComplete": 3628,
+      "speedIndex": 2750
+    },
+    "repeatView": {
+      "requests": 143,
+      "bytesIn": 272902,
+      "ttfb": 248,
+      "startRender": 2833,
+      "domReadyEvent": 2195,
+      "loadEvent": 4225,
+      "totalTime": 4256,
+      "visuallyComplete": 8118,
+      "speedIndex": 3151
+    },
+    "queuedTime": "2016-05-14T10:53:23.000Z"
+  },
+  {
+    "id": "160514_27_K5J",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160514_27_K5J",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463219616,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3133853,
+      "ttfb": 294,
+      "startRender": 2671,
+      "domReadyEvent": 2541,
+      "loadEvent": 5184,
+      "totalTime": 5227,
+      "visuallyComplete": 3452,
+      "speedIndex": 2790
+    },
+    "repeatView": {
+      "requests": 144,
+      "bytesIn": 282754,
+      "ttfb": 220,
+      "startRender": 2817,
+      "domReadyEvent": 2272,
+      "loadEvent": 4054,
+      "totalTime": 4096,
+      "visuallyComplete": 8077,
+      "speedIndex": 3155
+    },
+    "queuedTime": "2016-05-14T11:53:23.000Z"
+  },
+  {
+    "id": "160514_WT_MK6",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160514_WT_MK6",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463223296,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3131046,
+      "ttfb": 225,
+      "startRender": 2664,
+      "domReadyEvent": 2322,
+      "loadEvent": 4906,
+      "totalTime": 4951,
+      "visuallyComplete": 3021,
+      "speedIndex": 2735
+    },
+    "repeatView": {
+      "requests": 143,
+      "bytesIn": 282473,
+      "ttfb": 225,
+      "startRender": 2431,
+      "domReadyEvent": 2384,
+      "loadEvent": 4102,
+      "totalTime": 4146,
+      "visuallyComplete": 8180,
+      "speedIndex": 2887
+    },
+    "queuedTime": "2016-05-14T12:53:23.000Z"
+  },
+  {
+    "id": "160514_0M_NVQ",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160514_0M_NVQ",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463227010,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3129989,
+      "ttfb": 253,
+      "startRender": 2382,
+      "domReadyEvent": 2437,
+      "loadEvent": 4848,
+      "totalTime": 4867,
+      "visuallyComplete": 3259,
+      "speedIndex": 2537
+    },
+    "repeatView": {
+      "requests": 144,
+      "bytesIn": 286270,
+      "ttfb": 226,
+      "startRender": 2280,
+      "domReadyEvent": 2233,
+      "loadEvent": 4051,
+      "totalTime": 4094,
+      "visuallyComplete": 8093,
+      "speedIndex": 2731
+    },
+    "queuedTime": "2016-05-14T13:53:23.000Z"
+  },
+  {
+    "id": "160514_34_Q6X",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160514_34_Q6X",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463230498,
+    "firstView": {
+      "requests": 184,
+      "bytesIn": 3130033,
+      "ttfb": 233,
+      "startRender": 2744,
+      "domReadyEvent": 2641,
+      "loadEvent": 5031,
+      "totalTime": 5070,
+      "visuallyComplete": 3519,
+      "speedIndex": 2867
+    },
+    "repeatView": {
+      "requests": 144,
+      "bytesIn": 274947,
+      "ttfb": 224,
+      "startRender": 2863,
+      "domReadyEvent": 2219,
+      "loadEvent": 4325,
+      "totalTime": 4358,
+      "visuallyComplete": 8123,
+      "speedIndex": 3189
+    },
+    "queuedTime": "2016-05-14T14:53:23.000Z"
+  },
+  {
+    "id": "160514_GG_RD5",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160514_GG_RD5",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463234208,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3127012,
+      "ttfb": 252,
+      "startRender": 2518,
+      "domReadyEvent": 2384,
+      "loadEvent": 4846,
+      "totalTime": 4882,
+      "visuallyComplete": 2981,
+      "speedIndex": 2610
+    },
+    "repeatView": {
+      "requests": 146,
+      "bytesIn": 283451,
+      "ttfb": 226,
+      "startRender": 2412,
+      "domReadyEvent": 2254,
+      "loadEvent": 4070,
+      "totalTime": 4111,
+      "visuallyComplete": 8092,
+      "speedIndex": 2862
+    },
+    "queuedTime": "2016-05-14T15:53:23.000Z"
+  },
+  {
+    "id": "160515_BP_1JQ",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160515_BP_1JQ",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463273688,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3129964,
+      "ttfb": 247,
+      "startRender": 2644,
+      "domReadyEvent": 2406,
+      "loadEvent": 5173,
+      "totalTime": 5215,
+      "visuallyComplete": 3280,
+      "speedIndex": 2769
+    },
+    "repeatView": {
+      "requests": 147,
+      "bytesIn": 283623,
+      "ttfb": 224,
+      "startRender": 2321,
+      "domReadyEvent": 2168,
+      "loadEvent": 3895,
+      "totalTime": 3929,
+      "visuallyComplete": 8063,
+      "speedIndex": 2816
+    },
+    "queuedTime": "2016-05-15T02:53:24.000Z"
+  },
+  {
+    "id": "160515_GD_2T9",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160515_GD_2T9",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463277401,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3129775,
+      "ttfb": 218,
+      "startRender": 2610,
+      "domReadyEvent": 2514,
+      "loadEvent": 5081,
+      "totalTime": 5115,
+      "visuallyComplete": 3327,
+      "speedIndex": 2724
+    },
+    "repeatView": {
+      "requests": 133,
+      "bytesIn": 276253,
+      "ttfb": 249,
+      "startRender": 2471,
+      "domReadyEvent": 2307,
+      "loadEvent": 4152,
+      "totalTime": 4191,
+      "visuallyComplete": 8096,
+      "speedIndex": 2965
+    },
+    "queuedTime": "2016-05-15T03:53:24.000Z"
+  },
+  {
+    "id": "160515_23_42R",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160515_23_42R",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463280971,
+    "firstView": {
+      "requests": 173,
+      "bytesIn": 3083069,
+      "ttfb": 250,
+      "startRender": 2497,
+      "domReadyEvent": 2417,
+      "loadEvent": 4862,
+      "totalTime": 4904,
+      "visuallyComplete": 3177,
+      "speedIndex": 2627
+    },
+    "repeatView": {
+      "requests": 124,
+      "bytesIn": 262470,
+      "ttfb": 227,
+      "startRender": 2578,
+      "domReadyEvent": 2108,
+      "loadEvent": 3889,
+      "totalTime": 3930,
+      "visuallyComplete": 8179,
+      "speedIndex": 2984
+    },
+    "queuedTime": "2016-05-15T04:53:24.000Z"
+  },
+  {
+    "id": "160515_ZG_5EE",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160515_ZG_5EE",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463284572,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3126184,
+      "ttfb": 250,
+      "startRender": 2485,
+      "domReadyEvent": 2377,
+      "loadEvent": 4947,
+      "totalTime": 4991,
+      "visuallyComplete": 3120,
+      "speedIndex": 2583
+    },
+    "repeatView": {
+      "requests": 134,
+      "bytesIn": 277744,
+      "ttfb": 225,
+      "startRender": 2848,
+      "domReadyEvent": 2256,
+      "loadEvent": 4067,
+      "totalTime": 4102,
+      "visuallyComplete": 8096,
+      "speedIndex": 3191
+    },
+    "queuedTime": "2016-05-15T05:53:24.000Z"
+  },
+  {
+    "id": "160515_VX_6HE",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160515_VX_6HE",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463288085,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3130418,
+      "ttfb": 225,
+      "startRender": 2474,
+      "domReadyEvent": 2398,
+      "loadEvent": 4962,
+      "totalTime": 4996,
+      "visuallyComplete": 3242,
+      "speedIndex": 2591
+    },
+    "repeatView": {
+      "requests": 134,
+      "bytesIn": 277915,
+      "ttfb": 248,
+      "startRender": 2415,
+      "domReadyEvent": 2207,
+      "loadEvent": 3994,
+      "totalTime": 4031,
+      "visuallyComplete": 8093,
+      "speedIndex": 2870
+    },
+    "queuedTime": "2016-05-15T06:53:24.000Z"
+  },
+  {
+    "id": "160515_41_833",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160515_41_833",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463291611,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3129660,
+      "ttfb": 276,
+      "startRender": 2632,
+      "domReadyEvent": 2406,
+      "loadEvent": 5276,
+      "totalTime": 5321,
+      "visuallyComplete": 3412,
+      "speedIndex": 2755
+    },
+    "repeatView": {
+      "requests": 134,
+      "bytesIn": 277084,
+      "ttfb": 225,
+      "startRender": 2506,
+      "domReadyEvent": 2423,
+      "loadEvent": 4198,
+      "totalTime": 4238,
+      "visuallyComplete": 8072,
+      "speedIndex": 2959
+    },
+    "queuedTime": "2016-05-15T07:53:24.000Z"
+  },
+  {
+    "id": "160515_P3_98F",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160515_P3_98F",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463295370,
+    "firstView": {
+      "requests": 184,
+      "bytesIn": 3129126,
+      "ttfb": 248,
+      "startRender": 2414,
+      "domReadyEvent": 2367,
+      "loadEvent": 4618,
+      "totalTime": 4652,
+      "visuallyComplete": 3179,
+      "speedIndex": 2567
+    },
+    "repeatView": {
+      "requests": 147,
+      "bytesIn": 278837,
+      "ttfb": 220,
+      "startRender": 2375,
+      "domReadyEvent": 2177,
+      "loadEvent": 3933,
+      "totalTime": 3970,
+      "visuallyComplete": 8183,
+      "speedIndex": 2826
+    },
+    "queuedTime": "2016-05-15T08:53:24.000Z"
+  },
+  {
+    "id": "160515_MA_AH0",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160515_MA_AH0",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463298965,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3131174,
+      "ttfb": 220,
+      "startRender": 2497,
+      "domReadyEvent": 2414,
+      "loadEvent": 4865,
+      "totalTime": 4900,
+      "visuallyComplete": 3089,
+      "speedIndex": 2556
+    },
+    "repeatView": {
+      "requests": 147,
+      "bytesIn": 283783,
+      "ttfb": 225,
+      "startRender": 2720,
+      "domReadyEvent": 2243,
+      "loadEvent": 4067,
+      "totalTime": 4111,
+      "visuallyComplete": 8084,
+      "speedIndex": 3076
+    },
+    "queuedTime": "2016-05-15T09:53:25.000Z"
+  },
+  {
+    "id": "160515_0D_BVW",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160515_0D_BVW",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463302630,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3132216,
+      "ttfb": 224,
+      "startRender": 2710,
+      "domReadyEvent": 2651,
+      "loadEvent": 5297,
+      "totalTime": 5330,
+      "visuallyComplete": 3384,
+      "speedIndex": 2824
+    },
+    "repeatView": {
+      "requests": 144,
+      "bytesIn": 282820,
+      "ttfb": 267,
+      "startRender": 2408,
+      "domReadyEvent": 2358,
+      "loadEvent": 4204,
+      "totalTime": 4244,
+      "visuallyComplete": 8066,
+      "speedIndex": 2875
+    },
+    "queuedTime": "2016-05-15T10:53:25.000Z"
+  },
+  {
+    "id": "160515_HH_D5T",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160515_HH_D5T",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463306090,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3127460,
+      "ttfb": 254,
+      "startRender": 2659,
+      "domReadyEvent": 2544,
+      "loadEvent": 4869,
+      "totalTime": 4908,
+      "visuallyComplete": 3364,
+      "speedIndex": 2748
+    },
+    "repeatView": {
+      "requests": 144,
+      "bytesIn": 277563,
+      "ttfb": 225,
+      "startRender": 2870,
+      "domReadyEvent": 2237,
+      "loadEvent": 4453,
+      "totalTime": 4494,
+      "visuallyComplete": 8097,
+      "speedIndex": 3187
+    },
+    "queuedTime": "2016-05-15T11:53:25.000Z"
+  },
+  {
+    "id": "160515_2Y_EJX",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160515_2Y_EJX",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463309803,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3129597,
+      "ttfb": 231,
+      "startRender": 2322,
+      "domReadyEvent": 2380,
+      "loadEvent": 5011,
+      "totalTime": 5077,
+      "visuallyComplete": 3163,
+      "speedIndex": 2460
+    },
+    "repeatView": {
+      "requests": 144,
+      "bytesIn": 278914,
+      "ttfb": 221,
+      "startRender": 3061,
+      "domReadyEvent": 2438,
+      "loadEvent": 4681,
+      "totalTime": 4716,
+      "visuallyComplete": 8081,
+      "speedIndex": 3360
+    },
+    "queuedTime": "2016-05-15T12:53:25.000Z"
+  },
+  {
+    "id": "160515_WS_FQ1",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160515_WS_FQ1",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463313243,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3128232,
+      "ttfb": 226,
+      "startRender": 2552,
+      "domReadyEvent": 2500,
+      "loadEvent": 4867,
+      "totalTime": 4908,
+      "visuallyComplete": 3283,
+      "speedIndex": 2676
+    },
+    "repeatView": {
+      "requests": 144,
+      "bytesIn": 282045,
+      "ttfb": 226,
+      "startRender": 2777,
+      "domReadyEvent": 2232,
+      "loadEvent": 3969,
+      "totalTime": 4003,
+      "visuallyComplete": 8083,
+      "speedIndex": 3105
+    },
+    "queuedTime": "2016-05-15T13:53:25.000Z"
+  },
+  {
+    "id": "160515_5A_GYH",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160515_5A_GYH",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463316927,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3126600,
+      "ttfb": 220,
+      "startRender": 2908,
+      "domReadyEvent": 2388,
+      "loadEvent": 5177,
+      "totalTime": 5218,
+      "visuallyComplete": 3196,
+      "speedIndex": 2956
+    },
+    "repeatView": {
+      "requests": 147,
+      "bytesIn": 283652,
+      "ttfb": 223,
+      "startRender": 2385,
+      "domReadyEvent": 2225,
+      "loadEvent": 4064,
+      "totalTime": 4105,
+      "visuallyComplete": 8097,
+      "speedIndex": 2853
+    },
+    "queuedTime": "2016-05-15T14:53:24.000Z"
+  },
+  {
+    "id": "160515_HG_HZN",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160515_HG_HZN",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463320749,
+    "firstView": {
+      "requests": 183,
+      "bytesIn": 3129878,
+      "ttfb": 252,
+      "startRender": 2705,
+      "domReadyEvent": 2289,
+      "loadEvent": 4596,
+      "totalTime": 4626,
+      "visuallyComplete": 5025,
+      "speedIndex": 3072
+    },
+    "repeatView": {
+      "requests": 146,
+      "bytesIn": 283868,
+      "ttfb": 221,
+      "startRender": 2340,
+      "domReadyEvent": 2230,
+      "loadEvent": 4020,
+      "totalTime": 4063,
+      "visuallyComplete": 8101,
+      "speedIndex": 2807
+    },
+    "queuedTime": "2016-05-15T15:53:25.000Z"
+  },
+  {
+    "id": "160516_GM_19A",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160516_GM_19A",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463360014,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3129256,
+      "ttfb": 280,
+      "startRender": 2290,
+      "domReadyEvent": 2331,
+      "loadEvent": 4598,
+      "totalTime": 4637,
+      "visuallyComplete": 3060,
+      "speedIndex": 2430
+    },
+    "repeatView": {
+      "requests": 145,
+      "bytesIn": 283000,
+      "ttfb": 1248,
+      "startRender": 3405,
+      "domReadyEvent": 3251,
+      "loadEvent": 5307,
+      "totalTime": 5347,
+      "visuallyComplete": 5886,
+      "speedIndex": 3696
+    },
+    "queuedTime": "2016-05-16T02:53:25.000Z"
+  },
+  {
+    "id": "160516_2S_2RR",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160516_2S_2RR",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463363655,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3126964,
+      "ttfb": 219,
+      "startRender": 2405,
+      "domReadyEvent": 2457,
+      "loadEvent": 5138,
+      "totalTime": 5175,
+      "visuallyComplete": 3492,
+      "speedIndex": 2600
+    },
+    "repeatView": {
+      "requests": 148,
+      "bytesIn": 286412,
+      "ttfb": 253,
+      "startRender": 2609,
+      "domReadyEvent": 2225,
+      "loadEvent": 3998,
+      "totalTime": 4032,
+      "visuallyComplete": 8100,
+      "speedIndex": 2975
+    },
+    "queuedTime": "2016-05-16T03:53:25.000Z"
+  },
+  {
+    "id": "160516_67_462",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160516_67_462",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463367217,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3127076,
+      "ttfb": 300,
+      "startRender": 2426,
+      "domReadyEvent": 2446,
+      "loadEvent": 4830,
+      "totalTime": 4866,
+      "visuallyComplete": 3166,
+      "speedIndex": 2565
+    },
+    "repeatView": {
+      "requests": 133,
+      "bytesIn": 275733,
+      "ttfb": 225,
+      "startRender": 2465,
+      "domReadyEvent": 2418,
+      "loadEvent": 4214,
+      "totalTime": 4254,
+      "visuallyComplete": 8089,
+      "speedIndex": 2883
+    },
+    "queuedTime": "2016-05-16T04:53:25.000Z"
+  },
+  {
+    "id": "160516_K7_5DN",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160516_K7_5DN",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463370896,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3130281,
+      "ttfb": 276,
+      "startRender": 2956,
+      "domReadyEvent": 2403,
+      "loadEvent": 4724,
+      "totalTime": 4764,
+      "visuallyComplete": 3086,
+      "speedIndex": 2975
+    },
+    "repeatView": {
+      "requests": 133,
+      "bytesIn": 276962,
+      "ttfb": 224,
+      "startRender": 2640,
+      "domReadyEvent": 2238,
+      "loadEvent": 4033,
+      "totalTime": 4074,
+      "visuallyComplete": 8074,
+      "speedIndex": 3004
+    },
+    "queuedTime": "2016-05-16T05:53:25.000Z"
+  },
+  {
+    "id": "160516_5T_6QF",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160516_5T_6QF",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463374417,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3132810,
+      "ttfb": 282,
+      "startRender": 2623,
+      "domReadyEvent": 2548,
+      "loadEvent": 5157,
+      "totalTime": 5206,
+      "visuallyComplete": 3329,
+      "speedIndex": 2751
+    },
+    "repeatView": {
+      "requests": 133,
+      "bytesIn": 268687,
+      "ttfb": 221,
+      "startRender": 2546,
+      "domReadyEvent": 2116,
+      "loadEvent": 4220,
+      "totalTime": 4250,
+      "visuallyComplete": 8070,
+      "speedIndex": 2925
+    },
+    "queuedTime": "2016-05-16T06:53:26.000Z"
+  },
+  {
+    "id": "160516_CQ_8BG",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160516_CQ_8BG",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463378056,
+    "firstView": {
+      "requests": 183,
+      "bytesIn": 3135896,
+      "ttfb": 224,
+      "startRender": 2858,
+      "domReadyEvent": 2386,
+      "loadEvent": 4872,
+      "totalTime": 4914,
+      "visuallyComplete": 3417,
+      "speedIndex": 2966
+    },
+    "repeatView": {
+      "requests": 146,
+      "bytesIn": 282461,
+      "ttfb": 255,
+      "startRender": 2609,
+      "domReadyEvent": 2155,
+      "loadEvent": 3971,
+      "totalTime": 4009,
+      "visuallyComplete": 8070,
+      "speedIndex": 3001
+    },
+    "queuedTime": "2016-05-16T07:53:26.000Z"
+  },
+  {
+    "id": "160516_RT_9PE",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160516_RT_9PE",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463381656,
+    "firstView": {
+      "requests": 173,
+      "bytesIn": 3084965,
+      "ttfb": 225,
+      "startRender": 2440,
+      "domReadyEvent": 2371,
+      "loadEvent": 4893,
+      "totalTime": 4952,
+      "visuallyComplete": 3111,
+      "speedIndex": 2552
+    },
+    "repeatView": {
+      "requests": 136,
+      "bytesIn": 268568,
+      "ttfb": 248,
+      "startRender": 2393,
+      "domReadyEvent": 2274,
+      "loadEvent": 4114,
+      "totalTime": 4151,
+      "visuallyComplete": 8179,
+      "speedIndex": 2875
+    },
+    "queuedTime": "2016-05-16T08:53:25.000Z"
+  },
+  {
+    "id": "160516_WA_B8D",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160516_WA_B8D",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463385385,
+    "firstView": {
+      "requests": 173,
+      "bytesIn": 3090466,
+      "ttfb": 265,
+      "startRender": 2783,
+      "domReadyEvent": 2424,
+      "loadEvent": 4866,
+      "totalTime": 4903,
+      "visuallyComplete": 3180,
+      "speedIndex": 2862
+    },
+    "repeatView": {
+      "requests": 137,
+      "bytesIn": 269371,
+      "ttfb": 220,
+      "startRender": 2228,
+      "domReadyEvent": 2178,
+      "loadEvent": 3892,
+      "totalTime": 3923,
+      "visuallyComplete": 8181,
+      "speedIndex": 2742
+    },
+    "queuedTime": "2016-05-16T09:53:25.000Z"
+  },
+  {
+    "id": "160516_ER_D10",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160516_ER_D10",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463389241,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3128814,
+      "ttfb": 254,
+      "startRender": 2472,
+      "domReadyEvent": 2372,
+      "loadEvent": 5151,
+      "totalTime": 5186,
+      "visuallyComplete": 3181,
+      "speedIndex": 2600
+    },
+    "repeatView": {
+      "requests": 142,
+      "bytesIn": 281064,
+      "ttfb": 222,
+      "startRender": 2396,
+      "domReadyEvent": 2336,
+      "loadEvent": 4073,
+      "totalTime": 4107,
+      "visuallyComplete": 8179,
+      "speedIndex": 2870
+    },
+    "queuedTime": "2016-05-16T10:53:26.000Z"
+  },
+  {
+    "id": "160516_9D_F3A",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160516_9D_F3A",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463392416,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3130845,
+      "ttfb": 283,
+      "startRender": 2840,
+      "domReadyEvent": 2747,
+      "loadEvent": 5589,
+      "totalTime": 5629,
+      "visuallyComplete": 3596,
+      "speedIndex": 2969
+    },
+    "repeatView": {
+      "requests": 143,
+      "bytesIn": 281938,
+      "ttfb": 224,
+      "startRender": 2323,
+      "domReadyEvent": 2278,
+      "loadEvent": 4054,
+      "totalTime": 4096,
+      "visuallyComplete": 8119,
+      "speedIndex": 2776
+    },
+    "queuedTime": "2016-05-16T11:53:26.000Z"
+  },
+  {
+    "id": "160516_E4_H09",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160516_E4_H09",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463396097,
+    "firstView": {
+      "requests": 183,
+      "bytesIn": 3134148,
+      "ttfb": 222,
+      "startRender": 3065,
+      "domReadyEvent": 2598,
+      "loadEvent": 5214,
+      "totalTime": 5260,
+      "visuallyComplete": 3618,
+      "speedIndex": 3161
+    },
+    "repeatView": {
+      "requests": 142,
+      "bytesIn": 281552,
+      "ttfb": 224,
+      "startRender": 2433,
+      "domReadyEvent": 2306,
+      "loadEvent": 4011,
+      "totalTime": 4047,
+      "visuallyComplete": 8078,
+      "speedIndex": 2867
+    },
+    "queuedTime": "2016-05-16T12:53:26.000Z"
+  },
+  {
+    "id": "160516_8V_JTF",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160516_8V_JTF",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463399613,
+    "firstView": {
+      "requests": 183,
+      "bytesIn": 3126159,
+      "ttfb": 274,
+      "startRender": 3138,
+      "domReadyEvent": 2592,
+      "loadEvent": 5233,
+      "totalTime": 5267,
+      "visuallyComplete": 3513,
+      "speedIndex": 3183
+    },
+    "repeatView": {
+      "requests": 144,
+      "bytesIn": 282800,
+      "ttfb": 220,
+      "startRender": 2488,
+      "domReadyEvent": 2455,
+      "loadEvent": 4213,
+      "totalTime": 4252,
+      "visuallyComplete": 8085,
+      "speedIndex": 2930
+    },
+    "queuedTime": "2016-05-16T13:53:26.000Z"
+  },
+  {
+    "id": "160516_59_MR1",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160516_59_MR1",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463403256,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3127989,
+      "ttfb": 289,
+      "startRender": 2657,
+      "domReadyEvent": 2409,
+      "loadEvent": 4527,
+      "totalTime": 4560,
+      "visuallyComplete": 3132,
+      "speedIndex": 2721
+    },
+    "repeatView": {
+      "requests": 147,
+      "bytesIn": 283745,
+      "ttfb": 224,
+      "startRender": 2682,
+      "domReadyEvent": 2229,
+      "loadEvent": 4006,
+      "totalTime": 4028,
+      "visuallyComplete": 8071,
+      "speedIndex": 3030
+    },
+    "queuedTime": "2016-05-16T14:53:26.000Z"
+  },
+  {
+    "id": "160516_2R_PKP",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160516_2R_PKP",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463407023,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3132621,
+      "ttfb": 247,
+      "startRender": 2424,
+      "domReadyEvent": 2444,
+      "loadEvent": 4935,
+      "totalTime": 4980,
+      "visuallyComplete": 3191,
+      "speedIndex": 2568
+    },
+    "repeatView": {
+      "requests": 146,
+      "bytesIn": 282015,
+      "ttfb": 221,
+      "startRender": 2190,
+      "domReadyEvent": 2215,
+      "loadEvent": 4452,
+      "totalTime": 4497,
+      "visuallyComplete": 8083,
+      "speedIndex": 2697
+    },
+    "queuedTime": "2016-05-16T15:53:26.000Z"
+  },
+  {
+    "id": "160517_DX_1CT",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160517_DX_1CT",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463446542,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3131259,
+      "ttfb": 247,
+      "startRender": 2408,
+      "domReadyEvent": 2339,
+      "loadEvent": 4900,
+      "totalTime": 4951,
+      "visuallyComplete": 3229,
+      "speedIndex": 2541
+    },
+    "repeatView": {
+      "requests": 136,
+      "bytesIn": 280468,
+      "ttfb": 225,
+      "startRender": 2845,
+      "domReadyEvent": 2447,
+      "loadEvent": 4235,
+      "totalTime": 4275,
+      "visuallyComplete": 8085,
+      "speedIndex": 3208
+    },
+    "queuedTime": "2016-05-17T02:53:27.000Z"
+  },
+  {
+    "id": "160517_QE_2ZB",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160517_QE_2ZB",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463450096,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3130588,
+      "ttfb": 219,
+      "startRender": 2542,
+      "domReadyEvent": 2441,
+      "loadEvent": 4980,
+      "totalTime": 5017,
+      "visuallyComplete": 3396,
+      "speedIndex": 2672
+    },
+    "repeatView": {
+      "requests": 135,
+      "bytesIn": 279715,
+      "ttfb": 223,
+      "startRender": 2637,
+      "domReadyEvent": 2140,
+      "loadEvent": 3920,
+      "totalTime": 3957,
+      "visuallyComplete": 8103,
+      "speedIndex": 3024
+    },
+    "queuedTime": "2016-05-17T03:53:26.000Z"
+  },
+  {
+    "id": "160517_R5_493",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160517_R5_493",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463453614,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3132123,
+      "ttfb": 288,
+      "startRender": 2331,
+      "domReadyEvent": 2440,
+      "loadEvent": 5432,
+      "totalTime": 5465,
+      "visuallyComplete": 3182,
+      "speedIndex": 2525
+    },
+    "repeatView": {
+      "requests": 134,
+      "bytesIn": 278730,
+      "ttfb": 223,
+      "startRender": 2421,
+      "domReadyEvent": 2267,
+      "loadEvent": 4107,
+      "totalTime": 4128,
+      "visuallyComplete": 7100,
+      "speedIndex": 2817
+    },
+    "queuedTime": "2016-05-17T04:53:26.000Z"
+  },
+  {
+    "id": "160517_19_5RD",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160517_19_5RD",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463457424,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3130096,
+      "ttfb": 220,
+      "startRender": 2491,
+      "domReadyEvent": 2430,
+      "loadEvent": 5136,
+      "totalTime": 5165,
+      "visuallyComplete": 3416,
+      "speedIndex": 2645
+    },
+    "repeatView": {
+      "requests": 137,
+      "bytesIn": 280277,
+      "ttfb": 249,
+      "startRender": 2707,
+      "domReadyEvent": 2222,
+      "loadEvent": 3994,
+      "totalTime": 4025,
+      "visuallyComplete": 8087,
+      "speedIndex": 3108
+    },
+    "queuedTime": "2016-05-17T05:53:27.000Z"
+  },
+  {
+    "id": "160517_08_71E",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160517_08_71E",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463460933,
+    "firstView": {
+      "requests": 173,
+      "bytesIn": 3085281,
+      "ttfb": 246,
+      "startRender": 2424,
+      "domReadyEvent": 2317,
+      "loadEvent": 4752,
+      "totalTime": 4787,
+      "visuallyComplete": 2827,
+      "speedIndex": 2504
+    },
+    "repeatView": {
+      "requests": 139,
+      "bytesIn": 271826,
+      "ttfb": 220,
+      "startRender": 2478,
+      "domReadyEvent": 2430,
+      "loadEvent": 4116,
+      "totalTime": 4154,
+      "visuallyComplete": 8180,
+      "speedIndex": 2903
+    },
+    "queuedTime": "2016-05-17T06:53:27.000Z"
+  },
+  {
+    "id": "160517_J5_8WG",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160517_J5_8WG",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463464414,
+    "firstView": {
+      "requests": 173,
+      "bytesIn": 3092883,
+      "ttfb": 290,
+      "startRender": 2569,
+      "domReadyEvent": 2491,
+      "loadEvent": 5096,
+      "totalTime": 5128,
+      "visuallyComplete": 3266,
+      "speedIndex": 2700
+    },
+    "repeatView": {
+      "requests": 53,
+      "bytesIn": 232810,
+      "ttfb": 225,
+      "startRender": 2480,
+      "domReadyEvent": 2109,
+      "loadEvent": 3893,
+      "totalTime": 3934,
+      "visuallyComplete": 8180,
+      "speedIndex": 2844
+    },
+    "queuedTime": "2016-05-17T07:53:27.000Z"
+  },
+  {
+    "id": "160517_A7_AF4",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160517_A7_AF4",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463468219,
+    "firstView": {
+      "requests": 173,
+      "bytesIn": 3089810,
+      "ttfb": 224,
+      "startRender": 2476,
+      "domReadyEvent": 2351,
+      "loadEvent": 4935,
+      "totalTime": 4976,
+      "visuallyComplete": 3123,
+      "speedIndex": 2602
+    },
+    "repeatView": {
+      "requests": 51,
+      "bytesIn": 225472,
+      "ttfb": 253,
+      "startRender": 2878,
+      "domReadyEvent": 2253,
+      "loadEvent": 4369,
+      "totalTime": 4404,
+      "visuallyComplete": 8079,
+      "speedIndex": 3202
+    },
+    "queuedTime": "2016-05-17T08:53:27.000Z"
+  },
+  {
+    "id": "160517_TZ_CCA",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160517_TZ_CCA",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463471753,
+    "firstView": {
+      "requests": 181,
+      "bytesIn": 3132141,
+      "ttfb": 299,
+      "startRender": 2532,
+      "domReadyEvent": 2584,
+      "loadEvent": 5257,
+      "totalTime": 5299,
+      "visuallyComplete": 3746,
+      "speedIndex": 2718
+    },
+    "repeatView": {
+      "requests": 59,
+      "bytesIn": 243278,
+      "ttfb": 255,
+      "startRender": 2735,
+      "domReadyEvent": 2102,
+      "loadEvent": 4012,
+      "totalTime": 4054,
+      "visuallyComplete": 8187,
+      "speedIndex": 3057
+    },
+    "queuedTime": "2016-05-17T09:53:27.000Z"
+  },
+  {
+    "id": "160517_BC_EC6",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160517_BC_EC6",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463475441,
+    "firstView": {
+      "requests": 183,
+      "bytesIn": 3144891,
+      "ttfb": 270,
+      "startRender": 2700,
+      "domReadyEvent": 2478,
+      "loadEvent": 5062,
+      "totalTime": 5094,
+      "visuallyComplete": 3333,
+      "speedIndex": 2805
+    },
+    "repeatView": {
+      "requests": 132,
+      "bytesIn": 276459,
+      "ttfb": 224,
+      "startRender": 2288,
+      "domReadyEvent": 2231,
+      "loadEvent": 3966,
+      "totalTime": 4003,
+      "visuallyComplete": 7106,
+      "speedIndex": 2708
+    },
+    "queuedTime": "2016-05-17T10:53:27.000Z"
+  },
+  {
+    "id": "160517_CA_GMR",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160517_CA_GMR",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463480022,
+    "firstView": {
+      "requests": 182,
+      "bytesIn": 3147813,
+      "ttfb": 285,
+      "startRender": 2616,
+      "domReadyEvent": 2524,
+      "loadEvent": 12332,
+      "totalTime": 12393,
+      "visuallyComplete": 3334,
+      "speedIndex": 2725
+    },
+    "repeatView": {
+      "requests": 144,
+      "bytesIn": 281952,
+      "ttfb": 221,
+      "startRender": 2383,
+      "domReadyEvent": 2214,
+      "loadEvent": 4034,
+      "totalTime": 4072,
+      "visuallyComplete": 8103,
+      "speedIndex": 2824
+    },
+    "queuedTime": "2016-05-17T11:53:28.000Z"
+  },
+  {
+    "id": "160517_W7_JQD",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160517_W7_JQD",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463482813,
+    "firstView": {
+      "requests": 185,
+      "bytesIn": 3147006,
+      "ttfb": 282,
+      "startRender": 2559,
+      "domReadyEvent": 2444,
+      "loadEvent": 4938,
+      "totalTime": 4985,
+      "visuallyComplete": 3102,
+      "speedIndex": 2661
+    },
+    "repeatView": null,
+    "queuedTime": "2016-05-17T12:53:26.000Z"
+  },
+  {
+    "id": "160517_WA_2R2W",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160517_WA_2R2W",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463500047,
+    "firstView": {
+      "requests": 183,
+      "bytesIn": 3151262,
+      "ttfb": 224,
+      "startRender": 2487,
+      "domReadyEvent": 2369,
+      "loadEvent": 5024,
+      "totalTime": 5065,
+      "visuallyComplete": 3431,
+      "speedIndex": 2611
+    },
+    "repeatView": {
+      "requests": 146,
+      "bytesIn": 283373,
+      "ttfb": 248,
+      "startRender": 2679,
+      "domReadyEvent": 2299,
+      "loadEvent": 4117,
+      "totalTime": 4159,
+      "visuallyComplete": 8102,
+      "speedIndex": 3070
+    },
+    "queuedTime": "2016-05-17T17:45:01.000Z"
+  },
+  {
+    "id": "160517_9P_2TA3",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160517_9P_2TA3",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463503652,
+    "firstView": {
+      "requests": 183,
+      "bytesIn": 3144081,
+      "ttfb": 224,
+      "startRender": 2469,
+      "domReadyEvent": 2351,
+      "loadEvent": 4907,
+      "totalTime": 4961,
+      "visuallyComplete": 3109,
+      "speedIndex": 2576
+    },
+    "repeatView": {
+      "requests": 148,
+      "bytesIn": 283959,
+      "ttfb": 225,
+      "startRender": 2601,
+      "domReadyEvent": 2550,
+      "loadEvent": 4393,
+      "totalTime": 4437,
+      "visuallyComplete": 8109,
+      "speedIndex": 3044
+    },
+    "queuedTime": "2016-05-17T18:46:01.000Z"
+  },
+  {
+    "id": "160517_29_2WM0",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160517_29_2WM0",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463507169,
+    "firstView": {
+      "requests": 174,
+      "bytesIn": 3109700,
+      "ttfb": 291,
+      "startRender": 2615,
+      "domReadyEvent": 2652,
+      "loadEvent": 6825,
+      "totalTime": 6862,
+      "visuallyComplete": 3320,
+      "speedIndex": 2753
+    },
+    "repeatView": {
+      "requests": 135,
+      "bytesIn": 275992,
+      "ttfb": 291,
+      "startRender": 3339,
+      "domReadyEvent": 2690,
+      "loadEvent": 31276,
+      "totalTime": 31317,
+      "visuallyComplete": 31569,
+      "speedIndex": 3858
+    },
+    "queuedTime": "2016-05-17T19:46:01.000Z"
+  },
+  {
+    "id": "160518_2D_1FP",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160518_2D_1FP",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463532370,
+    "firstView": {
+      "requests": 190,
+      "bytesIn": 3316825,
+      "ttfb": 284,
+      "startRender": 2966,
+      "domReadyEvent": 2434,
+      "loadEvent": 4607,
+      "totalTime": 4638,
+      "visuallyComplete": 3133,
+      "speedIndex": 2999
+    },
+    "repeatView": {
+      "requests": 137,
+      "bytesIn": 278576,
+      "ttfb": 225,
+      "startRender": 2587,
+      "domReadyEvent": 2535,
+      "loadEvent": 4213,
+      "totalTime": 4234,
+      "visuallyComplete": 8069,
+      "speedIndex": 2997
+    },
+    "queuedTime": "2016-05-18T02:46:01.000Z"
+  },
+  {
+    "id": "160518_5R_39Z",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160518_5R_39Z",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463536004,
+    "firstView": {
+      "requests": 189,
+      "bytesIn": 3314088,
+      "ttfb": 291,
+      "startRender": 2648,
+      "domReadyEvent": 2536,
+      "loadEvent": 5057,
+      "totalTime": 5109,
+      "visuallyComplete": 3385,
+      "speedIndex": 2770
+    },
+    "repeatView": {
+      "requests": 143,
+      "bytesIn": 279844,
+      "ttfb": 225,
+      "startRender": 2685,
+      "domReadyEvent": 2624,
+      "loadEvent": 4419,
+      "totalTime": 4455,
+      "visuallyComplete": 8071,
+      "speedIndex": 3099
+    },
+    "queuedTime": "2016-05-18T03:46:01.000Z"
+  },
+  {
+    "id": "160518_7J_566",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160518_7J_566",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463539687,
+    "firstView": {
+      "requests": 190,
+      "bytesIn": 3316499,
+      "ttfb": 220,
+      "startRender": 2458,
+      "domReadyEvent": 2322,
+      "loadEvent": 4792,
+      "totalTime": 4841,
+      "visuallyComplete": 3405,
+      "speedIndex": 2587
+    },
+    "repeatView": {
+      "requests": 141,
+      "bytesIn": 281697,
+      "ttfb": 254,
+      "startRender": 2686,
+      "domReadyEvent": 2246,
+      "loadEvent": 4152,
+      "totalTime": 4189,
+      "visuallyComplete": 8115,
+      "speedIndex": 3087
+    },
+    "queuedTime": "2016-05-18T04:46:00.000Z"
+  },
+  {
+    "id": "160518_XZ_6S0",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160518_XZ_6S0",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463543214,
+    "firstView": {
+      "requests": 190,
+      "bytesIn": 3319633,
+      "ttfb": 225,
+      "startRender": 2863,
+      "domReadyEvent": 2351,
+      "loadEvent": 4932,
+      "totalTime": 4986,
+      "visuallyComplete": 3567,
+      "speedIndex": 2942
+    },
+    "repeatView": {
+      "requests": 154,
+      "bytesIn": 287830,
+      "ttfb": 224,
+      "startRender": 2600,
+      "domReadyEvent": 2563,
+      "loadEvent": 4474,
+      "totalTime": 4513,
+      "visuallyComplete": 8078,
+      "speedIndex": 3032
+    },
+    "queuedTime": "2016-05-18T05:46:01.000Z"
+  },
+  {
+    "id": "160518_CJ_899",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160518_CJ_899",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463546899,
+    "firstView": {
+      "requests": 192,
+      "bytesIn": 3314124,
+      "ttfb": 267,
+      "startRender": 2521,
+      "domReadyEvent": 2465,
+      "loadEvent": 4901,
+      "totalTime": 4945,
+      "visuallyComplete": 3241,
+      "speedIndex": 2651
+    },
+    "repeatView": {
+      "requests": 142,
+      "bytesIn": 276720,
+      "ttfb": 224,
+      "startRender": 3196,
+      "domReadyEvent": 2587,
+      "loadEvent": 4388,
+      "totalTime": 4442,
+      "visuallyComplete": 8096,
+      "speedIndex": 3482
+    },
+    "queuedTime": "2016-05-18T06:46:02.000Z"
+  },
+  {
+    "id": "160518_5V_A6Z",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160518_5V_A6Z",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463550371,
+    "firstView": {
+      "requests": 190,
+      "bytesIn": 3318688,
+      "ttfb": 296,
+      "startRender": 2628,
+      "domReadyEvent": 2541,
+      "loadEvent": 4958,
+      "totalTime": 4990,
+      "visuallyComplete": 3351,
+      "speedIndex": 2714
+    },
+    "repeatView": {
+      "requests": 154,
+      "bytesIn": 287171,
+      "ttfb": 221,
+      "startRender": 2285,
+      "domReadyEvent": 2233,
+      "loadEvent": 3985,
+      "totalTime": 4021,
+      "visuallyComplete": 8082,
+      "speedIndex": 2795
+    },
+    "queuedTime": "2016-05-18T07:46:01.000Z"
+  },
+  {
+    "id": "160518_0Y_CJ5",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160518_0Y_CJ5",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463554164,
+    "firstView": {
+      "requests": 190,
+      "bytesIn": 3320399,
+      "ttfb": 221,
+      "startRender": 2549,
+      "domReadyEvent": 2498,
+      "loadEvent": 5024,
+      "totalTime": 5059,
+      "visuallyComplete": 3203,
+      "speedIndex": 2661
+    },
+    "repeatView": {
+      "requests": 155,
+      "bytesIn": 289731,
+      "ttfb": 249,
+      "startRender": 2455,
+      "domReadyEvent": 2268,
+      "loadEvent": 4158,
+      "totalTime": 4196,
+      "visuallyComplete": 8101,
+      "speedIndex": 2907
+    },
+    "queuedTime": "2016-05-18T08:46:02.000Z"
+  },
+  {
+    "id": "160518_P1_EH8",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160518_P1_EH8",
+    "domain": "https://www.tele2.nl/shop/mobiel/smartphones",
+    "connectivity": "Native",
+    "date": 1463558091,
+    "firstView": {
+      "requests": 190,
+      "bytesIn": 3315481,
+      "ttfb": 258,
+      "startRender": 2807,
+      "domReadyEvent": 2517,
+      "loadEvent": 5087,
+      "totalTime": 5138,
+      "visuallyComplete": 3310,
+      "speedIndex": 2904
+    },
+    "repeatView": {
+      "requests": 151,
+      "bytesIn": 281994,
+      "ttfb": 225,
+      "startRender": 2392,
+      "domReadyEvent": 2337,
+      "loadEvent": 4111,
+      "totalTime": 4146,
+      "visuallyComplete": 8110,
+      "speedIndex": 2882
+    },
+    "queuedTime": "2016-05-18T09:46:01.000Z"
   }
 ]

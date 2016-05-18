@@ -1,0 +1,13 @@
+{
+  "statusCode": 200,
+  "statusText": "Ok",
+  "data": {
+    "testId": "160518_DR_GJD",
+    "ownerKey": "1a3e273367902225473fd251b1eda79fdd64346d",
+    "jsonUrl": "http://www.webpagetest.org/jsonResult.php?test=160518_DR_GJD",
+    "xmlUrl": "http://www.webpagetest.org/xmlResult/160518_DR_GJD/",
+    "userUrl": "http://www.webpagetest.org/result/160518_DR_GJD/",
+    "summaryCSV": "http://www.webpagetest.org/result/160518_DR_GJD/page_data.csv",
+    "detailCSV": "http://www.webpagetest.org/result/160518_DR_GJD/requests.csv"
+  }
+}

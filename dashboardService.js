@@ -1,4 +1,5 @@
 // Basic express app with a few endpoints
+// Run it, and open http://localhost:3030 on your browser
 
 "use strict";
 
@@ -94,8 +95,6 @@ app.get('/test/:name/month/:month', function (req, res) {
 		}
 	});
 });
-
-
 
 
 

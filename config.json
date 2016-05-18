@@ -18,6 +18,7 @@
 		}
 	},
 	"testOptions": {
-		"connectivity": "Native"
+		"connectivity": "Native",
+		"firstViewOnly": true
 	}
 }

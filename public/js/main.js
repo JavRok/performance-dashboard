@@ -64,14 +64,21 @@ function createChart () {
 				addPointEvent(data.element._node, data.index);
 
 			}
+
 		});
 
-		loadSelectionFromLS();
+		chart.on('created', function(data) {
+			loadSelectionFromLS();
+			// This is also called on update, so let's remove the event handler
+			chart.off('created');
+		});
 
 	} else {
 		chart.update(chartData);
 		applyUrlFilters();
 	}
+
+
 }
 
 
@@ -290,9 +297,9 @@ function drawLegend() {
  */
 nodes.legend.addEventListener("change", function(evt) {
 	var index = parseInt(evt.target.name.replace("line-", ""));
-	var line = document.getElementsByClassName("ct-series ct-series-" + increaseChar("a", index))[0];
-	if (line) {
-		line.classList.toggle("hidden");
+	var line = document.getElementsByClassName("ct-series ct-series-" + increaseChar("a", index)[0]);
+	if (line.length) {
+		line[0].classList.toggle("hidden");
 	}
 	saveSelectionInLS();
 }, false);
@@ -303,8 +310,11 @@ function applyUrlFilters () {
 	var i, line;
 	for(i=0; i<filters.length; i++) {
 		if (!filters[i].checked) {
-			line = document.getElementsByClassName("ct-series ct-series-" + increaseChar("a", i))[0];
-			line.classList.add("hidden");
+			line = document.getElementsByClassName("ct-series ct-series-" + increaseChar("a", i)[0]);
+			if (line.length) {
+				line[0].classList.add("hidden");
+			}
+
 		}
 	}
 	saveSelectionInLS();
@@ -360,12 +370,12 @@ function inputChange (node, newValue) {
 	if (node.type === "checkbox" || node.type === "radio") {
 		if (node.checked !== newValue) {
 			node.checked = newValue;
-			node.dispatchEvent(new CustomEvent('change'));
+			node.dispatchEvent(new Event('change', { 'bubbles': true }));
 		}
 	} else {
 		if (node.value !== newValue) {
 			node.value = newValue;
-			node.dispatchEvent(new CustomEvent('change'));
+			node.dispatchEvent(new Event('change'));
 		}
 	}
 }

@@ -3,11 +3,20 @@
  * Main loop of the backend application, that will run tests and gather results for later use
  */
 
+
+/**************   Run express app to open the dashboard in a browser   **************/
+require('../dashboardService.js');
+
+
+
+/**************   Start the loop that will launch tests and gather results   **************/
+
 var CheckForTests = require('./checkForPendingTests.js');
 var LaunchTests = require('./launchTest.js');
 var SaveHistory = require('./saveTestHistory.js');
 var Config = require('../Model/TestConfig.js'),
 	conf = Config();
+
 
 // Every 15 minutes
 var checkTimeout = 15 * 60 * 1000;
