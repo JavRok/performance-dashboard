@@ -105,7 +105,7 @@ function addPointEvent(node, index) {
 // Require AJAX util library
 if (AJAX) {
 	// Wait for all the AJAX calls with Promises. First get the tested URLs
-	AJAX.promiseGet("/urls").then(JSON.parse).then(function(response) {
+	AJAX.promiseGet("urls").then(JSON.parse).then(function(response) {
 		console.log("Success!", response);
 		urls = response;
 
@@ -114,7 +114,7 @@ if (AJAX) {
 		// Get the test results for each URL
 		return Promise.all(
 			response.map(function(url) {
-				return AJAX.promiseGet("/test/" + url + "/day/0");
+				return AJAX.promiseGet("test/" + url + "/day/0");
 			})
 		);
 
@@ -212,7 +212,7 @@ fillFilterDropdowns();
 nodes.daySelect.addEventListener("change", function(evt) {
 	Promise.all(
 		urls.map(function(url) {
-			return AJAX.promiseGet("/test/" + url + "/day/"+ evt.target.value);
+			return AJAX.promiseGet("test/" + url + "/day/"+ evt.target.value);
 		})
 	).then(processTests);
 	nodes.measureSelect.selectedIndex = 0;
@@ -221,7 +221,7 @@ nodes.daySelect.addEventListener("change", function(evt) {
 nodes.monthSelect.addEventListener("change", function(evt) {
 	Promise.all(
 		urls.map(function(url) {
-			return AJAX.promiseGet("/test/" + url + "/month/"+ evt.target.value);
+			return AJAX.promiseGet("test/" + url + "/month/"+ evt.target.value);
 		})
 	).then(processTests);
 	nodes.measureSelect.selectedIndex = 0;

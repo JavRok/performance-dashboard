@@ -2592,5 +2592,131 @@
       "speedIndex": 1775
     },
     "queuedTime": "2016-05-18T09:46:01.000Z"
+  },
+  {
+    "id": "160518_TY_GJC",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160518_TY_GJC",
+    "domain": "https://www.vodafone.nl/",
+    "connectivity": "Native",
+    "date": 1463565482,
+    "firstView": {
+      "requests": 71,
+      "bytesIn": 1038349,
+      "ttfb": 49,
+      "startRender": 1021,
+      "domReadyEvent": 1262,
+      "loadEvent": 2242,
+      "totalTime": 2276,
+      "visuallyComplete": 2322,
+      "speedIndex": 2262
+    },
+    "repeatView": null,
+    "queuedTime": "2016-05-18T10:39:05.000Z"
+  },
+  {
+    "id": "160518_SX_PB5",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160518_SX_PB5",
+    "domain": "https://www.vodafone.nl/",
+    "connectivity": "Native",
+    "date": 1463570315,
+    "firstView": {
+      "requests": 71,
+      "bytesIn": 1051035,
+      "ttfb": 44,
+      "startRender": 1183,
+      "domReadyEvent": 1197,
+      "loadEvent": 2200,
+      "totalTime": 2228,
+      "visuallyComplete": 2483,
+      "speedIndex": 2256
+    },
+    "repeatView": null,
+    "queuedTime": "2016-05-18T13:14:00.000Z"
+  },
+  {
+    "id": "160518_GK_RMV",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160518_GK_RMV",
+    "domain": "https://www.vodafone.nl/",
+    "connectivity": "Native",
+    "date": 1463574005,
+    "firstView": {
+      "requests": 71,
+      "bytesIn": 1054978,
+      "ttfb": 49,
+      "startRender": 1036,
+      "domReadyEvent": 1187,
+      "loadEvent": 2075,
+      "totalTime": 2077,
+      "visuallyComplete": 2148,
+      "speedIndex": 2129
+    },
+    "repeatView": null,
+    "queuedTime": "2016-05-18T14:14:59.000Z"
+  },
+  {
+    "id": "160518_JW_TZA",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160518_JW_TZA",
+    "domain": "https://www.vodafone.nl/",
+    "connectivity": "Native",
+    "date": 1463579946,
+    "firstView": {
+      "requests": 71,
+      "bytesIn": 1059229,
+      "ttfb": 49,
+      "startRender": 1070,
+      "domReadyEvent": 1236,
+      "loadEvent": 2187,
+      "totalTime": 2228,
+      "visuallyComplete": 2274,
+      "speedIndex": 2224
+    },
+    "repeatView": null,
+    "queuedTime": "2016-05-18T15:15:00.000Z"
+  },
+  {
+    "id": "160519_4B_E65",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160519_4B_E65",
+    "domain": "https://www.vodafone.nl/",
+    "connectivity": "Native",
+    "date": 1463648135,
+    "firstView": {
+      "requests": 71,
+      "bytesIn": 1055045,
+      "ttfb": 52,
+      "startRender": 1065,
+      "domReadyEvent": 1230,
+      "loadEvent": 2179,
+      "totalTime": 2184,
+      "visuallyComplete": 2263,
+      "speedIndex": 2243
+    },
+    "repeatView": null,
+    "queuedTime": "2016-05-19T10:51:21.000Z"
+  },
+  {
+    "id": "160519_RR_GPY",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160519_RR_GPY",
+    "domain": "https://www.vodafone.nl/",
+    "connectivity": "Native",
+    "date": 1463651987,
+    "firstView": {
+      "requests": 71,
+      "bytesIn": 1058725,
+      "ttfb": 46,
+      "startRender": 930,
+      "domReadyEvent": 1172,
+      "loadEvent": 2105,
+      "totalTime": 2109,
+      "visuallyComplete": 2188,
+      "speedIndex": 2168
+    },
+    "repeatView": null,
+    "queuedTime": "2016-05-19T11:58:13.000Z"
   }
 ]

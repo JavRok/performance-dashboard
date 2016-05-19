@@ -45,14 +45,15 @@ function run () {
 function checkTestStatus (id, fileName) {
 
 	var wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
+	var options = conf.get('testOptions');
 
-	wpt.status( id, function (err, data) {
+	wpt.status( id, options, function (err, data) {
 		if (err) return conf.log(err, true);
 
 		switch(true) {
 			case (data.statusCode === 200):
 				queuedTimes.set(id, util.parseDateFromFile(fileName));
-				wpt.results(id, processTestResult);
+				wpt.results(id, options, processTestResult);
 				// Delete the pending state file
 				fs.unlink(pendingDir + fileName, ()=>{});
 

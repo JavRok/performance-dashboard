@@ -58,7 +58,7 @@ class TestResult {
 				};
 			} else {
 				// If there's a timeout on the firstView, repeated view is null
-				console.error("RepeatView is null for test " + this.id);
+				// console.error("RepeatView is null for test " + this.id);
 				this.repeatView = null;
 			}
 
