@@ -20,6 +20,6 @@
 	"testOptions": {
 		"connectivity": "Native",
 		"firstViewOnly": true,
-		"proxy": "localhost:3128"
+		"proxy": "proxy.dcn.versatel.net:3128"
 	}
 }
