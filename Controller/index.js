@@ -18,13 +18,13 @@ var Config = require('../Model/TestConfig.js'),
 	conf = Config();
 
 
-// Every 15 minutes
-var checkTimeout = 15 * 60 * 1000;
-// Every 1h
-var launchTestTimeout = 60 * 60 * 1000;
+// Interval in hours, every hour by default
+var launchTestTimeout = 60 * 60 * 1000 * conf.get("intervalInHours");
+// Check 4 times for every test launched (by default every 15 mins)
+var checkTimeout = launchTestTimeout / 4;
 // Delay the execution 1 min to ensure check timer runs before
 var delayTestLaunch = 60 * 1000;
-// Every 24h
+// Every 24h we save the history
 var saveHistoryTimeout = 24 * 60 * 60 * 1000;
 
 conf.log("Starting the performance-dashboard application. Ctrl+C to terminate it.");
@@ -51,4 +51,4 @@ var historyInterval = setInterval (() => {
 
 // Call it first time
 CheckForTests.run();
-LaunchTests.run();
+// LaunchTests.run();

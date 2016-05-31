@@ -68,6 +68,15 @@ function parseDateFromFile(filename) {
 
 
 /*
+ * @return [string] current timestamp in format yyyy-mm-dd
+ */
+function getUniqueDay(timestamp) {
+	var dateObj = new Date(timestamp * 1000);
+	return dateObj.toISOString().substr(0, 10);
+}
+
+
+/*
  * Returns the position of the element with min/max value in an array
  * TODO: Use ES6 spread operator, when compatible with Node version
  * @param {array}
@@ -89,6 +98,7 @@ module.exports = {
 	parseDateFromFile: parseDateFromFile,
 	medianForObject: medianForObject,
 	getDateTime: getDateTime,
+	getUniqueDay: getUniqueDay,
 	minPos: minPos,
 	maxPos: maxPos
 };

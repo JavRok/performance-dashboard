@@ -41,18 +41,23 @@ function run () {
 					var days = getDays(hourlyResults);
 
 					// Remove this week results
-					days = days.filter((day) => {
+					/*days = days.filter((day) => {
 						var dateObj = new Date(day);
 						return dateObj < limitDate;
-					});
+					});*/
 
-					// Now 'days' has old results to be history-saved
-					// We calculate median for those, store it in a file, and remove it from original results
+					// Now 'days' list all single days found in the hourly results
+					// We calculate median for those, store them in a file, and remove the oldest from original results
 
-
+					var dateObj, today = util.getUniqueDay(Date.now() / 1000);
 					if (days.length > 0) {
 						days.forEach((day) => {
-							if (dailyResults.addOrdered(getMedianForDay(hourlyResults, day))){
+							if (day === today) return;
+							dailyResults.addOrdered(getMedianForDay(hourlyResults, day));
+							dateObj = new Date(day);
+							// If older than 7 days (by default), remove them
+
+							if (dateObj < limitDate) {
 								hourlyResults.removeTestsFromDay(day);
 							}
 						});
@@ -114,7 +119,7 @@ function getMedianForDay(tests, day) {
 	var dayTests1stView = [];
 	var dayTests2ndView = [];   // RepeatView
 	for(let test of tests) {
-		if (test.getUniqueDay() === day) {
+		if (util.getUniqueDay(test.date) === day) {
 			dayTests1stView.push(test.firstView);
 			if (test.repeatView) {
 				dayTests2ndView.push(test.repeatView);
@@ -176,7 +181,7 @@ function getDays(testResults) {
 
 	// testResults is an Iterable
 	for(let test of testResults) {
-		let day = test.getUniqueDay();
+		let day = util.getUniqueDay(test.date);
 
 		if (days.indexOf(day) === -1) {
 			 days.push(day);
