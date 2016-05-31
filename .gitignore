@@ -1,5 +1,8 @@
 node_modules
 .idea/
 config.json
+wpt.org.json/history
+wpt.org.json/pending
+wpt.org.json/results
 
 
