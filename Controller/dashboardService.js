@@ -1,5 +1,7 @@
-// Basic express app with a few endpoints
-// Run it, and open http://localhost:3030 on your browser
+/*
+ * Basic express app with a few endpoints
+ * Run it, and open http://localhost:3030 on your browser
+ */
 
 "use strict";
 
@@ -7,9 +9,9 @@ var fs = require('fs');
 var express = require('express');
 var app = express();
 
-var Config = require('./Model/TestConfig.js'),
+var Config = require('../Model/TestConfig.js'),
 	conf = Config();
-var TestResultCollection = require('./Model/TestResultCollection.js');
+var TestResultCollection = require('../Model/TestResultCollection.js');
 var resultsDir = conf.getPath("results");
 
 app.use(express.static('public'));

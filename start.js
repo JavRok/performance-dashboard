@@ -1,20 +1,18 @@
 /*
- * IMPORTANT: Tests are limited to 200 per day. Given a test per hour, we can run up to 8 sites.
- * Main loop of the backend application, that will run tests and gather results for later use
+ * Start point for the performance dashboard. Run with 'node start.js >> log/history.log'.
+ * IMPORTANT: Tests are limited to 200 per day. Given a test per hour, we can run up to 8 sites. 
  */
 
-
 /**************   Run express app to open the dashboard in a browser   **************/
-require('../dashboardService.js');
-
+require('./Controller/dashboardService.js');
 
 
 /**************   Start the loop that will launch tests and gather results   **************/
 
-var CheckForTests = require('./checkForPendingTests.js');
-var LaunchTests = require('./launchTest.js');
-var SaveHistory = require('./saveTestHistory.js');
-var Config = require('../Model/TestConfig.js'),
+var CheckForTests = require('./Controller/checkForPendingTests.js');
+var LaunchTests = require('./Controller/launchTest.js');
+var SaveHistory = require('./Controller/saveTestHistory.js');
+var Config = require('./Model/TestConfig.js'),
 	conf = Config();
 
 

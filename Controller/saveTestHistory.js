@@ -40,12 +40,6 @@ function run () {
 					var hourlyResults = results[1];
 					var days = getDays(hourlyResults);
 
-					// Remove this week results
-					/*days = days.filter((day) => {
-						var dateObj = new Date(day);
-						return dateObj < limitDate;
-					});*/
-
 					// Now 'days' list all single days found in the hourly results
 					// We calculate median for those, store them in a file, and remove the oldest from original results
 
@@ -69,6 +63,8 @@ function run () {
 				});
 		});
 	});
+
+	conf.log('Saving daily history and removing old results');
 }
 
 /*
