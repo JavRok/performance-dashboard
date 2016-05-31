@@ -8,6 +8,7 @@
 		"https://kpn.nl/",
 		"https://www.vodafone.nl/"
 	],
+	"intervalInHours": 1,
 	"locations": ["EU_Ams_Wptdriver:Firefox", "Amsterdam_IISpeed:Firefox", "EU_Ams_Wptdriver:Chrome", "Amsterdam_IISpeed:Chrome", "Brussels:Chrome", "ec2-eu-west-1:Chrome"],
 	"outputFolder": {
 		"path": "wpt.org.json",
