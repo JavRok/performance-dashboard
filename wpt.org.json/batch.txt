@@ -1,3 +1,0 @@
-test http://www.tele2.nl --location ec2-eu-west-1:Chrome --key A.436734427d77b65cb53d08490c1eab45
-test http://www.tele2.nl --location EU_Ams_Wptdriver --key A.436734427d77b65cb53d08490c1eab45
-test http://www.tele2.nl --location Amsterdam_IISpeed:Firefox --key A.436734427d77b65cb53d08490c1eab45

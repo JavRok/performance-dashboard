@@ -4,11 +4,8 @@
  **/
 "use strict";
 
-if ( global.v8debug ) {
-	global.v8debug.Debug.setBreakOnException(); // speaks for itself
-}
-
 var TestResult = require('../Model/TestResult.js');
+var util = require('../Helper/util.js');
 
 class TestResultCollection {
 
@@ -66,7 +63,7 @@ class TestResultCollection {
 		}
 
 		if (i > 0 && this.tests[i-1].id === newTest.id) {
-			console.log("Test " + newTest.id + " duplicated, couldn't add.");
+			// console.log("Test " + newTest.id + " duplicated, couldn't add.");
 			return false;
 		}
 
@@ -90,7 +87,7 @@ class TestResultCollection {
 	removeTestsFromDay (day) {
 
 		this.tests = this.tests.filter((test) => {
-			return day !== test.getUniqueDay();
+			return day !== util.getUniqueDay(test.date);
 		});
 	}
 
