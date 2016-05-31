@@ -2718,5 +2718,26 @@
     },
     "repeatView": null,
     "queuedTime": "2016-05-19T11:58:13.000Z"
+  },
+  {
+    "id": "160519_WC_P67",
+    "location": "EU_Ams_Wptdriver:Firefox",
+    "url": "http://www.webpagetest.org/results.php?test=160519_WC_P67",
+    "domain": "https://www.vodafone.nl/",
+    "connectivity": "Native",
+    "date": 1463661536,
+    "firstView": {
+      "requests": 71,
+      "bytesIn": 1050741,
+      "ttfb": 53,
+      "startRender": 1101,
+      "domReadyEvent": 1209,
+      "loadEvent": 2197,
+      "totalTime": 2199,
+      "visuallyComplete": 2276,
+      "speedIndex": 2251
+    },
+    "repeatView": null,
+    "queuedTime": "2016-05-19T14:35:06.000Z"
   }
 ]
