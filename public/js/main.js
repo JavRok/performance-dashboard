@@ -19,11 +19,17 @@ var nodes = {
 	daySelect: document.querySelector(".filters-day-select"),
 	monthSelect: document.querySelector(".filters-month-select"),
 	measureSelect: document.querySelector(".filters-measure-unit"),
-	legend: document.querySelector(".legend")
+	legend: document.querySelector(".legend"),
+	notification: document.querySelector(".notification-text") 
 };
 
 
 var localStorageAvailable = localStorageAvailable();
+
+
+function showError (error) {
+	nodes.notification.textContent = error;
+}
 
 
 // Create a new line chart object where as first parameter we pass in a selector
@@ -44,6 +50,7 @@ function createChart () {
 			low: 0
 			// high: 20000
 		});
+
 
 		// Listening for draw events that get emitted by the Chartist chart
 		chart.on('draw', function(data) {
@@ -69,6 +76,7 @@ function createChart () {
 
 		chart.on('created', function(data) {
 			loadSelectionFromLS();
+			addHoverTooltip();
 			// This is also called on update, so let's remove the event handler
 			chart.off('created');
 		});
@@ -80,6 +88,19 @@ function createChart () {
 
 
 }
+
+
+function addHoverTooltip () {
+	"use strict";
+
+	// Chartist.createSvg(document.querySelector(".ct-chart-line"));
+
+	var svgPath = new Chartist.Svg.Path();
+	svgPath.line(0, 100);
+	// Attach it to the graph ?
+}
+
+
 
 
 // Add click event to points in the line, to visit the test results
@@ -118,14 +139,15 @@ if (AJAX) {
 			})
 		);
 
-	}).then(processTests);
+	}).then(processTests)
+	.catch(showError);
 }
 
 
 /*
  * Process the tests coming from the tests/ Api call
  */
-function processTests(responses){
+function processTests(responses) {
 	var maxLength = 0;
 
 	chartData.series = [];
@@ -143,7 +165,7 @@ function processTests(responses){
 		// Store in the global variable
 		currentTests[i] = singleUrl;
 		if(singleUrl) {
-			fillChartData(singleUrl, 'totalTime');
+			fillChartData(singleUrl, nodes.measureSelect.value);
 		}
 	});
 
@@ -197,7 +219,7 @@ function fillFilterDropdowns() {
 	option.textContent = "last 30 days";
 	option.value = 0;
 	nodes.monthSelect.appendChild(option);
-	for (var i=1; i < 12; i++) {
+	for (i=1; i < 12; i++) {
 		// Substract one month at a time
 		dateObj.setMonth(dateObj.getMonth() - 1);
 		option = document.createElement("option");
@@ -214,32 +236,29 @@ nodes.daySelect.addEventListener("change", function(evt) {
 		urls.map(function(url) {
 			return AJAX.promiseGet("test/" + url + "/day/"+ evt.target.value);
 		})
-	).then(processTests);
-	nodes.measureSelect.selectedIndex = 0;
+	).then(processTests)
+	.catch(showError);
+
+	// nodes.measureSelect.selectedIndex = 0;
+	this.classList.add('active');
+	nodes.monthSelect.classList.remove('active');
+	nodes.monthSelect.selectedIndex = 0;
 }, false);
+
 
 nodes.monthSelect.addEventListener("change", function(evt) {
 	Promise.all(
 		urls.map(function(url) {
 			return AJAX.promiseGet("test/" + url + "/month/"+ evt.target.value);
 		})
-	).then(processTests);
-	nodes.measureSelect.selectedIndex = 0;
+	).then(processTests)
+	.catch(showError);
+
+	// nodes.measureSelect.selectedIndex = 0;
+	this.classList.add('active');
+	nodes.daySelect.classList.remove('active');
 }, false);
 
-
-
-/*
- * Event for switching measurement unit via dropdown
- */
-nodes.measureSelect.addEventListener("change", function(evt) {
-	chartData.series = [];
-	currentTests.forEach(function(test) {
-		fillChartData(test, evt.target.value);
-	});
-	createChart();
-
-}, false);
 
 
 /*
@@ -394,6 +413,5 @@ function localStorageAvailable () {
 		return false;
 	}
 }
-
 
 

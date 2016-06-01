@@ -28,13 +28,33 @@ body {
 	margin-right: 0.5em;
 }
 
-select {
-	padding: .5em 1em;
-	cursor: pointer;
-}
 .filters{
 	float: right;
 	margin-right: 1em;
+}
+
+select {
+	padding: .5em 1em;
+	cursor: pointer;
+	background: #ececec;
+	-webkit-transition: all 0.20s ease-in-out;
+	transition: all 0.20s ease-in-out;
+	outline: none;
+}
+select:focus{
+	box-shadow: 0 0 12px rgb(0, 110, 142);
+	background: white;
+}
+.active {
+	background: white;
+}
+
+
+/* Notifications text, for errors or warnings */
+.notification-text {
+	font-weight: bold;
+	color: red;
+	text-align: center;
 }
 
 
@@ -42,6 +62,7 @@ select {
 /* Override Chartist.js styles */
 .ct-point {
 	cursor: pointer;
+	stroke-width: 8px;
 }
 .ct-line {
 	stroke-width: 2px;
