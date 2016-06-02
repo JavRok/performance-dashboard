@@ -14,6 +14,9 @@ var chart;
 // 2-dimensions array with all the tests received, each array 1st-level element corresponds with an url (line)
 var currentTests = [];
 
+// Threshold 3 sec
+var thresholdLine = 3000;
+
 // Nodes
 var nodes = {
 	daySelect: document.querySelector(".filters-day-select"),
@@ -31,6 +34,7 @@ function showError (error) {
 	nodes.notification.textContent = error;
 }
 
+var firstTime = true;
 
 // Create a new line chart object where as first parameter we pass in a selector
 // that is resolving to our chart container element. The Second parameter
@@ -47,8 +51,17 @@ function createChart () {
 			lineSmooth: Chartist.Interpolation.simple({
 				fillHoles: true
 			}),
-			low: 0
+			low: 0,
 			// high: 20000
+			plugins: [
+				/*Chartist.plugins.ctThreshold({
+					threshold: 1
+				}),*/
+				Chartist.plugins.ctGoalLine({
+					value: thresholdLine,
+					className: 'dashed-line'
+				})
+			]
 		});
 
 
@@ -74,16 +87,22 @@ function createChart () {
 
 		});
 
-		chart.on('created', function(data) {
-			loadSelectionFromLS();
-			addHoverTooltip();
-			// This is also called on update, so let's remove the event handler
-			chart.off('created');
+		chart.on('created', function(context) {
+			if (firstTime) {
+				loadSelectionFromLS();
+				addHoverTooltip();
+				firstTime = false;
+			}
+
 		});
 
 	} else {
 		chart.update(chartData);
 		applyUrlFilters();
+
+		/*chart.on('created', function(context) {
+			console.log(context);
+		});*/
 	}
 
 
@@ -91,12 +110,11 @@ function createChart () {
 
 
 function addHoverTooltip () {
-	"use strict";
-
 	// Chartist.createSvg(document.querySelector(".ct-chart-line"));
 
 	var svgPath = new Chartist.Svg.Path();
-	svgPath.line(0, 100);
+
+	console.log(svgPath.line(0, 100));
 	// Attach it to the graph ?
 }
 

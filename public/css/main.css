@@ -57,6 +57,11 @@ select:focus{
 	text-align: center;
 }
 
+.dashed-line {
+	stroke: red;
+	stroke-width: 2px;
+	stroke-dasharray: 4px;
+}
 
 
 /* Override Chartist.js styles */
@@ -126,5 +131,3 @@ select:focus{
 .legend .ct-series-g:before {
 	border-color: white;
 }
-
-
