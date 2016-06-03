@@ -90,52 +90,63 @@ function createChart () {
 		chart.on('created', function(context) {
 			if (firstTime) {
 				loadSelectionFromLS();
-				addHoverTooltip();
 				firstTime = false;
+				// addTooltips ();
 			}
+
 
 		});
 
 	} else {
 		chart.update(chartData);
 		applyUrlFilters();
-
-		/*chart.on('created', function(context) {
-			console.log(context);
-		});*/
 	}
 
-
 }
 
 
-function addHoverTooltip () {
-	// Chartist.createSvg(document.querySelector(".ct-chart-line"));
+function addTooltip(node, test){
+	// TODO: use template system or template string
+	var template =
+		"<ul>" +
+			"<li>TotalTime: " + test.firstView.totalTime / 1000 + "s</li>" +
+			"<li>SpeedIndex: " + test.firstView.speedIndex / 1000 + "s</li>" +
+			"<li>VisuallyComplete: " + test.firstView.visuallyComplete / 1000 + "s</li>" +
+			"<li>TTFB: " + test.firstView.ttfb / 1000 + "s</li>" +
+			"<li>Location: " + test.location + "</li>" +
+		"</ul>" +
+		"<a href='http://www.webpagetest.org/result/" + test.id + "' target='_blank'>Click for more details</a>";
 
-	var svgPath = new Chartist.Svg.Path();
-
-	console.log(svgPath.line(0, 100));
-	// Attach it to the graph ?
+	Tooltip.create(node, {showOn: 'load', closeIcon: false, text: template});
 }
-
-
 
 
 // Add click event to points in the line, to visit the test results
+// TODO: EVENT DELEGATION
 function addPointEvent(node, index) {
+
 	// Identify which of the lines in the graph we're in
 	var lineMatches = node.parentNode.getAttribute("class").match(/ct-series-([a-z])/);
 	if (lineMatches[1]) {
 		var lineIndex = lineMatches[1].charCodeAt(0) - "a".charCodeAt(0);
 	}
+	var currentTest = currentTests[lineIndex][index];
 	// And set the Test id to be able to click it
-	node.setAttribute("id", currentTests[lineIndex][index].id);
+	node.setAttribute("id", currentTest.id);
 	var title = document.createElement("title");
 	title.textContent = "Click to see test details";
 	node.appendChild(title);
 
 	node.addEventListener("click", function(evt){
 		window.open("http://www.webpagetest.org/result/" + evt.target.id, '_blank');
+	}, false);
+
+	node.addEventListener("mouseover", function(evt){
+		addTooltip(evt.target, currentTest);
+	}, false);
+	node.addEventListener("mouseout", function(evt){
+		// TODO: Extend the mouseover/out to the tooltip, and avoid this hack
+		setTimeout(Tooltip.destroyAll, 1000);
 	}, false);
 }
 
