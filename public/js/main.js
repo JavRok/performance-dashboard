@@ -92,6 +92,7 @@ function createChart () {
 				loadSelectionFromLS();
 				firstTime = false;
 				// addTooltips ();
+				addEvents(context.svg._node);
 			}
 
 
@@ -141,15 +142,62 @@ function addPointEvent(node, index) {
 		window.open("http://www.webpagetest.org/result/" + evt.target.id, '_blank');
 	}, false);
 
-	node.addEventListener("mouseover", function(evt){
-		addTooltip(evt.target, currentTest);
-	}, false);
-	node.addEventListener("mouseout", function(evt){
-		// TODO: Extend the mouseover/out to the tooltip, and avoid this hack
-		setTimeout(Tooltip.destroyAll, 1000);
-	}, false);
 }
 
+
+/*
+ * Having the SVG Point (actually 'line') in the graph, get the related test
+ */
+function getTestFromSVGNode(node) {
+
+	// Identify which of the lines in the graph we're in
+	var lineMatches = node.parentNode.getAttribute("class").match(/ct-series-([a-z])/);
+	if (lineMatches[1]) {
+		var lineIndex = lineMatches[1].charCodeAt(0) - "a".charCodeAt(0);
+	}
+	if (lineIndex) {
+		return getTestById(node.id, lineIndex);
+	}
+	return null;
+}
+
+
+/*
+ * Get a test by Id (and line/url index)
+ */
+function getTestById(id, lineIndex) {
+	var tests = currentTests[lineIndex];
+	for (var i=0; i<tests.length; i++) {
+		if (tests[i] && tests[i].id === id) {
+			return tests[i];
+		}
+	}
+	return null;
+}
+
+
+/*
+ * Add delegated events to the SVG nodes
+ */
+
+function addEvents(svgNode) {
+	var timeout;
+	svgNode.parentNode.addEventListener("mouseover", function(evt){
+		var node = evt.target;
+		if (node.nodeName === "line" && node.classList.contains("ct-point")) {
+			if (timeout) clearTimeout(timeout);
+			addTooltip(evt.target, getTestFromSVGNode(node));
+		}
+
+	}, false);
+
+	svgNode.parentNode.addEventListener("mouseout", function(evt){
+		var node = evt.target;
+		if (node.nodeName === "line" && node.classList.contains("ct-point")) {
+			timeout = setTimeout(Tooltip.destroyAll, 1000);
+		}
+	}, false);
+}
 
 
 // Require AJAX util library
@@ -311,10 +359,10 @@ nodes.measureSelect.addEventListener("change", function(evt) {
 function removePeaks (serie) {
 	serie.forEach((value, i, serie) => {
 		if (value > 20000)  {
-		serie[i] = null;
-	}
-});
-}
+			serie[i] = null;
+		}
+	});
+} 
 
 
 function increaseChar(c, sum) {
