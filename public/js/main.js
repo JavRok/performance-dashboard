@@ -91,7 +91,6 @@ function createChart () {
 			if (firstTime) {
 				loadSelectionFromLS();
 				firstTime = false;
-				// addTooltips ();
 				addEvents(context.svg._node);
 			}
 
@@ -106,7 +105,12 @@ function createChart () {
 }
 
 
-function addTooltip(node, test){
+/*
+ * Add a tooltip on a certain point in the graph with the test info
+ */
+function addTooltip(node){
+	var test = getTestFromSVGNode(node);
+
 	// TODO: use template system or template string
 	var template =
 		"<ul>" +
@@ -155,7 +159,7 @@ function getTestFromSVGNode(node) {
 	if (lineMatches[1]) {
 		var lineIndex = lineMatches[1].charCodeAt(0) - "a".charCodeAt(0);
 	}
-	if (lineIndex) {
+	if (typeof lineIndex !== 'undefined') {
 		return getTestById(node.id, lineIndex);
 	}
 	return null;
@@ -186,7 +190,7 @@ function addEvents(svgNode) {
 		var node = evt.target;
 		if (node.nodeName === "line" && node.classList.contains("ct-point")) {
 			if (timeout) clearTimeout(timeout);
-			addTooltip(evt.target, getTestFromSVGNode(node));
+			addTooltip(node);
 		}
 
 	}, false);
