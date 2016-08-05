@@ -137,3 +137,27 @@ li {
 .legend .ct-series-g:before {
 	border-color: white;
 }
+
+.ct-series-h .ct-line,
+.ct-series-h .ct-point {
+	stroke: #6b0392;
+}
+.legend .ct-series-h:before {
+	border-color: #6b0392;
+}
+
+.ct-series-i .ct-line,
+.ct-series-i .ct-point {
+	stroke: #f05b4f;
+}
+.legend .ct-series-i:before {
+	border-color: #f05b4f;
+}
+
+.ct-series-j .ct-line,
+.ct-series-j .ct-point {
+	stroke: #dda458;
+}
+.legend .ct-series-j:before {
+	border-color: #dda458;
+}

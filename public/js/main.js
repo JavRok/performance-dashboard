@@ -183,7 +183,6 @@ function getTestById(id, lineIndex) {
 /*
  * Add delegated events to the SVG nodes
  */
-
 function addEvents(svgNode) {
 	var timeout;
 	svgNode.parentNode.addEventListener("mouseover", function(evt){
@@ -208,7 +207,6 @@ function addEvents(svgNode) {
 if (AJAX) {
 	// Wait for all the AJAX calls with Promises. First get the tested URLs
 	AJAX.promiseGet("urls").then(JSON.parse).then(function(response) {
-		console.log("Success!", response);
 		urls = response;
 
 		drawLegend();

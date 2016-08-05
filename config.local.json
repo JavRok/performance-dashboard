@@ -1,12 +1,14 @@
 {
 	"sites": [
 		"https://www.tele2.nl",
-		"https://www.tele2.nl/shop/thuis/postcodecheck/",
+		// "https://www.tele2.nl/shop/thuis/postcodecheck/",
+		"https://www.tele2.nl/home-without-pixels/",
 		"https://www.tele2.nl/shop/mobiel/smartphones",
 		"https://forum.tele2.nl",
 		"https://www.ziggo.nl/",
 		"https://kpn.nl/",
-		"https://www.vodafone.nl/"
+		"https://www.vodafone.nl/",
+		"https://www.t-mobile.nl/"
 	],
 	"intervalInHours": 1,
 	"locations": ["EU_Ams_Wptdriver:Firefox", "Amsterdam_IISpeed:Firefox", "EU_Ams_Wptdriver:Chrome", "Amsterdam_IISpeed:Chrome", "Brussels:Chrome", "ec2-eu-west-1:Chrome"],
@@ -21,6 +23,7 @@
 	"testOptions": {
 		"connectivity": "Native",
 		"firstViewOnly": true,
-		"proxy": "localhost:3128"
+		"server": "https://www.webpagetest.org/"
+		// "proxy": "localhost:3128"
 	}
 }

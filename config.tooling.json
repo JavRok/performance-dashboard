@@ -1,7 +1,7 @@
 {
 	"sites": [
 		"https://www.tele2.nl",
-		"https://www.tele2.nl/shop/thuis/postcodecheck/",
+		"https://www.tele2.nl/home-without-pixels/",
 		"https://www.tele2.nl/shop/mobiel/smartphones",
 		"https://forum.tele2.nl",
 		"https://www.ziggo.nl/",
@@ -21,6 +21,7 @@
 	"testOptions": {
 		"connectivity": "Native",
 		"firstViewOnly": true,
-		"proxy": "proxy.dcn.versatel.net:3128"
+		"proxy": "proxy.dcn.versatel.net:3128",
+		"server": "https://www.webpagetest.org/"
 	}
 }
