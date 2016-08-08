@@ -233,6 +233,12 @@ function processTests(responses) {
 	responses.forEach(function(response, i) {
 		var singleUrl = JSON.parse(response);
 
+		// If there's no test info, avoid chartist to crash by setting an empty array
+		if (singleUrl.status === "error") {
+			chartData.series[i] = [];
+			return;
+		}
+
 		if (singleUrl.data.hours) {
 			chartData.labels = singleUrl.data.hours;
 		} else if(singleUrl.data.days) {
@@ -326,6 +332,13 @@ nodes.daySelect.addEventListener("change", function(evt) {
 
 
 nodes.monthSelect.addEventListener("change", function(evt) {
+
+	if (evt.target.value === "thisweek") {
+		nodes.daySelect.value = "0";
+		nodes.daySelect.dispatchEvent(new Event('change', { 'bubbles': true }));
+		return;
+	}
+
 	Promise.all(
 		urls.map(function(url) {
 			return AJAX.promiseGet("test/" + url + "/month/"+ evt.target.value);

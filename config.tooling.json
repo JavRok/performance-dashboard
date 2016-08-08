@@ -22,6 +22,6 @@
 		"connectivity": "Native",
 		"firstViewOnly": true,
 		"proxy": "proxy.dcn.versatel.net:3128",
-		"server": "https://www.webpagetest.org/"
+		"server": "http://api.webpagetest.org/"
 	}
 }
