@@ -17,10 +17,18 @@ function run () {
 	var wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
 	var sites = conf.get('sites');
 	var options = conf.get('testOptions');
+	var customScripts = conf.get("customScripts");
 	options.location = locs.getBestLocation();
+
 
 	// Launch the test
 	sites.forEach (function (url) {
+
+		// Set custom script if existing (overwrites url)
+		if (customScripts[url]) {
+			url =  wpt.scriptToString(customScripts[url]);
+		}
+
 		wpt.runTest(url, options , (err, result) => {
 
 			if (err) return conf.log(err, true);
