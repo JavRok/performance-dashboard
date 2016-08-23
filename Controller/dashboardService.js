@@ -5,6 +5,10 @@
 
 "use strict";
 
+if ( global.v8debug ) {
+	global.v8debug.Debug.setBreakOnException(); // speaks for itself
+}
+
 var fs = require('fs');
 var express = require('express');
 var app = express();
@@ -72,7 +76,7 @@ app.get('/test/:name/day/:day', function (req, res) {
 			testsCollection = new TestResultCollection(JSON.parse(data));
 			return res.json({"status": "ok", "data": testsCollection.get24hResults(day)});
 		} catch(ex) {
-			return res.json({"status": "error", "data": ex});
+			return res.json({"status": "error", "data": ex.message});
 		}
 	});
 });

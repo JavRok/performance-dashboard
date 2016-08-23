@@ -143,6 +143,7 @@ class TestResultCollection {
 		var dateObj;
 		// Get results from same day
 		for(var i=0; i<this.tests.length; i++) {
+			if (!this.tests[i].date) {continue;}   // Sometimes wpt.org will give a null test, with no date
 			dateObj = new Date(this.tests[i].date * 1000);
 			if(dateObj.toISOString().substr(0, 13) === isoTime) {
 				return this.tests[i];
