@@ -40,6 +40,8 @@ function run () {
 					var hourlyResults = results[1];
 					var days = getDays(hourlyResults);
 
+					if (file === "www.tele2.nl.json") console.log("asdfasdf");
+
 					// Now 'days' list all single days found in the hourly results
 					// We calculate median for those, store them in a file, and remove the oldest from original results
 
@@ -60,6 +62,9 @@ function run () {
 						setFileJsonResults(resultsDir + file, hourlyResults);
 					}
 
+				})
+				.catch((err) => {
+					conf.log(`saveTestHistory: Error when retrieving ${file}. ${err}`);
 				});
 		});
 	});

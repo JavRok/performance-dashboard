@@ -13,7 +13,7 @@ class TestResultCollection {
 		this.tests = [];
 
         if (tests && tests.length > 0) {
-			tests.forEach( (test) => {
+			tests.forEach( (test, i) => {
 				this.addOrdered(new TestResult(test));
 			});
         }
@@ -54,8 +54,7 @@ class TestResultCollection {
  	 * Add a single object maintaining order by timestamp. Don't mix with normal add, or it won't work
  	 */
 	addOrdered (newTest) {
-		var len=this.tests.length;
-		var i=len;
+		var i=this.tests.length;
 
 		// Inverse order to improve performance (newest tests are at the end)
 		while(i>0 && newTest.date < this.tests[i-1].date) {

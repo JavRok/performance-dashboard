@@ -71,6 +71,7 @@ function parseDateFromFile(filename) {
  * @return [string] current timestamp in format yyyy-mm-dd
  */
 function getUniqueDay(timestamp) {
+	if (!timestamp) return "";
 	var dateObj = new Date(timestamp * 1000);
 	return dateObj.toISOString().substr(0, 10);
 }
