@@ -95,9 +95,13 @@ function processTestResult(err, result) {
             fs.readFile(fileName, "utf-8", function(err, data) {
 				if (err) return conf.log(err, true);
 
-                tests = new TestResultCollection (JSON.parse(data));
-                tests.addOrdered(test);
-                fs.writeFile(fileName, tests, function() {});
+				try{
+					tests = new TestResultCollection (JSON.parse(data));
+					tests.addOrdered(test);
+					fs.writeFile(fileName, tests, function() {});
+				} catch(ex) {
+					conf.log("Exception:" + ex.message);
+				}
             });
         }
     });
