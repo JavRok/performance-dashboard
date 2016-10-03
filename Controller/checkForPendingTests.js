@@ -83,7 +83,7 @@ function processTestResult(err, result) {
 	// Add starting time (not when the test actually started)
 	test.queuedTime = queuedTimes.get(test.id);
 
-    fs.stat(fileName, (err, stats) => {
+	fs.readFile(fileName, "utf-8", function(err, data) {
         // File doesn't exist, create it.
         if (err) {
             tests = new TestResultCollection ();
@@ -92,22 +92,20 @@ function processTestResult(err, result) {
 
         // File exists, overwrite it
         } else {
-            fs.readFile(fileName, "utf-8", function(err, data) {
-				if (err) return conf.log(err, true);
 
-				try{
-					tests = new TestResultCollection (JSON.parse(data));
-					tests.addOrdered(test);
-					fs.writeFile(fileName, tests, function() {});
-				} catch(ex) {
-					conf.log("Exception:" + ex.message);
-				}
-            });
+			try{
+				tests = new TestResultCollection (JSON.parse(data));
+			} catch(ex) {
+				conf.log("Exception when parsing test json file:" + ex.message);
+				tests = new TestResultCollection ();
+            }
+
+			tests.addOrdered(test);
+			fs.writeFile(fileName, tests, function() {});
         }
     });
 
 	conf.log("Successfully gather results from test " + test.id);
-
 }
 
 
