@@ -10,6 +10,13 @@
 		"https://www.vodafone.nl/",
 		"https://www.t-mobile.nl/"
 	],
+	"customScripts": {
+		"https://www.tele2.nl": [
+			{"setCookie": ["https://www.tele2.nl", "t2_cc_d=1490877338231"]},
+			{"setCookie": ["https://www.tele2.nl", "ely_cc_answ={\"cookie-consent\":1}"]},
+			{"navigate": "https://www.tele2.nl"}
+		]
+	},
 	"intervalInHours": 1,
 	"locations": ["EU_Ams_Wptdriver:Firefox", "Amsterdam_IISpeed:Firefox", "EU_Ams_Wptdriver:Chrome", "Amsterdam_IISpeed:Chrome", "Brussels:Chrome", "ec2-eu-west-1:Chrome"],
 	"outputFolder": {

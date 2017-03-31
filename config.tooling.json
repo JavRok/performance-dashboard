@@ -12,6 +12,11 @@
 		"https://www.ziggo.nl/": [
 			{"setCookie": ["https://www.ziggo.nl", "_syn={'c': cookiesPermission ,'ct':1450753800990}]}"]},
 			{"navigate": "https://www.ziggo.nl"}
+		],
+		"https://www.tele2.nl": [
+			{"setCookie": ["https://www.tele2.nl", "t2_cc_d=1490877338231"]},
+			{"setCookie": ["https://www.tele2.nl", "ely_cc_answ={\"cookie-consent\":1}"]},
+			{"navigate": "https://www.tele2.nl"}
 		]
 	},
 	"intervalInHours": 1,
