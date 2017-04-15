@@ -3,21 +3,21 @@
  * The results are gathered by checkForPendingTests.js, that needs to be run periodically
  */
 
-var fs = require('fs');
-var WebPageTest = require('webpagetest');
+const  fs = require('fs');
+const  WebPageTest = require('webpagetest');
 
-var Config = require('../Model/TestConfig.js'),
+const  Config = require('../Model/Config.js'),
 	conf = Config();
-var Util = require('../Helper/util.js');
-var Locations = require('../Model/Locations.js'),
+const  Util = require('../Helper/util.js');
+const  Locations = require('../Model/Locations.js'),
 	locs = Locations();
 
 
 function run () {
-	var wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
-	var sites = conf.get('sites');
-	var options = conf.get('testOptions');
-	var customScripts = conf.get("customScripts");
+	const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
+	const sites = conf.get('sites');
+	const options = conf.get('testOptions');
+	const customScripts = conf.get("customScripts");
 	options.location = locs.getBestLocation();
 
 
@@ -25,7 +25,7 @@ function run () {
 	sites.forEach (function (url) {
 
 		// Set custom script if existing (overwrites url)
-		if (customScripts[url]) {
+		if (customScripts && customScripts[url]) {
 			url =  wpt.scriptToString(customScripts[url]);
 		}
 
@@ -36,7 +36,7 @@ function run () {
 			// TODO: On error, select next location
 
 			// File with timestamp and ID
-			var filename = conf.getPath('pending') + Util.getDateTime() + "-" + result.data.testId + ".json";
+			const filename = conf.getPath('pending') + Util.getDateTime() + "-" + result.data.testId + ".json";
 
             fs.writeFile(filename, JSON.stringify(result, null, 2), (err) => {
 				if (err) {

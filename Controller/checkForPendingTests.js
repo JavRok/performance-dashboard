@@ -8,7 +8,7 @@ var WebPageTest = require('webpagetest');
 var TestResult = require('../Model/TestResult.js');
 var TestResultCollection = require('../Model/TestResultCollection.js');
 var util = require('../Helper/util.js');
-var Config = require('../Model/TestConfig.js'),
+var Config = require('../Model/Config.js'),
 	conf = Config();
 var pendingDir = conf.getPath("pending");
 

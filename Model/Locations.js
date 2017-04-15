@@ -5,7 +5,7 @@
 
 var fs = require('fs');
 var WebPageTest = require('webpagetest');
-var Config = require('../Model/TestConfig.js'),
+var Config = require('../Model/Config.js'),
 	conf = Config();
 var util = require('../Helper/util.js')
 

@@ -11,7 +11,7 @@ var util = require('../Helper/util.js');
 var config;
 
 
-class TestConfig {
+class Config {
 	constructor (filePath) {
 		this.config = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 	}
@@ -47,7 +47,7 @@ class TestConfig {
 
 var createConfig = function createConfig() {
 	if (!config) {
-		config = new TestConfig(defaultConfig);
+		config = new Config(defaultConfig);
 	}
 	return config;
 }

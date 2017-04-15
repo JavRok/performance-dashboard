@@ -10,7 +10,7 @@ if ( global.v8debug ) {
 }
 
 var fs = require('fs');
-var Config = require('../Model/TestConfig.js'),
+var Config = require('../Model/Config.js'),
 	conf = Config();
 var util = require('../Helper/util.js');
 var TestResult = require('../Model/TestResult.js');
