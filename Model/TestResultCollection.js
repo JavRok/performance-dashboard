@@ -2,7 +2,6 @@
  * Test result Collection Model
  * Holds a collection of TestResult objects. Implements Iterable interface.
  **/
-"use strict";
 
 var TestResult = require('../Model/TestResult.js');
 var util = require('../Helper/util.js');

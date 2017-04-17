@@ -3,15 +3,13 @@
  * value, calculated with the median, and saved to a file in history/
  */
 
-"use strict";
-
 if ( global.v8debug ) {
 	global.v8debug.Debug.setBreakOnException(); // speaks for itself
 }
 
 var fs = require('fs');
-var Config = require('../Model/Config.js'),
-	conf = Config();
+const conf = require('../Model/Config.js');
+	// conf = Config();
 var util = require('../Helper/util.js');
 var TestResult = require('../Model/TestResult.js');
 var TestResultCollection = require('../Model/TestResultCollection.js');

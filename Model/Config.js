@@ -2,13 +2,12 @@
  * Config for the tests, including sites to test, locations and API key
  * Uses singleton pattern
  */
-"use strict";
 
-var fs = require('fs');
-var defaultConfig = "./config.json";
-var util = require('../Helper/util.js');
+const fs = require('fs');
+const defaultConfig = "./config.json";
+const util = require('../Helper/util.js');
 
-var config;
+let config;
 
 
 class Config {
@@ -45,7 +44,7 @@ class Config {
 
 }
 
-var createConfig = function createConfig() {
+const createConfig = function createConfig() {
 	if (!config) {
 		config = new Config(defaultConfig);
 	}
@@ -54,4 +53,4 @@ var createConfig = function createConfig() {
 
 
 
-module.exports = createConfig;
+module.exports = createConfig();

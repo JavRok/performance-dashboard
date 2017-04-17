@@ -3,7 +3,6 @@
  * Run it, and open http://localhost:3030 on your browser
  */
 
-"use strict";
 
 if ( global.v8debug ) {
 	global.v8debug.Debug.setBreakOnException(); // speaks for itself
@@ -13,8 +12,8 @@ var fs = require('fs');
 var express = require('express');
 var app = express();
 
-var Config = require('../Model/Config.js'),
-	conf = Config();
+var conf = require('../Model/Config.js');
+	// conf = Config();
 var TestResultCollection = require('../Model/TestResultCollection.js');
 var resultsDir = conf.getPath("results");
 

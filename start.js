@@ -53,6 +53,8 @@ CheckForTests.run();
 LaunchTests.run();
 
 
+
+
 // Create folders if not existing (1st run)
 const folderObj = conf.get("outputFolder");
 if (typeof folderObj.subfolders === "object") {
