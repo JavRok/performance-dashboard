@@ -9,7 +9,8 @@
   "private": true,
   "keywords": [
     "Performance",
-    "Dashboard"
+    "Dashboard",
+    "webpagetest"
   ],
   "author": "javier.rocamora@tele2.com",
   "license": "ISC",

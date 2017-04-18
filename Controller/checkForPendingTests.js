@@ -1,20 +1,20 @@
-/* This module checks for pending tests, run by launchTest.js before. */
+/**
+ * This module checks for pending tests, run by launchTest.js before.
+ */
 
-"use strict";
+const fs = require('fs');
+const WebPageTest = require('webpagetest');
+const TestResult = require('../Model/TestResult.js');
+const TestResultCollection = require('../Model/TestResultCollection.js');
+const testStatus = require('../Model/TestStatus.js');
+const util = require('../Helper/util.js');
+const conf = require('../Model/Config.js');
 
-var fs = require('fs');
-var WebPageTest = require('webpagetest');
-
-var TestResult = require('../Model/TestResult.js');
-var TestResultCollection = require('../Model/TestResultCollection.js');
-var util = require('../Helper/util.js');
-var Config = require('../Model/TestConfig.js'),
-	conf = Config();
-var pendingDir = conf.getPath("pending");
+const pendingDir = conf.getPath("pending");
 
 
 // Map of the queued time (when we requested the test), used to calculate waiting times on specific locations
-var queuedTimes = new Map();
+const queuedTimes = new Map();
 
 // Checks for tests in pending state, and tries to get the result if they're finished
 function run () {
@@ -30,7 +30,7 @@ function run () {
 			fs.readFile(pendingDir + file, function (err, data) {
 				if (err) return conf.log(err, true);
 
-				var result = JSON.parse(data);
+				const result = JSON.parse(data);
 				if (result.statusCode === 200) {
 					checkTestStatus(result.data.testId, file);
 				}
@@ -44,30 +44,22 @@ function run () {
 // Checks if a test has been finished (by using wpt.org API). If so, process the results and cleans the files
 function checkTestStatus (id, fileName) {
 
-	var wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
-	var options = conf.get('testOptions');
+    testStatus.getStatus(id, function (err, result) {
+        if (err) return conf.log(err, true);
 
-	wpt.status( id, options, function (err, data) {
-		if (err) return conf.log(err, true);
+        if (result.finished) {
 
-		switch(true) {
-			case (data.statusCode === 200):
-				queuedTimes.set(id, util.parseDateFromFile(fileName));
-				wpt.results(id, options, processTestResult);
-				// Delete the pending state file
-				fs.unlink(pendingDir + fileName, ()=>{});
-
-				break;
-            case (data.statusCode < 200):
-				// Still pending, keep waiting
-				conf.log("Test " + id + " still running (" + data.statusText + ")");
-				break;
-			case (data.statusCode > 200):
-			default:
-				// Failed test or invalid ID
-				break;
-		}
+            const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
+            const options = conf.get('testOptions');
+            queuedTimes.set(id, util.parseDateFromFile(fileName));
+            wpt.results(id, options, processTestResult);
+            // Delete the pending state file
+            fs.unlink(pendingDir + fileName, ()=>{});
+        } else {
+            // result.position -> queue
+        }
 	});
+
 }
 
 
@@ -76,9 +68,9 @@ function processTestResult(err, result) {
 	if (err) return conf.log(err, true);
 
     // console.log(result.data.runs);return;
-	var test = new TestResult(result);
-    var tests;
-    var fileName = conf.getPath('results') + util.getFileNameFromUrl(test.domain);
+	const test = new TestResult(result);
+    let tests;
+    const fileName = conf.getPath('results') + util.getFileNameFromUrl(test.domain);
 
 	// Add starting time (not when the test actually started)
 	test.queuedTime = queuedTimes.get(test.id);

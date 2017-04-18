@@ -2,16 +2,15 @@
  * Config for the tests, including sites to test, locations and API key
  * Uses singleton pattern
  */
-"use strict";
 
-var fs = require('fs');
-var defaultConfig = "./config.json";
-var util = require('../Helper/util.js');
+const fs = require('fs');
+const defaultConfig = "./config.json";
+const util = require('../Helper/util.js');
 
-var config;
+let config;
 
 
-class TestConfig {
+class Config {
 	constructor (filePath) {
 		this.config = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 	}
@@ -45,13 +44,13 @@ class TestConfig {
 
 }
 
-var createConfig = function createConfig() {
+const createConfig = function createConfig() {
 	if (!config) {
-		config = new TestConfig(defaultConfig);
+		config = new Config(defaultConfig);
 	}
 	return config;
 }
 
 
 
-module.exports = createConfig;
+module.exports = createConfig();

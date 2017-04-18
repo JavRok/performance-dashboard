@@ -1,17 +1,15 @@
 /*
  * Updated list of locations, with info about test load and waiting times
  */
-"use strict";
 
-var fs = require('fs');
-var WebPageTest = require('webpagetest');
-var Config = require('../Model/TestConfig.js'),
-	conf = Config();
-var util = require('../Helper/util.js')
+const fs = require('fs');
+const WebPageTest = require('webpagetest');
+const conf = require('../Model/Config.js');
+	// conf = Config();
+const util = require('../Helper/util.js')
 
-var locationsFile = conf.get("outputFolder").path + "/locations.json";
-
-var locations;
+const locationsFile = conf.get("outputFolder").path + "/locations.json";
+let locations;
 
 class Locations {
 
@@ -26,7 +24,7 @@ class Locations {
 	}
 
 	update() {
-		var wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
+		const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
 		wpt.getLocations({}, (err, result) => {
 			if (err) return conf.log(err, true);
 			if (result.response.statusCode !== 200) return conf.log(result.response.statusText, true);
@@ -50,7 +48,7 @@ class Locations {
 	 * @return {bool}
 	 */
 	setLocationWaitingTime(locationId, minutes) {
-		var position = this.preferred.indexOf(locationId);
+		const position = this.preferred.indexOf(locationId);
 		if (position === -1) {
 			return false;
 		}
@@ -61,7 +59,7 @@ class Locations {
 }
 
 /* Singleton pattern */
-var createLocation = function createLocation() {
+const createLocation = function createLocation() {
 	if (!locations) {
 		locations = new Locations();
 	}

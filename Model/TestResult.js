@@ -1,5 +1,4 @@
 /* Test result Model. It's a reduced version of the result received by webpagetest.org */
-"use strict";
 
 class TestResult {
 

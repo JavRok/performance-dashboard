@@ -9,44 +9,75 @@ require('./Controller/dashboardService.js');
 
 /**************   Start the loop that will launch tests and gather results   **************/
 
-var CheckForTests = require('./Controller/checkForPendingTests.js');
-var LaunchTests = require('./Controller/launchTest.js');
-var SaveHistory = require('./Controller/saveTestHistory.js');
-var Config = require('./Model/TestConfig.js'),
+const fs = require('fs');
+const CheckForTests = require('./Controller/checkForPendingTests.js');
+const LaunchTests = require('./Controller/launchTest.js');
+const SaveHistory = require('./Controller/saveTestHistory.js');
+const Config = require('./Model/Config.js'),
 	conf = Config();
 
 
 // Interval in hours, every hour by default
-var launchTestTimeout = 60 * 60 * 1000 * conf.get("intervalInHours");
+const launchTestTimeout = 60 * 60 * 1000 * conf.get("intervalInHours");
 // Check 4 times for every test launched (by default every 15 mins)
-var checkTimeout = launchTestTimeout / 4;
+const checkTimeout = launchTestTimeout / 4;
 // Delay the execution 1 min to ensure check timer runs before
-var delayTestLaunch = 60 * 1000;
+const delayTestLaunch = 60 * 1000;
 // Every 24h we save the history
-var saveHistoryTimeout = 24 * 60 * 60 * 1000;
+const saveHistoryTimeout = 24 * 60 * 60 * 1000;
 
 conf.log("Starting the performance-dashboard application. Ctrl+C to terminate it.");
 
 // Launch one test for every site in config
 setTimeout(()=> {
-	var testInterval = setInterval(() => {
+	const testInterval = setInterval(() => {
 		LaunchTests.run();
 	}, launchTestTimeout);
 }, delayTestLaunch);
 
 
 // Check for test results, for tests that are on pending state
-var checkInterval = setInterval (() => {
+const checkInterval = setInterval (() => {
 	CheckForTests.run();
 }, checkTimeout);
 
 
 // Save history every 24h
-var historyInterval = setInterval (() => {
+const historyInterval = setInterval (() => {
 	SaveHistory.run();
 }, saveHistoryTimeout);
 
 
 // Call it first time
 CheckForTests.run();
-// LaunchTests.run();
+LaunchTests.run();
+
+
+
+
+// Create folders if not existing (1st run)
+const folderObj = conf.get("outputFolder");
+if (typeof folderObj.subfolders === "object") {
+    for (let subfolder in folderObj.subfolders) {
+    	if (folderObj.subfolders.hasOwnProperty(subfolder)) {
+            checkDirectory(conf.getPath(subfolder), () => {});
+		}
+    }
+}
+
+
+/*
+ * Check if a directory exists, and create it if it doesn't
+ */
+function checkDirectory(directory, callback) {
+    fs.stat(directory, function(err, stats) {
+        // Check if error defined and the error code is "not exists"
+        if (err && err.code === 'ENOENT') {
+            // Create the directory, call the callback.
+            fs.mkdir(directory, callback);
+        } else {
+            // just in case there was a different error:
+            callback(err)
+        }
+    });
+}
