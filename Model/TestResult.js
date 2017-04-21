@@ -14,7 +14,7 @@ class TestResult {
 	/*
 	 * Check if Test Result comes directly from webpagetest.org or it's the reduced version we save
 	 */
-	isOriginalResult (resultJson) {
+	isOriginalResult(resultJson) {
 		return (resultJson && resultJson.data && resultJson.statusCode);
 	}
 
@@ -25,35 +25,35 @@ class TestResult {
 			this.id = test.id;
 			this.location = test.location;
 			this.url = test.summary;
-            this.domain = test.testUrl;
+			this.domain = test.testUrl;
 			this.connectivity = test.connectivity;
-            this.date = test.runs["1"].firstView.date;
+			this.date = test.runs['1'].firstView.date;
 
-			var run = test.runs["1"].firstView;
+			var run = test.runs['1'].firstView;
 			this.firstView = {
-				requests: run.requests.length,
-				bytesIn: run.bytesIn,
-				ttfb : run.TTFB, 			// Time to first Byte
-				startRender: run.render,
-				domReadyEvent: run.domContentLoadedEventStart,
-				loadEvent: run.loadEventStart,
-				totalTime: run.loadTime,
+				requests        : run.requests.length,
+				bytesIn         : run.bytesIn,
+				ttfb            : run.TTFB, 			// Time to first Byte
+				startRender     : run.render,
+				domReadyEvent   : run.domContentLoadedEventStart,
+				loadEvent       : run.loadEventStart,
+				totalTime       : run.loadTime,
 				visuallyComplete: run.visualComplete,
-				speedIndex: run.SpeedIndex
+				speedIndex      : run.SpeedIndex
 			};
 
-			run = test.runs["1"].repeatView;
+			run = test.runs['1'].repeatView;
 			if (run) {
 				this.repeatView = {
-					requests: run.requests.length,
-					bytesIn: run.bytesIn,
-					ttfb : run.TTFB,
-					startRender: run.render,
-					domReadyEvent: run.domContentLoadedEventStart,
-					loadEvent: run.loadEventStart,
-					totalTime: run.loadTime,
+					requests        : run.requests.length,
+					bytesIn         : run.bytesIn,
+					ttfb            : run.TTFB,
+					startRender     : run.render,
+					domReadyEvent   : run.domContentLoadedEventStart,
+					loadEvent       : run.loadEventStart,
+					totalTime       : run.loadTime,
 					visuallyComplete: run.visualComplete,
-					speedIndex: run.SpeedIndex
+					speedIndex      : run.SpeedIndex
 				};
 			} else {
 				// If there's a timeout on the firstView, repeated view is null
@@ -72,9 +72,9 @@ class TestResult {
 		return dateObj.toISOString().substr(0, 10);
 	}
 
-    toString () {
-        return JSON.stringify(this, null, 2);
-    }
+	toString() {
+		return JSON.stringify(this, null, 2);
+	}
 
 }
 

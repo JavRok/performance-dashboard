@@ -4,40 +4,40 @@
  */
 
 const fs = require('fs');
-const defaultConfig = "./config.json";
+const defaultConfig = './config.json';
 const util = require('../Helper/util.js');
 
 let config;
 
 
 class Config {
-	constructor (filePath) {
+	constructor(filePath) {
 		this.config = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 	}
 
-	getApiKey () {
+	getApiKey() {
 		if (this.ApiKey) {
 			return this.ApiKey;
 		} else {
-			return fs.readFileSync("./wpt.org.json/api.key", "utf-8");
+			return fs.readFileSync('./wpt.org.json/api.key', 'utf-8');
 		}
 	}
 
-	get (prop) {
+	get(prop) {
 		return this.config[prop];
 	}
 
 	// Returns a folder path
 	getPath(folder) {
-		return this.config.outputFolder.path + "/" + this.config.outputFolder.subfolders[folder] + "/";
+		return this.config.outputFolder.path + '/' + this.config.outputFolder.subfolders[folder] + '/';
 	}
 
 	// Log everything with a timestamp
-	log (text, error) {
+	log(text, error) {
 		if (error) {
-			console.error(util.getDateTime() + ": [ERROR] " + text);
+			console.error(util.getDateTime() + ': [ERROR] ' + text);
 		} else {
-			console.log(util.getDateTime() + ": " + text);
+			console.log(util.getDateTime() + ': ' + text);
 		}
 
 	}

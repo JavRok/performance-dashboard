@@ -11,11 +11,11 @@ class TestResultCollection {
 	constructor(tests) {
 		this.tests = [];
 
-        if (tests && tests.length > 0) {
+		if (tests && tests.length > 0) {
 			tests.forEach( (test, i) => {
 				this.addOrdered(new TestResult(test));
 			});
-        }
+		}
 	}
 
 	/*
@@ -26,7 +26,7 @@ class TestResultCollection {
 		var data  = this.tests;
 
 		return {
-				next: () => ({ value: data[index], done: ++index >= data.length })
+			next: () => ({ value: data[index], done: ++index >= data.length })
 		}
 	}
 
@@ -37,30 +37,30 @@ class TestResultCollection {
 	/*
  	 * Add a single object of type TestResult
  	 */
-    add (newTest) {
+	add(newTest) {
         // Avoid duplicates
-        if(!this._exists(newTest)) {
-            this.tests.push(newTest);
-        } else {
-            console.log("Test " + newTest.id + " duplicated, couldn't add.");
+		if (!this._exists(newTest)) {
+			this.tests.push(newTest);
+		} else {
+			console.log('Test ' + newTest.id + ' duplicated, couldn\'t add.');
 			return false;
-        }
+		}
 		return true;
-    }
+	}
 
 
 	/*
  	 * Add a single object maintaining order by timestamp. Don't mix with normal add, or it won't work
  	 */
-	addOrdered (newTest) {
-		var i=this.tests.length;
+	addOrdered(newTest) {
+		var i = this.tests.length;
 
 		// Inverse order to improve performance (newest tests are at the end)
-		while(i>0 && newTest.date < this.tests[i-1].date) {
+		while (i > 0 && newTest.date < this.tests[i - 1].date) {
 			i--;
 		}
 
-		if (i > 0 && this.tests[i-1].id === newTest.id) {
+		if (i > 0 && this.tests[i - 1].id === newTest.id) {
 			// console.log("Test " + newTest.id + " duplicated, couldn't add.");
 			return false;
 		}
@@ -71,18 +71,18 @@ class TestResultCollection {
 
 
     // Check if test Id already exists in current collection
-    _exists(newTest) {
-        return this.tests.some( function(test) {
-            return test.id === newTest.id;
-        });
-    }
+	_exists(newTest) {
+		return this.tests.some( function (test) {
+			return test.id === newTest.id;
+		});
+	}
 
 
 	/*
 	 * Removes all tests happened in a certain day, specified by the parameter
 	 * @param [string] day in yyyy-mm-dd format
 	 */
-	removeTestsFromDay (day) {
+	removeTestsFromDay(day) {
 
 		this.tests = this.tests.filter((test) => {
 			return day !== util.getUniqueDay(test.date);
@@ -99,18 +99,18 @@ class TestResultCollection {
 
 		var dateObj = new Date();
 		var result = {
-			"hours": [],
-			"tests": []
+			'hours': [],
+			'tests': []
 		};
 
 		dateObj.setDate(dateObj.getDate() + day);
 		// Last 24h (includes today and possibly yesterday partly)
-		if(day === 0) {
+		if (day === 0) {
 			var hour = new Date().getHours();  // Get current hour
-			for (let i=0; i<24; i++){
+			for (let i = 0; i < 24; i++) {
 				if (hour === -1) {
 					hour = 23;
-					dateObj.setDate(dateObj.getDate()-1);  // Move day to yesterday
+					dateObj.setDate(dateObj.getDate() - 1);  // Move day to yesterday
 				}
 				result.hours.unshift(hour);
 				dateObj.setHours(hour);
@@ -120,7 +120,7 @@ class TestResultCollection {
 
 		// A whole day from 0 to 23h
 		} else {
-			for (let i=0; i<24; i++){
+			for (let i = 0; i < 24; i++) {
 				result.hours.push(i);
 				dateObj.setHours(i);
 				result.tests.push(this.getSingleResultByHour(dateObj.getTime()));
@@ -140,10 +140,10 @@ class TestResultCollection {
 		var isoTime = new Date(timestamp).toISOString().substr(0, 13);
 		var dateObj;
 		// Get results from same day
-		for(var i=0; i<this.tests.length; i++) {
+		for (var i = 0; i < this.tests.length; i++) {
 			if (!this.tests[i].date) {continue;}   // Sometimes wpt.org will give a null test, with no date
 			dateObj = new Date(this.tests[i].date * 1000);
-			if(dateObj.toISOString().substr(0, 13) === isoTime) {
+			if (dateObj.toISOString().substr(0, 13) === isoTime) {
 				return this.tests[i];
 			}
 		}
@@ -159,15 +159,15 @@ class TestResultCollection {
 
 		var dateObj = new Date();
 		var result = {
-			"days": [],
-			"tests": []
+			'days' : [],
+			'tests': []
 		};
 
 		dateObj.setMonth(dateObj.getMonth() + month);
 		// Current month (30 days of history starting today)
-		if(month === 0) {
+		if (month === 0) {
 			var day = new Date().getDate();  // Get current day
-			for (let i=0; i<30; i++){
+			for (let i = 0; i < 30; i++) {
 				dateObj.setDate(day);
 				if (day === 0) {
 					day = dateObj.getDate();   // Move day to last day of previous month
@@ -180,7 +180,7 @@ class TestResultCollection {
 			// A whole month
 		} else {
 			var nDays = this.daysInMonth(dateObj.getMonth() + 1, dateObj.getFullYear())
-			for (let i=0; i<nDays; i++){
+			for (let i = 0; i < nDays; i++) {
 				result.days.push(i);
 				dateObj.setDate(i);
 				result.tests.push(this.getSingleResultByDay(dateObj.getTime()));
@@ -199,8 +199,8 @@ class TestResultCollection {
 		var isoTime = new Date(timestamp).toISOString().substr(0, 10);
 
 		// Get results from same day. The ISO date is already on the ID of the test
-		for(var i=0; i<this.tests.length; i++) {
-			if(this.tests[i].id === isoTime) {
+		for (var i = 0; i < this.tests.length; i++) {
+			if (this.tests[i].id === isoTime) {
 				return this.tests[i];
 			}
 		}
@@ -208,14 +208,14 @@ class TestResultCollection {
 	}
 
 
-	//Month is 1 based
+	// Month is 1 based
 	daysInMonth(month,year) {
 		return new Date(year, month, 0).getDate();
 	}
 
-    toString () {
-        return JSON.stringify(this.tests, null, 2);
-    }
+	toString() {
+		return JSON.stringify(this.tests, null, 2);
+	}
 }
 
 

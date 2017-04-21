@@ -6,30 +6,30 @@
 
 // UMD standard code
 (function (root, factory) {
-	if (typeof define === "function" && define.amd) {
+	if (typeof define === 'function' && define.amd) {
 		define(factory);
-	} else if (typeof exports === "object") {
+	} else if (typeof exports === 'object') {
 		module.exports = factory();
 	} else {
 		root.Tooltip = factory();
 	}
 }(this, function () {
-	"use strict";
+	'use strict';
 
 	/**
 	 * Constructor for TooltipClass
 	 * @class Every tooltip is an instance of TooltipClass
 	 * TODO : Class could be in a separated file
 	 */
-	function TooltipClass (element) {
+	function TooltipClass(element) {
 		this.element = element;
 		// Default config
 		this.config = {
-			position: 'auto',
-			class: '',
+			position   : 'auto',
+			class      : '',
 			orientation: '',
-			showOn: 'hover',
-			closeIcon: true
+			showOn     : 'hover',
+			closeIcon  : true
 		};
 
 		// Will contain the tooltip DOM Node
@@ -52,29 +52,29 @@
 	TooltipClass.prototype.setOptions = function (options) {
 		var config = this.config;
 		if (options) {
-			if(options.class) {
+			if (options.class) {
 				config.class = options.class;
 			}
-			if(options.orientation) {
+			if (options.orientation) {
 				config.orientation = options.orientation;
 			}
-			if(options.position) {
+			if (options.position) {
 				config.position = options.position;
 			}
-			if(options.showOn) {
+			if (options.showOn) {
 				config.showOn = options.showOn;
 			}
-			if(options.closeIcon !== undefined) {
+			if (options.closeIcon !== undefined) {
 				config.closeIcon = options.closeIcon;
 			}
-			if(options.text) {
+			if (options.text) {
 				config.text = options.text;
 			}
 			// Let's assume an onLoad should be persistent
-			if(options.showOn === "load") {
+			if (options.showOn === 'load') {
 				config.persistent = true;
 			}
-			if(options.persistent) {
+			if (options.persistent) {
 				config.persistent = options.persistent;
 			}
 		}
@@ -85,17 +85,17 @@
 	 * Creates the tooltip node, to be inserted on the DOM. Includes arrow and close icon
 	 */
 	TooltipClass.prototype.createTooltipNode = function (text) {
-		var tooltip = document.createElement("div"),
-			arrow = document.createElement("div"),
-			close = document.createElement("a"),
+		var tooltip = document.createElement('div'),
+			arrow = document.createElement('div'),
+			close = document.createElement('a'),
 			config = this.config,
 			self = this;
 
-		tooltip.className = config.orientation + " tooltip "+ config.class;
+		tooltip.className = config.orientation + ' tooltip ' + config.class;
 
 		if (!text) {
 			if (!config.text) {
-				text = "This tooltip text must be set with title or data-tooltip attribute";
+				text = 'This tooltip text must be set with title or data-tooltip attribute';
 			}
 			else {
 				text = config.text;
@@ -105,10 +105,10 @@
 		tooltip.innerHTML = text;
 
 		if (config.closeIcon) {
-			close.className = "close";
-			close.href = "#";
-			close.textContent = "✖";
-			close.addEventListener('click', function(evt) {
+			close.className = 'close';
+			close.href = '#';
+			close.textContent = '✖';
+			close.addEventListener('click', function (evt) {
 				evt.preventDefault();
 				evt.stopPropagation();
 				self.hide();
@@ -117,7 +117,7 @@
 			tooltip.insertBefore(close, tooltip.childNodes[0]);
 		}
 
-		arrow.className = "arrow";
+		arrow.className = 'arrow';
 		tooltip.appendChild(arrow);
 
 		// Make it focusable
@@ -142,36 +142,36 @@
 
 		// TODO: test this value in normal DOM and replace with hardcoded one
 		var offset = {
-				top: 5,
-				left: 5
-			};
+			top : 5,
+			left: 5
+		};
 
-		switch(this.config.orientation) {
+		switch (this.config.orientation) {
 			case 'left':
 				tooltipLeft = elementRect.left - tooltipWidth - arrowSize - 5;
-				tooltipTop = elementRect.top - (tooltipHeight/2 - elementRect.height/2);
+				tooltipTop = elementRect.top - (tooltipHeight / 2 - elementRect.height / 2);
 				break;
 			case 'right':
 				tooltipLeft = elementRect.left + tooltipWidth + arrowSize + 5;
-				tooltipTop = elementRect.top - (tooltipHeight/2 - elementRect.height/2);
+				tooltipTop = elementRect.top - (tooltipHeight / 2 - elementRect.height / 2);
 				break;
 			case 'bottom':
 				tooltipTop = elementRect.top + height + arrowSize + 5;
-				tooltipLeft = elementRect.left - (tooltipWidth/2 - elementRect.width/2);
+				tooltipLeft = elementRect.left - (tooltipWidth / 2 - elementRect.width / 2);
 				break;
 			case 'top':
 			default:
 				tooltipTop = elementRect.top - tooltipHeight - arrowSize - 5;
-				tooltipLeft = elementRect.left - (tooltipWidth/2 - elementRect.width/2);
+				tooltipLeft = elementRect.left - (tooltipWidth / 2 - elementRect.width / 2);
 				break;
 		}
 
-		if(isSvgNode(element)) {
+		if (isSvgNode(element)) {
 			offset = getSvgOffset(element);
 		}
 
-		this.node.style.top = tooltipTop - offset.top + "px" ;
-		this.node.style.left = tooltipLeft - offset.left + "px" ;
+		this.node.style.top = tooltipTop - offset.top + 'px' ;
+		this.node.style.left = tooltipLeft - offset.left + 'px' ;
 	};
 
 
@@ -184,8 +184,8 @@
 		var left = this.element.offsetLeft,
 			width = this.element.clientWidth;
 
-		if (this.config.orientation === "top" || this.config.orientation === "bottom") {
-			this.arrow.style.left = (left + width/2 - this.node.offsetLeft) + "px";
+		if (this.config.orientation === 'top' || this.config.orientation === 'bottom') {
+			this.arrow.style.left = (left + width / 2 - this.node.offsetLeft) + 'px';
 		}
 	};
 
@@ -211,11 +211,11 @@
 			self.hide();
 		};
 
-		if (config.showOn === "hover") {
+		if (config.showOn === 'hover') {
 			element.addEventListener('mouseover', this.listenerShow, false);
 			element.addEventListener('mouseout', this.listenerHide, false);
 		} else {
-			if(config.showOn !== "load" ) {
+			if (config.showOn !== 'load' ) {
 				// Standard event
 				element.addEventListener(config.showOn, this.listenerShow, false);
 			}
@@ -233,13 +233,13 @@
 	TooltipClass.prototype.destroyEvents = function () {
 		var config = this.config;
 
-		if (config.showOn === "hover") {
+		if (config.showOn === 'hover') {
 			this.element.removeEventListener('mouseover', this.listenerShow, false);
 			this.element.removeEventListener('mouseout', this.listenerHide, false);
-		} else if (config.showOn === "focus") {
+		} else if (config.showOn === 'focus') {
 			this.element.removeEventListener('focus', this.listenerShow, false);
 			this.element.removeEventListener('blur', this.listenerHide, false);
-		} else if (config.showOn !== "load") {
+		} else if (config.showOn !== 'load') {
 			this.element.removeEventListener(config.showOn, this.listenerShow, false);
 			document.body.removeEventListener('click', this.bodyClickListener, false);
 		}
@@ -249,7 +249,7 @@
 	 * Show the tooltip. Uses visibility instead of display, to correct calculation of position.
 	 */
 	TooltipClass.prototype.show = function () {
-		this.node.style.visibility = "visible";
+		this.node.style.visibility = 'visible';
 		// Can't focus on an invisible element
 		this.node.focus();
 	};
@@ -258,16 +258,16 @@
 	 * Hides the tooltip. If was set on load, destroys the tooltip.
 	 */
 	TooltipClass.prototype.hide = function () {
-		if (this.config.showOn === "load") {
+		if (this.config.showOn === 'load') {
 			this.destroyEvents();
 			getTooltipContainer(this.node).removeChild(this.node);
 		} else {
-			this.node.style.visibility = "hidden";
+			this.node.style.visibility = 'hidden';
 		}
 	};
 
 
-	/********  End of TooltipClass **********/
+	/** ******  End of TooltipClass **********/
 
 
 
@@ -289,17 +289,17 @@
 	 */
 	Tooltip.create = function (element, options) {
 		if (!element) {
-			console.error("Tooltip: Invalid element, needs a DOM Node as 1st argument");
+			console.error('Tooltip: Invalid element, needs a DOM Node as 1st argument');
 			return null;
 		}
 		if (!isVisible(element)) {
-			console.error("Tooltip: Can't attach a tooltip to an invisible element ->", element );
+			console.error('Tooltip: Can\'t attach a tooltip to an invisible element ->', element );
 			return null;
 		}
 
 		// Does the tooltip already exist ? If so, remove it, we don't want tooltip-spamming
 		var parent = getTooltipContainer(element);
-		var existing = parent.querySelector(".tooltip");
+		var existing = parent.querySelector('.tooltip');
 		if (existing) {
 			// console.log("Tooltip: Already existing tooltip on element. Caller should use Tooltip.destroy before adding new one -> ", element );
 			parent.removeChild(existing);
@@ -313,7 +313,7 @@
 		// Attach to the element, as a sibling in the DOM
 		getTooltipContainer(element).appendChild(tooltip.node);
 
-		if(tooltip.config.showOn === 'load') {
+		if (tooltip.config.showOn === 'load') {
 			tooltip.show();
 		} else {
 			tooltip.hide();
@@ -340,7 +340,7 @@
 		existingTooltips.pop(tooltip);
 	};
 	/* Separated function to avoid loop problems on the array */
-	function nullifyTooltip (tooltip) {
+	function nullifyTooltip(tooltip) {
 		tooltip.destroyEvents();
 		if (tooltip.node.parentNode) {
 			tooltip.node.parentNode.removeChild(tooltip.node);	
@@ -361,23 +361,23 @@
 	 *  Check if element is visible on the page
 	 */
 	function isVisible(elem) {
-		if (isSvgNode(elem)) return (getComputedStyle(elem).display !== "none");
+		if (isSvgNode(elem)) return (getComputedStyle(elem).display !== 'none');
 		return elem.offsetWidth > 0 || elem.offsetHeight > 0;
 	}
 
-	function isSvgNode (node) {
+	function isSvgNode(node) {
 		return node instanceof SVGElement;
 	}
 
 	/*
 	 * Get the top/left offset of a node relative to the SVG container.
 	 */
-	function getSvgOffset (node){
+	function getSvgOffset(node) {
 		if (!isSvgNode(node)) return null;
 
 		var rect = node.getBoundingClientRect();
 		return {
-			top: rect.top -node.y1.baseVal.value,
+			top : rect.top - node.y1.baseVal.value,
 			left: rect.left - node.x1.baseVal.value
 		}
 	}
@@ -386,7 +386,7 @@
 	 * Usually this would be the parent node. On SVG is parent of the root element.
 	 * @param node The element that we want to attach the tooltip to
 	 */
-	function getTooltipContainer (node) {
+	function getTooltipContainer(node) {
 		return isSvgNode(node) ?
 				node.ownerSVGElement.parentNode :
 				node.parentNode;
@@ -396,9 +396,9 @@
 	/* Init tooltip by default for elements with data-tooltip attributes 
 	 * data-tooltip is expected to have a hardcoded JSON object
 	 */
-	var elements = document.querySelectorAll ("[data-tooltip]");
-	for (var i= 0, len = elements.length; i < len; i++) {
-		var config = elements[i].getAttribute("data-tooltip");
+	var elements = document.querySelectorAll ('[data-tooltip]');
+	for (var i = 0, len = elements.length; i < len; i++) {
+		var config = elements[i].getAttribute('data-tooltip');
 		if (config) {
 			config = JSON.parse(config);
 		} else {

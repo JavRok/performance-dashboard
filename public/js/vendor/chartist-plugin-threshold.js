@@ -23,7 +23,7 @@
 		'use strict';
 
 		var defaultOptions = {
-			threshold: 0,
+			threshold : 0,
 			classNames: {
 				aboveThreshold: 'ct-threshold-above',
 				belowThreshold: 'ct-threshold-below'
@@ -45,35 +45,35 @@
 			// Create mask for upper part above threshold
 			defs
 				.elem('mask', {
-					x: 0,
-					y: 0,
-					width: width,
+					x     : 0,
+					y     : 0,
+					width : width,
 					height: height,
-					id: options.maskNames.aboveThreshold
+					id    : options.maskNames.aboveThreshold
 				})
 				.elem('rect', {
-					x: 0,
-					y: 0,
-					width: width,
+					x     : 0,
+					y     : 0,
+					width : width,
 					height: projectedThreshold,
-					fill: 'white'
+					fill  : 'white'
 				});
 
 			// Create mask for lower part below threshold
 			defs
 				.elem('mask', {
-					x: 0,
-					y: 0,
-					width: width,
+					x     : 0,
+					y     : 0,
+					width : width,
 					height: height,
-					id: options.maskNames.belowThreshold
+					id    : options.maskNames.belowThreshold
 				})
 				.elem('rect', {
-					x: 0,
-					y: projectedThreshold,
-					width: width,
+					x     : 0,
+					y     : projectedThreshold,
+					width : width,
 					height: height - projectedThreshold,
-					fill: 'white'
+					fill  : 'white'
 				});
 
 			return defs;

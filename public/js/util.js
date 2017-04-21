@@ -19,12 +19,12 @@ var AJAX = (function () {
 
 		var xmlhttp = new XMLHttpRequest();
 
-		xmlhttp.onreadystatechange = function() {
+		xmlhttp.onreadystatechange = function () {
 			if (xmlhttp.readyState == XMLHttpRequest.DONE ) {
-				if(xmlhttp.status == 200){
+				if (xmlhttp.status == 200) {
 					callback (JSON.parse(xmlhttp.responseText));
 				}
-				else if(xmlhttp.status == 400) {
+				else if (xmlhttp.status == 400) {
 					callback({'error': 'There was an error 400'});
 				}
 				else {
@@ -33,7 +33,7 @@ var AJAX = (function () {
 			}
 		};
 
-		xmlhttp.open("GET", url, true);
+		xmlhttp.open('GET', url, true);
 		xmlhttp.setRequestHeader('Content-Type', 'application/json');
 		xmlhttp.send();
 	}
@@ -43,14 +43,14 @@ var AJAX = (function () {
 	 * Ref: http://www.html5rocks.com/en/tutorials/es6/promises/
 	 */
 	function promiseGet(url) {
-		if (typeof Promise !== "function") return null;
+		if (typeof Promise !== 'function') return null;
 
 		// Return a new promise.
-		return new Promise(function(resolve, reject) {
+		return new Promise(function (resolve, reject) {
 			var req = new XMLHttpRequest();
 			req.open('GET', url);
 
-			req.onload = function() {
+			req.onload = function () {
 				if (req.status == 200) {
 					// Resolve the promise with the response text
 					resolve(req.response);
@@ -61,8 +61,8 @@ var AJAX = (function () {
 			};
 
 			// Handle network errors
-			req.onerror = function() {
-				reject(Error("Network Error"));
+			req.onerror = function () {
+				reject(Error('Network Error'));
 			};
 
 			// Make the request
@@ -72,7 +72,7 @@ var AJAX = (function () {
 
 
 	return {
-		getJson : getJson,
+		getJson   : getJson,
 		promiseGet: promiseGet
 	}
 })();

@@ -17,10 +17,10 @@ var TestResultCollection = require('../Model/TestResultCollection.js');
 // Limit on the number of days stored with all the test information
 var limit24hDays = 7;
 
-var resultsDir = conf.getPath("results");  // 24h results
-var historyDir = conf.getPath("history");  // days median result
+var resultsDir = conf.getPath('results');  // 24h results
+var historyDir = conf.getPath('history');  // days median result
 
-function run () {
+function run() {
 	// Calculate the limit date to exclude from the history saving
 	var today = new Date();
 	var limitDate = today.setDate(today.getDate() - limit24hDays);
@@ -38,7 +38,7 @@ function run () {
 					var hourlyResults = results[1];
 					var days = getDays(hourlyResults);
 
-					if (file === "www.tele2.nl.json") console.log("asdfasdf");
+					if (file === 'www.tele2.nl.json') console.log('asdfasdf');
 
 					// Now 'days' list all single days found in the hourly results
 					// We calculate median for those, store them in a file, and remove the oldest from original results
@@ -76,8 +76,8 @@ function run () {
  */
 function getFileJsonResults(fileName) {
 
-	return new Promise(function(resolve, reject) {
-		fs.readFile(fileName, "utf-8", function(err, data) {
+	return new Promise(function (resolve, reject) {
+		fs.readFile(fileName, 'utf-8', function (err, data) {
 			if (err) {
 				// Never reject, just return empty test collection
 				return resolve(new TestResultCollection ());
@@ -98,7 +98,7 @@ function getFileJsonResults(fileName) {
  * @param {TestResultCollection}
  */
 function setFileJsonResults(fileName, tests) {
-	fs.writeFile(fileName, tests, function() {});
+	fs.writeFile(fileName, tests, function () {});
 }
 
 
@@ -117,7 +117,7 @@ function getMedianForDay(tests, day) {
 	// Temp chunk of tests from the total list of elements that matches the day
 	var dayTests1stView = [];
 	var dayTests2ndView = [];   // RepeatView
-	for(let test of tests) {
+	for (let test of tests) {
 		if (util.getUniqueDay(test.date) === day) {
 			dayTests1stView.push(test.firstView);
 			if (test.repeatView) {
@@ -127,39 +127,39 @@ function getMedianForDay(tests, day) {
 	}
 
 	var timestamp = Math.floor(new Date(day).getTime() / 1000);
-	var sampleTest = tests.tests[tests.length()-1];
+	var sampleTest = tests.tests[tests.length() - 1];
 
 	var medianObject = {
-		"id": day,
-		"location": sampleTest.location,
-		"url": sampleTest.url,
-		"domain": sampleTest.domain,
-		"connectivity": sampleTest.connectivity,
-		"date": timestamp,
-		"firstView": {
-			"requests": util.medianForObject(dayTests1stView, "requests"),
-			"bytesIn": util.medianForObject(dayTests1stView, "bytesIn"),
-			"ttfb": util.medianForObject(dayTests1stView, "ttfb"),
-			"startRender": util.medianForObject(dayTests1stView, "startRender"),
-			"domReadyEvent": util.medianForObject(dayTests1stView, "domReadyEvent"),
-			"loadEvent": util.medianForObject(dayTests1stView, "loadEvent"),
-			"totalTime": util.medianForObject(dayTests1stView, "totalTime"),
-			"visuallyComplete": util.medianForObject(dayTests1stView, "visuallyComplete"),
-			"speedIndex": util.medianForObject(dayTests1stView, "speedIndex")
+		'id'          : day,
+		'location'    : sampleTest.location,
+		'url'         : sampleTest.url,
+		'domain'      : sampleTest.domain,
+		'connectivity': sampleTest.connectivity,
+		'date'        : timestamp,
+		'firstView'   : {
+			'requests'        : util.medianForObject(dayTests1stView, 'requests'),
+			'bytesIn'         : util.medianForObject(dayTests1stView, 'bytesIn'),
+			'ttfb'            : util.medianForObject(dayTests1stView, 'ttfb'),
+			'startRender'     : util.medianForObject(dayTests1stView, 'startRender'),
+			'domReadyEvent'   : util.medianForObject(dayTests1stView, 'domReadyEvent'),
+			'loadEvent'       : util.medianForObject(dayTests1stView, 'loadEvent'),
+			'totalTime'       : util.medianForObject(dayTests1stView, 'totalTime'),
+			'visuallyComplete': util.medianForObject(dayTests1stView, 'visuallyComplete'),
+			'speedIndex'      : util.medianForObject(dayTests1stView, 'speedIndex')
 		}
 	};
 
 	if (dayTests2ndView.length > 0) {
 		medianObject.repeatView = {
-			"requests": util.medianForObject(dayTests2ndView, "requests"),
-			"bytesIn": util.medianForObject(dayTests2ndView, "bytesIn"),
-			"ttfb": util.medianForObject(dayTests2ndView, "ttfb"),
-			"startRender": util.medianForObject(dayTests2ndView, "startRender"),
-			"domReadyEvent": util.medianForObject(dayTests2ndView, "domReadyEvent"),
-			"loadEvent": util.medianForObject(dayTests2ndView, "loadEvent"),
-			"totalTime": util.medianForObject(dayTests2ndView, "totalTime"),
-			"visuallyComplete": util.medianForObject(dayTests2ndView, "visuallyComplete"),
-			"speedIndex": util.medianForObject(dayTests1stView, "speedIndex")
+			'requests'        : util.medianForObject(dayTests2ndView, 'requests'),
+			'bytesIn'         : util.medianForObject(dayTests2ndView, 'bytesIn'),
+			'ttfb'            : util.medianForObject(dayTests2ndView, 'ttfb'),
+			'startRender'     : util.medianForObject(dayTests2ndView, 'startRender'),
+			'domReadyEvent'   : util.medianForObject(dayTests2ndView, 'domReadyEvent'),
+			'loadEvent'       : util.medianForObject(dayTests2ndView, 'loadEvent'),
+			'totalTime'       : util.medianForObject(dayTests2ndView, 'totalTime'),
+			'visuallyComplete': util.medianForObject(dayTests2ndView, 'visuallyComplete'),
+			'speedIndex'      : util.medianForObject(dayTests1stView, 'speedIndex')
 		}
 	}
 
@@ -179,7 +179,7 @@ function getDays(testResults) {
 	var days = [];
 
 	// testResults is an Iterable
-	for(let test of testResults) {
+	for (let test of testResults) {
 		let day = util.getUniqueDay(test.date);
 
 		if (days.indexOf(day) === -1) {
@@ -192,7 +192,7 @@ function getDays(testResults) {
 
 
 // Run if file was invoked directly, otherwise leverage on outside script
-if (util.isCalledFromCommandLine("saveTestHistory.js")) {
+if (util.isCalledFromCommandLine('saveTestHistory.js')) {
 	run();
 }
 

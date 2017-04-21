@@ -21,36 +21,36 @@ class TestStatus {
 	 * @param {getStatusCallback} cb
 	 */
 	getStatus(testId, cb) {
-        const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
-        const options = conf.get('testOptions');
+		const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
+		const options = conf.get('testOptions');
 
-        wpt.status( testId, options, function (err, data) {
-            if (err) {
-                cb(err);
-                return;
+		wpt.status( testId, options, function (err, data) {
+			if (err) {
+				cb(err);
+				return;
 			}
 
-            switch(true) {
-                case (data.statusCode === 200):
+			switch (true) {
+				case (data.statusCode === 200):
                 	cb(null, {finished: true});
-                    break;
+					break;
 
-                case (data.statusCode < 200):
+				case (data.statusCode < 200):
                     // Still pending, keep waiting
-                    conf.log("Test " + testId + " still running (" + data.statusText + ")");
+					conf.log('Test ' + testId + ' still running (' + data.statusText + ')');
 					cb(null, {
 					    finished: false,
-                        position: data.data.behindCount
+						position: data.data.behindCount
 					});
-                    break;
+					break;
 
-                case (data.statusCode > 200):
-                default:
+				case (data.statusCode > 200):
+				default:
                     // Failed test or invalid ID
-                    cb(new Error(data.statusText));
-                    break;
-            }
-        });
+					cb(new Error(data.statusText));
+					break;
+			}
+		});
 	}
 }
 

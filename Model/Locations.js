@@ -5,16 +5,15 @@
 const fs = require('fs');
 const WebPageTest = require('webpagetest');
 const conf = require('../Model/Config.js');
-	// conf = Config();
-const util = require('../Helper/util.js')
+const util = require('../Helper/util.js');
 
-const locationsFile = conf.get("outputFolder").path + "/locations.json";
+const locationsFile = conf.get('outputFolder').path + '/locations.json';
 let locations;
 
 class Locations {
 
-	constructor (filePath) {
-		this.locations = fs.readFileSync(locationsFile, "utf-8");
+	constructor() {
+		this.locations = fs.readFileSync(locationsFile, 'utf-8');
 		this.preferred = conf.get('locations');
 
 		// Waiting time in minutes. Ensure that config order is maintained at first, by penalizing latest ones
@@ -36,6 +35,7 @@ class Locations {
 		});
 	}
 
+	// TODO: Check queue in every location (use weight)
 	getBestLocation() {
 		if (!this.preferred) {
 			this.preferred = conf.get('locations');
@@ -44,6 +44,7 @@ class Locations {
 	}
 
 	/*
+	 * TODO: something with this
 	 * Set waiting time for a location, after a test has been retrieved
 	 * @return {bool}
 	 */
@@ -58,12 +59,12 @@ class Locations {
 
 }
 
-/* Singleton pattern */
+/* FIXME: Singleton pattern, probably doesn't work this way. Use symbols to make it real singleton */
 const createLocation = function createLocation() {
 	if (!locations) {
 		locations = new Locations();
 	}
 	return locations;
-}
+};
 
-module.exports = createLocation;
+module.exports = createLocation();

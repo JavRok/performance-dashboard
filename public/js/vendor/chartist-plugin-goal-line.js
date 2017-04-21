@@ -23,25 +23,25 @@
  * THE SOFTWARE.
  */
 
-(function(window, document, Chartist) {
+(function (window, document, Chartist) {
 	'use strict';
 
 	var defaultOptions = {
 		// The class name so you can style the text
 		className: 'ct-goal-line',
 		// The axis to draw the line. y == vertical bars, x == horizontal
-		axis: 'y',
+		axis     : 'y',
 		// What value the goal line should be drawn at
-		value: null
+		value    : null
 	};
 
 	Chartist.plugins = Chartist.plugins || {};
 
-	Chartist.plugins.ctGoalLine = function(options) {
+	Chartist.plugins.ctGoalLine = function (options) {
 		options = Chartist.extend({}, defaultOptions, options);
-		return function ctGoalLine (chart) {
+		return function ctGoalLine(chart) {
 
-			chart.on('created', function(context) {
+			chart.on('created', function (context) {
 				var projectTarget = {
 					y: function (chartRect, bounds, value) {
 						var targetLineY = chartRect.y1 - (chartRect.height() / bounds.max * value);

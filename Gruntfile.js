@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
 	var curDate = new Date();
 	var timestamp = '' + curDate.getFullYear() + '-' + curDate.getMonth() + '-' + curDate.getDay() + '-' + curDate.getHours() + 'h';
@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 		wpt: {   // Not working quite well, timeout
 			options: {
 				locations: ['ec2-eu-west-1:Chrome'],  // , 'EU_Ams_Wptdriver', 'Amsterdam_IISpeed', 'Brussels'],
-				key: "A.436734427d77b65cb53d08490c1eab45"
+				key      : 'A.436734427d77b65cb53d08490c1eab45'
 			},
 			tele2: {
 				options: {
@@ -22,7 +22,7 @@ module.exports = function(grunt) {
 			}
 		},
 
-		/*shell: {
+		/* shell: {
 			options: {
 				execOptions: {
 					cwd: 'node_modules/webpagetest/bin/'
@@ -35,7 +35,7 @@ module.exports = function(grunt) {
 		}*/
 
 		exec: {
-			runTest: 'node node_modules/webpagetest/bin/webpagetest batch wpt.org.json/batch.txt > wpt.org.json/status/result_'+ timestamp +'.json'
+			runTest: 'node node_modules/webpagetest/bin/webpagetest batch wpt.org.json/batch.txt > wpt.org.json/status/result_' + timestamp + '.json'
 		}
 
 	});
