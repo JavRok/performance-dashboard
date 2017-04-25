@@ -20,23 +20,28 @@ function run() {
 	getExistingTests(function (err, existingTests) {
 		if (err) return conf.log(err, true);
 
-        // Launch a test for each configure site
-		sites.forEach (function (url) {
+		// Update the locations with server current info, needed to avoid overloaded servers
+		locations.update(function (err2) {
+			if (err2) return;
 
-			if (existingTests.has(url)) {
-				testStatus.getStatus(existingTests.get(url), function (err2, status) {
-					if (err2) return conf.log(err2, true);
+			// Launch a test for each configured site
+			sites.forEach (function (url) {
 
-					if (status.finished) {
-						launchTest(url);
-					} else {
-                        // TODO: If the queue is too long, launch the test in a different server
-                        // status.position;
-					}
+				if (existingTests.has(url)) {
+					testStatus.getStatus(existingTests.get(url), function (err3, status) {
+						if (err2) return conf.log(err3, true);
 
-				});
-			}
-
+						if (status.finished) {
+							launchTest(url);
+						} else {
+							// TODO: If the queue is too long, launch the test in a different server
+							// status.position;
+						}
+					});
+				} else {
+					launchTest(url);
+				}
+			});
 		});
 	});
 }
@@ -93,7 +98,6 @@ function readStatusFile(fileName) {
 
 
 function launchTest(url) {
-
 	const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
 	const options = conf.get('testOptions');
 	options.location = locations.getBestLocation();

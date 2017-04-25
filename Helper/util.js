@@ -1,5 +1,5 @@
 
-var url = require('url');
+const url = require('url');
 
 /*
  * Tells if a module has been called directly from the command line (with 'node moduleName')
@@ -22,8 +22,8 @@ String.prototype.trimRight = function (charlist) {
  * Returns a filename based on the URL being tested
  */
 function getFileNameFromUrl(testUrl) {
-	var urlObj = url.parse(testUrl);
-	var path = urlObj.pathname.replace(/\//g, '_');
+	const urlObj = url.parse(testUrl);
+	let path = urlObj.pathname.replace(/\//g, '_');
 	path = path.trimRight('_');
 
 	return urlObj.hostname + path + '.json';
@@ -40,7 +40,7 @@ function medianForObject(values, propertyToOrder) {
 
 	values.sort( function (a, b) {return a[propertyToOrder] - b[propertyToOrder];} );
 
-	var half = Math.floor(values.length / 2);
+	const half = Math.floor(values.length / 2);
 
 	if (values.length % 2)
 		return values[half][propertyToOrder];
@@ -54,8 +54,8 @@ function medianForObject(values, propertyToOrder) {
  */
 function getDateTime() {
 	// toISOString returns UTC instead of our timezone, let's apply the correct offset
-	var tzoffset = (new Date()).getTimezoneOffset() * 60000; // offset in milliseconds
-	var now = new Date(Date.now() - tzoffset);
+	const tzoffset = (new Date()).getTimezoneOffset() * 60000; // offset in milliseconds
+	const now = new Date(Date.now() - tzoffset);
 	return now.toISOString().substr(0, 19).replace(/:/g,'_');
 }
 /*
@@ -72,23 +72,20 @@ function parseDateFromFile(filename) {
  */
 function getUniqueDay(timestamp) {
 	if (!timestamp) return '';
-	var dateObj = new Date(timestamp * 1000);
+	const dateObj = new Date(timestamp * 1000);
 	return dateObj.toISOString().substr(0, 10);
 }
 
 
 /*
  * Returns the position of the element with min/max value in an array
- * TODO: Use ES6 spread operator, when compatible with Node version
  * @param {array}
  */
 function minPos(arr) {
-	// return arr.indexOf(Math.min(...arr));
-	return arr.indexOf(Math.min.apply(Math, arr));
+	return arr.indexOf(Math.min(...arr));
 }
 function maxPos(arr) {
-	// return arr.indexOf(Math.max(...arr));
-	return arr.indexOf(Math.max.apply(Math, arr));
+	return arr.indexOf(Math.max(...arr));
 }
 
 

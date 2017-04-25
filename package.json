@@ -15,6 +15,7 @@
   "author": "javier.rocamora@gmail.com",
   "license": "ISC",
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
@@ -30,7 +31,7 @@
     "parser": "babel-eslint",
     "extends": "eslint:recommended",
     "rules": {
-      "indent": ["warn", "tab", { "SwitchCase": 1, "VariableDeclarator": {}, "MemberExpression": 1 }],
+      "indent": ["warn", "tab", {"SwitchCase":1,"VariableDeclarator":{},"MemberExpression":1}],
       "quotes": ["warn", "single"],
       "max-len": ["warn", 120, 4],
       "max-params": ["warn", 4],
@@ -40,12 +41,12 @@
       "keyword-spacing": ["warn"],
       "space-before-blocks": ["warn"],
       "spaced-comment": ["warn"],
-      "space-before-function-paren": ["warn", {"anonymous": "always", "named": "never"}],
+      "space-before-function-paren": ["warn", {"anonymous":"always", "named":"never"}],
       "eqeqeq": ["warn", "smart"],
       "no-implicit-globals": ["warn"],
       "no-console": ["warn"],
-      "valid-jsdoc": ["warn", {"requireReturn": false}],
-      "key-spacing": ["warn", {"align": {} }]
+      "valid-jsdoc": ["warn", {"requireReturn":false}],
+      "key-spacing": ["warn", {"align":{}}]
     },
     "env": {
       "browser": true,
