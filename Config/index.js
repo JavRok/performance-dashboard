@@ -5,6 +5,7 @@
 
 const fs = require('fs');
 const defaultConfig = './config.json';
+const apiFile = './api.key';
 const util = require('../Helper/util.js');
 
 let config;
@@ -12,15 +13,15 @@ let config;
 
 class Config {
 	constructor(filePath) {
-		this.config = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+		filePath = filePath || defaultConfig;
+		this.config = require(filePath);
 	}
 
 	getApiKey() {
-		if (this.ApiKey) {
-			return this.ApiKey;
-		} else {
-			return fs.readFileSync('./wpt.org.json/api.key', 'utf-8');
+		if (!this.ApiKey) {
+			this.ApiKey = fs.readFileSync(apiFile, 'utf-8');
 		}
+		return this.ApiKey;
 	}
 
 	get(prop) {
@@ -46,6 +47,7 @@ class Config {
 
 const createConfig = function createConfig() {
 	if (!config) {
+		console.log("new Config instance");
 		config = new Config(defaultConfig);
 	}
 	return config;

@@ -6,7 +6,7 @@
 const fs = require('fs');
 const WebPageTest = require('webpagetest');
 
-const conf = require('../Model/Config.js');
+const conf = require('../Config');
 const Util = require('../Helper/util.js');
 const testStatus = require('../Model/TestStatus');
 const locations = require('../Model/Locations.js');

@@ -8,7 +8,7 @@ if ( global.v8debug ) {
 }
 
 var fs = require('fs');
-const conf = require('../Model/Config.js');
+const conf = require('../Config');
 	// conf = Config();
 var util = require('../Helper/util.js');
 var TestResult = require('../Model/TestResult.js');

@@ -1,14 +1,7 @@
 {
 	"sites": [
 		"https://css-tricks.com/",
-		// "https://www.tele2.nl/shop/thuis/postcodecheck/",
-		"https://www.tele2.nl/home-without-pixels/",
-		"https://www.tele2.nl/shop/mobiel/smartphones",
-		"https://forum.tele2.nl",
-		"https://www.ziggo.nl/",
-		"https://kpn.nl/",
-		"https://www.vodafone.nl/",
-		"https://www.t-mobile.nl/"
+		"http://motherfuckingwebsite.com/"
 	],
 	"customScripts": {
 		"https://www.tele2.nl": [

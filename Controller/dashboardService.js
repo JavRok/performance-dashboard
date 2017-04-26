@@ -12,7 +12,7 @@ var fs = require('fs');
 var express = require('express');
 var app = express();
 
-var conf = require('../Model/Config.js');
+var conf = require('../Config');
 	// conf = Config();
 var TestResultCollection = require('../Model/TestResultCollection.js');
 var resultsDir = conf.getPath('results');

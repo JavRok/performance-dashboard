@@ -13,8 +13,7 @@ const fs = require('fs');
 const CheckForTests = require('./Controller/checkForPendingTests.js');
 const LaunchTests = require('./Controller/launchTest.js');
 const SaveHistory = require('./Controller/saveTestHistory.js');
-const Config = require('./Model/Config.js'),
-	conf = Config();
+const conf = require('./Config');
 
 
 // Interval in hours, every hour by default

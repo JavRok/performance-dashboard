@@ -4,7 +4,7 @@
 
 const fs = require('fs');
 const WebPageTest = require('webpagetest');
-const conf = require('../Model/Config.js');
+const conf = require('../Config');
 const util = require('../Helper/util.js');
 
 const locationsFile = conf.get('outputFolder').path + '/locations.json';

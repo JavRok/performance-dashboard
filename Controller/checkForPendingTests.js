@@ -8,7 +8,7 @@ const TestResult = require('../Model/TestResult.js');
 const TestResultCollection = require('../Model/TestResultCollection.js');
 const testStatus = require('../Model/TestStatus.js');
 const util = require('../Helper/util.js');
-const conf = require('../Model/Config.js');
+const conf = require('../Config');
 
 const pendingDir = conf.getPath('pending');
 
