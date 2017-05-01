@@ -4,7 +4,7 @@
  */
 
 const fs = require('fs');
-const defaultConfig = './config.json';
+const defaultConfig = __dirname + '/config.json';
 const apiFile = __dirname + '/api.key';
 const util = require('../Helper/util.js');
 
