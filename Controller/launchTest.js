@@ -22,7 +22,10 @@ function run() {
 
 		// Update the locations with server current info, needed to avoid overloaded servers
 		locations.update(function (err2) {
+
 			if (err2) return;
+
+			let bestLocation = locations.getBestLocation();
 
 			// Launch a test for each configured site
 			sites.forEach (function (url) {
@@ -32,14 +35,14 @@ function run() {
 						if (err2) return conf.log(err3, true);
 
 						if (status.finished) {
-							launchTest(url);
+							launchTest(url, bestLocation);
 						} else {
 							// TODO: If the queue is too long, launch the test in a different server
 							// status.position;
 						}
 					});
 				} else {
-					launchTest(url);
+					launchTest(url, bestLocation);
 				}
 			});
 		});
@@ -96,19 +99,25 @@ function readStatusFile(fileName) {
 
 
 
-
-function launchTest(url) {
+/*
+ * Launches a test for the provided URL. Checks config for custom scripts
+ * @param {string} url of the site to test
+ * @param {string} already selected best location
+ */
+function launchTest(url, bestLocation) {
 	const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
 	const options = conf.get('testOptions');
-	options.location = locations.getBestLocation();
 	const customScripts = conf.get('customScripts');
+	let scriptUrl = url;
+
+	options.location = bestLocation || locations.getBestLocation();
 
     // Set custom script if existing (overwrites url)
 	if (customScripts && customScripts[url]) {
-		url =  wpt.scriptToString(customScripts[url]);
+		scriptUrl =  wpt.scriptToString(customScripts[url]);
 	}
 
-	wpt.runTest(url, options , (err, result) => {
+	wpt.runTest(scriptUrl, options , (err, result) => {
 
 		if (err) return conf.log(err, true);
 		if (result.statusCode !== 200) return conf.log(result.statusText, true);
@@ -130,12 +139,6 @@ function launchTest(url) {
 	});
 }
 
-/*function checkIfAlreadyExists(url) {
-	files.forEach(function (file) {
-        // For each file in pending, look for finished tests
-
-	});
-}*/
 
 
 // Run if file was invoked directly, otherwise leverage on outside script

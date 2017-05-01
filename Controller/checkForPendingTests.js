@@ -18,6 +18,7 @@ const queuedTimes = new Map();
 
 // Checks for tests in pending state, and tries to get the result if they're finished
 function run() {
+
 	// Read the contents of the status directory to get test Ids
 	fs.readdir(pendingDir, function (err,  files) {
 		if (err) return conf.log(err, true);

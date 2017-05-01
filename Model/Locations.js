@@ -8,19 +8,13 @@ const conf = require('../Config');
 const util = require('../Helper/util.js');
 
 const locationsFile = conf.get('outputFolder').path + '/locations.json';
-let locations;
+let location;
 const averageTestTime = 40; // seconds
 
 class Locations {
 
 	constructor() {
 		this.locations = fs.readFileSync(locationsFile, 'utf-8');
-		// this.preferred = conf.get('locations');
-
-		// Waiting time in minutes. Ensure that config order is maintained at first, by penalizing latest ones
-		/*this.waitingTimes = this.preferred.map((location, i) => {
-		 return 30 + i * 10;
-		 });*/
 	}
 
 	/*
@@ -74,14 +68,33 @@ class Locations {
 	getBestLocation() {
 
 		if (!this.preferred) {
+			const locations = conf.get('locations');
 			const filteredLocations = this.filterConfigLocations(this.locations);
 			const waitingTimes = filteredLocations.map(this.calculateWaitingTime);
-			const bestLocation = filteredLocations[util.minPos(waitingTimes)]
-			this.preferred = conf.get('locations')[bestLocation.position];
+			const bestLocation = filteredLocations[util.minPos(waitingTimes)];
+			this.preferred = locations[bestLocation.position];
+
+			this.logLocationWaitingTimes(filteredLocations, waitingTimes, this.preferred);
 		}
 
 		// return this.preferred;
 		return this.preferred;
+	}
+
+	/*
+	 * Shows in the command line the estimating waiting times
+	 */
+	logLocationWaitingTimes(locations, waitingTimes, preferred) {
+
+		console.log('Estimated waiting times (mins): ',
+			new Map(
+				// zip array for the Map
+				locations.map((x, i) =>
+					[x.Label, waitingTimes[i]]
+				)
+			),
+			'\nUsing ' + preferred
+		);
 	}
 
 
@@ -95,8 +108,10 @@ class Locations {
 		// Number of parallel tests that can be run on this location
 		const agents = location.PendingTests.Testing + location.PendingTests.Idle;
 
+
 		// Calculated time for our test to begin (in secs)
 		let estimatedTime = location.PendingTests.Total * averageTestTime / agents;
+
 		// Add weight depending on the users preference list position
 		estimatedTime += location.position * penalizationSecs;
 
@@ -108,23 +123,23 @@ class Locations {
 	 * Set waiting time for a location, after a test has been retrieved
 	 * @return {bool}
 	 */
-	setLocationWaitingTime(locationId, minutes) {
+	/*setLocationWaitingTime(locationId, minutes) {
 		const position = this.preferred.indexOf(locationId);
 		if (position === -1) {
 			return false;
 		}
 		waitingTimes[position] = minutes;
 		return true;
-	}
+	}*/
 
 }
 
 /* FIXME: Singleton pattern, probably doesn't work this way. Use symbols to make it real singleton */
 const createLocation = function createLocation() {
-	if (!locations) {
-		locations = new Locations();
+	if (!location) {
+		location = new Locations();
 	}
-	return locations;
+	return location;
 };
 
 module.exports = createLocation();
