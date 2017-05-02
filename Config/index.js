@@ -47,11 +47,12 @@ class Config {
 
 const createConfig = function createConfig() {
 	if (!config) {
-		console.log("new Config instance");
 		config = new Config(defaultConfig);
+		config.log("new Config instance");
 	}
+	config.log("new Config instance 2");
 	return config;
-}
+};
 
 
 

@@ -63,8 +63,9 @@ class Locations {
 		});
 	}
 
-	// TODO: Check queue in every location (use weight)
-	// Call update() once before using this function
+	/*
+	 * Call update() once before using this function
+	 */
 	getBestLocation() {
 
 		if (!this.preferred) {
@@ -77,7 +78,6 @@ class Locations {
 			this.logLocationWaitingTimes(filteredLocations, waitingTimes, this.preferred);
 		}
 
-		// return this.preferred;
 		return this.preferred;
 	}
 
@@ -95,6 +95,8 @@ class Locations {
 			),
 			'\nUsing ' + preferred
 		);
+
+
 	}
 
 

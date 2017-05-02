@@ -11,7 +11,8 @@ const Util = require('../Helper/util.js');
 const testStatus = require('../Model/TestStatus');
 const locations = require('../Model/Locations.js');
 
-
+// Limit where we consider the queue stuck, so we launch another test
+const stuckQueueLimit = 100;
 
 function run() {
 	const sites = conf.get('sites');
@@ -37,8 +38,10 @@ function run() {
 						if (status.finished) {
 							launchTest(url, bestLocation);
 						} else {
-							// TODO: If the queue is too long, launch the test in a different server
-							// status.position;
+							// If the queue is too long, launch the test in a different server
+							if (status.position > stuckQueueLimit) {
+								launchTest(url, bestLocation);
+							}
 						}
 					});
 				} else {
