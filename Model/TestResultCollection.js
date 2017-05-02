@@ -3,8 +3,8 @@
  * Holds a collection of TestResult objects. Implements Iterable interface.
  **/
 
-var TestResult = require('../Model/TestResult.js');
-var util = require('../Helper/util.js');
+const TestResult = require('../Model/TestResult.js');
+const util = require('../Helper/util.js');
 
 class TestResultCollection {
 
@@ -22,8 +22,8 @@ class TestResultCollection {
 	 * Implements Iterable 'interface'
 	 */
 	[Symbol.iterator]() {
-		var index = 0;
-		var data  = this.tests;
+		let index = 0;
+		const data  = this.tests;
 
 		return {
 			next: () => ({ value: data[index], done: ++index >= data.length })
@@ -53,7 +53,7 @@ class TestResultCollection {
  	 * Add a single object maintaining order by timestamp. Don't mix with normal add, or it won't work
  	 */
 	addOrdered(newTest) {
-		var i = this.tests.length;
+		let i = this.tests.length;
 
 		// Inverse order to improve performance (newest tests are at the end)
 		while (i > 0 && newTest.date < this.tests[i - 1].date) {
@@ -90,15 +90,15 @@ class TestResultCollection {
 	}
 
 
-	/*
+	/**
 	 * Returns a subset of current tests of a certain recent day
 	 * @param {int} day in relative to current day, where 0=today, -1=yesterday, etc
 	 * @return {array} Array of exactly 24 test objects, with possible null values
 	 */
 	get24hResults(day) {
 
-		var dateObj = new Date();
-		var result = {
+		const dateObj = new Date();
+		const result = {
 			'hours': [],
 			'tests': []
 		};
@@ -106,7 +106,7 @@ class TestResultCollection {
 		dateObj.setDate(dateObj.getDate() + day);
 		// Last 24h (includes today and possibly yesterday partly)
 		if (day === 0) {
-			var hour = new Date().getHours();  // Get current hour
+			let hour = new Date().getHours();  // Get current hour
 			for (let i = 0; i < 24; i++) {
 				if (hour === -1) {
 					hour = 23;
@@ -137,10 +137,10 @@ class TestResultCollection {
 	 */
 	getSingleResultByHour(timestamp) {
 		// isoTime contains date and hour only, f.i. "2016-05-05T13"
-		var isoTime = new Date(timestamp).toISOString().substr(0, 13);
-		var dateObj;
+		const isoTime = new Date(timestamp).toISOString().substr(0, 13);
+		let dateObj;
 		// Get results from same day
-		for (var i = 0; i < this.tests.length; i++) {
+		for (let i = 0; i < this.tests.length; i++) {
 			if (!this.tests[i].date) {continue;}   // Sometimes wpt.org will give a null test, with no date
 			dateObj = new Date(this.tests[i].date * 1000);
 			if (dateObj.toISOString().substr(0, 13) === isoTime) {
@@ -157,8 +157,8 @@ class TestResultCollection {
 	 */
 	getMonthResults(month) {
 
-		var dateObj = new Date();
-		var result = {
+		const dateObj = new Date();
+		const result = {
 			'days' : [],
 			'tests': []
 		};
@@ -166,7 +166,7 @@ class TestResultCollection {
 		dateObj.setMonth(dateObj.getMonth() + month);
 		// Current month (30 days of history starting today)
 		if (month === 0) {
-			var day = new Date().getDate();  // Get current day
+			let day = new Date().getDate();  // Get current day
 			for (let i = 0; i < 30; i++) {
 				dateObj.setDate(day);
 				if (day === 0) {
@@ -179,7 +179,7 @@ class TestResultCollection {
 
 			// A whole month
 		} else {
-			var nDays = this.daysInMonth(dateObj.getMonth() + 1, dateObj.getFullYear())
+			const nDays = this.daysInMonth(dateObj.getMonth() + 1, dateObj.getFullYear());
 			for (let i = 0; i < nDays; i++) {
 				result.days.push(i);
 				dateObj.setDate(i);
@@ -190,16 +190,18 @@ class TestResultCollection {
 		return result;
 	}
 
-	/*
+	/**
+	 *
 	 * Searches for a test with the specified timestamp, within the same day.
-	 * @return {TestResult} or null
+	 * @param {number} timestamp
+	 * @return {*} or null
 	 */
 	getSingleResultByDay(timestamp) {
 		// isoTime contains date only, f.i. "2016-05-05"
-		var isoTime = new Date(timestamp).toISOString().substr(0, 10);
+		const isoTime = new Date(timestamp).toISOString().substr(0, 10);
 
 		// Get results from same day. The ISO date is already on the ID of the test
-		for (var i = 0; i < this.tests.length; i++) {
+		for (let i = 0; i < this.tests.length; i++) {
 			if (this.tests[i].id === isoTime) {
 				return this.tests[i];
 			}
@@ -208,8 +210,13 @@ class TestResultCollection {
 	}
 
 
-	// Month is 1 based
-	daysInMonth(month,year) {
+	/**
+	 * Month is 1 based
+	 * @param {number} month
+	 * @param {number} year
+	 * @returns {number}
+	 */
+	static daysInMonth(month, year) {
 		return new Date(year, month, 0).getDate();
 	}
 

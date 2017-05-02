@@ -10,11 +10,17 @@ const util = require('../Helper/util.js');
 const locationsFile = conf.get('outputFolder').path + '/locations.json';
 let location;
 const averageTestTime = 40; // seconds
+const maxWaitingTime = 100; // mins
 
 class Locations {
 
 	constructor() {
-		this.locations = fs.readFileSync(locationsFile, 'utf-8');
+		try {
+			const data = fs.readFileSync(locationsFile, 'utf-8');
+			this.locations = JSON.parse(data);
+		} catch (e) {
+			this.locations = [];
+		}
 	}
 
 	/*
@@ -44,8 +50,9 @@ class Locations {
 	 */
 	update(cb) {
 		const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
+		const options = conf.get('testOptions');
 		let self = this;
-		wpt.getLocations({}, (err, result) => {
+		wpt.getLocations(options, (err, result) => {
 			if (err) {
 				conf.log(err, true);
 				return cb(err);
@@ -73,6 +80,11 @@ class Locations {
 			const filteredLocations = this.filterConfigLocations(this.locations);
 			const waitingTimes = filteredLocations.map(this.calculateWaitingTime);
 			const bestLocation = filteredLocations[util.minPos(waitingTimes)];
+
+			// If all are overloaded, there's no 'best location'
+			if (this.calculateWaitingTime(bestLocation) > maxWaitingTime) {
+				return null;
+			}
 			this.preferred = locations[bestLocation.position];
 
 			this.logLocationWaitingTimes(filteredLocations, waitingTimes, this.preferred);

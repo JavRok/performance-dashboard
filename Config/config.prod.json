@@ -20,7 +20,7 @@
 		]
 	},
 	"intervalInHours": 1,
-	"locations": ["EU_Ams_Wptdriver:Firefox", "Amsterdam_IISpeed:Firefox", "Brussels:Firefox", "Frankfurt_Ruxit:Firefox"],
+	"locations": ["EU_Ams_Wptdriver:Firefox", "Amsterdam_IISpeed:Firefox", "Brussels:Firefox", "Frankfurt_Ruxit:Firefox", "Prague:Firefox"],
 	"outputFolder": {
 		"path": "wpt.org.json",
 		"subfolders": {

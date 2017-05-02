@@ -45,22 +45,21 @@ function run() {
 // Checks if a test has been finished (by using wpt.org API). If so, process the results and cleans the files
 function checkTestStatus(id, fileName) {
 
-	testStatus.getStatus(id, function (err, result) {
-		if (err) return conf.log(err, true);
+	testStatus.getStatus(id)
+		.then(function (result) {
+			if (result.finished) {
 
-		if (result.finished) {
-
-			const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
-			const options = conf.get('testOptions');
-			queuedTimes.set(id, util.parseDateFromFile(fileName));
-			wpt.results(id, options, processTestResult);
-            // Delete the pending state file
-			fs.unlink(pendingDir + fileName, ()=>{});
-		} else {
-            // result.position -> queue
-		}
-	});
-
+				const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
+				const options = conf.get('testOptions');
+				queuedTimes.set(id, util.parseDateFromFile(fileName));
+				wpt.results(id, options, processTestResult);
+				// Delete the pending state file
+				fs.unlink(pendingDir + fileName, ()=>{});
+			} else {
+				// result.position -> queue
+			}
+		})
+		.catch(conf.log);
 }
 
 
@@ -68,7 +67,6 @@ function checkTestStatus(id, fileName) {
 function processTestResult(err, result) {
 	if (err) return conf.log(err, true);
 
-    // console.log(result.data.runs);return;
 	const test = new TestResult(result);
 	let tests;
 	const fileName = conf.getPath('results') + util.getFileNameFromUrl(test.domain);

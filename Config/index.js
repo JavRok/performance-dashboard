@@ -33,9 +33,13 @@ class Config {
 		return this.config.outputFolder.path + '/' + this.config.outputFolder.subfolders[folder] + '/';
 	}
 
-	// Log everything with a timestamp
+	/**
+	 * Log everything with a timestamp
+	 * @param {string|Error} text
+	 * @param {bool=} error - is it an error text?
+	 */
 	log(text, error) {
-		if (error) {
+		if (error || text instanceof Error) {
 			console.error(util.getDateTime() + ': [ERROR] ' + text);
 		} else {
 			console.log(util.getDateTime() + ': ' + text);

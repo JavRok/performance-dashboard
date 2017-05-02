@@ -45,7 +45,7 @@
       "eqeqeq": ["warn", "smart"],
       "no-implicit-globals": ["warn"],
       "no-console": ["warn"],
-      "valid-jsdoc": ["warn", {"requireReturn":false}],
+      "valid-jsdoc": ["warn", {"requireReturn":false, "requireParamDescription":false, "requireReturnDescription":false}],
       "key-spacing": ["warn", {"align":{}}]
     },
     "env": {

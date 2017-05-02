@@ -19,7 +19,7 @@ function run() {
 
     // Read the contents of the status directory to get pending tests
 	getExistingTests(function (err, existingTests) {
-		if (err) return conf.log(err, true);
+		if (err) return conf.log(err);
 
 		// Update the locations with server current info, needed to avoid overloaded servers
 		locations.update(function (err2) {
@@ -27,23 +27,40 @@ function run() {
 			if (err2) return;
 
 			let bestLocation = locations.getBestLocation();
+			if (!bestLocation) {
+				return conf.log('All servers are overloaded, consider adding more locations in the config', true);
+			}
 
 			// Launch a test for each configured site
 			sites.forEach (function (url) {
 
 				if (existingTests.has(url)) {
-					testStatus.getStatus(existingTests.get(url), function (err3, status) {
-						if (err2) return conf.log(err3, true);
+					let existing = existingTests.get(url);
 
-						if (status.finished) {
-							launchTest(url, bestLocation);
-						} else {
+					if (existing.length) {
+
+						// There are several pending tests for the same url
+						testStatus.getStatusMultiple(existing)
+							.then(function (statuses) {
+								// Get the one in a better position in the queue
+								let bestExisting = statuses.reduce(function (acc, status) {
+									return (status.position < acc.postion) ? status : acc;
+								});
+
+								// If the queue is too long, launch the test in a different server
+								if (bestExisting.finished || bestExisting.position > stuckQueueLimit) {
+									launchTest(url, bestLocation);
+								}
+							}).catch(conf.log);
+					} else {
+						testStatus.getStatus(existing).then(function (status) {
 							// If the queue is too long, launch the test in a different server
-							if (status.position > stuckQueueLimit) {
+							if (status.finished || status.position > stuckQueueLimit) {
 								launchTest(url, bestLocation);
 							}
-						}
-					});
+						}).catch(conf.log);
+					}
+
 				} else {
 					launchTest(url, bestLocation);
 				}
@@ -61,6 +78,7 @@ function run() {
 
 /**
  * Get the existing tests from pending folder
+ * IMPORTANT: Merges duplicated tests into an array
  * @param {getExistingTestsCallback} cb Callback with the current pending tests
  */
 function getExistingTests(cb) {
@@ -74,8 +92,19 @@ function getExistingTests(cb) {
         // For each file in pending, get test id and url, with a Promise
 		Promise.all(files.map(readStatusFile))
 			.then(statuses => {
-				cb(null, new Map(statuses));
-			});
+				let statusMap = new Map();
+				statuses.forEach(function (status) {
+					// Merge duplicates
+					if (statusMap.has(status[0])) {
+						let previousMap = statusMap.get(status[0]);
+						statusMap.set(status[0], [status[1]].concat(previousMap));
+					} else {
+						statusMap.set(status[0], status[1]);
+					}
+				});
+				cb(null, statusMap);
+			})
+			.catch(cb);
 	});
 }
 
