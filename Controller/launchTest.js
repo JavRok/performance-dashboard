@@ -37,13 +37,14 @@ function run() {
 				if (existingTests.has(url)) {
 					let existing = existingTests.get(url);
 
-					if (existing.length) {
+					if (Array.isArray(existing)) {
 
 						// There are several pending tests for the same url
 						testStatus.getStatusMultiple(existing)
 							.then(function (statuses) {
 								// Get the one in a better position in the queue
 								let bestExisting = statuses.reduce(function (acc, status) {
+									if (status.finished) return acc;
 									return (status.position < acc.postion) ? status : acc;
 								});
 

@@ -83,7 +83,7 @@ class TestStatus {
 
 				switch (true) {
 					case (data.statusCode === 200):
-						resolve({finished: true, position: 0});
+						resolve({finished: true, position: -1});
 						break;
 
 					case (data.statusCode < 200):
@@ -114,7 +114,7 @@ class TestStatus {
 	 * @rejects  {Error}
 	 */
 	getStatusMultiple(testIds) {
-		if (!testIds || !testIds.length) return null;
+		if (!testIds || !Array.isArray(testIds)) return null;
 		return Promise.all(testIds.map(this.getStatus));
 	}
 }

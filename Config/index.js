@@ -39,7 +39,9 @@ class Config {
 	 * @param {bool=} error - is it an error text?
 	 */
 	log(text, error) {
-		if (error || text instanceof Error) {
+		if (text instanceof Error) {
+			console.error(util.getDateTime() + ': [ERROR] ' + text, text.stack);
+		} else if (error) {
 			console.error(util.getDateTime() + ': [ERROR] ' + text);
 		} else {
 			console.log(util.getDateTime() + ': ' + text);
@@ -52,9 +54,7 @@ class Config {
 const createConfig = function createConfig() {
 	if (!config) {
 		config = new Config(defaultConfig);
-		config.log("new Config instance");
 	}
-	config.log("new Config instance 2");
 	return config;
 };
 

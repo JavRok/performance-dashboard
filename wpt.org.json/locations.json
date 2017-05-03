@@ -17,11 +17,11 @@
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 1,
-      "HighPriority": 0,
+      "Total": 6,
+      "HighPriority": 1,
       "LowPriority": 0,
-      "Testing": 1,
-      "Idle": 23
+      "Testing": 5,
+      "Idle": 19
     }
   },
   {
@@ -42,11 +42,11 @@
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 5,
+      "Total": 0,
       "HighPriority": 0,
       "LowPriority": 0,
-      "Testing": 5,
-      "Idle": 17
+      "Testing": 0,
+      "Idle": 21
     }
   },
   {
@@ -62,14 +62,14 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 388,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
-      "p8": 46,
+      "p8": 31,
       "p9": 0,
-      "Total": 460,
-      "HighPriority": 24,
-      "LowPriority": 434,
+      "Total": 33,
+      "HighPriority": 0,
+      "LowPriority": 31,
       "Testing": 2,
       "Idle": 0
     }
@@ -92,8 +92,8 @@
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 97,
-      "HighPriority": 96,
+      "Total": 1,
+      "HighPriority": 0,
       "LowPriority": 0,
       "Testing": 1,
       "Idle": 0
@@ -115,11 +115,11 @@
       "p5": 0,
       "p6": 0,
       "p7": 0,
-      "p8": 14,
+      "p8": 0,
       "p9": 0,
-      "Total": 143,
-      "HighPriority": 128,
-      "LowPriority": 14,
+      "Total": 16,
+      "HighPriority": 15,
+      "LowPriority": 0,
       "Testing": 1,
       "Idle": 0
     }
@@ -142,11 +142,11 @@
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 135,
-      "HighPriority": 134,
+      "Total": 0,
+      "HighPriority": 0,
       "LowPriority": 0,
-      "Testing": 1,
-      "Idle": 0
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -158,20 +158,20 @@
     "labelShort": "Dulles, VA",
     "group": "Mobile Devices - Dulles, VA",
     "PendingTests": {
-      "p1": 5,
+      "p1": 0,
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 6,
-      "p6": 38,
+      "p5": 0,
+      "p6": 0,
       "p7": 0,
-      "p8": 7,
+      "p8": 0,
       "p9": 0,
-      "Total": 81,
-      "HighPriority": 23,
-      "LowPriority": 56,
-      "Testing": 2,
-      "Idle": 0
+      "Total": 0,
+      "HighPriority": 0,
+      "LowPriority": 0,
+      "Testing": 0,
+      "Idle": 2
     }
   },
   {
@@ -192,11 +192,11 @@
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 89,
-      "HighPriority": 88,
+      "Total": 0,
+      "HighPriority": 0,
       "LowPriority": 0,
-      "Testing": 1,
-      "Idle": 0
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -208,18 +208,43 @@
     "labelShort": "Dulles, VA",
     "group": "Mobile Devices - Dulles, VA",
     "PendingTests": {
-      "p1": 10,
+      "p1": 15,
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 152,
-      "p6": 38,
+      "p5": 191,
+      "p6": 57,
       "p7": 0,
-      "p8": 20,
+      "p8": 27,
       "p9": 0,
-      "Total": 421,
-      "HighPriority": 200,
-      "LowPriority": 220,
+      "Total": 364,
+      "HighPriority": 73,
+      "LowPriority": 290,
+      "Testing": 1,
+      "Idle": 0
+    }
+  },
+  {
+    "id": "Dulles_iPadMini2",
+    "Label": "Apple iPad Mini 2 (Portrait Mode, iOS 9)",
+    "location": "Dulles_iPadMini2",
+    "Browsers": "iPad Mini 2 iOS 9,iPad Mini 2 iOS 9",
+    "status": "OK",
+    "labelShort": "Dulles, VA",
+    "group": "Mobile Devices - Dulles, VA",
+    "PendingTests": {
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "p4": 0,
+      "p5": 0,
+      "p6": 9,
+      "p7": 0,
+      "p8": 0,
+      "p9": 0,
+      "Total": 10,
+      "HighPriority": 0,
+      "LowPriority": 9,
       "Testing": 1,
       "Idle": 0
     }
@@ -236,18 +261,18 @@
     "PendingTests": {
       "p1": 0,
       "p2": 0,
-      "p3": 1,
+      "p3": 0,
       "p4": 0,
-      "p5": 69,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
-      "p8": 7,
+      "p8": 0,
       "p9": 0,
-      "Total": 117,
+      "Total": 25,
       "HighPriority": 0,
-      "LowPriority": 77,
-      "Testing": 40,
-      "Idle": 0
+      "LowPriority": 0,
+      "Testing": 25,
+      "Idle": 15
     }
   },
   {
@@ -268,11 +293,11 @@
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 1,
+      "Total": 0,
       "HighPriority": 0,
       "LowPriority": 0,
-      "Testing": 1,
-      "Idle": 39
+      "Testing": 0,
+      "Idle": 40
     }
   },
   {
@@ -368,11 +393,11 @@
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 2,
+      "Total": 1,
       "HighPriority": 0,
       "LowPriority": 0,
-      "Testing": 2,
-      "Idle": 7
+      "Testing": 1,
+      "Idle": 8
     }
   },
   {
@@ -388,16 +413,16 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 102,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 198,
-      "HighPriority": 95,
-      "LowPriority": 102,
-      "Testing": 1,
-      "Idle": 0
+      "Total": 0,
+      "HighPriority": 0,
+      "LowPriority": 0,
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -413,16 +438,16 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 7,
+      "p5": 1,
       "p6": 0,
       "p7": 0,
       "p8": 0,
-      "p9": 1,
-      "Total": 13,
-      "HighPriority": 2,
-      "LowPriority": 8,
-      "Testing": 3,
-      "Idle": 0
+      "p9": 0,
+      "Total": 1,
+      "HighPriority": 0,
+      "LowPriority": 1,
+      "Testing": 0,
+      "Idle": 3
     }
   },
   {
@@ -438,16 +463,41 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 93,
+      "p5": 120,
       "p6": 0,
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 416,
-      "HighPriority": 322,
-      "LowPriority": 93,
+      "Total": 282,
+      "HighPriority": 161,
+      "LowPriority": 120,
       "Testing": 1,
       "Idle": 0
+    }
+  },
+  {
+    "id": "Texas",
+    "Label": "Dallas, Texas - (Chrome)",
+    "location": "Texas",
+    "Browsers": "Chrome,Chrome Beta,Chrome Canary",
+    "status": "OK",
+    "labelShort": "Dallas, Texas",
+    "group": "North America",
+    "PendingTests": {
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "p4": 0,
+      "p5": 0,
+      "p6": 0,
+      "p7": 0,
+      "p8": 0,
+      "p9": 0,
+      "Total": 0,
+      "HighPriority": 0,
+      "LowPriority": 0,
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -468,11 +518,11 @@
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 43,
-      "HighPriority": 42,
+      "Total": 0,
+      "HighPriority": 0,
       "LowPriority": 0,
-      "Testing": 1,
-      "Idle": 0
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -489,15 +539,15 @@
       "p3": 0,
       "p4": 0,
       "p5": 0,
-      "p6": 13,
+      "p6": 0,
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 102,
-      "HighPriority": 88,
-      "LowPriority": 13,
-      "Testing": 1,
-      "Idle": 0
+      "Total": 0,
+      "HighPriority": 0,
+      "LowPriority": 0,
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -516,13 +566,13 @@
       "p5": 0,
       "p6": 0,
       "p7": 0,
-      "p8": 1,
+      "p8": 0,
       "p9": 0,
-      "Total": 66,
-      "HighPriority": 64,
-      "LowPriority": 1,
-      "Testing": 1,
-      "Idle": 0
+      "Total": 0,
+      "HighPriority": 0,
+      "LowPriority": 0,
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -538,16 +588,16 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 12,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 14,
+      "Total": 0,
       "HighPriority": 0,
-      "LowPriority": 12,
-      "Testing": 2,
-      "Idle": 0
+      "LowPriority": 0,
+      "Testing": 0,
+      "Idle": 2
     }
   },
   {
@@ -563,16 +613,16 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 23,
-      "p6": 180,
+      "p5": 0,
+      "p6": 0,
       "p7": 0,
-      "p8": 25,
+      "p8": 0,
       "p9": 0,
-      "Total": 321,
-      "HighPriority": 92,
-      "LowPriority": 228,
-      "Testing": 1,
-      "Idle": 0
+      "Total": 0,
+      "HighPriority": 0,
+      "LowPriority": 0,
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -588,14 +638,14 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 35,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 43,
-      "HighPriority": 6,
-      "LowPriority": 35,
+      "Total": 5,
+      "HighPriority": 3,
+      "LowPriority": 0,
       "Testing": 2,
       "Idle": 0
     }
@@ -613,16 +663,16 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 84,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 164,
-      "HighPriority": 79,
-      "LowPriority": 84,
-      "Testing": 1,
-      "Idle": 0
+      "Total": 0,
+      "HighPriority": 0,
+      "LowPriority": 0,
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -638,14 +688,14 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 54,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
-      "p8": 7,
+      "p8": 0,
       "p9": 0,
-      "Total": 68,
-      "HighPriority": 5,
-      "LowPriority": 61,
+      "Total": 2,
+      "HighPriority": 0,
+      "LowPriority": 0,
       "Testing": 2,
       "Idle": 0
     }
@@ -663,14 +713,14 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 665,
+      "p5": 1,
       "p6": 0,
       "p7": 0,
-      "p8": 85,
+      "p8": 1,
       "p9": 0,
-      "Total": 753,
+      "Total": 5,
       "HighPriority": 0,
-      "LowPriority": 750,
+      "LowPriority": 2,
       "Testing": 3,
       "Idle": 0
     }
@@ -688,14 +738,14 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 76,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
-      "p8": 1,
+      "p8": 0,
       "p9": 0,
-      "Total": 120,
-      "HighPriority": 42,
-      "LowPriority": 77,
+      "Total": 4,
+      "HighPriority": 3,
+      "LowPriority": 0,
       "Testing": 1,
       "Idle": 0
     }
@@ -713,14 +763,14 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 27,
+      "p5": 1,
       "p6": 0,
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 138,
-      "HighPriority": 110,
-      "LowPriority": 27,
+      "Total": 8,
+      "HighPriority": 6,
+      "LowPriority": 1,
       "Testing": 1,
       "Idle": 0
     }
@@ -738,14 +788,14 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 26,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
-      "p8": 1,
+      "p8": 0,
       "p9": 0,
-      "Total": 97,
-      "HighPriority": 69,
-      "LowPriority": 27,
+      "Total": 7,
+      "HighPriority": 6,
+      "LowPriority": 0,
       "Testing": 1,
       "Idle": 0
     }
@@ -768,11 +818,11 @@
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 175,
-      "HighPriority": 174,
+      "Total": 0,
+      "HighPriority": 0,
       "LowPriority": 0,
-      "Testing": 1,
-      "Idle": 0
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -788,14 +838,14 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 264,
+      "p5": 195,
       "p6": 0,
       "p7": 0,
       "p8": 2,
       "p9": 0,
-      "Total": 457,
-      "HighPriority": 190,
-      "LowPriority": 266,
+      "Total": 212,
+      "HighPriority": 14,
+      "LowPriority": 197,
       "Testing": 1,
       "Idle": 0
     }
@@ -813,14 +863,14 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 136,
+      "p5": 8,
       "p6": 0,
       "p7": 0,
-      "p8": 10,
+      "p8": 3,
       "p9": 0,
-      "Total": 465,
-      "HighPriority": 318,
-      "LowPriority": 146,
+      "Total": 25,
+      "HighPriority": 13,
+      "LowPriority": 11,
       "Testing": 1,
       "Idle": 0
     }
@@ -841,11 +891,11 @@
       "p5": 0,
       "p6": 0,
       "p7": 0,
-      "p8": 2,
+      "p8": 0,
       "p9": 0,
-      "Total": 87,
-      "HighPriority": 84,
-      "LowPriority": 2,
+      "Total": 2,
+      "HighPriority": 1,
+      "LowPriority": 0,
       "Testing": 1,
       "Idle": 0
     }
@@ -861,16 +911,16 @@
     "PendingTests": {
       "p1": 0,
       "p2": 0,
-      "p3": 4,
+      "p3": 0,
       "p4": 0,
-      "p5": 16,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 309,
-      "HighPriority": 288,
-      "LowPriority": 20,
+      "Total": 43,
+      "HighPriority": 42,
+      "LowPriority": 0,
       "Testing": 1,
       "Idle": 0
     }
@@ -885,18 +935,43 @@
     "group": "Europe",
     "PendingTests": {
       "p1": 0,
-      "p2": 111,
+      "p2": 148,
       "p3": 0,
       "p4": 0,
-      "p5": 3839,
+      "p5": 4745,
       "p6": 0,
       "p7": 16,
       "p8": 2,
       "p9": 0,
-      "Total": 4266,
-      "HighPriority": 297,
-      "LowPriority": 3968,
+      "Total": 4967,
+      "HighPriority": 55,
+      "LowPriority": 4911,
       "Testing": 1,
+      "Idle": 0
+    }
+  },
+  {
+    "id": "Falkenstein",
+    "Label": "Falkenstein, Germany - (Chrome)",
+    "location": "Falkenstein",
+    "Browsers": "Chrome,Chrome Beta,Chrome Canary",
+    "status": "OK",
+    "labelShort": "Falkenstein, Germany",
+    "group": "Europe",
+    "PendingTests": {
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "p4": 0,
+      "p5": 1155,
+      "p6": 0,
+      "p7": 0,
+      "p8": 0,
+      "p9": 0,
+      "Total": 1157,
+      "HighPriority": 0,
+      "LowPriority": 1155,
+      "Testing": 2,
       "Idle": 0
     }
   },
@@ -913,14 +988,14 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 8,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 11,
-      "HighPriority": 2,
-      "LowPriority": 8,
+      "Total": 2,
+      "HighPriority": 1,
+      "LowPriority": 0,
       "Testing": 1,
       "Idle": 0
     }
@@ -943,11 +1018,11 @@
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 42,
-      "HighPriority": 41,
+      "Total": 0,
+      "HighPriority": 0,
       "LowPriority": 0,
-      "Testing": 1,
-      "Idle": 0
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -968,8 +1043,8 @@
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 56,
-      "HighPriority": 55,
+      "Total": 2,
+      "HighPriority": 1,
       "LowPriority": 0,
       "Testing": 1,
       "Idle": 0
@@ -993,11 +1068,11 @@
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 219,
-      "HighPriority": 218,
+      "Total": 0,
+      "HighPriority": 0,
       "LowPriority": 0,
-      "Testing": 1,
-      "Idle": 0
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -1018,11 +1093,11 @@
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 81,
-      "HighPriority": 80,
+      "Total": 0,
+      "HighPriority": 0,
       "LowPriority": 0,
-      "Testing": 1,
-      "Idle": 0
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -1043,11 +1118,11 @@
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 123,
-      "HighPriority": 122,
+      "Total": 0,
+      "HighPriority": 0,
       "LowPriority": 0,
-      "Testing": 1,
-      "Idle": 0
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -1063,14 +1138,14 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 113,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 255,
-      "HighPriority": 140,
-      "LowPriority": 113,
+      "Total": 22,
+      "HighPriority": 20,
+      "LowPriority": 0,
       "Testing": 2,
       "Idle": 0
     }
@@ -1093,8 +1168,8 @@
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 72,
-      "HighPriority": 71,
+      "Total": 2,
+      "HighPriority": 1,
       "LowPriority": 0,
       "Testing": 1,
       "Idle": 0
@@ -1113,14 +1188,14 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 2,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
-      "p8": 18,
+      "p8": 1,
       "p9": 0,
-      "Total": 23,
-      "HighPriority": 1,
-      "LowPriority": 20,
+      "Total": 3,
+      "HighPriority": 0,
+      "LowPriority": 1,
       "Testing": 2,
       "Idle": 0
     }
@@ -1138,16 +1213,16 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 31,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
-      "p8": 2,
+      "p8": 0,
       "p9": 0,
-      "Total": 144,
-      "HighPriority": 110,
-      "LowPriority": 33,
-      "Testing": 1,
-      "Idle": 0
+      "Total": 0,
+      "HighPriority": 0,
+      "LowPriority": 0,
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -1163,14 +1238,14 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 168,
+      "p5": 171,
       "p6": 0,
       "p7": 0,
       "p8": 1,
       "p9": 0,
-      "Total": 324,
-      "HighPriority": 154,
-      "LowPriority": 169,
+      "Total": 179,
+      "HighPriority": 6,
+      "LowPriority": 172,
       "Testing": 1,
       "Idle": 0
     }
@@ -1188,16 +1263,16 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 5,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 26,
-      "HighPriority": 20,
-      "LowPriority": 5,
-      "Testing": 1,
-      "Idle": 0
+      "Total": 0,
+      "HighPriority": 0,
+      "LowPriority": 0,
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -1213,16 +1288,16 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 33,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 98,
-      "HighPriority": 64,
-      "LowPriority": 33,
-      "Testing": 1,
-      "Idle": 0
+      "Total": 0,
+      "HighPriority": 0,
+      "LowPriority": 0,
+      "Testing": 0,
+      "Idle": 1
     }
   },
   {
@@ -1268,11 +1343,11 @@
       "p7": 0,
       "p8": 0,
       "p9": 0,
-      "Total": 6,
-      "HighPriority": 3,
+      "Total": 1,
+      "HighPriority": 0,
       "LowPriority": 1,
-      "Testing": 2,
-      "Idle": 0
+      "Testing": 0,
+      "Idle": 2
     }
   },
   {
@@ -1288,16 +1363,16 @@
       "p2": 0,
       "p3": 0,
       "p4": 0,
-      "p5": 3,
+      "p5": 0,
       "p6": 0,
       "p7": 0,
-      "p8": 12,
+      "p8": 0,
       "p9": 0,
-      "Total": 18,
-      "HighPriority": 1,
-      "LowPriority": 15,
-      "Testing": 2,
-      "Idle": 0
+      "Total": 1,
+      "HighPriority": 0,
+      "LowPriority": 0,
+      "Testing": 1,
+      "Idle": 1
     }
   }
 ]

@@ -75,20 +75,18 @@ class Locations {
 	 */
 	getBestLocation() {
 
-		if (!this.preferred) {
-			const locations = conf.get('locations');
-			const filteredLocations = this.filterConfigLocations(this.locations);
-			const waitingTimes = filteredLocations.map(this.calculateWaitingTime);
-			const bestLocation = filteredLocations[util.minPos(waitingTimes)];
+		const locations = conf.get('locations');
+		const filteredLocations = this.filterConfigLocations(this.locations);
+		const waitingTimes = filteredLocations.map(this.calculateWaitingTime);
+		const bestLocation = filteredLocations[util.minPos(waitingTimes)];
 
-			// If all are overloaded, there's no 'best location'
-			if (this.calculateWaitingTime(bestLocation) > maxWaitingTime) {
-				return null;
-			}
-			this.preferred = locations[bestLocation.position];
-
-			this.logLocationWaitingTimes(filteredLocations, waitingTimes, this.preferred);
+		// If all are overloaded, there's no 'best location'
+		if (this.calculateWaitingTime(bestLocation) > maxWaitingTime) {
+			return null;
 		}
+
+		this.preferred = locations[bestLocation.position];
+		this.logLocationWaitingTimes(filteredLocations, waitingTimes, this.preferred);
 
 		return this.preferred;
 	}

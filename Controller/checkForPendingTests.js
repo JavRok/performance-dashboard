@@ -87,7 +87,7 @@ function processTestResult(err, result) {
 			try {
 				tests = new TestResultCollection (JSON.parse(data));
 			} catch (ex) {
-				conf.log('Exception when parsing test json file:' + ex.message);
+				conf.log('Exception when parsing test json file ' + fileName + ': ' + ex.message);
 				tests = new TestResultCollection ();
 			}
 
