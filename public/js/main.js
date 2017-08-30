@@ -37,8 +37,7 @@ function showError(error) {
 var firstTime = true;
 
 // Create a new line chart object where as first parameter we pass in a selector
-// that is resolving to our chart container element. The Second parameter
-// is the actual data object.
+// that is resolving to our chart container element. The Second parameter is the actual data object.
 function createChart() {
 	if (!chart) {
 		chart = new Chartist.Line('.loading-time-chart', chartData, {
@@ -120,7 +119,7 @@ function addTooltip(node) {
 			'<li>TTFB: ' + test.firstView.ttfb / 1000 + 's</li>' +
 			'<li>Location: ' + test.location + '</li>' +
 		'</ul>' +
-		'<a href=\'http://www.webpagetest.org/result/' + test.id + '\' target=\'_blank\'>Click for more details</a>';
+		'<a href=\'' + test.url + '\' target=\'_blank\'>Click for more details</a>';
 
 	Tooltip.create(node, {showOn: 'load', closeIcon: false, text: template});
 }
@@ -142,9 +141,15 @@ function addPointEvent(node, index) {
 	title.textContent = 'Click to see test details';
 	node.appendChild(title);
 
-	node.addEventListener('click', function (evt) {
-		window.open('http://www.webpagetest.org/result/' + evt.target.id, '_blank');
-	}, false);
+	// Closure to save URL
+	(function () {
+		var url = currentTest.url;
+		node.addEventListener('click', function () {
+			window.open(url, '_blank');
+		}, false);
+
+	})();
+
 
 }
 

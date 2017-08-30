@@ -163,7 +163,7 @@ class TestResultCollection {
 			'tests': []
 		};
 
-		dateObj.setMonth(dateObj.getMonth() + month);
+
 		// Current month (30 days of history starting today)
 		if (month === 0) {
 			let day = new Date().getDate();  // Get current day
@@ -177,10 +177,14 @@ class TestResultCollection {
 				day--;
 			}
 
-			// A whole month
+		// A whole month
 		} else {
-			const nDays = this.daysInMonth(dateObj.getMonth() + 1, dateObj.getFullYear());
-			for (let i = 0; i < nDays; i++) {
+			// Set middle of the month, to avoid dates like 30 Feb
+			dateObj.setDate(15);
+			// Set the correct month
+			dateObj.setMonth(dateObj.getMonth() + month);
+			const nDays = TestResultCollection.daysInMonth(dateObj.getMonth() + 1, dateObj.getFullYear());
+			for (let i = 1; i <= nDays; i++) {
 				result.days.push(i);
 				dateObj.setDate(i);
 				result.tests.push(this.getSingleResultByDay(dateObj.getTime()));
