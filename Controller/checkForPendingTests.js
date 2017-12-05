@@ -69,7 +69,7 @@ function processTestResult(err, result) {
 
 	const test = new TestResult(result);
 	let tests;
-	const fileName = conf.getPath('results') + util.getFileNameFromUrl(test.domain);
+	const fileName = conf.getPath('results') + util.urlToName(test.domain) + '.json';
 
 	// Add starting time (not when the test actually started)
 	test.queuedTime = queuedTimes.get(test.id);

@@ -25,7 +25,8 @@ class Locations {
 
 	/*
 	 * Filter the full locations array to only the ones in the config
-	 * @param {Array} the response array of objects coming from wpt api
+	 * @param {Array|Object} the response array of objects coming from wpt api
+	 * NOTE: Apparently if there's only 1 location, we get only an object
 	 */
 	filterConfigLocations(dataArray) {
 		let preferredLocations = conf.get('locations').map(function (location) {
@@ -33,6 +34,10 @@ class Locations {
 			return location.split(':')[0];
 		});
 
+		if (!Array.isArray(dataArray)) {
+			dataArray.position = 0;
+			return [dataArray];
+		}
 		return dataArray.filter(function (location) {
 			let position = preferredLocations.indexOf(location.id);
 			// Save user order preference
@@ -76,10 +81,10 @@ class Locations {
 	getBestLocation() {
 
 		const locations = conf.get('locations');
-		const filteredLocations = this.filterConfigLocations(this.locations);
-		const waitingTimes = filteredLocations.map(this.calculateWaitingTime);
+		const filteredLocations = this.filterConfigLocations(this.locations);		
+		const waitingTimes = filteredLocations.map(this.calculateWaitingTime);		
 		const bestLocation = filteredLocations[util.minPos(waitingTimes)];
-
+		
 		// If all are overloaded, there's no 'best location'
 		if (this.calculateWaitingTime(bestLocation) > maxWaitingTime) {
 			return null;
@@ -119,14 +124,13 @@ class Locations {
 		const penalizationSecs = 600;
 		// Number of parallel tests that can be run on this location
 		const agents = location.PendingTests.Testing + location.PendingTests.Idle;
-
-
+		
 		// Calculated time for our test to begin (in secs)
 		let estimatedTime = location.PendingTests.Total * averageTestTime / agents;
-
+		
 		// Add weight depending on the users preference list position
 		estimatedTime += location.position * penalizationSecs;
-
+		
 		return Math.ceil(estimatedTime / 60);
 	}
 

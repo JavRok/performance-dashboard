@@ -19,14 +19,14 @@ String.prototype.trimRight = function (charlist) {
 };
 
 /*
- * Returns a filename based on the URL being tested
+ * Returns a filename based on the URL being tested (no extension)
  */
-function getFileNameFromUrl(testUrl) {
+function urlToName(testUrl) {
 	const urlObj = url.parse(testUrl);
 	let path = urlObj.pathname.replace(/\//g, '_');
 	path = path.trimRight('_');
 
-	return urlObj.hostname + path + '.json';
+	return urlObj.hostname + path;
 }
 
 
@@ -91,12 +91,12 @@ function maxPos(arr) {
 
 
 module.exports = {
-	isCalledFromCommandLine: isCalledFromCommandLine,
-	getFileNameFromUrl     : getFileNameFromUrl,
-	parseDateFromFile      : parseDateFromFile,
-	medianForObject        : medianForObject,
-	getDateTime            : getDateTime,
-	getUniqueDay           : getUniqueDay,
-	minPos                 : minPos,
-	maxPos                 : maxPos
+	isCalledFromCommandLine : isCalledFromCommandLine,
+	urlToName				: urlToName,
+	parseDateFromFile      	: parseDateFromFile,
+	medianForObject        	: medianForObject,
+	getDateTime            	: getDateTime,
+	getUniqueDay           	: getUniqueDay,
+	minPos                 	: minPos,
+	maxPos                 	: maxPos
 };

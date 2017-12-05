@@ -5,7 +5,7 @@
 	],
 	"customScripts": {
 		"https://www.tele2.nl": [
-			{"setCookie": ["https://www.tele2.nl", "t2_cc_d=1490877338231"]},
+			{"setCookie": ["https://www.tele2.nl", "t2_cc_d=1507077438231"]},
 			{"setCookie": ["https://www.tele2.nl", "ely_cc_answ={\"cookie-consent\":1}"]},
 			{"navigate": "https://www.tele2.nl"}
 		]

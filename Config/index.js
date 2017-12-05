@@ -33,6 +33,30 @@ class Config {
 		return this.config.outputFolder.path + '/' + this.config.outputFolder.subfolders[folder] + '/';
 	}
 
+	/*
+	 * @return {array} urls stripped down (no protocol or params) f.i. to save into file
+	 */
+	getTransformedURLs () {
+		const sites = this.get('sites');
+
+		if (sites.groups) {
+			// Rebuild object replacing urls with filenames
+			return {
+				'groups': sites.groups.map((group) => ({
+						'label': group.label,
+						'urls': group.urls.map(util.urlToName)
+					})
+				)
+			}
+		}
+		return sites;
+	}
+
+	getFilenames() {
+
+	}
+
+
 	/**
 	 * Log everything with a timestamp
 	 * @param {string|Error} text
@@ -46,7 +70,6 @@ class Config {
 		} else {
 			console.log(util.getDateTime() + ': ' + text);
 		}
-
 	}
 
 }

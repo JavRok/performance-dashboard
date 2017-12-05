@@ -15,7 +15,8 @@ const locations = require('../Model/Locations.js');
 const stuckQueueLimit = 100;
 
 function run() {
-	const sites = conf.get('sites');
+
+	const sites = getSitesFromConfig();
 
     // Read the contents of the status directory to get pending tests
 	getExistingTests(function (err, existingTests) {
@@ -71,6 +72,24 @@ function run() {
 }
 
 
+/*
+ * @return {array} urls to test
+ */
+function getSitesFromConfig () {
+	const sites = conf.get('sites');
+
+	// sites can be simple array, or an object with groups of sites
+	if (sites.groups) {
+		// Concatenate all urls
+		const urls = sites.groups.reduce((acc, group) => [...acc, ...group.urls], []);
+		// Remove duplicates
+		return [...new Set(urls)];
+	}
+
+	return sites;
+}
+
+
 /**
  * @callback getExistingTestsCallback
  * @param {Error}
@@ -86,7 +105,16 @@ function getExistingTests(cb) {
     // Read the contents of the status directory to get pending tests
 	const pendingDir = conf.getPath('pending');
 	fs.readdir(pendingDir, function (err,  files) {
-		if (err) cb(err);
+		if (err) {
+			if (err.code === "ENOENT") {
+				// Folder doesn't exist -> Create it
+				fs.mkdirSync(pendingDir);
+				return getExistingTests(cb);  // Inception
+			} else {
+				cb(err);	
+			}
+			
+		}
 
 		files = files.map((file) => {return pendingDir + file});
 

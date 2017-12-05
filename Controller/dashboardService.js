@@ -13,6 +13,8 @@ var express = require('express');
 var app = express();
 
 var conf = require('../Config');
+var util = require('../Helper/util');
+
 	// conf = Config();
 var TestResultCollection = require('../Model/TestResultCollection.js');
 var resultsDir = conf.getPath('results');
@@ -24,11 +26,14 @@ app.get('/', function (req, res) {
 });
 
 
+
 // Endpoint for existing URLs tested
 app.get('/urls', function (req, res) {
 	var result = [];
 
-	fs.readdir(resultsDir, (err,  files) => {
+	res.json(conf.getTransformedURLs());
+
+	/*fs.readdir(resultsDir, (err,  files) => {
 		if (err) {
 			return res.send(err);
 		}
@@ -39,7 +44,7 @@ app.get('/urls', function (req, res) {
 		});
 
 		res.json(result);
-	});
+	});*/
 });
 
 
@@ -104,7 +109,7 @@ app.get('/test/:name/month/:month', function (req, res) {
 
 
 
-app.listen(3030, function () {
+app.listen(3032, function () {
 	conf.log('Dashboard app listening on http://localhost:3030');
 });
 

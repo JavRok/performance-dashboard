@@ -2,6 +2,7 @@
 // TODO: Switch to ES6 + Babel
 // TODO: Refactor this mess
 
+var discardTestOver = 20000; // ms
 var chartData = {
 	// A labels array that can contain any sort of values
 	labels: [],
@@ -23,14 +24,16 @@ var nodes = {
 	monthSelect  : document.querySelector('.filters-month-select'),
 	measureSelect: document.querySelector('.filters-measure-unit'),
 	legend       : document.querySelector('.legend'),
+	legendGroups : document.querySelector('.legend-groups'),
 	notification : document.querySelector('.notification-text') 
 };
 
 
-var localStorageAvailable = localStorageAvailable();
+let localStorageAvailable = lSAvailable();
 
 
 function showError(error) {
+	console.log(arguments);
 	nodes.notification.textContent = error;
 }
 
@@ -207,18 +210,32 @@ function addEvents(svgNode) {
 	}, false);
 }
 
+// TODO: This function is in util, how to share between node and browser (module loader?)
+// @return {array} urls merged and without duplicates
+function getURLs (sites) {
+	if (sites.groups) {
+		// Concatenate all urls
+		const urls = sites.groups.reduce((acc, group) => [...acc, ...group.urls], []);
+		// Remove duplicates
+		return [...new Set(urls)];
+	}
+	return sites;
+}
 
 // Require AJAX util library
 if (AJAX) {
 	// Wait for all the AJAX calls with Promises. First get the tested URLs
 	AJAX.promiseGet('urls').then(JSON.parse).then(function (response) {
-		urls = response;
+		if (response.length === 0) {
+			showError('There are no tests yet');
+		}
 
-		drawLegend();
+		urls = getURLs(response);
+		drawLegend(response);
 
 		// Get the test results for each URL
 		return Promise.all(
-			response.map(function (url) {
+			urls.map(function (url) {
 				return AJAX.promiseGet('test/' + url + '/day/0');
 			})
 		);
@@ -249,7 +266,7 @@ function processTests(responses) {
 		} else if (singleUrl.data.days) {
 			chartData.labels = singleUrl.data.days;
 		}
-
+ 
 		singleUrl = singleUrl.data.tests;
 
 		// Store in the global variable
@@ -378,7 +395,7 @@ nodes.measureSelect.addEventListener('change', function (evt) {
  */
 function removePeaks(serie) {
 	serie.forEach((value, i, serie) => {
-		if (value > 20000)  {
+		if (value > discardTestOver)  {
 			serie[i] = null;
 		}
 	});
@@ -391,8 +408,25 @@ function increaseChar(c, sum) {
 
 
 /** ***********************   LEGEND   *********************/
-function drawLegend() {
-	var line, checkbox, text, char = 'a';
+function drawLegend(sites) {
+	var line, label, checkbox, text, char = 'a';
+
+	nodes.legendGroups.innerHTML = '';
+	if (sites.groups) {
+		sites.groups.forEach((group, i) => {
+			label = document.createElement('label');
+			text = document.createTextNode(group.label);
+			label.appendChild(text);
+			checkbox = document.createElement('input');
+			checkbox.type = 'checkbox';
+			checkbox.name = 'group-' + i;
+			checkbox.checked = true;
+			label.appendChild(checkbox);
+			nodes.legendGroups.appendChild(label);
+		});
+
+	}
+
 	nodes.legend.innerHTML = '';
 	urls.forEach((url, i) => {
 		line = document.createElement('label');
@@ -500,7 +534,7 @@ function inputChange(node, newValue) {
  * make sure that localStorage is accesible
  * if gets to the error and returns QUOTA_EXCEEDED that means the device it's in private mode
  */
-function localStorageAvailable() {
+function lSAvailable() {
 	try {
 		localStorage.setItem('t2', 'privateBrowsing');
 		localStorage.removeItem('t2');

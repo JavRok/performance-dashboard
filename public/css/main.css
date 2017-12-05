@@ -6,9 +6,11 @@ body {
 
 
 .legend {
-	width: 400px;
+	
 	border: 1px solid #999;
 	padding: 0 0.5em;
+	width: 35%;
+	min-widh: 500px;
 }
 .legend label {
 	display:block;
@@ -24,7 +26,7 @@ body {
 	display: inline-block;
 	vertical-align: middle;
 	width: 2em;
-	border: 0.15em solid red;
+	border-top: 0.25em solid red;
 	margin-right: 0.5em;
 }
 
@@ -87,7 +89,7 @@ li {
 	stroke: red;
 }
 .legend .ct-series-a:before {
-	border-color: red;
+	border-top-color: red;
 }
 
 .ct-series-b .ct-line,
@@ -95,7 +97,7 @@ li {
 	stroke: green;
 }
 .legend .ct-series-b:before {
-	border-color: green;
+	border-top-color: green;
 }
 
 .ct-series-c .ct-line,
@@ -103,7 +105,7 @@ li {
 	stroke: blue;
 }
 .legend .ct-series-c:before {
-	border-color: blue;
+	border-top-color: blue;
 }
 
 .ct-series-d .ct-line,
@@ -111,7 +113,7 @@ li {
 	stroke: yellow;
 }
 .legend .ct-series-d:before {
-	border-color: yellow;
+	border-top-color: yellow;
 }
 
 .ct-series-e .ct-line,
@@ -119,7 +121,7 @@ li {
 	stroke: darkorange;
 }
 .legend .ct-series-e:before {
-	border-color: darkorange;
+	border-top-color: darkorange;
 }
 
 .ct-series-f .ct-line,
@@ -127,7 +129,7 @@ li {
 	stroke: black;
 }
 .legend .ct-series-f:before {
-	border-color: black;
+	border-top-color: black;
 }
 
 .ct-series-g .ct-line,
@@ -135,7 +137,7 @@ li {
 	stroke: white;
 }
 .legend .ct-series-g:before {
-	border-color: white;
+	border-top-color: white;
 }
 
 .ct-series-h .ct-line,
@@ -143,7 +145,7 @@ li {
 	stroke: #6b0392;
 }
 .legend .ct-series-h:before {
-	border-color: #6b0392;
+	border-top-color: #6b0392;
 }
 
 .ct-series-i .ct-line,
@@ -151,7 +153,7 @@ li {
 	stroke: #f05b4f;
 }
 .legend .ct-series-i:before {
-	border-color: #f05b4f;
+	border-top-color: #f05b4f;
 }
 
 .ct-series-j .ct-line,
@@ -159,5 +161,74 @@ li {
 	stroke: #dda458;
 }
 .legend .ct-series-j:before {
-	border-color: #dda458;
+	border-top-color: #dda458;
 }
+
+
+
+
+
+.ct-series-k .ct-line,
+.ct-series-k .ct-point {
+	stroke: #dda458;
+}
+.legend .ct-series-k:before {
+	border-top-color: #dda458;
+}
+
+.ct-series-l .ct-line,
+.ct-series-l .ct-point {
+	stroke: #dda458;
+}
+.legend .ct-series-l:before {
+	border-top-color: #dda458;
+}
+
+.ct-series-m .ct-line,
+.ct-series-m .ct-point {
+	stroke: #dda458;
+}
+.legend .ct-series-m:before {
+	border-top-color: #dda458;
+}
+
+.ct-series-n .ct-line,
+.ct-series-n .ct-point {
+	stroke: #dda458;
+}
+.legend .ct-series-n:before {
+	border-top-color: #dda458;
+}
+
+.ct-series-o .ct-line,
+.ct-series-o .ct-point {
+	stroke: #dda458;
+}
+.legend .ct-series-o:before {
+	border-top-color: #dda458;
+}
+
+.ct-series-p .ct-line,
+.ct-series-p .ct-point {
+	stroke: #dda458;
+}
+.legend .ct-series-p:before {
+	border-top-color: #dda458;
+}
+
+.ct-series-q .ct-line,
+.ct-series-q .ct-point {
+	stroke: #dda458;
+}
+.legend .ct-series-q:before {
+	border-top-color: #dda458;
+}
+
+.ct-series-r .ct-line,
+.ct-series-r .ct-point {
+	stroke: #dda458;
+}
+.legend .ct-series-r:before {
+	border-top-color: #dda458;
+}
+
