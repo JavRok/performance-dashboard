@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "Performance Board using Webpagetest.org API",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "private": true,
   "keywords": [
     "Performance",
@@ -14,6 +11,10 @@
   ],
   "author": "javier.rocamora@gmail.com",
   "license": "ISC",
+  "scripts": {
+    "build-css": "node-sass --include-path sass sass/start.scss public/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
@@ -22,6 +23,9 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-exec": "^0.4.6",
     "grunt-shell": "^1.1.2",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.12.5",
+    "normalize.css": "^7.0.0",
     "webpagetest": "^0.3.4"
   },
   "dependencies": {
@@ -31,22 +35,77 @@
     "parser": "babel-eslint",
     "extends": "eslint:recommended",
     "rules": {
-      "indent": ["warn", "tab", {"SwitchCase":1,"VariableDeclarator":{},"MemberExpression":1}],
-      "quotes": ["warn", "single"],
-      "max-len": ["warn", 120, 4],
-      "max-params": ["warn", 4],
-      "block-scoped-var": ["warn"],
-      "no-shadow": ["warn"],
-      "space-infix-ops": ["warn"],
-      "keyword-spacing": ["warn"],
-      "space-before-blocks": ["warn"],
-      "spaced-comment": ["warn"],
-      "space-before-function-paren": ["warn", {"anonymous":"always", "named":"never"}],
-      "eqeqeq": ["warn", "smart"],
-      "no-implicit-globals": ["warn"],
-      "no-console": ["warn"],
-      "valid-jsdoc": ["warn", {"requireReturn":false, "requireParamDescription":false, "requireReturnDescription":false}],
-      "key-spacing": ["warn", {"align":{}}]
+      "indent": [
+        "warn",
+        "tab",
+        {
+          "SwitchCase": 1,
+          "VariableDeclarator": {},
+          "MemberExpression": 1
+        }
+      ],
+      "quotes": [
+        "warn",
+        "single"
+      ],
+      "max-len": [
+        "warn",
+        120,
+        4
+      ],
+      "max-params": [
+        "warn",
+        4
+      ],
+      "block-scoped-var": [
+        "warn"
+      ],
+      "no-shadow": [
+        "warn"
+      ],
+      "space-infix-ops": [
+        "warn"
+      ],
+      "keyword-spacing": [
+        "warn"
+      ],
+      "space-before-blocks": [
+        "warn"
+      ],
+      "spaced-comment": [
+        "warn"
+      ],
+      "space-before-function-paren": [
+        "warn",
+        {
+          "anonymous": "always",
+          "named": "never"
+        }
+      ],
+      "eqeqeq": [
+        "warn",
+        "smart"
+      ],
+      "no-implicit-globals": [
+        "warn"
+      ],
+      "no-console": [
+        "warn"
+      ],
+      "valid-jsdoc": [
+        "warn",
+        {
+          "requireReturn": false,
+          "requireParamDescription": false,
+          "requireReturnDescription": false
+        }
+      ],
+      "key-spacing": [
+        "warn",
+        {
+          "align": {}
+        }
+      ]
     },
     "env": {
       "browser": true,

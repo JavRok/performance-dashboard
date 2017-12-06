@@ -1,0 +1,122 @@
+$colors: #3366CC #DC3912 #FF9900 #109618 #990099 #3B3EAC #0099C6 #DD4477 #66AA00 #B82E2E #316395 #994499 #22AA99 #AAAA11 #6633CC #E67300 #8B0707 #329262 #5574A6 #3B3EAC;
+$letters: a b c d e f g h i j k l m n o p q r s t;
+
+body {
+	background: #E3D5BE;
+	padding: 0 10px;
+}
+
+.legend-groups-label {
+	margin: 0.3em 0;
+}
+.legend-groups {
+	display: inline-block;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.legend-groups label {
+	cursor: pointer;
+}
+.legend-groups input {
+	margin: 0 0.3em 0 1em;
+}
+
+
+.legend {
+	border: 1px solid #999;
+	padding: 0 0.5em;
+	width: 35%;
+	min-widh: 500px;
+}
+.legend label {
+	display:block;
+	cursor: pointer;
+}
+.legend label input {
+	display: inline-block;
+	margin-right: 0.3em;
+}
+
+.legend > label:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 2em;
+	border-top: 0.25em solid red;
+	margin-right: 0.5em;
+}
+
+.filters{
+	float: right;
+	margin-right: 1em;
+}
+
+select {
+	padding: .5em 1em;
+	cursor: pointer;
+	background: #ececec;
+	-webkit-transition: all 0.20s ease-in-out;
+	transition: all 0.20s ease-in-out;
+	outline: none;
+}
+select:focus{
+	box-shadow: 0 0 12px rgb(0, 110, 142);
+	background: white;
+}
+.active {
+	background: white;
+}
+
+
+/* Notifications text, for errors or warnings */
+.notification-text {
+	font-weight: bold;
+	color: red;
+	text-align: center;
+}
+
+.dashed-line {
+	stroke: red;
+	stroke-width: 2px;
+	stroke-dasharray: 4px;
+}
+
+ul {
+	padding-left: 1em;
+}
+li {
+	line-height: 1.3;
+}
+
+
+/* Override Chartist.js styles */
+
+.ct-point {
+	cursor: pointer;
+	stroke-width: 10px;
+}
+.ct-line {
+	stroke-width: 2px;
+}
+.hidden {
+	display: none !important;
+}
+
+
+// Loop to set color for the 1st twenty lines in the graph
+@each $char in $letters {
+	$i: index($letters, $char);
+	$color: nth($colors, $i);
+
+	.ct-series-#{$char} {
+		.ct-line, .ct-point {
+			stroke: $color;
+		}
+	}
+	.legend .ct-series-#{$char}:before {
+		border-top-color: $color;
+	}
+}
+

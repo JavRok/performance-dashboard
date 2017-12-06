@@ -56,9 +56,6 @@ function createChart() {
 			low    : 0,
 			// high: 20000
 			plugins: [
-				/* Chartist.plugins.ctThreshold({
-					threshold: 1
-				}),*/
 				Chartist.plugins.ctGoalLine({
 					value    : thresholdLine,
 					className: 'dashed-line'
@@ -249,6 +246,7 @@ if (AJAX) {
  * Process the tests coming from the tests/ Api call
  */
 function processTests(responses) {
+	console.log(urls, currentTests);
 	var maxLength = 0;
 
 	chartData.series = [];
@@ -402,35 +400,36 @@ function removePeaks(serie) {
 } 
 
 
-function increaseChar(c, sum) {
-	return String.fromCharCode(c.charCodeAt(0) + sum);
-}
 
 
 /** ***********************   LEGEND   *********************/
 function drawLegend(sites) {
 	var line, label, checkbox, text, char = 'a';
 
+	// Output groups labels
 	nodes.legendGroups.innerHTML = '';
 	if (sites.groups) {
+		nodes.legendGroups.parentNode.classList.remove('hidden');
 		sites.groups.forEach((group, i) => {
 			label = document.createElement('label');
-			text = document.createTextNode(group.label);
-			label.appendChild(text);
+
 			checkbox = document.createElement('input');
 			checkbox.type = 'checkbox';
-			checkbox.name = 'group-' + i;
+			checkbox.name = 'label-group-' + i;
 			checkbox.checked = true;
 			label.appendChild(checkbox);
+			text = document.createTextNode(group.label);
+			label.appendChild(text);
 			nodes.legendGroups.appendChild(label);
 		});
-
 	}
 
+	//
 	nodes.legend.innerHTML = '';
 	urls.forEach((url, i) => {
 		line = document.createElement('label');
-		line.className = 'ct-series-' + increaseChar(char, i);
+		line.className = 'ct-series-' + increaseChar(char, i) + ' '
+							+ getUrlGroups(sites.groups, url).map((group) => 'group-' + group).join(' ');
 		checkbox = document.createElement('input');
 		checkbox.type = 'checkbox';
 		checkbox.name = 'line-' + i;
@@ -442,16 +441,98 @@ function drawLegend(sites) {
 	});
 }
 
+function increaseChar(c, sum) {
+	return String.fromCharCode(c.charCodeAt(0) + sum);
+}
+
+
+/*
+ * For groups of urls, get the groups a url belongs to. Can be multiple groups.
+ * @param {object} groups as received by the Ajax call
+ * @param {string} url to search for
+ * @return {array} of groups, zero-based
+ */
+function getUrlGroups(groups, url) {
+	let groupArr = [];
+	groups.forEach(function (group, i) {
+		if (group.urls.indexOf(url) > -1) {
+			groupArr.push(i);
+		}
+	});
+	return groupArr;
+}
+
+/*
+ * Activate a url line in the graph
+ * @param {number} index of the url
+ * @param {bool} wether save to Localstorage or not
+ */
+function activateUrl (index, saveToLS) {
+	var line = document.getElementsByClassName('ct-series ct-series-' + increaseChar('a', index)[0]);
+	if (line.length) {
+		line[0].classList.remove('hidden');
+		if (saveToLS) {
+			saveSelectionInLS();
+		}
+		return true;
+	}
+	return false;
+}
+
+/*
+ * Deactivate a url line in the graph
+ * @param {number} index of the url
+ * @param {bool} wether save to Localstorage or not
+ */
+function deactivateUrl (index, saveToLS) {
+	var line = document.getElementsByClassName('ct-series ct-series-' + increaseChar('a', index)[0]);
+	if (line.length) {
+		line[0].classList.add('hidden');
+		if (saveToLS) {
+			saveSelectionInLS();
+		}
+		return true;
+	}
+	return false;
+}
+
 /*
  * Event for showing/hiding lines in the graph (evt delegated)
  */
 nodes.legend.addEventListener('change', function (evt) {
 	var index = parseInt(evt.target.name.replace('line-', ''));
-	var line = document.getElementsByClassName('ct-series ct-series-' + increaseChar('a', index)[0]);
-	if (line.length) {
-		line[0].classList.toggle('hidden');
+	if (evt.target.checked) {
+		activateUrl(index, true);
+	} else {
+		deactivateUrl(index, true);
 	}
-	saveSelectionInLS();
+
+}, false);
+
+
+/*
+ * Event for showing/hiding group of lines in the graph (evt delegated)
+ */
+nodes.legendGroups.addEventListener('change', function (evt) {
+	const group = evt.target.name.replace('label-', '');
+	// var line = document.getElementsByClassName('ct-series ct-series-' + increaseChar('a', index)[0]);
+	// if (evt.target.length) {
+	let labels = nodes.legend.getElementsByClassName(group);
+	for (let i=0; i<labels.length; i++) {
+		let label = labels[i],
+			input = label.querySelector('input'),
+			index = parseInt(input.name.replace('line-', ''));
+
+		if (evt.target.checked) {
+			label.classList.remove('hidden');
+			activateUrl(index);
+		} else {
+			label.classList.add('hidden');
+			deactivateUrl(index);
+		}
+	}
+
+	// saveSelectionInLS();
 }, false);
 
 /* Apply the filters if graph is reloaded */
