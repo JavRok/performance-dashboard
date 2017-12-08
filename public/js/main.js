@@ -535,6 +535,44 @@ nodes.legendGroups.addEventListener('change', function (evt) {
 	// saveSelectionInLS();
 }, false);
 
+/*
+ * Event for highlighting the hovered url in the graph (evt delegated)
+ */
+nodes.legend.addEventListener('mouseover', function (evt) {
+	const label = evt.target;
+	if (label.nodeName === "LABEL") {
+		const input = label.querySelector('input');
+		if (input) {
+			const index = parseInt(input.name.replace('line-', ''));
+			const line = document.getElementsByClassName('ct-series ct-series-' + increaseChar('a', index)[0]);
+			if (line.length) {
+				line[0].parentNode.classList.add('fade-out');
+				line[0].classList.add('line-active');
+			}
+		}
+	}
+}, false);
+nodes.legend.addEventListener('mouseout', function (evt) {
+	const label = evt.target;
+	if (label.nodeName === "LABEL") {
+		const input = label.querySelector('input');
+		if (input) {
+			const index = parseInt(input.name.replace('line-', ''));
+			const line = document.getElementsByClassName('ct-series ct-series-' + increaseChar('a', index)[0]);
+			if (line.length) {
+				line[0].parentNode.classList.remove('fade-out');
+				let previousActive = line[0].parentNode.querySelector('.line-active');
+				if (previousActive) {
+					previousActive.classList.remove('line-active');
+				}
+			}
+		}
+	}
+}, false);
+
+
+
+
 /* Apply the filters if graph is reloaded */
 function applyUrlFilters() {
 	var filters = nodes.legend.querySelectorAll('input[type=checkbox]');

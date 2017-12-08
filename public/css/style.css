@@ -1227,6 +1227,9 @@ li {
 .legend .ct-series-t:before {
   border-top-color: #3B3EAC; }
 
+.fade-out .ct-series:not(.line-active) {
+  opacity: 0.1; }
+
 .tooltip {
   display: block;
   background: #43b02a;
