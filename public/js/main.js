@@ -428,8 +428,10 @@ function drawLegend(sites) {
 	nodes.legend.innerHTML = '';
 	urls.forEach((url, i) => {
 		line = document.createElement('label');
-		line.className = 'ct-series-' + increaseChar(char, i) + ' '
-							+ getUrlGroups(sites.groups, url).map((group) => 'group-' + group).join(' ');
+		line.className = 'ct-series-' + increaseChar(char, i);
+		if (sites.groups) {
+			line.className += ' ' + getUrlGroups(sites.groups, url).map((group) => 'group-' + group).join(' ');
+		}
 		checkbox = document.createElement('input');
 		checkbox.type = 'checkbox';
 		checkbox.name = 'line-' + i;

@@ -49,7 +49,7 @@ class Config {
 				)
 			}
 		}
-		return sites;
+		return sites.map(util.urlToName);
 	}
 
 	getFilenames() {
