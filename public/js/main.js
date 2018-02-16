@@ -11,6 +11,7 @@ var chartData = {
 };
 
 var urls;
+var groups;
 var chart;
 // 2-dimensions array with all the tests received, each array 1st-level element corresponds with an url (line)
 var currentTests = [];
@@ -99,6 +100,11 @@ function createChart() {
 	} else {
 		chart.update(chartData);
 		applyUrlFilters();
+
+		var groups = nodes.legendGroups.querySelectorAll('[type=checkbox]');
+		for (var i = 0; i < groups.length; i++) {
+			applyGroupFilter(groups[i]);
+		}
 	}
 
 }
@@ -227,8 +233,12 @@ if (AJAX) {
 			showError('There are no tests yet');
 		}
 
+		if (response.groups) {
+			groups = response.groups;
+		}
 		urls = getURLs(response);
 		drawLegend(response);
+		
 
 		// Get the test results for each URL
 		return Promise.all(
@@ -246,10 +256,12 @@ if (AJAX) {
  * Process the tests coming from the tests/ Api call
  */
 function processTests(responses) {
-	console.log(urls, currentTests);
+	// console.log(urls, currentTests);
 	var maxLength = 0;
-
 	chartData.series = [];
+	
+	console.log(groups);
+	
 	responses.forEach(function (response, i) {
 		var singleUrl = JSON.parse(response);
 
@@ -516,16 +528,25 @@ nodes.legend.addEventListener('change', function (evt) {
  * Event for showing/hiding group of lines in the graph (evt delegated)
  */
 nodes.legendGroups.addEventListener('change', function (evt) {
-	const group = evt.target.name.replace('label-', '');
-	// var line = document.getElementsByClassName('ct-series ct-series-' + increaseChar('a', index)[0]);
-	// if (evt.target.length) {
-	let labels = nodes.legend.getElementsByClassName(group);
-	for (let i=0; i<labels.length; i++) {
-		let label = labels[i],
-			input = label.querySelector('input'),
-			index = parseInt(input.name.replace('line-', ''));
+	applyGroupFilter(evt.target);
+	saveSelectionInLS();
+}, false);
 
-		if (evt.target.checked) {
+
+/*
+ * Applies the group filter from the legend (because a graph refresh)
+ * @param {Element} group checkbox
+ */
+function applyGroupFilter(groupNode) {
+	var group = groupNode.name.replace('label-', '');
+	var labels = nodes.legend.getElementsByClassName(group);
+
+	for (var i=0; i < labels.length; i++) {
+		var label = labels[i],
+			input = label.querySelector('input'),
+			index = parseInt(input.name.replace('line-', ''))	;
+
+		if (groupNode.checked) {
 			label.classList.remove('hidden');
 			activateUrl(index);
 		} else {
@@ -533,9 +554,7 @@ nodes.legendGroups.addEventListener('change', function (evt) {
 			deactivateUrl(index);
 		}
 	}
-
-	// saveSelectionInLS();
-}, false);
+}
 
 /*
  * Event for highlighting the hovered url in the graph (evt delegated)
@@ -588,6 +607,7 @@ function applyUrlFilters() {
 
 		}
 	}
+	
 	saveSelectionInLS();
 }
 
@@ -599,17 +619,31 @@ function saveSelectionInLS() {
 	if (!localStorageAvailable) return;
 
 	var legendUrls = nodes.legend.childNodes,
-		legend = {}, input;
+		legend = {},
+		groups = {},
+		input;
 
 	for (var i = 0; i < legendUrls.length; i++) {
 		input = legendUrls[i].querySelector('input[type=checkbox]');
 		legend[legendUrls[i].className] = input.checked;
 	}
+
+	for (i = 0; i < legendUrls.length; i++) {
+		input = legendUrls[i].querySelector('input[type=checkbox]');
+		legend[legendUrls[i].className] = input.checked;
+	}
+
+	var groupNodes = nodes.legendGroups.querySelectorAll('input[type=checkbox]');
+	for (i = 0; i < groupNodes.length; i++) {
+		groups[groupNodes[i].name] = groupNodes[i].checked;
+	}
+
 	var selection = {
 		'daySelect'    : nodes.daySelect.value,
 		'monthSelect'  : nodes.monthSelect.value,
 		'measureSelect': nodes.measureSelect.value,
-		'legend'       : legend
+		'legend'       : legend,
+		'groups'       : groups
 	};
 
 	localStorage.setItem('perf-dashboard-selection', JSON.stringify(selection));
@@ -618,6 +652,7 @@ function saveSelectionInLS() {
 function loadSelectionFromLS() {
 	if (!localStorageAvailable) return;
 	var selection = localStorage.getItem('perf-dashboard-selection');
+	if (!selection) return;
 	var legendUrls = nodes.legend.childNodes;
 
 	selection = JSON.parse(selection);
@@ -631,6 +666,11 @@ function loadSelectionFromLS() {
 			legendUrls[i].querySelector('input[type=checkbox]'),
 			selection.legend[legendUrls[i].className]
 		);
+	}
+
+	var groupNodes = nodes.legendGroups.querySelectorAll('input[type=checkbox]');
+	for (var i = 0; i < groupNodes.length; i++) {
+		inputChange(groupNodes[i],selection.groups[groupNodes[i].name]);
 	}
 }
 
@@ -653,7 +693,7 @@ function inputChange(node, newValue) {
 
 /*
  * make sure that localStorage is accesible
- * if gets to the error and returns QUOTA_EXCEEDED that means the device it's in private mode
+ * if gets to the error and returns QUOTA_EXCEEDED that means the device is in private mode
  */
 function lSAvailable() {
 	try {

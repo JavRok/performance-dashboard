@@ -109,8 +109,8 @@ app.get('/test/:name/month/:month', function (req, res) {
 
 
 
-app.listen(3032, function () {
-	conf.log('Dashboard app listening on http://localhost:3030');
+app.listen(3000, function () {
+	conf.log('Dashboard app listening on http://localhost:3000');
 });
 
 

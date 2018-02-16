@@ -15,6 +15,11 @@ const LaunchTests = require('./Controller/launchTest.js');
 const SaveHistory = require('./Controller/saveTestHistory.js');
 const conf = require('./Config');
 
+if (!conf) {
+	console.log('ERROR!');
+	process.exit();
+} 
+
 
 // Interval in hours, every hour by default
 const launchTestTimeout = 60 * 60 * 1000 * conf.get('intervalInHours');

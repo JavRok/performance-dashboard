@@ -14,7 +14,7 @@ let config;
 class Config {
 	constructor(filePath) {
 		filePath = filePath || defaultConfig;
-		this.config = require(filePath);
+		this.config = require(filePath);			
 	}
 
 	getApiKey() {
@@ -76,7 +76,13 @@ class Config {
 
 const createConfig = function createConfig() {
 	if (!config) {
-		config = new Config(defaultConfig);
+		try {
+			config = new Config(defaultConfig);			
+		} catch (e) {
+			console.log('Hey, you need to create your config.json file first. Go to Config/ and rename and modify one of the examples');
+			process.exit();
+		}
+		
 	}
 	return config;
 };
