@@ -436,8 +436,18 @@ function drawLegend(sites) {
 		});
 	}
 
-	//
+
 	nodes.legend.innerHTML = '';
+	line = document.createElement('label');
+	checkbox = document.createElement('input');
+	checkbox.type = 'checkbox';
+	checkbox.name = 'check-all';
+	checkbox.checked = true;
+	line.appendChild(checkbox);
+	text = document.createTextNode('Check/Uncheck all');
+	line.appendChild(text);
+	nodes.legend.appendChild(line);
+
 	urls.forEach((url, i) => {
 		line = document.createElement('label');
 		line.className = 'ct-series-' + increaseChar(char, i);
@@ -514,8 +524,23 @@ function deactivateUrl (index, saveToLS) {
  * Event for showing/hiding lines in the graph (evt delegated)
  */
 nodes.legend.addEventListener('change', function (evt) {
+	var node = evt.target, i;
+	if (node.name === 'check-all') {
+		var checkboxes = nodes.legend.querySelectorAll('[class^=ct-series]:not(.hidden) input');
+		if (node.checked) {
+			for (i=0; i < checkboxes.length; i++) {
+				checkboxes[i].checked = true;
+				activateUrl(i, true);
+			}
+		} else {
+			for (i=0; i < checkboxes.length; i++) {
+				checkboxes[i].checked = false;
+				deactivateUrl(i, true);
+			}
+		}
+	}
 	var index = parseInt(evt.target.name.replace('line-', ''));
-	if (evt.target.checked) {
+	if (node.checked) {
 		activateUrl(index, true);
 	} else {
 		deactivateUrl(index, true);
