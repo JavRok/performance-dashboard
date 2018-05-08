@@ -1056,10 +1056,9 @@ body {
   content: "";
   display: inline-block;
   vertical-align: middle;
-  border-top: 0.25em solid transparent;
-  margin-right: 0.5em;
   width: 2em;
-}
+  border-top: 0.25em solid red;
+  margin-right: 0.5em; }
 
 .filters {
   float: right;
@@ -1101,9 +1100,13 @@ li {
 .ct-point {
   cursor: pointer;
   stroke-width: 10px; }
+  .crowded-house .ct-point {
+    stroke-width: 6px; }
 
 .ct-line {
-  stroke-width: 2px; }
+  stroke-width: 3px; }
+  .crowded-house .ct-line {
+    stroke-width: 2px; }
 
 .hidden {
   display: none !important; }
@@ -1227,19 +1230,6 @@ li {
 
 .legend .ct-series-t:before {
   border-top-color: #3B3EAC; }
-
-.ct-series-u .ct-line, .ct-series-u .ct-point {
-  stroke: #ff0005; }
-
-.legend .ct-series-u:before {
-  border-top-color: #ff0005; }
-
-.ct-series-v .ct-line, .ct-series-v .ct-point {
-  stroke: #00ff11; }
-
-.legend .ct-series-v:before {
-  border-top-color: #00ff11; }
-
 
 .fade-out .ct-series:not(.line-active) {
   opacity: 0.1; }

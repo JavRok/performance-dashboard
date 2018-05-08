@@ -96,9 +96,17 @@ li {
 .ct-point {
 	cursor: pointer;
 	stroke-width: 10px;
+
+	.crowded-house & {
+		stroke-width: 7px;
+	}
 }
 .ct-line {
-	stroke-width: 2px;
+	stroke-width: 3px;
+
+	.crowded-house & {
+		stroke-width: 2px;
+	}
 }
 .hidden {
 	display: none !important;
