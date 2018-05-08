@@ -2,7 +2,7 @@
 // TODO: Switch to ES6 + Babel
 // TODO: Refactor this mess
 
-var discardTestOver = 20000; // ms
+var discardTestOver = 25000; // ms
 var chartData = {
 	// A labels array that can contain any sort of values
 	labels: [],
@@ -88,10 +88,13 @@ function createChart() {
 		});
 
 		chart.on('created', function (context) {
+			console.log('draw', context);
 			if (firstTime) {
-				loadSelectionFromLS();
 				firstTime = false;
 				addEvents(context.svg._node);
+				loadSelectionFromLS();
+			} else {
+				applyGroupFilters();
 			}
 
 
@@ -100,13 +103,8 @@ function createChart() {
 	} else {
 		chart.update(chartData);
 		applyUrlFilters();
-
-		var groups = nodes.legendGroups.querySelectorAll('[type=checkbox]');
-		for (var i = 0; i < groups.length; i++) {
-			applyGroupFilter(groups[i]);
-		}
+		applyGroupFilters();
 	}
-
 }
 
 
@@ -465,6 +463,22 @@ function drawLegend(sites) {
 	});
 }
 
+/*
+ * Get the line node in the canvas graph from the associated checkbox in the legend
+ * @param {NodeElement} checkbox node
+ * @returns {NodeElement} The corresponding line in the canvas/graph
+ */
+function getLineFromCheckbox(checkbox) {
+	var index = parseInt(checkbox.name.replace('line-', ''));
+	return document.getElementsByClassName('ct-series ct-series-' + increaseChar('a', index)[0]);
+}
+
+/*
+ * Increase char by a numeric index -> 'a' + 3 = 'd'
+ * @param {string} base char
+ * @param {number}
+ * @returns {string}
+ */
 function increaseChar(c, sum) {
 	return String.fromCharCode(c.charCodeAt(0) + sum);
 }
@@ -488,11 +502,12 @@ function getUrlGroups(groups, url) {
 
 /*
  * Activate a url line in the graph
- * @param {number} index of the url
+ * @param {NodeElement} checkbox node from the legend
  * @param {bool} wether save to Localstorage or not
+ * @return {bool}
  */
-function activateUrl (index, saveToLS) {
-	var line = document.getElementsByClassName('ct-series ct-series-' + increaseChar('a', index)[0]);
+function activateUrl (checkbox, saveToLS) {
+	const line = getLineFromCheckbox(checkbox);
 	if (line.length) {
 		line[0].classList.remove('hidden');
 		if (saveToLS) {
@@ -505,11 +520,12 @@ function activateUrl (index, saveToLS) {
 
 /*
  * Deactivate a url line in the graph
- * @param {number} index of the url
+ * @param {NodeElement} checkbox node from the legend
  * @param {bool} wether save to Localstorage or not
+ * @return {bool}
  */
-function deactivateUrl (index, saveToLS) {
-	var line = document.getElementsByClassName('ct-series ct-series-' + increaseChar('a', index)[0]);
+function deactivateUrl (checkbox, saveToLS) {
+	const line = getLineFromCheckbox(checkbox);
 	if (line.length) {
 		line[0].classList.add('hidden');
 		if (saveToLS) {
@@ -530,21 +546,22 @@ nodes.legend.addEventListener('change', function (evt) {
 		if (node.checked) {
 			for (i=0; i < checkboxes.length; i++) {
 				checkboxes[i].checked = true;
-				activateUrl(i, true);
+				activateUrl(checkboxes[i], true);
 			}
 		} else {
 			for (i=0; i < checkboxes.length; i++) {
 				checkboxes[i].checked = false;
-				deactivateUrl(i, true);
+				deactivateUrl(checkboxes[i], true);
 			}
 		}
-	}
-	var index = parseInt(evt.target.name.replace('line-', ''));
-	if (node.checked) {
-		activateUrl(index, true);
 	} else {
-		deactivateUrl(index, true);
+		if (node.checked) {
+			activateUrl(node, true);
+		} else {
+			deactivateUrl(node, true);
+		}
 	}
+
 
 }, false);
 
@@ -560,6 +577,16 @@ nodes.legendGroups.addEventListener('change', function (evt) {
 
 /*
  * Applies the group filter from the legend (because a graph refresh)
+ */
+function applyGroupFilters() {
+	var groups = nodes.legendGroups.querySelectorAll('[type=checkbox]');
+	for (var i = 0; i < groups.length; i++) {
+		applyGroupFilter(groups[i]);
+	}
+}
+
+/*
+ * Applies a SINGLE group filter from the legend (because a graph refresh)
  * @param {Element} group checkbox
  */
 function applyGroupFilter(groupNode) {
@@ -568,15 +595,16 @@ function applyGroupFilter(groupNode) {
 
 	for (var i=0; i < labels.length; i++) {
 		var label = labels[i],
-			input = label.querySelector('input'),
-			index = parseInt(input.name.replace('line-', ''))	;
+			input = label.querySelector('input');
 
 		if (groupNode.checked) {
 			label.classList.remove('hidden');
-			activateUrl(index);
+			if (input.checked) {
+				activateUrl(input);
+			}
 		} else {
 			label.classList.add('hidden');
-			deactivateUrl(index);
+			deactivateUrl(input);
 		}
 	}
 }
@@ -589,8 +617,7 @@ nodes.legend.addEventListener('mouseover', function (evt) {
 	if (label.nodeName === "LABEL") {
 		const input = label.querySelector('input');
 		if (input) {
-			const index = parseInt(input.name.replace('line-', ''));
-			const line = document.getElementsByClassName('ct-series ct-series-' + increaseChar('a', index)[0]);
+			const line = getLineFromCheckbox(input);
 			if (line.length) {
 				line[0].parentNode.classList.add('fade-out');
 				line[0].classList.add('line-active');
@@ -598,13 +625,13 @@ nodes.legend.addEventListener('mouseover', function (evt) {
 		}
 	}
 }, false);
+
 nodes.legend.addEventListener('mouseout', function (evt) {
 	const label = evt.target;
 	if (label.nodeName === "LABEL") {
 		const input = label.querySelector('input');
 		if (input) {
-			const index = parseInt(input.name.replace('line-', ''));
-			const line = document.getElementsByClassName('ct-series ct-series-' + increaseChar('a', index)[0]);
+			const line = getLineFromCheckbox(input);
 			if (line.length) {
 				line[0].parentNode.classList.remove('fade-out');
 				let previousActive = line[0].parentNode.querySelector('.line-active');
@@ -629,7 +656,6 @@ function applyUrlFilters() {
 			if (line.length) {
 				line[0].classList.add('hidden');
 			}
-
 		}
 	}
 	
@@ -653,11 +679,6 @@ function saveSelectionInLS() {
 		legend[legendUrls[i].className] = input.checked;
 	}
 
-	for (i = 0; i < legendUrls.length; i++) {
-		input = legendUrls[i].querySelector('input[type=checkbox]');
-		legend[legendUrls[i].className] = input.checked;
-	}
-
 	var groupNodes = nodes.legendGroups.querySelectorAll('input[type=checkbox]');
 	for (i = 0; i < groupNodes.length; i++) {
 		groups[groupNodes[i].name] = groupNodes[i].checked;
@@ -677,9 +698,9 @@ function saveSelectionInLS() {
 function loadSelectionFromLS() {
 	if (!localStorageAvailable) return;
 	var selection = localStorage.getItem('perf-dashboard-selection');
-	if (!selection) return;
 	var legendUrls = nodes.legend.childNodes;
 
+	if (!selection) return;
 	selection = JSON.parse(selection);
 
 	inputChange(nodes.daySelect, selection.daySelect);
@@ -694,10 +715,12 @@ function loadSelectionFromLS() {
 	}
 
 	var groupNodes = nodes.legendGroups.querySelectorAll('input[type=checkbox]');
-	for (var i = 0; i < groupNodes.length; i++) {
+	for (i = 0; i < groupNodes.length; i++) {
 		inputChange(groupNodes[i],selection.groups[groupNodes[i].name]);
+		applyGroupFilter(groupNodes[i]);
 	}
 }
+
 
 /*
  * Changes input/select value if different, and triggers 'change' event

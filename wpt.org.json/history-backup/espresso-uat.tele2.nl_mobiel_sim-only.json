@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2017-11-29",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171201_YC_60",
+    "domain": "https://espresso-uat.tele2.nl/mobiel/sim-only/",
+    "connectivity": "Native",
+    "date": 1511913600,
+    "firstView": {
+      "requests": 21,
+      "bytesIn": 525260.5,
+      "ttfb": 393,
+      "startRender": 2576.5,
+      "domReadyEvent": 607,
+      "loadEvent": 1349,
+      "totalTime": 1462,
+      "visuallyComplete": 2576.5,
+      "speedIndex": 2576.5
+    },
+    "repeatView": {
+      "requests": 6,
+      "bytesIn": 41122.5,
+      "ttfb": 230,
+      "startRender": 2477,
+      "domReadyEvent": 511,
+      "loadEvent": 662,
+      "totalTime": 677.5,
+      "visuallyComplete": 2477,
+      "speedIndex": 2576.5
+    }
+  },
+  {
+    "id": "2017-11-30",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171201_YC_60",
+    "domain": "https://espresso-uat.tele2.nl/mobiel/sim-only/",
+    "connectivity": "Native",
+    "date": 1512000000,
+    "firstView": {
+      "requests": 17,
+      "bytesIn": 337072,
+      "ttfb": 400,
+      "startRender": 44578,
+      "domReadyEvent": 42451,
+      "loadEvent": 63442,
+      "totalTime": 63561,
+      "visuallyComplete": 64274,
+      "speedIndex": 63396
+    },
+    "repeatView": {
+      "requests": 6,
+      "bytesIn": 41174,
+      "ttfb": 377,
+      "startRender": 44575,
+      "domReadyEvent": 42593,
+      "loadEvent": 63456,
+      "totalTime": 63510,
+      "visuallyComplete": 63976,
+      "speedIndex": 63396
+    }
+  },
+  {
+    "id": "2017-12-01",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171204_5Z_6V",
+    "domain": "https://espresso-uat.tele2.nl/mobiel/sim-only/",
+    "connectivity": "Native",
+    "date": 1512086400,
+    "firstView": {
+      "requests": 17,
+      "bytesIn": 336608.5,
+      "ttfb": 794.5,
+      "startRender": 45324,
+      "domReadyEvent": 42957,
+      "loadEvent": 63953,
+      "totalTime": 63998,
+      "visuallyComplete": 64123.5,
+      "speedIndex": 63307.5
+    },
+    "repeatView": {
+      "requests": 7.5,
+      "bytesIn": 42097.5,
+      "ttfb": 389,
+      "startRender": 44773.5,
+      "domReadyEvent": 42557,
+      "loadEvent": 63463.5,
+      "totalTime": 63533,
+      "visuallyComplete": 63925,
+      "speedIndex": 63307.5
+    }
+  },
+  {
+    "id": "2017-12-04",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171204_5Z_6V",
+    "domain": "https://espresso-uat.tele2.nl/mobiel/sim-only/",
+    "connectivity": "Native",
+    "date": 1512345600,
+    "firstView": {
+      "requests": 122,
+      "bytesIn": 1556046,
+      "ttfb": 800,
+      "startRender": 3335,
+      "domReadyEvent": 1524,
+      "loadEvent": 2673,
+      "totalTime": 2770,
+      "visuallyComplete": 4174,
+      "speedIndex": 3335
+    },
+    "repeatView": {
+      "requests": 15,
+      "bytesIn": 87628,
+      "ttfb": 255,
+      "startRender": 2775,
+      "domReadyEvent": 1175,
+      "loadEvent": 2055,
+      "totalTime": 2047,
+      "visuallyComplete": 2877,
+      "speedIndex": 3335
+    }
+  }
+]

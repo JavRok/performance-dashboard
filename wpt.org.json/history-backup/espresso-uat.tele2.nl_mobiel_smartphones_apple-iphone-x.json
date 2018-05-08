@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2017-11-29",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171201_42_62",
+    "domain": "https://espresso-uat.tele2.nl/mobiel/smartphones/apple-iphone-x/",
+    "connectivity": "Native",
+    "date": 1511913600,
+    "firstView": {
+      "requests": 21,
+      "bytesIn": 532182.5,
+      "ttfb": 411.5,
+      "startRender": 2579.5,
+      "domReadyEvent": 642.5,
+      "loadEvent": 1341.5,
+      "totalTime": 1463.5,
+      "visuallyComplete": 2579.5,
+      "speedIndex": 2579.5
+    },
+    "repeatView": {
+      "requests": 6,
+      "bytesIn": 48370.5,
+      "ttfb": 255.5,
+      "startRender": 2526.5,
+      "domReadyEvent": 544.5,
+      "loadEvent": 767,
+      "totalTime": 876.5,
+      "visuallyComplete": 2526.5,
+      "speedIndex": 2579.5
+    }
+  },
+  {
+    "id": "2017-11-30",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171201_42_62",
+    "domain": "https://espresso-uat.tele2.nl/mobiel/smartphones/apple-iphone-x/",
+    "connectivity": "Native",
+    "date": 1512000000,
+    "firstView": {
+      "requests": 17,
+      "bytesIn": 344511,
+      "ttfb": 405,
+      "startRender": 44777,
+      "domReadyEvent": 42467,
+      "loadEvent": 63502,
+      "totalTime": 63627,
+      "visuallyComplete": 64077,
+      "speedIndex": 63407
+    },
+    "repeatView": {
+      "requests": 6,
+      "bytesIn": 48518,
+      "ttfb": 364,
+      "startRender": 44874,
+      "domReadyEvent": 42596,
+      "loadEvent": 63468,
+      "totalTime": 63532,
+      "visuallyComplete": 64174,
+      "speedIndex": 63407
+    }
+  },
+  {
+    "id": "2017-12-01",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171204_8T_6W",
+    "domain": "https://espresso-uat.tele2.nl/mobiel/smartphones/apple-iphone-x/",
+    "connectivity": "Native",
+    "date": 1512086400,
+    "firstView": {
+      "requests": 17,
+      "bytesIn": 344138.5,
+      "ttfb": 1609.5,
+      "startRender": 45926.5,
+      "domReadyEvent": 43801.5,
+      "loadEvent": 64769,
+      "totalTime": 64784.5,
+      "visuallyComplete": 64074,
+      "speedIndex": 63596
+    },
+    "repeatView": {
+      "requests": 8,
+      "bytesIn": 49673,
+      "ttfb": 440.5,
+      "startRender": 44925.5,
+      "domReadyEvent": 42652.5,
+      "loadEvent": 63512,
+      "totalTime": 63652,
+      "visuallyComplete": 63973.5,
+      "speedIndex": 63596
+    }
+  },
+  {
+    "id": "2017-12-04",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171204_8T_6W",
+    "domain": "https://espresso-uat.tele2.nl/mobiel/smartphones/apple-iphone-x/",
+    "connectivity": "Native",
+    "date": 1512345600,
+    "firstView": {
+      "requests": 125,
+      "bytesIn": 1947673,
+      "ttfb": 427,
+      "startRender": 3075,
+      "domReadyEvent": 1616,
+      "loadEvent": 3110,
+      "totalTime": 4263,
+      "visuallyComplete": 4480,
+      "speedIndex": 3121
+    },
+    "repeatView": {
+      "requests": 18,
+      "bytesIn": 330996,
+      "ttfb": 258,
+      "startRender": 2875,
+      "domReadyEvent": 1318,
+      "loadEvent": 2318,
+      "totalTime": 2318,
+      "visuallyComplete": 3475,
+      "speedIndex": 3121
+    }
+  }
+]
