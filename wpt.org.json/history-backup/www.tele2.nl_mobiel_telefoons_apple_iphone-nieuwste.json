@@ -1,0 +1,238 @@
+[
+  {
+    "id": "",
+    "location": "WinEUCentral_wptdriver:Firefox",
+    "url": "http://52.28.134.156/results.php?test=170916_PB_4R",
+    "domain": "https://www.tele2.nl/mobiel/telefoons/apple/iphone-nieuwste/",
+    "connectivity": "Native",
+    "date": null,
+    "firstView": {
+      "requests": 0,
+      "ttfb": 0,
+      "startRender": 0,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 0,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 0,
+      "ttfb": 0,
+      "startRender": 0,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 0,
+      "visuallyComplete": 0
+    }
+  },
+  {
+    "id": "2017-09-14",
+    "location": "WinEUCentral_wptdriver:Firefox",
+    "url": "http://52.28.134.156/results.php?test=170915_A1_21",
+    "domain": "https://www.tele2.nl/mobiel/telefoons/apple/iphone-nieuwste/",
+    "connectivity": "Native",
+    "date": 1505347200,
+    "firstView": {
+      "requests": 76,
+      "bytesIn": 1427784,
+      "ttfb": 973,
+      "startRender": 3977,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 4081,
+      "visuallyComplete": 5011,
+      "speedIndex": 3990
+    },
+    "repeatView": {
+      "requests": 32,
+      "bytesIn": 151362,
+      "ttfb": 988,
+      "startRender": 3882,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 2386,
+      "visuallyComplete": 3882,
+      "speedIndex": 3990
+    }
+  },
+  {
+    "id": "2017-09-15",
+    "location": "WinEUCentral_wptdriver:Firefox",
+    "url": "http://52.28.134.156/results.php?test=170916_PB_4R",
+    "domain": "https://www.tele2.nl/mobiel/telefoons/apple/iphone-nieuwste/",
+    "connectivity": "Native",
+    "date": 1505433600,
+    "firstView": {
+      "requests": 77,
+      "bytesIn": 1532319,
+      "ttfb": 1409,
+      "startRender": 4182,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 4812,
+      "visuallyComplete": 5625,
+      "speedIndex": 4195
+    },
+    "repeatView": {
+      "requests": 33,
+      "bytesIn": 158694,
+      "ttfb": 1555,
+      "startRender": 4281,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 3027,
+      "visuallyComplete": 4281,
+      "speedIndex": 4195
+    }
+  },
+  {
+    "id": "2017-09-16",
+    "location": "WinEUCentral_wptdriver:Firefox",
+    "url": "http://52.28.134.156/results.php?test=170917_FX_54",
+    "domain": "https://www.tele2.nl/mobiel/telefoons/apple/iphone-nieuwste/",
+    "connectivity": "Native",
+    "date": 1505520000,
+    "firstView": {
+      "requests": 79,
+      "bytesIn": 1547878.5,
+      "ttfb": 1530,
+      "startRender": 4430.5,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 5070,
+      "visuallyComplete": 5840,
+      "speedIndex": 4441.5
+    },
+    "repeatView": {
+      "requests": 34.5,
+      "bytesIn": 153273.5,
+      "ttfb": 1472,
+      "startRender": 4089,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 2986,
+      "visuallyComplete": 4089,
+      "speedIndex": 4441.5
+    }
+  },
+  {
+    "id": "2017-09-17",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=170918_FK_7G",
+    "domain": "https://www.tele2.nl/mobiel/telefoons/apple/iphone-nieuwste/",
+    "connectivity": "Native",
+    "date": 1505606400,
+    "firstView": {
+      "requests": 80,
+      "bytesIn": 1554893.5,
+      "ttfb": 1450,
+      "startRender": 4273,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 4872.5,
+      "visuallyComplete": 5665.5,
+      "speedIndex": 4286.5
+    },
+    "repeatView": {
+      "requests": 37.5,
+      "bytesIn": 157852,
+      "ttfb": 1770.5,
+      "startRender": 4182,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 3278.5,
+      "visuallyComplete": 4182,
+      "speedIndex": 4286.5
+    }
+  },
+  {
+    "id": "",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=170919_PH_40",
+    "domain": "https://www.tele2.nl/mobiel/telefoons/apple/iphone-nieuwste/",
+    "connectivity": "Native",
+    "date": null,
+    "firstView": {
+      "requests": 0,
+      "bytesIn": null,
+      "ttfb": 0,
+      "startRender": 0,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 0,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 0,
+      "bytesIn": null,
+      "ttfb": 0,
+      "startRender": 0,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 0,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2017-09-17",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=170919_PH_40",
+    "domain": "https://www.tele2.nl/mobiel/telefoons/apple/iphone-nieuwste/",
+    "connectivity": "Native",
+    "date": 1505606400,
+    "firstView": {
+      "requests": 80,
+      "bytesIn": 1554893.5,
+      "ttfb": 1450,
+      "startRender": 4273,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 4872.5,
+      "visuallyComplete": 5665.5,
+      "speedIndex": 4286.5
+    },
+    "repeatView": {
+      "requests": 37.5,
+      "bytesIn": 157852,
+      "ttfb": 1770.5,
+      "startRender": 4182,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 3278.5,
+      "visuallyComplete": 4182,
+      "speedIndex": 4286.5
+    }
+  },
+  {
+    "id": "2017-09-18",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=170919_PH_40",
+    "domain": "https://www.tele2.nl/mobiel/telefoons/apple/iphone-nieuwste/",
+    "connectivity": "Native",
+    "date": 1505692800,
+    "firstView": {
+      "requests": 78.5,
+      "bytesIn": 1555732.5,
+      "ttfb": 1465.5,
+      "startRender": 4086,
+      "domReadyEvent": 1109,
+      "loadEvent": 1523,
+      "totalTime": 4593,
+      "visuallyComplete": 5379.5,
+      "speedIndex": 4298
+    },
+    "repeatView": {
+      "requests": 33,
+      "bytesIn": 159071,
+      "ttfb": 1472,
+      "startRender": 3928.5,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 2997.5,
+      "visuallyComplete": 3928.5,
+      "speedIndex": 4298
+    }
+  }
+]

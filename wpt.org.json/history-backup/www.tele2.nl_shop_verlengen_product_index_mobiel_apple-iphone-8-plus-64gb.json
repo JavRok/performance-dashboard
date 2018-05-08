@@ -1,0 +1,2008 @@
+[
+  {
+    "id": "2017-10-04",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171005_8M_7T",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1507075200,
+    "firstView": {
+      "requests": 94.5,
+      "bytesIn": 2926705.5,
+      "ttfb": 4062.5,
+      "startRender": 6527.5,
+      "domReadyEvent": 5315.5,
+      "loadEvent": 6517,
+      "totalTime": 6582.5,
+      "visuallyComplete": 6777,
+      "speedIndex": 6532
+    },
+    "repeatView": {
+      "requests": 67,
+      "bytesIn": 590229.5,
+      "ttfb": 4193,
+      "startRender": 6528,
+      "domReadyEvent": 5367.5,
+      "loadEvent": 6190,
+      "totalTime": 6187.5,
+      "visuallyComplete": 6578,
+      "speedIndex": 6532
+    }
+  },
+  {
+    "id": "2017-10-05",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171006_QP_8F",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1507161600,
+    "firstView": {
+      "requests": 95,
+      "bytesIn": 2930992,
+      "ttfb": 5910.5,
+      "startRender": 27278,
+      "domReadyEvent": 42576,
+      "loadEvent": 57616,
+      "totalTime": 58063,
+      "visuallyComplete": 60344,
+      "speedIndex": 32140
+    },
+    "repeatView": {
+      "requests": 78,
+      "bytesIn": 587623.5,
+      "ttfb": 5837,
+      "startRender": 25191,
+      "domReadyEvent": 36544.5,
+      "loadEvent": 52437.5,
+      "totalTime": 52789.5,
+      "visuallyComplete": 54222.5,
+      "speedIndex": 32140
+    }
+  },
+  {
+    "id": "2017-10-06",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171007_8D_7X",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1507248000,
+    "firstView": {
+      "requests": 95,
+      "bytesIn": 2932248,
+      "ttfb": 5670,
+      "startRender": 27415.5,
+      "domReadyEvent": 44215,
+      "loadEvent": 58219.5,
+      "totalTime": 58919,
+      "visuallyComplete": 61109.5,
+      "speedIndex": 33404.5
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 588477,
+      "ttfb": 6107.5,
+      "startRender": 25890.5,
+      "domReadyEvent": 35640,
+      "loadEvent": 53714,
+      "totalTime": 54654,
+      "visuallyComplete": 55892.5,
+      "speedIndex": 33404.5
+    }
+  },
+  {
+    "id": "2017-10-07",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171008_56_88",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1507334400,
+    "firstView": {
+      "requests": 95,
+      "bytesIn": 2932613,
+      "ttfb": 5646,
+      "startRender": 27478,
+      "domReadyEvent": 42317,
+      "loadEvent": 57267,
+      "totalTime": 57760,
+      "visuallyComplete": 59247,
+      "speedIndex": 32718
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 598009,
+      "ttfb": 5782,
+      "startRender": 25146,
+      "domReadyEvent": 38770,
+      "loadEvent": 53809,
+      "totalTime": 54490,
+      "visuallyComplete": 55834,
+      "speedIndex": 32718
+    }
+  },
+  {
+    "id": "2017-10-08",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171013_6K_5B",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1507420800,
+    "firstView": {
+      "requests": 95,
+      "bytesIn": 2932547,
+      "ttfb": 5739,
+      "startRender": 27913,
+      "domReadyEvent": 44353,
+      "loadEvent": 58131,
+      "totalTime": 58500,
+      "visuallyComplete": 60716,
+      "speedIndex": 33810
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 582972,
+      "ttfb": 5825,
+      "startRender": 25264,
+      "domReadyEvent": 38973,
+      "loadEvent": 53609,
+      "totalTime": 54291,
+      "visuallyComplete": 55743,
+      "speedIndex": 33810
+    }
+  },
+  {
+    "id": "2017-10-09",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171013_6K_5B",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1507507200,
+    "firstView": {
+      "requests": 95,
+      "bytesIn": 2918643,
+      "ttfb": 6291,
+      "startRender": 30144,
+      "domReadyEvent": 46790,
+      "loadEvent": 60209,
+      "totalTime": 60694,
+      "visuallyComplete": 62821,
+      "speedIndex": 36894
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 582619,
+      "ttfb": 6215,
+      "startRender": 27286,
+      "domReadyEvent": 42068,
+      "loadEvent": 55438,
+      "totalTime": 56399,
+      "visuallyComplete": 57058,
+      "speedIndex": 36894
+    }
+  },
+  {
+    "id": "2017-10-12",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171013_6K_5B",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1507766400,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2927684,
+      "ttfb": 4137,
+      "startRender": 6677,
+      "domReadyEvent": 5485,
+      "loadEvent": 6606,
+      "totalTime": 6709,
+      "visuallyComplete": 6877,
+      "speedIndex": 6678
+    },
+    "repeatView": {
+      "requests": 82,
+      "bytesIn": 597725,
+      "ttfb": 3957,
+      "startRender": 6378,
+      "domReadyEvent": 5078,
+      "loadEvent": 6057,
+      "totalTime": 6111,
+      "visuallyComplete": 6378,
+      "speedIndex": 6678
+    }
+  },
+  {
+    "id": "2017-10-13",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171117_EH_9Z",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1507852800,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2927646.5,
+      "ttfb": 5658.5,
+      "startRender": 27260.5,
+      "domReadyEvent": 42842.5,
+      "loadEvent": 56341,
+      "totalTime": 56808,
+      "visuallyComplete": 59347.5,
+      "speedIndex": 33213.5
+    },
+    "repeatView": {
+      "requests": 82,
+      "bytesIn": 590839.5,
+      "ttfb": 5609.5,
+      "startRender": 24615.5,
+      "domReadyEvent": 33206,
+      "loadEvent": 48735,
+      "totalTime": 49991,
+      "visuallyComplete": 51279.5,
+      "speedIndex": 33213.5
+    }
+  },
+  {
+    "id": "2017-11-16",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171117_EH_9Z",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1510790400,
+    "firstView": {
+      "requests": 95,
+      "bytesIn": 2941350,
+      "ttfb": 4532,
+      "startRender": 6976,
+      "domReadyEvent": 5749,
+      "loadEvent": 6750,
+      "totalTime": 6763,
+      "visuallyComplete": 7276,
+      "speedIndex": 6979
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 603250,
+      "ttfb": 4616,
+      "startRender": 6978,
+      "domReadyEvent": 5681,
+      "loadEvent": 6513,
+      "totalTime": 6520,
+      "visuallyComplete": 6978,
+      "speedIndex": 6979
+    }
+  },
+  {
+    "id": "2017-11-17",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171118_B6_9G",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1510876800,
+    "firstView": {
+      "requests": 95,
+      "bytesIn": 2940744,
+      "ttfb": 4320.5,
+      "startRender": 6826,
+      "domReadyEvent": 5550,
+      "loadEvent": 6732.5,
+      "totalTime": 6796,
+      "visuallyComplete": 7030,
+      "speedIndex": 6829
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 602991.5,
+      "ttfb": 4240,
+      "startRender": 6576.5,
+      "domReadyEvent": 5279.5,
+      "loadEvent": 6051.5,
+      "totalTime": 6081.5,
+      "visuallyComplete": 6627.5,
+      "speedIndex": 6829
+    }
+  },
+  {
+    "id": "2017-11-18",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171119_RH_9R",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1510963200,
+    "firstView": {
+      "requests": 95,
+      "bytesIn": 2941451.5,
+      "ttfb": 4071.5,
+      "startRender": 6526,
+      "domReadyEvent": 5309.5,
+      "loadEvent": 6435,
+      "totalTime": 6530,
+      "visuallyComplete": 6777,
+      "speedIndex": 6529
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 603085,
+      "ttfb": 3946,
+      "startRender": 6377,
+      "domReadyEvent": 5055,
+      "loadEvent": 5932,
+      "totalTime": 5935,
+      "visuallyComplete": 6427,
+      "speedIndex": 6529
+    }
+  },
+  {
+    "id": "2017-11-19",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171120_X5_9Y",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1511049600,
+    "firstView": {
+      "requests": 95,
+      "bytesIn": 2940630,
+      "ttfb": 4061,
+      "startRender": 6526,
+      "domReadyEvent": 5307.5,
+      "loadEvent": 6529,
+      "totalTime": 6741.5,
+      "visuallyComplete": 6876,
+      "speedIndex": 6532.5
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 602918.5,
+      "ttfb": 4010,
+      "startRender": 6426.5,
+      "domReadyEvent": 5193,
+      "loadEvent": 5917.5,
+      "totalTime": 5923,
+      "visuallyComplete": 6477,
+      "speedIndex": 6532.5
+    }
+  },
+  {
+    "id": "2017-11-20",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171122_PF_9T",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1511136000,
+    "firstView": {
+      "requests": 95,
+      "bytesIn": 2940667,
+      "ttfb": 4492.5,
+      "startRender": 6976,
+      "domReadyEvent": 5709,
+      "loadEvent": 6921.5,
+      "totalTime": 7056,
+      "visuallyComplete": 7227.5,
+      "speedIndex": 6981
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 602828,
+      "ttfb": 4361,
+      "startRender": 6778.5,
+      "domReadyEvent": 5440,
+      "loadEvent": 6305,
+      "totalTime": 6307.5,
+      "visuallyComplete": 6780,
+      "speedIndex": 6981
+    }
+  },
+  {
+    "id": "2017-11-21",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171122_PF_9T",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1511222400,
+    "firstView": {
+      "requests": 95,
+      "bytesIn": 2941992,
+      "ttfb": 4943,
+      "startRender": 7425,
+      "domReadyEvent": 6381.5,
+      "loadEvent": 7532,
+      "totalTime": 7624.5,
+      "visuallyComplete": 7924,
+      "speedIndex": 7430
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 602980,
+      "ttfb": 4767,
+      "startRender": 7183.5,
+      "domReadyEvent": 5900.5,
+      "loadEvent": 6740,
+      "totalTime": 6742,
+      "visuallyComplete": 7183.5,
+      "speedIndex": 7430
+    }
+  },
+  {
+    "id": "2017-11-22",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171124_F2_8A",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1511308800,
+    "firstView": {
+      "requests": 95,
+      "bytesIn": 2943206,
+      "ttfb": 5772,
+      "startRender": 29598,
+      "domReadyEvent": 41461.5,
+      "loadEvent": 55725.5,
+      "totalTime": 56599,
+      "visuallyComplete": 58914.5,
+      "speedIndex": 30733
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 602670.5,
+      "ttfb": 5800.5,
+      "startRender": 25190,
+      "domReadyEvent": 33108.5,
+      "loadEvent": 45844.5,
+      "totalTime": 46261,
+      "visuallyComplete": 49419,
+      "speedIndex": 30733
+    }
+  },
+  {
+    "id": "2017-11-23",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171124_F2_8A",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1511395200,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2943476,
+      "ttfb": 5370.5,
+      "startRender": 17395,
+      "domReadyEvent": 21746,
+      "loadEvent": 27325,
+      "totalTime": 27571,
+      "visuallyComplete": 29665,
+      "speedIndex": 17983.5
+    },
+    "repeatView": {
+      "requests": 43,
+      "bytesIn": 586864.5,
+      "ttfb": 5033,
+      "startRender": 22680.5,
+      "domReadyEvent": 29517.5,
+      "loadEvent": 34881,
+      "totalTime": 35269.5,
+      "visuallyComplete": 29314,
+      "speedIndex": 17983.5
+    }
+  },
+  {
+    "id": "2017-11-24",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171128_3N_AK",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1511481600,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2933633,
+      "ttfb": 4157,
+      "startRender": 6676,
+      "domReadyEvent": 5387,
+      "loadEvent": 6253,
+      "totalTime": 6271,
+      "visuallyComplete": 6826.5,
+      "speedIndex": 6679
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 606858,
+      "ttfb": 4307.5,
+      "startRender": 6681,
+      "domReadyEvent": 5441,
+      "loadEvent": 6206,
+      "totalTime": 6214.5,
+      "visuallyComplete": 6877.5,
+      "speedIndex": 6679
+    }
+  },
+  {
+    "id": "2017-11-27",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171128_3N_AK",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1511740800,
+    "firstView": {
+      "requests": 93,
+      "bytesIn": 2933439,
+      "ttfb": 4338,
+      "startRender": 6776,
+      "domReadyEvent": 5573,
+      "loadEvent": 6628,
+      "totalTime": 6635,
+      "visuallyComplete": 6976,
+      "speedIndex": 6782
+    },
+    "repeatView": {
+      "requests": 43,
+      "bytesIn": 587323,
+      "ttfb": 4660,
+      "startRender": 7077,
+      "domReadyEvent": 5685,
+      "loadEvent": 6484,
+      "totalTime": 6506,
+      "visuallyComplete": 7077,
+      "speedIndex": 6782
+    }
+  },
+  {
+    "id": "2017-11-28",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171201_M9_5M",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1511827200,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2934335.5,
+      "ttfb": 4296.5,
+      "startRender": 6874,
+      "domReadyEvent": 5587,
+      "loadEvent": 6540.5,
+      "totalTime": 6583.5,
+      "visuallyComplete": 7077,
+      "speedIndex": 6876.5
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 607300,
+      "ttfb": 4351,
+      "startRender": 6729,
+      "domReadyEvent": 5493.5,
+      "loadEvent": 6173,
+      "totalTime": 6225.5,
+      "visuallyComplete": 6777,
+      "speedIndex": 6876.5
+    }
+  },
+  {
+    "id": "2017-11-29",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171201_M9_5M",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1511913600,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2935087.5,
+      "ttfb": 4783,
+      "startRender": 7330.5,
+      "domReadyEvent": 6164.5,
+      "loadEvent": 6966.5,
+      "totalTime": 7005.5,
+      "visuallyComplete": 7575.5,
+      "speedIndex": 7335
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 607110.5,
+      "ttfb": 4746.5,
+      "startRender": 7227,
+      "domReadyEvent": 5832.5,
+      "loadEvent": 6658.5,
+      "totalTime": 6697,
+      "visuallyComplete": 7277,
+      "speedIndex": 7335
+    }
+  },
+  {
+    "id": "2017-11-30",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171201_M9_5M",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1512000000,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2933943,
+      "ttfb": 4321.5,
+      "startRender": 6875,
+      "domReadyEvent": 5622.5,
+      "loadEvent": 6485.5,
+      "totalTime": 6647,
+      "visuallyComplete": 7124.5,
+      "speedIndex": 6879
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 607228,
+      "ttfb": 4348,
+      "startRender": 6776.5,
+      "domReadyEvent": 5531,
+      "loadEvent": 6361.5,
+      "totalTime": 6360.5,
+      "visuallyComplete": 7024,
+      "speedIndex": 6879
+    }
+  },
+  {
+    "id": "2017-12-01",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171206_1V_AG",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1512086400,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2933260,
+      "ttfb": 4188,
+      "startRender": 7073,
+      "domReadyEvent": 5814,
+      "loadEvent": 6727,
+      "totalTime": 6728,
+      "visuallyComplete": 7373,
+      "speedIndex": 7079
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 606773,
+      "ttfb": 4283,
+      "startRender": 6774,
+      "domReadyEvent": 5443,
+      "loadEvent": 6232,
+      "totalTime": 6242,
+      "visuallyComplete": 6878,
+      "speedIndex": 7079
+    }
+  },
+  {
+    "id": "2017-12-04",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171206_1V_AG",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1512345600,
+    "firstView": {
+      "requests": 93.5,
+      "bytesIn": 2934033.5,
+      "ttfb": 4637.5,
+      "startRender": 7177.5,
+      "domReadyEvent": 5896.5,
+      "loadEvent": 6772,
+      "totalTime": 6773.5,
+      "visuallyComplete": 7424.5,
+      "speedIndex": 7180.5
+    },
+    "repeatView": {
+      "requests": 55,
+      "bytesIn": 593427.5,
+      "ttfb": 4100,
+      "startRender": 6528.5,
+      "domReadyEvent": 5259.5,
+      "loadEvent": 6090.5,
+      "totalTime": 6091,
+      "visuallyComplete": 6675,
+      "speedIndex": 7180.5
+    }
+  },
+  {
+    "id": "2017-12-05",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171206_1V_AG",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1512432000,
+    "firstView": {
+      "requests": 93,
+      "bytesIn": 2934707,
+      "ttfb": 4270,
+      "startRender": 6676,
+      "domReadyEvent": 5711,
+      "loadEvent": 6736,
+      "totalTime": 6744,
+      "visuallyComplete": 7376,
+      "speedIndex": 6680
+    },
+    "repeatView": {
+      "requests": 43,
+      "bytesIn": 587617,
+      "ttfb": 4471,
+      "startRender": 6877,
+      "domReadyEvent": 5517,
+      "loadEvent": 6313,
+      "totalTime": 6317,
+      "visuallyComplete": 6877,
+      "speedIndex": 6680
+    }
+  },
+  {
+    "id": "2017-12-06",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171207_H7_CP",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1512518400,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2935295,
+      "ttfb": 4066,
+      "startRender": 6678,
+      "domReadyEvent": 5390,
+      "loadEvent": 6505,
+      "totalTime": 6670,
+      "visuallyComplete": 7076,
+      "speedIndex": 6683
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 607198,
+      "ttfb": 4351,
+      "startRender": 6677,
+      "domReadyEvent": 5478,
+      "loadEvent": 6291,
+      "totalTime": 6297,
+      "visuallyComplete": 6977,
+      "speedIndex": 6683
+    }
+  },
+  {
+    "id": "2017-12-07",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171209_C5_7P",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1512604800,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2934433.5,
+      "ttfb": 4079.5,
+      "startRender": 6577.5,
+      "domReadyEvent": 5235.5,
+      "loadEvent": 6330,
+      "totalTime": 6349.5,
+      "visuallyComplete": 6727.5,
+      "speedIndex": 6578
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 607222,
+      "ttfb": 4103.5,
+      "startRender": 6479,
+      "domReadyEvent": 5094,
+      "loadEvent": 6010.5,
+      "totalTime": 6024.5,
+      "visuallyComplete": 6479,
+      "speedIndex": 6578
+    }
+  },
+  {
+    "id": "2017-12-08",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171209_C5_7P",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1512691200,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2934468,
+      "ttfb": 4160,
+      "startRender": 6580,
+      "domReadyEvent": 5328,
+      "loadEvent": 6501,
+      "totalTime": 6574,
+      "visuallyComplete": 6878,
+      "speedIndex": 6584
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 607416,
+      "ttfb": 4088,
+      "startRender": 6479,
+      "domReadyEvent": 5200,
+      "loadEvent": 6053,
+      "totalTime": 6087,
+      "visuallyComplete": 6479,
+      "speedIndex": 6584
+    }
+  },
+  {
+    "id": "2017-12-09",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171210_42_7C",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1512777600,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2935036,
+      "ttfb": 4081.5,
+      "startRender": 6478,
+      "domReadyEvent": 5352.5,
+      "loadEvent": 6385.5,
+      "totalTime": 6404.5,
+      "visuallyComplete": 6777.5,
+      "speedIndex": 6482
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 607413.5,
+      "ttfb": 3955.5,
+      "startRender": 6279,
+      "domReadyEvent": 4986.5,
+      "loadEvent": 5907,
+      "totalTime": 5933.5,
+      "visuallyComplete": 6327.5,
+      "speedIndex": 6482
+    }
+  },
+  {
+    "id": "2017-12-10",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171211_NF_78",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1512864000,
+    "firstView": {
+      "requests": 63,
+      "bytesIn": 2156665.5,
+      "ttfb": 4045.5,
+      "startRender": 0,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 111045,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 0,
+      "bytesIn": null,
+      "ttfb": 0,
+      "startRender": 0,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 0,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2017-12-11",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171212_25_7N",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1512950400,
+    "firstView": {
+      "requests": 93,
+      "bytesIn": 2933278,
+      "ttfb": 4077,
+      "startRender": 6381.5,
+      "domReadyEvent": 5153.5,
+      "loadEvent": 6259.5,
+      "totalTime": 6862,
+      "visuallyComplete": 6628.5,
+      "speedIndex": 6383.5
+    },
+    "repeatView": {
+      "requests": 24,
+      "bytesIn": null,
+      "ttfb": 3950.5,
+      "startRender": 6279,
+      "domReadyEvent": 4953,
+      "loadEvent": 5847.5,
+      "totalTime": 5865,
+      "visuallyComplete": 6378.5,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2017-12-12",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171213_ND_7X",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1513036800,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2933968.5,
+      "ttfb": 4036.5,
+      "startRender": 6378.5,
+      "domReadyEvent": 5184,
+      "loadEvent": 6304,
+      "totalTime": 6325,
+      "visuallyComplete": 6678,
+      "speedIndex": 6382.5
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 607154,
+      "ttfb": 4145.5,
+      "startRender": 6430,
+      "domReadyEvent": 5282.5,
+      "loadEvent": 6101.5,
+      "totalTime": 6150,
+      "visuallyComplete": 6579,
+      "speedIndex": 6382.5
+    }
+  },
+  {
+    "id": "2017-12-13",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171214_N5_7G",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1513123200,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2935099,
+      "ttfb": 4256,
+      "startRender": 6680,
+      "domReadyEvent": 5505.5,
+      "loadEvent": 6669.5,
+      "totalTime": 6675.5,
+      "visuallyComplete": 6979,
+      "speedIndex": 6684.5
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 607328.5,
+      "ttfb": 4066.5,
+      "startRender": 6378.5,
+      "domReadyEvent": 5042,
+      "loadEvent": 6102.5,
+      "totalTime": 6138,
+      "visuallyComplete": 6479,
+      "speedIndex": 6684.5
+    }
+  },
+  {
+    "id": "2017-12-14",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171215_T5_7M",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1513209600,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2567553,
+      "ttfb": 4318,
+      "startRender": 6677.5,
+      "domReadyEvent": 5573,
+      "loadEvent": 6688.5,
+      "totalTime": 6791.5,
+      "visuallyComplete": 7077.5,
+      "speedIndex": 6686
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 124161,
+      "ttfb": 4007.5,
+      "startRender": 6279.5,
+      "domReadyEvent": 4962.5,
+      "loadEvent": 5909.5,
+      "totalTime": 5942.5,
+      "visuallyComplete": 6379,
+      "speedIndex": 6686
+    }
+  },
+  {
+    "id": "2017-12-15",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171219_P8_6J",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1513296000,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2567418,
+      "ttfb": 4202,
+      "startRender": 6528.5,
+      "domReadyEvent": 5403,
+      "loadEvent": 6454,
+      "totalTime": 6482,
+      "visuallyComplete": 6828,
+      "speedIndex": 6532
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 124068.5,
+      "ttfb": 4112.5,
+      "startRender": 6479,
+      "domReadyEvent": 5091,
+      "loadEvent": 5981,
+      "totalTime": 6012,
+      "visuallyComplete": 6479,
+      "speedIndex": 6532
+    }
+  },
+  {
+    "id": "2017-12-18",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171219_P8_6J",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1513555200,
+    "firstView": {
+      "requests": 91,
+      "bytesIn": 2567204,
+      "ttfb": 4450,
+      "startRender": 6778,
+      "domReadyEvent": 5636,
+      "loadEvent": 6574,
+      "totalTime": 6664,
+      "visuallyComplete": 6977,
+      "speedIndex": 6781
+    },
+    "repeatView": {
+      "requests": 10,
+      "bytesIn": 90728,
+      "ttfb": 4094,
+      "startRender": 6382,
+      "domReadyEvent": 4942,
+      "loadEvent": 5880,
+      "totalTime": 5882,
+      "visuallyComplete": 6478,
+      "speedIndex": 6781
+    }
+  },
+  {
+    "id": "2017-12-19",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180126_SM_6N",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1513641600,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2569783.5,
+      "ttfb": 4141.5,
+      "startRender": 6478.5,
+      "domReadyEvent": 5366.5,
+      "loadEvent": 6460.5,
+      "totalTime": 6511,
+      "visuallyComplete": 6778,
+      "speedIndex": 6481.5
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 124062,
+      "ttfb": 4027,
+      "startRender": 6429,
+      "domReadyEvent": 5342,
+      "loadEvent": 6128.5,
+      "totalTime": 6160.5,
+      "visuallyComplete": 6578,
+      "speedIndex": 6481.5
+    }
+  },
+  {
+    "id": "2017-12-20",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180126_SM_6N",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1513728000,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2583597,
+      "ttfb": 3940,
+      "startRender": 6279,
+      "domReadyEvent": 5273,
+      "loadEvent": 6266,
+      "totalTime": 6299,
+      "visuallyComplete": 6577,
+      "speedIndex": 6283
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 121814,
+      "ttfb": 3977,
+      "startRender": 6279,
+      "domReadyEvent": 5091,
+      "loadEvent": 5940,
+      "totalTime": 5964,
+      "visuallyComplete": 6379,
+      "speedIndex": 6283
+    }
+  },
+  {
+    "id": "2018-01-25",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180126_SM_6N",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1516838400,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2582514,
+      "ttfb": 4275,
+      "startRender": 6405,
+      "domReadyEvent": 5471,
+      "loadEvent": 6469,
+      "totalTime": 6290,
+      "visuallyComplete": 6598,
+      "speedIndex": 6405
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 123086,
+      "ttfb": 4677,
+      "startRender": 7033,
+      "domReadyEvent": 5632,
+      "loadEvent": 6592,
+      "totalTime": 6618,
+      "visuallyComplete": 7176,
+      "speedIndex": 6405
+    }
+  },
+  {
+    "id": "2018-01-26",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180206_64_9H",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1516924800,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2582638,
+      "ttfb": 4192,
+      "startRender": 6466,
+      "domReadyEvent": 5336,
+      "loadEvent": 6430,
+      "totalTime": 6257,
+      "visuallyComplete": 6663,
+      "speedIndex": 6467
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 123326,
+      "ttfb": 4263,
+      "startRender": 6417,
+      "domReadyEvent": 5228,
+      "loadEvent": 6153,
+      "totalTime": 6021,
+      "visuallyComplete": 6451,
+      "speedIndex": 6467
+    }
+  },
+  {
+    "id": "2018-02-05",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180206_64_9H",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1517788800,
+    "firstView": {
+      "requests": 91,
+      "bytesIn": 2582940,
+      "ttfb": 4505,
+      "startRender": 6595,
+      "domReadyEvent": 5519,
+      "loadEvent": 6526,
+      "totalTime": 6383,
+      "visuallyComplete": 6795,
+      "speedIndex": 6599
+    },
+    "repeatView": {
+      "requests": 32,
+      "bytesIn": 100166,
+      "ttfb": 4480,
+      "startRender": 6649,
+      "domReadyEvent": 5641,
+      "loadEvent": 6511,
+      "totalTime": 6165,
+      "visuallyComplete": 6649,
+      "speedIndex": 6599
+    }
+  },
+  {
+    "id": "2018-02-06",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180213_FE_AE",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1517875200,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2583481.5,
+      "ttfb": 4707.5,
+      "startRender": 6998.5,
+      "domReadyEvent": 6001,
+      "loadEvent": 7089.5,
+      "totalTime": 6894,
+      "visuallyComplete": 7272.5,
+      "speedIndex": 7006
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 123242.5,
+      "ttfb": 4724.5,
+      "startRender": 7085.5,
+      "domReadyEvent": 5891,
+      "loadEvent": 6732.5,
+      "totalTime": 6689.5,
+      "visuallyComplete": 7197,
+      "speedIndex": 7006
+    }
+  },
+  {
+    "id": "2018-02-07",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180213_FE_AE",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1517961600,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2584289,
+      "ttfb": 4645,
+      "startRender": 6787,
+      "domReadyEvent": 5690,
+      "loadEvent": 6685,
+      "totalTime": 6637,
+      "visuallyComplete": 7075,
+      "speedIndex": 6797
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 123226,
+      "ttfb": 4579,
+      "startRender": 6976,
+      "domReadyEvent": 5587,
+      "loadEvent": 6357,
+      "totalTime": 6363,
+      "visuallyComplete": 6976,
+      "speedIndex": 6797
+    }
+  },
+  {
+    "id": "2018-02-12",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180213_FE_AE",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1518393600,
+    "firstView": {
+      "requests": 91,
+      "bytesIn": 2584028.5,
+      "ttfb": 4713.5,
+      "startRender": 6904,
+      "domReadyEvent": 6052.5,
+      "loadEvent": 6985.5,
+      "totalTime": 6859.5,
+      "visuallyComplete": 7145,
+      "speedIndex": 6912
+    },
+    "repeatView": {
+      "requests": 32,
+      "bytesIn": 99878,
+      "ttfb": 4377.5,
+      "startRender": 6618.5,
+      "domReadyEvent": 5368.5,
+      "loadEvent": 6270,
+      "totalTime": 6084.5,
+      "visuallyComplete": 6618.5,
+      "speedIndex": 6912
+    }
+  },
+  {
+    "id": "2018-02-13",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180214_EJ_A7",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1518480000,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2586006,
+      "ttfb": 4404.5,
+      "startRender": 6558,
+      "domReadyEvent": 5784.5,
+      "loadEvent": 6801.5,
+      "totalTime": 6603,
+      "visuallyComplete": 7054.5,
+      "speedIndex": 6569
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 123221,
+      "ttfb": 4658,
+      "startRender": 6858,
+      "domReadyEvent": 5617,
+      "loadEvent": 6474.5,
+      "totalTime": 6359.5,
+      "visuallyComplete": 6875.5,
+      "speedIndex": 6569
+    }
+  },
+  {
+    "id": "2018-02-14",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180215_GQ_AF",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1518566400,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2585362.5,
+      "ttfb": 4179.5,
+      "startRender": 6553.5,
+      "domReadyEvent": 5805,
+      "loadEvent": 6853,
+      "totalTime": 6763.5,
+      "visuallyComplete": 7080,
+      "speedIndex": 6566
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 122551,
+      "ttfb": 4473.5,
+      "startRender": 6673,
+      "domReadyEvent": 5589.5,
+      "loadEvent": 6540,
+      "totalTime": 6458,
+      "visuallyComplete": 6870,
+      "speedIndex": 6566
+    }
+  },
+  {
+    "id": "2018-02-15",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180219_CR_EN",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1518652800,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2585314,
+      "ttfb": 4356.5,
+      "startRender": 6548,
+      "domReadyEvent": 5491.5,
+      "loadEvent": 6588,
+      "totalTime": 6522,
+      "visuallyComplete": 6774.5,
+      "speedIndex": 6551
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 123379.5,
+      "ttfb": 4296.5,
+      "startRender": 6654,
+      "domReadyEvent": 5441.5,
+      "loadEvent": 6311.5,
+      "totalTime": 6274,
+      "visuallyComplete": 6665.5,
+      "speedIndex": 6551
+    }
+  },
+  {
+    "id": "2018-02-16",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180219_CR_EN",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1518739200,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2586050,
+      "ttfb": 4428,
+      "startRender": 6591,
+      "domReadyEvent": 5483,
+      "loadEvent": 6477,
+      "totalTime": 6289,
+      "visuallyComplete": 6689,
+      "speedIndex": 6591
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 123488,
+      "ttfb": 4280,
+      "startRender": 6438,
+      "domReadyEvent": 5467,
+      "loadEvent": 6386,
+      "totalTime": 6231,
+      "visuallyComplete": 6633,
+      "speedIndex": 6591
+    }
+  },
+  {
+    "id": "2018-02-18",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180219_CR_EN",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1518912000,
+    "firstView": {
+      "requests": 91,
+      "bytesIn": 2584055,
+      "ttfb": 4336,
+      "startRender": 6597,
+      "domReadyEvent": 5487.5,
+      "loadEvent": 6457,
+      "totalTime": 6375.5,
+      "visuallyComplete": 6746.5,
+      "speedIndex": 6598.5
+    },
+    "repeatView": {
+      "requests": 32,
+      "bytesIn": 100099,
+      "ttfb": 4805.5,
+      "startRender": 7045,
+      "domReadyEvent": 5840.5,
+      "loadEvent": 6681,
+      "totalTime": 6486,
+      "visuallyComplete": 7045,
+      "speedIndex": 6598.5
+    }
+  },
+  {
+    "id": "2018-02-19",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180220_M0_ER",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1518998400,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2584559.5,
+      "ttfb": 4484,
+      "startRender": 6666.5,
+      "domReadyEvent": 5749.5,
+      "loadEvent": 6727,
+      "totalTime": 6569.5,
+      "visuallyComplete": 7000,
+      "speedIndex": 6668
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 123376.5,
+      "ttfb": 4684.5,
+      "startRender": 7147,
+      "domReadyEvent": 6199.5,
+      "loadEvent": 7029.5,
+      "totalTime": 6873.5,
+      "visuallyComplete": 7322.5,
+      "speedIndex": 6668
+    }
+  },
+  {
+    "id": "2018-02-20",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180221_FR_F0",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1519084800,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2585231,
+      "ttfb": 4668,
+      "startRender": 6857.5,
+      "domReadyEvent": 5933.5,
+      "loadEvent": 6930,
+      "totalTime": 6749.5,
+      "visuallyComplete": 7129,
+      "speedIndex": 6861
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 123321.5,
+      "ttfb": 4681.5,
+      "startRender": 7011,
+      "domReadyEvent": 5824.5,
+      "loadEvent": 6742.5,
+      "totalTime": 6757.5,
+      "visuallyComplete": 7132,
+      "speedIndex": 6861
+    }
+  },
+  {
+    "id": "2018-02-21",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180222_2D_EZ",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1519171200,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2585529.5,
+      "ttfb": 4456.5,
+      "startRender": 6697.5,
+      "domReadyEvent": 5903.5,
+      "loadEvent": 7209,
+      "totalTime": 7092,
+      "visuallyComplete": 7444,
+      "speedIndex": 6708.5
+    },
+    "repeatView": {
+      "requests": 62,
+      "bytesIn": 114875,
+      "ttfb": 4497,
+      "startRender": 6792.5,
+      "domReadyEvent": 5494,
+      "loadEvent": 6377.5,
+      "totalTime": 6400.5,
+      "visuallyComplete": 6964,
+      "speedIndex": 6708.5
+    }
+  },
+  {
+    "id": "2018-02-22",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180223_96_EV",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1519257600,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2584168.5,
+      "ttfb": 4462,
+      "startRender": 6777,
+      "domReadyEvent": 5632,
+      "loadEvent": 7152.5,
+      "totalTime": 7186.5,
+      "visuallyComplete": 7475,
+      "speedIndex": 6788.5
+    },
+    "repeatView": {
+      "requests": 55.5,
+      "bytesIn": 110515,
+      "ttfb": 4296.5,
+      "startRender": 6626.5,
+      "domReadyEvent": 5313,
+      "loadEvent": 6534,
+      "totalTime": 6526.5,
+      "visuallyComplete": 6895,
+      "speedIndex": 6788.5
+    }
+  },
+  {
+    "id": "2018-02-23",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180224_PJ_EN",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1519344000,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2584512,
+      "ttfb": 4866,
+      "startRender": 7124.5,
+      "domReadyEvent": 6021.5,
+      "loadEvent": 7034.5,
+      "totalTime": 7081.5,
+      "visuallyComplete": 7425.5,
+      "speedIndex": 7124.5
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 123438,
+      "ttfb": 4881,
+      "startRender": 7079.5,
+      "domReadyEvent": 6163.5,
+      "loadEvent": 6920.5,
+      "totalTime": 6804.5,
+      "visuallyComplete": 7324,
+      "speedIndex": 7124.5
+    }
+  },
+  {
+    "id": "2018-02-24",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180225_M4_EP",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1519430400,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2584829.5,
+      "ttfb": 5023,
+      "startRender": 7374.5,
+      "domReadyEvent": 6308.5,
+      "loadEvent": 7258,
+      "totalTime": 7283.5,
+      "visuallyComplete": 7675.5,
+      "speedIndex": 7379.5
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 123436,
+      "ttfb": 4878.5,
+      "startRender": 7177.5,
+      "domReadyEvent": 5901,
+      "loadEvent": 6709.5,
+      "totalTime": 6625,
+      "visuallyComplete": 7195,
+      "speedIndex": 7379.5
+    }
+  },
+  {
+    "id": "2018-02-25",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180226_JA_EP",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1519516800,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2584805,
+      "ttfb": 5234,
+      "startRender": 7525,
+      "domReadyEvent": 6260,
+      "loadEvent": 7330,
+      "totalTime": 7315.5,
+      "visuallyComplete": 7581,
+      "speedIndex": 7526
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 123301,
+      "ttfb": 4845.5,
+      "startRender": 7001.5,
+      "domReadyEvent": 5868,
+      "loadEvent": 6695,
+      "totalTime": 6589.5,
+      "visuallyComplete": 7020,
+      "speedIndex": 7526
+    }
+  },
+  {
+    "id": "2018-02-26",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180227_TZ_EQ",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1519603200,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2584337.5,
+      "ttfb": 4432.5,
+      "startRender": 6775.5,
+      "domReadyEvent": 5690,
+      "loadEvent": 6703,
+      "totalTime": 6755.5,
+      "visuallyComplete": 7125,
+      "speedIndex": 6784
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 123469,
+      "ttfb": 4498,
+      "startRender": 6655.5,
+      "domReadyEvent": 5490.5,
+      "loadEvent": 6339,
+      "totalTime": 6181.5,
+      "visuallyComplete": 6705.5,
+      "speedIndex": 6784
+    }
+  },
+  {
+    "id": "2018-02-27",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180228_37_D4",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1519689600,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2584927.5,
+      "ttfb": 4480,
+      "startRender": 6875.5,
+      "domReadyEvent": 5638,
+      "loadEvent": 6646.5,
+      "totalTime": 6647,
+      "visuallyComplete": 7075.5,
+      "speedIndex": 6881.5
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 122098,
+      "ttfb": 4598,
+      "startRender": 6977,
+      "domReadyEvent": 5529,
+      "loadEvent": 6404,
+      "totalTime": 6420,
+      "visuallyComplete": 6998,
+      "speedIndex": 6881.5
+    }
+  },
+  {
+    "id": "2018-02-28",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180301_GV_CD",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1519776000,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2588304,
+      "ttfb": 4797,
+      "startRender": 28914,
+      "domReadyEvent": 41022,
+      "loadEvent": 54138,
+      "totalTime": 55027,
+      "visuallyComplete": 58604,
+      "speedIndex": 29579
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 123485,
+      "ttfb": 5076,
+      "startRender": 23352,
+      "domReadyEvent": 30889,
+      "loadEvent": 48119,
+      "totalTime": 48694,
+      "visuallyComplete": 48659,
+      "speedIndex": 29579
+    }
+  },
+  {
+    "id": "2018-03-01",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180302_PR_CN",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1519862400,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2588654,
+      "ttfb": 4813,
+      "startRender": 30045.5,
+      "domReadyEvent": 41025.5,
+      "loadEvent": 55061,
+      "totalTime": 55885,
+      "visuallyComplete": 58664,
+      "speedIndex": 30366
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 124027.5,
+      "ttfb": 4970,
+      "startRender": 25065.5,
+      "domReadyEvent": 32758.5,
+      "loadEvent": 52513.5,
+      "totalTime": 53040,
+      "visuallyComplete": 55418,
+      "speedIndex": 30366
+    }
+  },
+  {
+    "id": "2018-03-02",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180303_N5_C4",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1519948800,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2587884,
+      "ttfb": 5154,
+      "startRender": 28842,
+      "domReadyEvent": 40425,
+      "loadEvent": 54385,
+      "totalTime": 55127,
+      "visuallyComplete": 58525,
+      "speedIndex": 29285
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 124149,
+      "ttfb": 4868,
+      "startRender": 25770,
+      "domReadyEvent": 33800,
+      "loadEvent": 51918,
+      "totalTime": 52219,
+      "visuallyComplete": 55068,
+      "speedIndex": 29285
+    }
+  },
+  {
+    "id": "2018-03-03",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180304_HJ_B5",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1520035200,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2588067,
+      "ttfb": 4523,
+      "startRender": 28305.5,
+      "domReadyEvent": 41103,
+      "loadEvent": 54060.5,
+      "totalTime": 54574.5,
+      "visuallyComplete": 57925,
+      "speedIndex": 28621.5
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 124042.5,
+      "ttfb": 5180.5,
+      "startRender": 25248.5,
+      "domReadyEvent": 34289.5,
+      "loadEvent": 51408.5,
+      "totalTime": 52002.5,
+      "visuallyComplete": 54970.5,
+      "speedIndex": 28621.5
+    }
+  },
+  {
+    "id": "2018-03-04",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180505_RF_9T",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1520121600,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2587906,
+      "ttfb": 4667,
+      "startRender": 29553,
+      "domReadyEvent": 40806,
+      "loadEvent": 54887,
+      "totalTime": 55682,
+      "visuallyComplete": 59240,
+      "speedIndex": 29853
+    },
+    "repeatView": {
+      "requests": 79,
+      "bytesIn": 124202,
+      "ttfb": 4760,
+      "startRender": 25762,
+      "domReadyEvent": 36669,
+      "loadEvent": 52609,
+      "totalTime": 52685,
+      "visuallyComplete": 55794,
+      "speedIndex": 29853
+    }
+  },
+  {
+    "id": "2018-03-05",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180505_RF_9T",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1520208000,
+    "firstView": {
+      "requests": 92,
+      "bytesIn": 2589584.5,
+      "ttfb": 5066.5,
+      "startRender": 34149.5,
+      "domReadyEvent": 42777.5,
+      "loadEvent": 61401.5,
+      "totalTime": 62269,
+      "visuallyComplete": 66407,
+      "speedIndex": 35015
+    },
+    "repeatView": {
+      "requests": 78,
+      "bytesIn": 124156,
+      "ttfb": 5199.5,
+      "startRender": 29539.5,
+      "domReadyEvent": 40356,
+      "loadEvent": 60623,
+      "totalTime": 61191.5,
+      "visuallyComplete": 60527.5,
+      "speedIndex": 35015
+    }
+  },
+  {
+    "id": "2018-05-04",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180505_RF_9T",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1525392000,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2523190,
+      "ttfb": 5874,
+      "startRender": 0,
+      "domReadyEvent": 7831,
+      "loadEvent": 10680,
+      "totalTime": 10683,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 81,
+      "bytesIn": 76876,
+      "ttfb": 5694,
+      "startRender": 0,
+      "domReadyEvent": 6142,
+      "loadEvent": 6583,
+      "totalTime": 6586,
+      "visuallyComplete": 0
+    }
+  },
+  {
+    "id": "2018-05-05",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180506_DR_9P",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1525478400,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2523210.5,
+      "ttfb": 5847,
+      "startRender": 0,
+      "domReadyEvent": 7951.5,
+      "loadEvent": 10691.5,
+      "totalTime": 10701,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 81,
+      "bytesIn": 76882,
+      "ttfb": 6605,
+      "startRender": 0,
+      "domReadyEvent": 7374.5,
+      "loadEvent": 7763,
+      "totalTime": 7766,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-05-06",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180508_WZ_6W",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1525564800,
+    "firstView": {
+      "requests": 94,
+      "bytesIn": 2523226.5,
+      "ttfb": 6830.5,
+      "startRender": 0,
+      "domReadyEvent": 8893,
+      "loadEvent": 11405.5,
+      "totalTime": 11418.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 81,
+      "bytesIn": 76882.5,
+      "ttfb": 5873.5,
+      "startRender": 0,
+      "domReadyEvent": 6376,
+      "loadEvent": 6799,
+      "totalTime": 6803,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-05-07",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180508_WZ_6W",
+    "domain": "https://www.tele2.nl/shop/verlengen/product/index/mobiel/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1525651200,
+    "firstView": {
+      "requests": 96,
+      "bytesIn": 2937211,
+      "ttfb": 6562,
+      "startRender": 0,
+      "domReadyEvent": 8138,
+      "loadEvent": 9456,
+      "totalTime": 9457,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 81,
+      "bytesIn": 76876,
+      "ttfb": 5914,
+      "startRender": 0,
+      "domReadyEvent": 6522,
+      "loadEvent": 6885,
+      "totalTime": 6889,
+      "visuallyComplete": 0
+    }
+  }
+]

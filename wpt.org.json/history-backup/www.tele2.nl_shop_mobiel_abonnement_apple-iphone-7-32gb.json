@@ -1,0 +1,2398 @@
+[
+  {
+    "id": "",
+    "location": "WinEUCentral_wptdriver:Firefox",
+    "url": "http://52.28.134.156/results.php?test=170916_9Q_53",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/",
+    "connectivity": "Native",
+    "date": null,
+    "firstView": {
+      "requests": 0,
+      "bytesIn": null,
+      "ttfb": 0,
+      "startRender": 0,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 0,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 0,
+      "bytesIn": null,
+      "ttfb": 0,
+      "startRender": 0,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 0,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2017-09-14",
+    "location": "WinEUCentral_wptdriver:Firefox",
+    "url": "http://52.28.134.156/results.php?test=170915_KZ_1X",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/",
+    "connectivity": "Native",
+    "date": 1505347200,
+    "firstView": {
+      "requests": 214.5,
+      "bytesIn": 1808924,
+      "ttfb": 2381.5,
+      "startRender": 5157,
+      "domReadyEvent": 2916.5,
+      "loadEvent": 5465,
+      "totalTime": 5472,
+      "visuallyComplete": 10682.5,
+      "speedIndex": 5259.5
+    },
+    "repeatView": {
+      "requests": 33.5,
+      "bytesIn": 162045.5,
+      "ttfb": 915,
+      "startRender": 3084.5,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 2821.5,
+      "visuallyComplete": 8535.5,
+      "speedIndex": 5259.5
+    }
+  },
+  {
+    "id": "2017-09-15",
+    "location": "WinEUCentral_wptdriver:Firefox",
+    "url": "http://52.28.134.156/results.php?test=170916_9Q_53",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/",
+    "connectivity": "Native",
+    "date": 1505433600,
+    "firstView": {
+      "requests": 209,
+      "bytesIn": 1779413,
+      "ttfb": 235,
+      "startRender": 3079,
+      "domReadyEvent": 1063,
+      "loadEvent": 3852,
+      "totalTime": 3937,
+      "visuallyComplete": 5298,
+      "speedIndex": 3352
+    },
+    "repeatView": {
+      "requests": 45,
+      "bytesIn": 179970,
+      "ttfb": 356,
+      "startRender": 2663,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 2981,
+      "visuallyComplete": 4958,
+      "speedIndex": 3352
+    }
+  },
+  {
+    "id": "2017-09-16",
+    "location": "WinEUCentral_wptdriver:Firefox",
+    "url": "http://52.28.134.156/results.php?test=170917_6F_4S",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/",
+    "connectivity": "Native",
+    "date": 1505520000,
+    "firstView": {
+      "requests": 213,
+      "bytesIn": 1784707.5,
+      "ttfb": 235,
+      "startRender": 3132.5,
+      "domReadyEvent": 883.5,
+      "loadEvent": 4206,
+      "totalTime": 4201.5,
+      "visuallyComplete": 5855.5,
+      "speedIndex": 3403.5
+    },
+    "repeatView": {
+      "requests": 100,
+      "bytesIn": 196216.5,
+      "ttfb": 296,
+      "startRender": 2676.5,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 3302,
+      "visuallyComplete": 4382,
+      "speedIndex": 3403.5
+    }
+  },
+  {
+    "id": "2017-09-17",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=170918_9M_7A",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/",
+    "connectivity": "Native",
+    "date": 1505606400,
+    "firstView": {
+      "requests": 217,
+      "bytesIn": 1802192,
+      "ttfb": 235,
+      "startRender": 3280,
+      "domReadyEvent": 810,
+      "loadEvent": 3890,
+      "totalTime": 3969,
+      "visuallyComplete": 9060,
+      "speedIndex": 3582
+    },
+    "repeatView": {
+      "requests": 108,
+      "bytesIn": 197513,
+      "ttfb": 321,
+      "startRender": 2877,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 3353,
+      "visuallyComplete": 5276,
+      "speedIndex": 3582
+    }
+  },
+  {
+    "id": "2017-09-18",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=170919_ZN_41",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/",
+    "connectivity": "Native",
+    "date": 1505692800,
+    "firstView": {
+      "requests": 189.5,
+      "bytesIn": 1781780,
+      "ttfb": 258,
+      "startRender": 3026,
+      "domReadyEvent": 1131.5,
+      "loadEvent": 3056.5,
+      "totalTime": 3513,
+      "visuallyComplete": 4907.5,
+      "speedIndex": 3208
+    },
+    "repeatView": {
+      "requests": 60,
+      "bytesIn": 122220,
+      "ttfb": 301.5,
+      "startRender": 2321,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 2531.5,
+      "visuallyComplete": 4894.5,
+      "speedIndex": 3208
+    }
+  },
+  {
+    "id": "2017-09-19",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=170920_AJ_8Z",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/",
+    "connectivity": "Native",
+    "date": 1505779200,
+    "firstView": {
+      "requests": 143,
+      "bytesIn": 1695715,
+      "ttfb": 275,
+      "startRender": 2778,
+      "domReadyEvent": 1318,
+      "loadEvent": 3108,
+      "totalTime": 3254,
+      "visuallyComplete": 3877,
+      "speedIndex": 2822
+    },
+    "repeatView": {
+      "requests": 49,
+      "bytesIn": 153012,
+      "ttfb": 973,
+      "startRender": 2478,
+      "domReadyEvent": 952,
+      "loadEvent": 2110,
+      "totalTime": 2244,
+      "visuallyComplete": 7278,
+      "speedIndex": 2822
+    }
+  },
+  {
+    "id": "2017-09-20",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=170921_GE_8X",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/",
+    "connectivity": "Native",
+    "date": 1505865600,
+    "firstView": {
+      "requests": 145.5,
+      "bytesIn": 1705364.5,
+      "ttfb": 4257.5,
+      "startRender": 6627.5,
+      "domReadyEvent": 5318.5,
+      "loadEvent": 6986.5,
+      "totalTime": 7086,
+      "visuallyComplete": 7887.5,
+      "speedIndex": 6699.5
+    },
+    "repeatView": {
+      "requests": 119.5,
+      "bytesIn": 211050,
+      "ttfb": 2670,
+      "startRender": 4629,
+      "domReadyEvent": 2954.5,
+      "loadEvent": 4417.5,
+      "totalTime": 4599,
+      "visuallyComplete": 7379,
+      "speedIndex": 6699.5
+    }
+  },
+  {
+    "id": "2017-09-21",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=170927_QG_8S",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/",
+    "connectivity": "Native",
+    "date": 1505952000,
+    "firstView": {
+      "requests": 146,
+      "bytesIn": 1697084,
+      "ttfb": 3775,
+      "startRender": 6177,
+      "domReadyEvent": 4814,
+      "loadEvent": 6544,
+      "totalTime": 6551,
+      "visuallyComplete": 7376,
+      "speedIndex": 6220
+    },
+    "repeatView": {
+      "requests": 121,
+      "bytesIn": 212115,
+      "ttfb": 3760,
+      "startRender": 6178,
+      "domReadyEvent": 4388,
+      "loadEvent": 5840,
+      "totalTime": 5848,
+      "visuallyComplete": 7177,
+      "speedIndex": 6220
+    }
+  },
+  {
+    "id": "2017-09-22",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=170927_QG_8S",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/",
+    "connectivity": "Native",
+    "date": 1506038400,
+    "firstView": {
+      "requests": 147,
+      "bytesIn": 1700587.5,
+      "ttfb": 3935,
+      "startRender": 6327,
+      "domReadyEvent": 5014,
+      "loadEvent": 6759,
+      "totalTime": 6789.5,
+      "visuallyComplete": 7577,
+      "speedIndex": 6334
+    },
+    "repeatView": {
+      "requests": 116,
+      "bytesIn": 207811.5,
+      "ttfb": 3999,
+      "startRender": 6328.5,
+      "domReadyEvent": 4733.5,
+      "loadEvent": 5924,
+      "totalTime": 5926.5,
+      "visuallyComplete": 6628,
+      "speedIndex": 6334
+    }
+  },
+  {
+    "id": "2017-09-26",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=170927_QG_8S",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/",
+    "connectivity": "Native",
+    "date": 1506384000,
+    "firstView": {
+      "requests": 143.5,
+      "bytesIn": 1646715,
+      "ttfb": 3746.5,
+      "startRender": 6029,
+      "domReadyEvent": 4841.5,
+      "loadEvent": 6123.5,
+      "totalTime": 6295,
+      "visuallyComplete": 7027,
+      "speedIndex": 6036.5
+    },
+    "repeatView": {
+      "requests": 82,
+      "bytesIn": 219230,
+      "ttfb": 2547,
+      "startRender": 4433,
+      "domReadyEvent": 2814,
+      "loadEvent": 4185.5,
+      "totalTime": 4316.5,
+      "visuallyComplete": 6579,
+      "speedIndex": 6036.5
+    }
+  },
+  {
+    "id": "2017-09-29",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171004_26_6H",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1506643200,
+    "firstView": {
+      "requests": 146,
+      "bytesIn": 1649019.5,
+      "ttfb": 1897,
+      "startRender": 4478,
+      "domReadyEvent": 3134,
+      "loadEvent": 5058,
+      "totalTime": 5091.5,
+      "visuallyComplete": 7077,
+      "speedIndex": 4494.5
+    },
+    "repeatView": {
+      "requests": 123.5,
+      "bytesIn": 217484,
+      "ttfb": 2658,
+      "startRender": 4278,
+      "domReadyEvent": 2849.5,
+      "loadEvent": 4214.5,
+      "totalTime": 4325.5,
+      "visuallyComplete": 6777.5,
+      "speedIndex": 4494.5
+    }
+  },
+  {
+    "id": "2017-10-03",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171004_26_6H",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1506988800,
+    "firstView": {
+      "requests": 145,
+      "bytesIn": 1646143.5,
+      "ttfb": 3464,
+      "startRender": 5877,
+      "domReadyEvent": 4448.5,
+      "loadEvent": 6016,
+      "totalTime": 6184,
+      "visuallyComplete": 7427,
+      "speedIndex": 5917
+    },
+    "repeatView": {
+      "requests": 119,
+      "bytesIn": 216468,
+      "ttfb": 2341.5,
+      "startRender": 4182.5,
+      "domReadyEvent": 2734.5,
+      "loadEvent": 4228.5,
+      "totalTime": 4313,
+      "visuallyComplete": 6831,
+      "speedIndex": 5917
+    }
+  },
+  {
+    "id": "2017-10-04",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171005_B9_7V",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1507075200,
+    "firstView": {
+      "requests": 148.5,
+      "bytesIn": 1642629,
+      "ttfb": 3662.5,
+      "startRender": 5981.5,
+      "domReadyEvent": 4780.5,
+      "loadEvent": 6205,
+      "totalTime": 6265.5,
+      "visuallyComplete": 7330,
+      "speedIndex": 5988.5
+    },
+    "repeatView": {
+      "requests": 124,
+      "bytesIn": 213497.5,
+      "ttfb": 3722.5,
+      "startRender": 6078.5,
+      "domReadyEvent": 4593.5,
+      "loadEvent": 5781,
+      "totalTime": 5825,
+      "visuallyComplete": 6478,
+      "speedIndex": 5988.5
+    }
+  },
+  {
+    "id": "2017-10-05",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171006_4E_7Q",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1507161600,
+    "firstView": {
+      "requests": 176.5,
+      "bytesIn": 1574025.5,
+      "ttfb": 5484.5,
+      "startRender": 19198.5,
+      "domReadyEvent": 32714.5,
+      "loadEvent": 79716.5,
+      "totalTime": 80643.5,
+      "visuallyComplete": 42476.5,
+      "speedIndex": 39561
+    },
+    "repeatView": {
+      "requests": 84.5,
+      "bytesIn": 143247.5,
+      "ttfb": 5631,
+      "startRender": 15866,
+      "domReadyEvent": 25727,
+      "loadEvent": 55347.5,
+      "totalTime": 56022,
+      "visuallyComplete": 44864.5,
+      "speedIndex": 39561
+    }
+  },
+  {
+    "id": "2017-10-06",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171007_MY_7C",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1507248000,
+    "firstView": {
+      "requests": 177,
+      "bytesIn": 1575976,
+      "ttfb": 5487,
+      "startRender": 18820,
+      "domReadyEvent": 29731,
+      "loadEvent": 77714,
+      "totalTime": 78122,
+      "visuallyComplete": 40241,
+      "speedIndex": 37859
+    },
+    "repeatView": {
+      "requests": 84,
+      "bytesIn": 142561,
+      "ttfb": 5462,
+      "startRender": 15727,
+      "domReadyEvent": 25420,
+      "loadEvent": 55119,
+      "totalTime": 55396,
+      "visuallyComplete": 36544,
+      "speedIndex": 37859
+    }
+  },
+  {
+    "id": "2017-10-07",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171008_E6_87",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1507334400,
+    "firstView": {
+      "requests": 177,
+      "bytesIn": 1577423,
+      "ttfb": 5680,
+      "startRender": 19433,
+      "domReadyEvent": 31032,
+      "loadEvent": 78296,
+      "totalTime": 79136,
+      "visuallyComplete": 42740,
+      "speedIndex": 38371
+    },
+    "repeatView": {
+      "requests": 84,
+      "bytesIn": 142697,
+      "ttfb": 5613,
+      "startRender": 16112,
+      "domReadyEvent": 26166,
+      "loadEvent": 56016,
+      "totalTime": 56448,
+      "visuallyComplete": 55418,
+      "speedIndex": 38371
+    }
+  },
+  {
+    "id": "2017-10-08",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171013_M8_58",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1507420800,
+    "firstView": {
+      "requests": 177,
+      "bytesIn": 1571967,
+      "ttfb": 5678,
+      "startRender": 19396,
+      "domReadyEvent": 31876,
+      "loadEvent": 79213,
+      "totalTime": 80164,
+      "visuallyComplete": 40922,
+      "speedIndex": 38267
+    },
+    "repeatView": {
+      "requests": 84,
+      "bytesIn": 142925,
+      "ttfb": 5612,
+      "startRender": 16250,
+      "domReadyEvent": 26154,
+      "loadEvent": 55674,
+      "totalTime": 56125,
+      "visuallyComplete": 58794,
+      "speedIndex": 38267
+    }
+  },
+  {
+    "id": "2017-10-09",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171013_M8_58",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1507507200,
+    "firstView": {
+      "requests": 175,
+      "bytesIn": 1571159,
+      "ttfb": 5339.5,
+      "startRender": 19715.5,
+      "domReadyEvent": 33690.5,
+      "loadEvent": 81475,
+      "totalTime": 83200,
+      "visuallyComplete": 42653.5,
+      "speedIndex": 40407
+    },
+    "repeatView": {
+      "requests": 84,
+      "bytesIn": 143246,
+      "ttfb": 5582.5,
+      "startRender": 16716,
+      "domReadyEvent": 28090,
+      "loadEvent": 57672,
+      "totalTime": 58442.5,
+      "visuallyComplete": 34311,
+      "speedIndex": 40407
+    }
+  },
+  {
+    "id": "2017-10-12",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171013_M8_58",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1507766400,
+    "firstView": {
+      "requests": 193,
+      "bytesIn": 1689898,
+      "ttfb": 3537,
+      "startRender": 5977,
+      "domReadyEvent": 4625,
+      "loadEvent": 6074,
+      "totalTime": 6090,
+      "visuallyComplete": 6579,
+      "speedIndex": 5986
+    },
+    "repeatView": {
+      "requests": 92,
+      "bytesIn": 174865,
+      "ttfb": 3508,
+      "startRender": 5878,
+      "domReadyEvent": 4330,
+      "loadEvent": 5771,
+      "totalTime": 5758,
+      "visuallyComplete": 6278,
+      "speedIndex": 5986
+    }
+  },
+  {
+    "id": "2017-10-13",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171117_0G_9K",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1507852800,
+    "firstView": {
+      "requests": 183,
+      "bytesIn": 1674741,
+      "ttfb": 3837,
+      "startRender": 6084,
+      "domReadyEvent": 4967,
+      "loadEvent": 6485,
+      "totalTime": 6514,
+      "visuallyComplete": 6977,
+      "speedIndex": 6092
+    },
+    "repeatView": {
+      "requests": 85,
+      "bytesIn": 142241,
+      "ttfb": 5165,
+      "startRender": 14808,
+      "domReadyEvent": 23598,
+      "loadEvent": 54795,
+      "totalTime": 55682,
+      "visuallyComplete": 29669,
+      "speedIndex": 6092
+    }
+  },
+  {
+    "id": "2017-11-16",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171117_0G_9K",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1510790400,
+    "firstView": {
+      "requests": 184,
+      "bytesIn": 1581035,
+      "ttfb": 3552,
+      "startRender": 5777,
+      "domReadyEvent": 4266,
+      "loadEvent": 6155,
+      "totalTime": 6225,
+      "visuallyComplete": 6676,
+      "speedIndex": 5785
+    },
+    "repeatView": {
+      "requests": 88,
+      "bytesIn": 160436,
+      "ttfb": 3554,
+      "startRender": 5877,
+      "domReadyEvent": 4046,
+      "loadEvent": 5811,
+      "totalTime": 5923,
+      "visuallyComplete": 6277,
+      "speedIndex": 5785
+    }
+  },
+  {
+    "id": "2017-11-17",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171118_WY_9R",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1510876800,
+    "firstView": {
+      "requests": 184,
+      "bytesIn": 1580401.5,
+      "ttfb": 3409,
+      "startRender": 5778,
+      "domReadyEvent": 4257.5,
+      "loadEvent": 6077,
+      "totalTime": 6119,
+      "visuallyComplete": 6576,
+      "speedIndex": 5787
+    },
+    "repeatView": {
+      "requests": 89,
+      "bytesIn": 161491,
+      "ttfb": 3618,
+      "startRender": 5977,
+      "domReadyEvent": 4242,
+      "loadEvent": 5899.5,
+      "totalTime": 6001,
+      "visuallyComplete": 6427,
+      "speedIndex": 5787
+    }
+  },
+  {
+    "id": "2017-11-18",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171119_P0_9M",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1510963200,
+    "firstView": {
+      "requests": 184,
+      "bytesIn": 1583502.5,
+      "ttfb": 3482,
+      "startRender": 5777,
+      "domReadyEvent": 4332.5,
+      "loadEvent": 6132,
+      "totalTime": 6149.5,
+      "visuallyComplete": 6578,
+      "speedIndex": 5786
+    },
+    "repeatView": {
+      "requests": 89,
+      "bytesIn": 163792.5,
+      "ttfb": 3434,
+      "startRender": 5777.5,
+      "domReadyEvent": 4235.5,
+      "loadEvent": 5761.5,
+      "totalTime": 5787,
+      "visuallyComplete": 6177,
+      "speedIndex": 5786
+    }
+  },
+  {
+    "id": "2017-11-19",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171120_0D_9G",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1511049600,
+    "firstView": {
+      "requests": 184.5,
+      "bytesIn": 1583024,
+      "ttfb": 3385,
+      "startRender": 5777,
+      "domReadyEvent": 4143,
+      "loadEvent": 6054,
+      "totalTime": 6116,
+      "visuallyComplete": 6576,
+      "speedIndex": 5783.5
+    },
+    "repeatView": {
+      "requests": 87,
+      "bytesIn": 161311.5,
+      "ttfb": 3538,
+      "startRender": 5880.5,
+      "domReadyEvent": 4381.5,
+      "loadEvent": 5758.5,
+      "totalTime": 5857.5,
+      "visuallyComplete": 6227.5,
+      "speedIndex": 5783.5
+    }
+  },
+  {
+    "id": "2017-11-20",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171122_EJ_9Y",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1511136000,
+    "firstView": {
+      "requests": 184,
+      "bytesIn": 1583248,
+      "ttfb": 3504.5,
+      "startRender": 5876.5,
+      "domReadyEvent": 4254,
+      "loadEvent": 6117.5,
+      "totalTime": 6175,
+      "visuallyComplete": 6576,
+      "speedIndex": 5883.5
+    },
+    "repeatView": {
+      "requests": 88.5,
+      "bytesIn": 162002.5,
+      "ttfb": 3677.5,
+      "startRender": 5977,
+      "domReadyEvent": 4430.5,
+      "loadEvent": 5966,
+      "totalTime": 5964.5,
+      "visuallyComplete": 6429.5,
+      "speedIndex": 5883.5
+    }
+  },
+  {
+    "id": "2017-11-21",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171122_EJ_9Y",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1511222400,
+    "firstView": {
+      "requests": 183,
+      "bytesIn": 1581272,
+      "ttfb": 3582,
+      "startRender": 6126.5,
+      "domReadyEvent": 4480.5,
+      "loadEvent": 6307.5,
+      "totalTime": 6353.5,
+      "visuallyComplete": 6826.5,
+      "speedIndex": 6132.5
+    },
+    "repeatView": {
+      "requests": 89,
+      "bytesIn": 164742,
+      "ttfb": 4028,
+      "startRender": 6377,
+      "domReadyEvent": 4684,
+      "loadEvent": 6323.5,
+      "totalTime": 6378,
+      "visuallyComplete": 6779,
+      "speedIndex": 6132.5
+    }
+  },
+  {
+    "id": "2017-11-22",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171124_TB_7Y",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1511308800,
+    "firstView": {
+      "requests": 183,
+      "bytesIn": 1580502,
+      "ttfb": 4898,
+      "startRender": 17535,
+      "domReadyEvent": 32969,
+      "loadEvent": 60976,
+      "totalTime": 61198,
+      "visuallyComplete": 40446,
+      "speedIndex": 38414
+    },
+    "repeatView": {
+      "requests": 87,
+      "bytesIn": 163162,
+      "ttfb": 5039,
+      "startRender": 13180,
+      "domReadyEvent": 24322,
+      "loadEvent": 35874,
+      "totalTime": 36080,
+      "visuallyComplete": 30080,
+      "speedIndex": 38414
+    }
+  },
+  {
+    "id": "2017-11-23",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171124_TB_7Y",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1511395200,
+    "firstView": {
+      "requests": 175.5,
+      "bytesIn": 1573105.5,
+      "ttfb": 3855.5,
+      "startRender": 6327.5,
+      "domReadyEvent": 4705.5,
+      "loadEvent": 6462,
+      "totalTime": 6542.5,
+      "visuallyComplete": 7026.5,
+      "speedIndex": 6333.5
+    },
+    "repeatView": {
+      "requests": 44,
+      "bytesIn": 132647,
+      "ttfb": 3728.5,
+      "startRender": 6230,
+      "domReadyEvent": 4679,
+      "loadEvent": 5972.5,
+      "totalTime": 6129.5,
+      "visuallyComplete": 6477,
+      "speedIndex": 6333.5
+    }
+  },
+  {
+    "id": "2017-11-24",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171128_EK_AH",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1511481600,
+    "firstView": {
+      "requests": 174,
+      "bytesIn": 1575428,
+      "ttfb": 3474.5,
+      "startRender": 5778,
+      "domReadyEvent": 4326.5,
+      "loadEvent": 6071,
+      "totalTime": 6092,
+      "visuallyComplete": 6627,
+      "speedIndex": 5785.5
+    },
+    "repeatView": {
+      "requests": 88,
+      "bytesIn": 163259,
+      "ttfb": 3563,
+      "startRender": 5927.5,
+      "domReadyEvent": 4217.5,
+      "loadEvent": 5675.5,
+      "totalTime": 5794.5,
+      "visuallyComplete": 6177,
+      "speedIndex": 5785.5
+    }
+  },
+  {
+    "id": "2017-11-27",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171128_EK_AH",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1511740800,
+    "firstView": {
+      "requests": 177,
+      "bytesIn": 1577372,
+      "ttfb": 3647,
+      "startRender": 6076,
+      "domReadyEvent": 4387,
+      "loadEvent": 6171,
+      "totalTime": 6165,
+      "visuallyComplete": 6876,
+      "speedIndex": 6083
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 129757,
+      "ttfb": 3781,
+      "startRender": 6083,
+      "domReadyEvent": 4401,
+      "loadEvent": 5929,
+      "totalTime": 5932,
+      "visuallyComplete": 6378,
+      "speedIndex": 6083
+    }
+  },
+  {
+    "id": "2017-11-28",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171201_2H_5P",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1511827200,
+    "firstView": {
+      "requests": 178,
+      "bytesIn": 1580879.5,
+      "ttfb": 3553,
+      "startRender": 5976,
+      "domReadyEvent": 4339,
+      "loadEvent": 6125,
+      "totalTime": 6147,
+      "visuallyComplete": 6775.5,
+      "speedIndex": 5984
+    },
+    "repeatView": {
+      "requests": 86,
+      "bytesIn": 161106,
+      "ttfb": 3712.5,
+      "startRender": 6075,
+      "domReadyEvent": 4459.5,
+      "loadEvent": 5805,
+      "totalTime": 5898,
+      "visuallyComplete": 6328,
+      "speedIndex": 5984
+    }
+  },
+  {
+    "id": "2017-11-29",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171201_2H_5P",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1511913600,
+    "firstView": {
+      "requests": 178,
+      "bytesIn": 1581631,
+      "ttfb": 3629.5,
+      "startRender": 5977,
+      "domReadyEvent": 4526.5,
+      "loadEvent": 6143.5,
+      "totalTime": 6177,
+      "visuallyComplete": 6821.5,
+      "speedIndex": 5984
+    },
+    "repeatView": {
+      "requests": 85.5,
+      "bytesIn": 158401.5,
+      "ttfb": 3860.5,
+      "startRender": 6177,
+      "domReadyEvent": 4545.5,
+      "loadEvent": 6076,
+      "totalTime": 6144,
+      "visuallyComplete": 6677,
+      "speedIndex": 5984
+    }
+  },
+  {
+    "id": "2017-11-30",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171201_2H_5P",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1512000000,
+    "firstView": {
+      "requests": 178,
+      "bytesIn": 1581300,
+      "ttfb": 3580,
+      "startRender": 5926,
+      "domReadyEvent": 4361,
+      "loadEvent": 6213,
+      "totalTime": 6357.5,
+      "visuallyComplete": 6824.5,
+      "speedIndex": 5935.5
+    },
+    "repeatView": {
+      "requests": 88,
+      "bytesIn": 162416,
+      "ttfb": 3724,
+      "startRender": 6073.5,
+      "domReadyEvent": 4684,
+      "loadEvent": 5907,
+      "totalTime": 6046,
+      "visuallyComplete": 6423.5,
+      "speedIndex": 5935.5
+    }
+  },
+  {
+    "id": "2017-12-01",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171206_0Z_AN",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1512086400,
+    "firstView": {
+      "requests": 178,
+      "bytesIn": 1581366,
+      "ttfb": 3478,
+      "startRender": 5876,
+      "domReadyEvent": 4107,
+      "loadEvent": 6157,
+      "totalTime": 6164,
+      "visuallyComplete": 6677,
+      "speedIndex": 5896
+    },
+    "repeatView": {
+      "requests": 83,
+      "bytesIn": 160730,
+      "ttfb": 3751,
+      "startRender": 6174,
+      "domReadyEvent": 4251,
+      "loadEvent": 5901,
+      "totalTime": 5904,
+      "visuallyComplete": 6475,
+      "speedIndex": 5896
+    }
+  },
+  {
+    "id": "2017-12-04",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171206_0Z_AN",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1512345600,
+    "firstView": {
+      "requests": 178.5,
+      "bytesIn": 1581602,
+      "ttfb": 3376.5,
+      "startRender": 5924.5,
+      "domReadyEvent": 4231.5,
+      "loadEvent": 6021,
+      "totalTime": 6062,
+      "visuallyComplete": 6574,
+      "speedIndex": 5929.5
+    },
+    "repeatView": {
+      "requests": 52,
+      "bytesIn": 142239.5,
+      "ttfb": 3452.5,
+      "startRender": 5776,
+      "domReadyEvent": 4224,
+      "loadEvent": 5648.5,
+      "totalTime": 5692.5,
+      "visuallyComplete": 6176,
+      "speedIndex": 5929.5
+    }
+  },
+  {
+    "id": "2017-12-05",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171206_0Z_AN",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1512432000,
+    "firstView": {
+      "requests": 135,
+      "bytesIn": 2090493,
+      "ttfb": 3418,
+      "startRender": 6186,
+      "domReadyEvent": 4648,
+      "loadEvent": 4602,
+      "totalTime": 5207,
+      "visuallyComplete": 6876,
+      "speedIndex": 6229
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 132205,
+      "ttfb": 255,
+      "startRender": 2877,
+      "domReadyEvent": 1248,
+      "loadEvent": 1282,
+      "totalTime": 1304,
+      "visuallyComplete": 3677,
+      "speedIndex": 6229
+    }
+  },
+  {
+    "id": "2017-12-06",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171207_63_CQ",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1512518400,
+    "firstView": {
+      "requests": 136,
+      "bytesIn": 2095825,
+      "ttfb": 433,
+      "startRender": 3477,
+      "domReadyEvent": 1565,
+      "loadEvent": 1578,
+      "totalTime": 1706,
+      "visuallyComplete": 4276,
+      "speedIndex": 3527
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 132193,
+      "ttfb": 291,
+      "startRender": 2783,
+      "domReadyEvent": 1272,
+      "loadEvent": 1286,
+      "totalTime": 1327,
+      "visuallyComplete": 3578,
+      "speedIndex": 3527
+    }
+  },
+  {
+    "id": "2017-12-07",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171209_C1_7M",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1512604800,
+    "firstView": {
+      "requests": 134,
+      "bytesIn": 2008278,
+      "ttfb": 339,
+      "startRender": 3128.5,
+      "domReadyEvent": 1379.5,
+      "loadEvent": 1399.5,
+      "totalTime": 1434,
+      "visuallyComplete": 4102,
+      "speedIndex": 3197.5
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 194810,
+      "ttfb": 292,
+      "startRender": 2779,
+      "domReadyEvent": 1207,
+      "loadEvent": 1232,
+      "totalTime": 1264,
+      "visuallyComplete": 3379,
+      "speedIndex": 3197.5
+    }
+  },
+  {
+    "id": "2017-12-08",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171209_C1_7M",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1512691200,
+    "firstView": {
+      "requests": 133,
+      "bytesIn": 2009109,
+      "ttfb": 341,
+      "startRender": 3078,
+      "domReadyEvent": 1393,
+      "loadEvent": 1404,
+      "totalTime": 1426,
+      "visuallyComplete": 4178,
+      "speedIndex": 3136
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 196505,
+      "ttfb": 272,
+      "startRender": 2779,
+      "domReadyEvent": 1193,
+      "loadEvent": 1210,
+      "totalTime": 1323,
+      "visuallyComplete": 3378,
+      "speedIndex": 3136
+    }
+  },
+  {
+    "id": "2017-12-09",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171210_MM_7E",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1512777600,
+    "firstView": {
+      "requests": 133,
+      "bytesIn": 2009223,
+      "ttfb": 343,
+      "startRender": 3078,
+      "domReadyEvent": 1384,
+      "loadEvent": 1405,
+      "totalTime": 1414,
+      "visuallyComplete": 4098,
+      "speedIndex": 3107.5
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 211414,
+      "ttfb": 276.5,
+      "startRender": 2779,
+      "domReadyEvent": 1202,
+      "loadEvent": 1223.5,
+      "totalTime": 1225.5,
+      "visuallyComplete": 3380,
+      "speedIndex": 3107.5
+    }
+  },
+  {
+    "id": "2017-12-10",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171211_VD_7K",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1512864000,
+    "firstView": {
+      "requests": 133,
+      "bytesIn": 2010555.5,
+      "ttfb": 343,
+      "startRender": 3079,
+      "domReadyEvent": 1421.5,
+      "loadEvent": 1441,
+      "totalTime": 1443,
+      "visuallyComplete": 4278,
+      "speedIndex": 3143.5
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 210940,
+      "ttfb": 266.5,
+      "startRender": 2779,
+      "domReadyEvent": 1189,
+      "loadEvent": 1220.5,
+      "totalTime": 1238,
+      "visuallyComplete": 3378.5,
+      "speedIndex": 3143.5
+    }
+  },
+  {
+    "id": "2017-12-11",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171212_35_7P",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1512950400,
+    "firstView": {
+      "requests": 133,
+      "bytesIn": 2008882.5,
+      "ttfb": 342,
+      "startRender": 3078,
+      "domReadyEvent": 1389.5,
+      "loadEvent": 1401,
+      "totalTime": 1446,
+      "visuallyComplete": 4179.5,
+      "speedIndex": 3130
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 196539.5,
+      "ttfb": 280.5,
+      "startRender": 2779,
+      "domReadyEvent": 1192.5,
+      "loadEvent": 1212,
+      "totalTime": 1251,
+      "visuallyComplete": 3379,
+      "speedIndex": 3130
+    }
+  },
+  {
+    "id": "2017-12-12",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171213_TB_7J",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1513036800,
+    "firstView": {
+      "requests": 133,
+      "bytesIn": 2009910,
+      "ttfb": 343.5,
+      "startRender": 3078,
+      "domReadyEvent": 1387.5,
+      "loadEvent": 1399,
+      "totalTime": 1407.5,
+      "visuallyComplete": 4179,
+      "speedIndex": 3102.5
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 211913.5,
+      "ttfb": 270.5,
+      "startRender": 2771,
+      "domReadyEvent": 1191.5,
+      "loadEvent": 1213,
+      "totalTime": 1292,
+      "visuallyComplete": 3379,
+      "speedIndex": 3102.5
+    }
+  },
+  {
+    "id": "2017-12-13",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171214_2X_7V",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1513123200,
+    "firstView": {
+      "requests": 133,
+      "bytesIn": 2011083.5,
+      "ttfb": 3154,
+      "startRender": 5878,
+      "domReadyEvent": 4221.5,
+      "loadEvent": 4233,
+      "totalTime": 4253,
+      "visuallyComplete": 6378,
+      "speedIndex": 5914
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 210953.5,
+      "ttfb": 299.5,
+      "startRender": 2779,
+      "domReadyEvent": 1226,
+      "loadEvent": 1241.5,
+      "totalTime": 1383.5,
+      "visuallyComplete": 3379.5,
+      "speedIndex": 5914
+    }
+  },
+  {
+    "id": "2017-12-14",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171215_YC_7D",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1513209600,
+    "firstView": {
+      "requests": 133,
+      "bytesIn": 2018412,
+      "ttfb": 3033,
+      "startRender": 5778,
+      "domReadyEvent": 4136.5,
+      "loadEvent": 4148.5,
+      "totalTime": 4156,
+      "visuallyComplete": 6428.5,
+      "speedIndex": 5801
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 196750,
+      "ttfb": 341,
+      "startRender": 2929.5,
+      "domReadyEvent": 1265,
+      "loadEvent": 1814,
+      "totalTime": 1857.5,
+      "visuallyComplete": 3578.5,
+      "speedIndex": 5801
+    }
+  },
+  {
+    "id": "2017-12-15",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171219_5Y_6Z",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1513296000,
+    "firstView": {
+      "requests": 132,
+      "bytesIn": 2019081,
+      "ttfb": 2827.5,
+      "startRender": 5578,
+      "domReadyEvent": 3869,
+      "loadEvent": 3881.5,
+      "totalTime": 3885,
+      "visuallyComplete": 6128,
+      "speedIndex": 5591
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 203921,
+      "ttfb": 278,
+      "startRender": 2778,
+      "domReadyEvent": 1196,
+      "loadEvent": 1212.5,
+      "totalTime": 1213.5,
+      "visuallyComplete": 3428.5,
+      "speedIndex": 5591
+    }
+  },
+  {
+    "id": "2017-12-18",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171219_5Y_6Z",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1513555200,
+    "firstView": {
+      "requests": 132,
+      "bytesIn": 2015182,
+      "ttfb": 3262,
+      "startRender": 5885,
+      "domReadyEvent": 4321,
+      "loadEvent": 4332,
+      "totalTime": 4330,
+      "visuallyComplete": 6678,
+      "speedIndex": 5932
+    },
+    "repeatView": {
+      "requests": 16,
+      "bytesIn": 210948,
+      "ttfb": 300,
+      "startRender": 2779,
+      "domReadyEvent": 1254,
+      "loadEvent": 1279,
+      "totalTime": 1291,
+      "visuallyComplete": 3479,
+      "speedIndex": 5932
+    }
+  },
+  {
+    "id": "2017-12-19",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180126_WD_6K",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1513641600,
+    "firstView": {
+      "requests": 133,
+      "bytesIn": 2021399,
+      "ttfb": 3189,
+      "startRender": 5878,
+      "domReadyEvent": 4277.5,
+      "loadEvent": 4289.5,
+      "totalTime": 4287,
+      "visuallyComplete": 6577.5,
+      "speedIndex": 5903
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 197033.5,
+      "ttfb": 2850.5,
+      "startRender": 5279,
+      "domReadyEvent": 3777.5,
+      "loadEvent": 3790,
+      "totalTime": 3794.5,
+      "visuallyComplete": 5979,
+      "speedIndex": 5903
+    }
+  },
+  {
+    "id": "2017-12-20",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180126_WD_6K",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1513728000,
+    "firstView": {
+      "requests": 133,
+      "bytesIn": 2021879,
+      "ttfb": 402,
+      "startRender": 3777,
+      "domReadyEvent": 1845,
+      "loadEvent": 3757,
+      "totalTime": 3760,
+      "visuallyComplete": 4377,
+      "speedIndex": 3785
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 196970,
+      "ttfb": 308,
+      "startRender": 2779,
+      "domReadyEvent": 1258,
+      "loadEvent": 2299,
+      "totalTime": 2303,
+      "visuallyComplete": 3478,
+      "speedIndex": 3785
+    }
+  },
+  {
+    "id": "2018-01-25",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180126_WD_6K",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1516838400,
+    "firstView": {
+      "requests": 132,
+      "bytesIn": 2056387,
+      "ttfb": 3206,
+      "startRender": 5975,
+      "domReadyEvent": 4305,
+      "loadEvent": 4626,
+      "totalTime": 4621,
+      "visuallyComplete": 6375,
+      "speedIndex": 5993
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 199969,
+      "ttfb": 326,
+      "startRender": 2876,
+      "domReadyEvent": 1150,
+      "loadEvent": 1178,
+      "totalTime": 1363,
+      "visuallyComplete": 3276,
+      "speedIndex": 5993
+    }
+  },
+  {
+    "id": "2018-01-26",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180206_N9_9Z",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1516924800,
+    "firstView": {
+      "requests": 133,
+      "bytesIn": 2061381,
+      "ttfb": 2854,
+      "startRender": 5575,
+      "domReadyEvent": 3980,
+      "loadEvent": 4010,
+      "totalTime": 4020,
+      "visuallyComplete": 6075,
+      "speedIndex": 5601
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 199937,
+      "ttfb": 302,
+      "startRender": 2775,
+      "domReadyEvent": 1175,
+      "loadEvent": 1187,
+      "totalTime": 1220,
+      "visuallyComplete": 3275,
+      "speedIndex": 5601
+    }
+  },
+  {
+    "id": "2018-02-05",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180206_N9_9Z",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1517788800,
+    "firstView": {
+      "requests": 136,
+      "bytesIn": 2213043,
+      "ttfb": 3289,
+      "startRender": 5976,
+      "domReadyEvent": 4366,
+      "loadEvent": 4376,
+      "totalTime": 4505,
+      "visuallyComplete": 6676,
+      "speedIndex": 5999
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 200780,
+      "ttfb": 3151,
+      "startRender": 5575,
+      "domReadyEvent": 4010,
+      "loadEvent": 4022,
+      "totalTime": 4097,
+      "visuallyComplete": 6175,
+      "speedIndex": 5999
+    }
+  },
+  {
+    "id": "2018-02-06",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180213_XB_AG",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1517875200,
+    "firstView": {
+      "requests": 136,
+      "bytesIn": 2212851,
+      "ttfb": 3133,
+      "startRender": 5829,
+      "domReadyEvent": 4173.5,
+      "loadEvent": 4219.5,
+      "totalTime": 4281,
+      "visuallyComplete": 6375.5,
+      "speedIndex": 5853.5
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 200728,
+      "ttfb": 1034.5,
+      "startRender": 3527.5,
+      "domReadyEvent": 2017.5,
+      "loadEvent": 2652,
+      "totalTime": 2651,
+      "visuallyComplete": 4125,
+      "speedIndex": 5853.5
+    }
+  },
+  {
+    "id": "2018-02-07",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180213_XB_AG",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1517961600,
+    "firstView": {
+      "requests": 139,
+      "bytesIn": 2221648,
+      "ttfb": 2888,
+      "startRender": 5578,
+      "domReadyEvent": 3980,
+      "loadEvent": 4007,
+      "totalTime": 4014,
+      "visuallyComplete": 5877,
+      "speedIndex": 5598
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 200682,
+      "ttfb": 306,
+      "startRender": 2776,
+      "domReadyEvent": 1169,
+      "loadEvent": 1182,
+      "totalTime": 1196,
+      "visuallyComplete": 3375,
+      "speedIndex": 5598
+    }
+  },
+  {
+    "id": "2018-02-12",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180213_XB_AG",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1518393600,
+    "firstView": {
+      "requests": 139,
+      "bytesIn": 2223856,
+      "ttfb": 2933,
+      "startRender": 5628.5,
+      "domReadyEvent": 3978,
+      "loadEvent": 3988.5,
+      "totalTime": 4162.5,
+      "visuallyComplete": 6175,
+      "speedIndex": 5639
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 200724.5,
+      "ttfb": 290.5,
+      "startRender": 2825.5,
+      "domReadyEvent": 1147.5,
+      "loadEvent": 1161.5,
+      "totalTime": 1355,
+      "visuallyComplete": 3375.5,
+      "speedIndex": 5639
+    }
+  },
+  {
+    "id": "2018-02-13",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180214_HA_A5",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1518480000,
+    "firstView": {
+      "requests": 140,
+      "bytesIn": 2225623,
+      "ttfb": 3107,
+      "startRender": 5874.5,
+      "domReadyEvent": 4127.5,
+      "loadEvent": 4137.5,
+      "totalTime": 4192.5,
+      "visuallyComplete": 6225.5,
+      "speedIndex": 5879.5
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 200708,
+      "ttfb": 466,
+      "startRender": 2975,
+      "domReadyEvent": 1327.5,
+      "loadEvent": 1338,
+      "totalTime": 1415,
+      "visuallyComplete": 3474.5,
+      "speedIndex": 5879.5
+    }
+  },
+  {
+    "id": "2018-02-14",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180215_DN_A4",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1518566400,
+    "firstView": {
+      "requests": 139.5,
+      "bytesIn": 2224625.5,
+      "ttfb": 3140,
+      "startRender": 5875.5,
+      "domReadyEvent": 4162,
+      "loadEvent": 4177,
+      "totalTime": 4188.5,
+      "visuallyComplete": 6226,
+      "speedIndex": 5889
+    },
+    "repeatView": {
+      "requests": 20,
+      "bytesIn": 200431.5,
+      "ttfb": 354.5,
+      "startRender": 2875,
+      "domReadyEvent": 1218.5,
+      "loadEvent": 1234.5,
+      "totalTime": 1357,
+      "visuallyComplete": 3376.5,
+      "speedIndex": 5889
+    }
+  },
+  {
+    "id": "2018-02-15",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180219_ZS_EQ",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1518652800,
+    "firstView": {
+      "requests": 139,
+      "bytesIn": 2223120,
+      "ttfb": 3116.5,
+      "startRender": 5728,
+      "domReadyEvent": 4152,
+      "loadEvent": 4177.5,
+      "totalTime": 4183.5,
+      "visuallyComplete": 6275.5,
+      "speedIndex": 5760
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 200883.5,
+      "ttfb": 313.5,
+      "startRender": 2775.5,
+      "domReadyEvent": 1157.5,
+      "loadEvent": 1187,
+      "totalTime": 1223.5,
+      "visuallyComplete": 3325,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-02-16",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180219_ZS_EQ",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1518739200,
+    "firstView": {
+      "requests": 139,
+      "bytesIn": 2221299,
+      "ttfb": 2978,
+      "startRender": 5680,
+      "domReadyEvent": 3917,
+      "loadEvent": 4018,
+      "totalTime": 4011,
+      "visuallyComplete": 5776,
+      "speedIndex": 5680
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 198452,
+      "ttfb": 314,
+      "startRender": 2875,
+      "domReadyEvent": 1156,
+      "loadEvent": 1201,
+      "totalTime": 1221,
+      "visuallyComplete": 3375,
+      "speedIndex": 5680
+    }
+  },
+  {
+    "id": "2018-02-18",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180219_ZS_EQ",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1518912000,
+    "firstView": {
+      "requests": 139.5,
+      "bytesIn": 2221283,
+      "ttfb": 3590,
+      "startRender": 6276.5,
+      "domReadyEvent": 4653,
+      "loadEvent": 4664.5,
+      "totalTime": 4656,
+      "visuallyComplete": 6625.5,
+      "speedIndex": 6289
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 198218.5,
+      "ttfb": 298.5,
+      "startRender": 2824.5,
+      "domReadyEvent": 1210.5,
+      "loadEvent": 1224.5,
+      "totalTime": 1310,
+      "visuallyComplete": 3324.5,
+      "speedIndex": 6289
+    }
+  },
+  {
+    "id": "2018-02-19",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180220_YB_EV",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1518998400,
+    "firstView": {
+      "requests": 140,
+      "bytesIn": 2219988.5,
+      "ttfb": 3197.5,
+      "startRender": 5925,
+      "domReadyEvent": 4234.5,
+      "loadEvent": 4246,
+      "totalTime": 4302,
+      "visuallyComplete": 6425,
+      "speedIndex": 5943
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 198288.5,
+      "ttfb": 1700.5,
+      "startRender": 4179,
+      "domReadyEvent": 2547.5,
+      "loadEvent": 2944.5,
+      "totalTime": 2946.5,
+      "visuallyComplete": 4675.5,
+      "speedIndex": 5943
+    }
+  },
+  {
+    "id": "2018-02-20",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180221_8F_EQ",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1519084800,
+    "firstView": {
+      "requests": 139,
+      "bytesIn": 2220150.5,
+      "ttfb": 3050,
+      "startRender": 5676,
+      "domReadyEvent": 4051,
+      "loadEvent": 4061.5,
+      "totalTime": 4065.5,
+      "visuallyComplete": 6225.5,
+      "speedIndex": 5693.5
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 198354,
+      "ttfb": 312.5,
+      "startRender": 2777,
+      "domReadyEvent": 1186.5,
+      "loadEvent": 1199,
+      "totalTime": 1333.5,
+      "visuallyComplete": 3375.5,
+      "speedIndex": 5693.5
+    }
+  },
+  {
+    "id": "2018-02-21",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180222_YY_EP",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1519171200,
+    "firstView": {
+      "requests": 139,
+      "bytesIn": 2217080,
+      "ttfb": 3029.5,
+      "startRender": 5675.5,
+      "domReadyEvent": 4158,
+      "loadEvent": 4193,
+      "totalTime": 4243,
+      "visuallyComplete": 6127,
+      "speedIndex": 5695
+    },
+    "repeatView": {
+      "requests": 18.5,
+      "bytesIn": 198130.5,
+      "ttfb": 327,
+      "startRender": 2876,
+      "domReadyEvent": 1168,
+      "loadEvent": 1203,
+      "totalTime": 1218.5,
+      "visuallyComplete": 3326,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-02-22",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180223_NM_EN",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1519257600,
+    "firstView": {
+      "requests": 145,
+      "bytesIn": 2371722,
+      "ttfb": 3500,
+      "startRender": 6329,
+      "domReadyEvent": 4620,
+      "loadEvent": 5808.5,
+      "totalTime": 5840,
+      "visuallyComplete": 6725.5,
+      "speedIndex": 6339
+    },
+    "repeatView": {
+      "requests": 19.5,
+      "bytesIn": 200019.5,
+      "ttfb": 320.5,
+      "startRender": 2874,
+      "domReadyEvent": 1274,
+      "loadEvent": 2370.5,
+      "totalTime": 2442,
+      "visuallyComplete": 3324.5,
+      "speedIndex": 6339
+    }
+  },
+  {
+    "id": "2018-02-23",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180224_G8_EQ",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1519344000,
+    "firstView": {
+      "requests": 145,
+      "bytesIn": 2375776.5,
+      "ttfb": 3477,
+      "startRender": 6175.5,
+      "domReadyEvent": 4565,
+      "loadEvent": 5900.5,
+      "totalTime": 5952.5,
+      "visuallyComplete": 6675,
+      "speedIndex": 6194.5
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 200996,
+      "ttfb": 311.5,
+      "startRender": 2875.5,
+      "domReadyEvent": 1271,
+      "loadEvent": 2388,
+      "totalTime": 2495,
+      "visuallyComplete": 3374,
+      "speedIndex": 6194.5
+    }
+  },
+  {
+    "id": "2018-02-24",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180225_38_EQ",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1519430400,
+    "firstView": {
+      "requests": 145,
+      "bytesIn": 2373305,
+      "ttfb": 3472,
+      "startRender": 6176,
+      "domReadyEvent": 4582,
+      "loadEvent": 6014,
+      "totalTime": 6067.5,
+      "visuallyComplete": 6724,
+      "speedIndex": 6197.5
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 201042.5,
+      "ttfb": 304,
+      "startRender": 2825,
+      "domReadyEvent": 1248.5,
+      "loadEvent": 2346.5,
+      "totalTime": 2356,
+      "visuallyComplete": 3276,
+      "speedIndex": 6197.5
+    }
+  },
+  {
+    "id": "2018-02-25",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180226_RQ_EQ",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1519516800,
+    "firstView": {
+      "requests": 145,
+      "bytesIn": 2375372,
+      "ttfb": 3574.5,
+      "startRender": 6226,
+      "domReadyEvent": 4689.5,
+      "loadEvent": 6130.5,
+      "totalTime": 6121,
+      "visuallyComplete": 6825.5,
+      "speedIndex": 6249.5
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 200955,
+      "ttfb": 340.5,
+      "startRender": 2876,
+      "domReadyEvent": 1281.5,
+      "loadEvent": 2448.5,
+      "totalTime": 2496,
+      "visuallyComplete": 3326,
+      "speedIndex": 6249.5
+    }
+  },
+  {
+    "id": "2018-02-26",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180227_PA_ET",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1519603200,
+    "firstView": {
+      "requests": 145,
+      "bytesIn": 2373995,
+      "ttfb": 3596.5,
+      "startRender": 6327.5,
+      "domReadyEvent": 4719,
+      "loadEvent": 6063,
+      "totalTime": 6208.5,
+      "visuallyComplete": 6926,
+      "speedIndex": 6341.5
+    },
+    "repeatView": {
+      "requests": 21,
+      "bytesIn": 202877.5,
+      "ttfb": 321.5,
+      "startRender": 2925,
+      "domReadyEvent": 1276.5,
+      "loadEvent": 2402,
+      "totalTime": 2406,
+      "visuallyComplete": 3374.5,
+      "speedIndex": 6341.5
+    }
+  },
+  {
+    "id": "2018-02-27",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180228_W8_DK",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1519689600,
+    "firstView": {
+      "requests": 145,
+      "bytesIn": 2376320,
+      "ttfb": 3510,
+      "startRender": 6325,
+      "domReadyEvent": 4653.5,
+      "loadEvent": 6140,
+      "totalTime": 6171.5,
+      "visuallyComplete": 6774.5,
+      "speedIndex": 6344.5
+    },
+    "repeatView": {
+      "requests": 20,
+      "bytesIn": 201153.5,
+      "ttfb": 314,
+      "startRender": 2874,
+      "domReadyEvent": 1253.5,
+      "loadEvent": 2347.5,
+      "totalTime": 2367,
+      "visuallyComplete": 3276,
+      "speedIndex": 6344.5
+    }
+  },
+  {
+    "id": "2018-02-28",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180301_M4_CF",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1519776000,
+    "firstView": {
+      "requests": 137,
+      "bytesIn": 2406525,
+      "ttfb": 3635,
+      "startRender": 23450,
+      "domReadyEvent": 29174,
+      "loadEvent": 85212,
+      "totalTime": 85822,
+      "visuallyComplete": 90662,
+      "speedIndex": 43527
+    },
+    "repeatView": {
+      "requests": 18,
+      "bytesIn": 200910,
+      "ttfb": 3414,
+      "startRender": 17225,
+      "domReadyEvent": 23370,
+      "loadEvent": 58000,
+      "totalTime": 57384,
+      "visuallyComplete": 58689,
+      "speedIndex": 43527
+    }
+  },
+  {
+    "id": "2018-03-01",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180302_CQ_C7",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1519862400,
+    "firstView": {
+      "requests": 134,
+      "bytesIn": 2405812,
+      "ttfb": 3639,
+      "startRender": 24769,
+      "domReadyEvent": 32969,
+      "loadEvent": 89671,
+      "totalTime": 90460,
+      "visuallyComplete": 95265,
+      "speedIndex": 45889
+    },
+    "repeatView": {
+      "requests": 17,
+      "bytesIn": 196497,
+      "ttfb": 1092,
+      "startRender": 18978,
+      "domReadyEvent": 26049,
+      "loadEvent": 61350,
+      "totalTime": 61446,
+      "visuallyComplete": 64456,
+      "speedIndex": 45889
+    }
+  },
+  {
+    "id": "2018-03-02",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180303_28_CJ",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1519948800,
+    "firstView": {
+      "requests": 133,
+      "bytesIn": 2271498,
+      "ttfb": 3604,
+      "startRender": 22917,
+      "domReadyEvent": 30869,
+      "loadEvent": 86302,
+      "totalTime": 87909,
+      "visuallyComplete": 92248,
+      "speedIndex": 44377
+    },
+    "repeatView": {
+      "requests": 17,
+      "bytesIn": 196344,
+      "ttfb": 3602,
+      "startRender": 19333,
+      "domReadyEvent": 26455,
+      "loadEvent": 59324,
+      "totalTime": 59212,
+      "visuallyComplete": 61538,
+      "speedIndex": 44377
+    }
+  },
+  {
+    "id": "2018-03-03",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180304_AS_BH",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1520035200,
+    "firstView": {
+      "requests": 133,
+      "bytesIn": 2266368.5,
+      "ttfb": 3737,
+      "startRender": 23691,
+      "domReadyEvent": 30268,
+      "loadEvent": 86128,
+      "totalTime": 87466.5,
+      "visuallyComplete": 91652.5,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 17,
+      "bytesIn": 196312.5,
+      "ttfb": 802,
+      "startRender": 17629,
+      "domReadyEvent": 25735,
+      "loadEvent": 57121,
+      "totalTime": 56248.5,
+      "visuallyComplete": 58701.5,
+      "speedIndex": 44168.5
+    }
+  },
+  {
+    "id": "2018-03-04",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180505_E3_9N",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1520121600,
+    "firstView": {
+      "requests": 133,
+      "bytesIn": 2265867.5,
+      "ttfb": 3848.5,
+      "startRender": 24379,
+      "domReadyEvent": 33901,
+      "loadEvent": 91068,
+      "totalTime": 91779,
+      "visuallyComplete": 96744,
+      "speedIndex": 46024.5
+    },
+    "repeatView": {
+      "requests": 14,
+      "bytesIn": 197681.5,
+      "ttfb": 799,
+      "startRender": 17335.5,
+      "domReadyEvent": 24770.5,
+      "loadEvent": 56020,
+      "totalTime": 54862,
+      "visuallyComplete": 57560,
+      "speedIndex": 46024.5
+    }
+  },
+  {
+    "id": "2018-03-05",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180505_E3_9N",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1520208000,
+    "firstView": {
+      "requests": 127.5,
+      "bytesIn": 2299942,
+      "ttfb": 3742.5,
+      "startRender": 29280,
+      "domReadyEvent": 38852,
+      "loadEvent": 99383.5,
+      "totalTime": 100325.5,
+      "visuallyComplete": 105361,
+      "speedIndex": 52000.5
+    },
+    "repeatView": {
+      "requests": 14,
+      "bytesIn": 197320,
+      "ttfb": 1312.5,
+      "startRender": 16806.5,
+      "domReadyEvent": 24673.5,
+      "loadEvent": 55566,
+      "totalTime": 54778,
+      "visuallyComplete": 57911,
+      "speedIndex": 52000.5
+    }
+  },
+  {
+    "id": "2018-05-04",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180505_E3_9N",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1525392000,
+    "firstView": {
+      "requests": 149,
+      "bytesIn": 2207929,
+      "ttfb": 3380,
+      "startRender": 0,
+      "domReadyEvent": 4310,
+      "loadEvent": 5280,
+      "totalTime": 5291,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 20,
+      "bytesIn": 61227,
+      "ttfb": 3232,
+      "startRender": 0,
+      "domReadyEvent": 3749,
+      "loadEvent": 4466,
+      "totalTime": 4476,
+      "visuallyComplete": 0
+    }
+  },
+  {
+    "id": "2018-05-05",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180506_90_9S",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1525478400,
+    "firstView": {
+      "requests": 149,
+      "bytesIn": 2206627.5,
+      "ttfb": 3043,
+      "startRender": 0,
+      "domReadyEvent": 4165,
+      "loadEvent": 5187,
+      "totalTime": 5200.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 20,
+      "bytesIn": 61211.5,
+      "ttfb": 288.5,
+      "startRender": 0,
+      "domReadyEvent": 813,
+      "loadEvent": 1651,
+      "totalTime": 1663.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-05-06",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180508_E0_6S",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1525564800,
+    "firstView": {
+      "requests": 149,
+      "bytesIn": 2206656,
+      "ttfb": 3284,
+      "startRender": 0,
+      "domReadyEvent": 4245,
+      "loadEvent": 5295,
+      "totalTime": 5306.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 20,
+      "bytesIn": 61213,
+      "ttfb": 1563,
+      "startRender": 0,
+      "domReadyEvent": 2415.5,
+      "loadEvent": 3161.5,
+      "totalTime": 3171,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-05-07",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180508_E0_6S",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-7-32gb/?data=5000&voice=100&installment=28&binding=24&cancelable=1&color=zilver&force=1",
+    "connectivity": "Native",
+    "date": 1525651200,
+    "firstView": {
+      "requests": 149,
+      "bytesIn": 2206637,
+      "ttfb": 3250,
+      "startRender": 0,
+      "domReadyEvent": 4065,
+      "loadEvent": 5291,
+      "totalTime": 5292,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 20,
+      "bytesIn": 61219,
+      "ttfb": 317,
+      "startRender": 0,
+      "domReadyEvent": 936,
+      "loadEvent": 2328,
+      "totalTime": 2338,
+      "visuallyComplete": 0
+    }
+  }
+]

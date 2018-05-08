@@ -1,0 +1,242 @@
+[
+  {
+    "id": "",
+    "location": "WinEUCentral_wptdriver:Firefox",
+    "url": "http://52.28.134.156/results.php?test=170916_AR_4Z",
+    "domain": "https://www.tele2.nl/shop/thuis/internet-bellen-tv/",
+    "connectivity": "Native",
+    "date": null,
+    "firstView": {
+      "requests": 0,
+      "bytesIn": null,
+      "ttfb": 0,
+      "startRender": 0,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 0,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 0,
+      "bytesIn": null,
+      "ttfb": 0,
+      "startRender": 0,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 0,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2017-09-14",
+    "location": "WinEUCentral_wptdriver:Firefox",
+    "url": "http://52.28.134.156/results.php?test=170915_KZ_2A",
+    "domain": "https://www.tele2.nl/shop/thuis/internet-bellen-tv/",
+    "connectivity": "Native",
+    "date": 1505347200,
+    "firstView": {
+      "requests": 145,
+      "bytesIn": 1373834,
+      "ttfb": 948.5,
+      "startRender": 4334.5,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 3750,
+      "visuallyComplete": 4941,
+      "speedIndex": 4340.5
+    },
+    "repeatView": {
+      "requests": 24.5,
+      "bytesIn": 128168.5,
+      "ttfb": 1190,
+      "startRender": 3754,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 2518,
+      "visuallyComplete": 3754,
+      "speedIndex": 4340.5
+    }
+  },
+  {
+    "id": "2017-09-15",
+    "location": "WinEUCentral_wptdriver:Firefox",
+    "url": "http://52.28.134.156/results.php?test=170916_AR_4Z",
+    "domain": "https://www.tele2.nl/shop/thuis/internet-bellen-tv/",
+    "connectivity": "Native",
+    "date": 1505433600,
+    "firstView": {
+      "requests": 141,
+      "bytesIn": 1353595,
+      "ttfb": 1017,
+      "startRender": 3600,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 3673,
+      "visuallyComplete": 4682,
+      "speedIndex": 3607
+    },
+    "repeatView": {
+      "requests": 27,
+      "bytesIn": 139997,
+      "ttfb": 1072,
+      "startRender": 3584,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 2332,
+      "visuallyComplete": 3584,
+      "speedIndex": 3607
+    }
+  },
+  {
+    "id": "2017-09-16",
+    "location": "WinEUCentral_wptdriver:Firefox",
+    "url": "http://52.28.134.156/results.php?test=170917_YR_4X",
+    "domain": "https://www.tele2.nl/shop/thuis/internet-bellen-tv/",
+    "connectivity": "Native",
+    "date": 1505520000,
+    "firstView": {
+      "requests": 144,
+      "bytesIn": 1369125,
+      "ttfb": 943,
+      "startRender": 3641,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 3529,
+      "visuallyComplete": 4277,
+      "speedIndex": 3649
+    },
+    "repeatView": {
+      "requests": 29,
+      "bytesIn": 134240,
+      "ttfb": 1103,
+      "startRender": 3790,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 2314,
+      "visuallyComplete": 3881,
+      "speedIndex": 3649
+    }
+  },
+  {
+    "id": "2017-09-17",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=170918_T8_7E",
+    "domain": "https://www.tele2.nl/shop/thuis/internet-bellen-tv/",
+    "connectivity": "Native",
+    "date": 1505606400,
+    "firstView": {
+      "requests": 143,
+      "bytesIn": 1370014,
+      "ttfb": 952,
+      "startRender": 3581,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 3508,
+      "visuallyComplete": 4554,
+      "speedIndex": 3591
+    },
+    "repeatView": {
+      "requests": 30,
+      "bytesIn": 139616,
+      "ttfb": 1100,
+      "startRender": 3687,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 2555,
+      "visuallyComplete": 3782,
+      "speedIndex": 3591
+    }
+  },
+  {
+    "id": "",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=170919_20_49",
+    "domain": "https://www.tele2.nl/shop/thuis/internet-bellen-tv/",
+    "connectivity": "Native",
+    "date": null,
+    "firstView": {
+      "requests": 0,
+      "bytesIn": null,
+      "ttfb": 0,
+      "startRender": 0,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 0,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 0,
+      "bytesIn": null,
+      "ttfb": 0,
+      "startRender": 0,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 0,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2017-09-17",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=170919_20_49",
+    "domain": "https://www.tele2.nl/shop/thuis/internet-bellen-tv/",
+    "connectivity": "Native",
+    "date": 1505606400,
+    "firstView": {
+      "requests": 143,
+      "bytesIn": 1370014,
+      "ttfb": 952,
+      "startRender": 3581,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 3508,
+      "visuallyComplete": 4554,
+      "speedIndex": 3591
+    },
+    "repeatView": {
+      "requests": 30,
+      "bytesIn": 139616,
+      "ttfb": 1100,
+      "startRender": 3687,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 2555,
+      "visuallyComplete": 3782,
+      "speedIndex": 3591
+    }
+  },
+  {
+    "id": "2017-09-18",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=170919_20_49",
+    "domain": "https://www.tele2.nl/shop/thuis/internet-bellen-tv/",
+    "connectivity": "Native",
+    "date": 1505692800,
+    "firstView": {
+      "requests": 141.5,
+      "bytesIn": 1349439.5,
+      "ttfb": 971.5,
+      "startRender": 3667,
+      "domReadyEvent": 1579.5,
+      "loadEvent": 2572,
+      "totalTime": 3575.5,
+      "visuallyComplete": 4082.5,
+      "speedIndex": 3669
+    },
+    "repeatView": {
+      "requests": 24.5,
+      "bytesIn": 118973.5,
+      "ttfb": 1119.5,
+      "startRender": 3479.5,
+      "domReadyEvent": 714,
+      "loadEvent": 1094,
+      "totalTime": 2403,
+      "visuallyComplete": 3531.5,
+      "speedIndex": 3669
+    }
+  }
+]

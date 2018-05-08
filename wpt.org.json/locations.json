@@ -1,8 +1,8 @@
 {
-  "id": "WinEUCentral_wptdriver",
-  "Label": "Agent in EC2 Chrome/Firefox/Safari/IE11",
-  "location": "WinEUCentral_wptdriver",
-  "Browsers": "Chrome,Firefox,Safari",
+  "id": "DiemenTester_wptdriver",
+  "Label": "Agent in Diemen office Chrome/Firefox/IE11",
+  "location": "DiemenTester_wptdriver",
+  "Browsers": "Chrome,Firefox",
   "status": "OK",
   "labelShort": "Test agent with wptdriver",
   "default": 1,

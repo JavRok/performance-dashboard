@@ -1,0 +1,121 @@
+[
+  {
+    "id": "2017-11-29",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171201_DD_5Z",
+    "domain": "https://espresso-uat.tele2.nl/mobiel/smartphones/",
+    "connectivity": "Native",
+    "date": 1511913600,
+    "firstView": {
+      "requests": 21,
+      "bytesIn": 527904.5,
+      "ttfb": 421,
+      "startRender": 2676.5,
+      "domReadyEvent": 620,
+      "loadEvent": 1529,
+      "totalTime": 1645,
+      "visuallyComplete": 2676.5,
+      "speedIndex": 2676.5
+    },
+    "repeatView": {
+      "requests": 6,
+      "bytesIn": 43861.5,
+      "ttfb": 253.5,
+      "startRender": 2727.5,
+      "domReadyEvent": 772.5,
+      "loadEvent": 1027.5,
+      "totalTime": 1162,
+      "visuallyComplete": 2727.5,
+      "speedIndex": 2676.5
+    }
+  },
+  {
+    "id": "2017-11-30",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171201_DD_5Z",
+    "domain": "https://espresso-uat.tele2.nl/mobiel/smartphones/",
+    "connectivity": "Native",
+    "date": 1512000000,
+    "firstView": {
+      "requests": 9,
+      "bytesIn": 241617,
+      "ttfb": 363,
+      "startRender": 44674,
+      "domReadyEvent": 42616,
+      "loadEvent": 0,
+      "totalTime": 43412,
+      "visuallyComplete": 84774,
+      "speedIndex": 51973
+    },
+    "repeatView": {
+      "requests": 0,
+      "ttfb": 0,
+      "startRender": 0,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 0,
+      "visuallyComplete": 0,
+      "speedIndex": 51973
+    }
+  },
+  {
+    "id": "2017-12-01",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171204_VT_6P",
+    "domain": "https://espresso-uat.tele2.nl/mobiel/smartphones/",
+    "connectivity": "Native",
+    "date": 1512086400,
+    "firstView": {
+      "requests": 9,
+      "bytesIn": 243010.5,
+      "ttfb": 390,
+      "startRender": 44774,
+      "domReadyEvent": 42633.5,
+      "loadEvent": 0,
+      "totalTime": 43159.5,
+      "visuallyComplete": 85024,
+      "speedIndex": 52034
+    },
+    "repeatView": {
+      "requests": 0,
+      "bytesIn": null,
+      "ttfb": 0,
+      "startRender": 0,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 0,
+      "visuallyComplete": 0,
+      "speedIndex": 52034
+    }
+  },
+  {
+    "id": "2017-12-04",
+    "location": "WinEUCentral_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=171204_VT_6P",
+    "domain": "https://espresso-uat.tele2.nl/mobiel/smartphones/",
+    "connectivity": "Native",
+    "date": 1512345600,
+    "firstView": {
+      "requests": 118,
+      "bytesIn": 3067428,
+      "ttfb": 418,
+      "startRender": 4074,
+      "domReadyEvent": 2198,
+      "loadEvent": 3017,
+      "totalTime": 3317,
+      "visuallyComplete": 4374,
+      "speedIndex": 4074
+    },
+    "repeatView": {
+      "requests": 16,
+      "bytesIn": 142551,
+      "ttfb": 256,
+      "startRender": 2975,
+      "domReadyEvent": 1710,
+      "loadEvent": 2133,
+      "totalTime": 2145,
+      "visuallyComplete": 2975,
+      "speedIndex": 4074
+    }
+  }
+]
