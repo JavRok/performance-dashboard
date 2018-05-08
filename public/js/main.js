@@ -26,22 +26,23 @@ var nodes = {
 	measureSelect: document.querySelector('.filters-measure-unit'),
 	legend       : document.querySelector('.legend'),
 	legendGroups : document.querySelector('.legend-groups'),
-	notification : document.querySelector('.notification-text') 
+	notification : document.querySelector('.notification-text')
 };
 
 
 let localStorageAvailable = lSAvailable();
 
-
-function showError(error) {
-	console.log(arguments);
-	nodes.notification.textContent = error;
-}
-
 var firstTime = true;
 
-// Create a new line chart object where as first parameter we pass in a selector
-// that is resolving to our chart container element. The Second parameter is the actual data object.
+
+function onZoom() {
+	console.log(arguments);
+}
+
+/*
+ * Create a new line chart object where as first parameter we pass in a selector
+ * that is resolving to our chart container element. The Second parameter is the actual data object.
+ */
 function createChart() {
 	if (!chart) {
 		chart = new Chartist.Line('.loading-time-chart', chartData, {
@@ -61,6 +62,7 @@ function createChart() {
 					value    : thresholdLine,
 					className: 'dashed-line'
 				})
+				// Chartist.plugins.zoom({ onZoom: onZoom })
 			]
 		});
 
@@ -88,7 +90,6 @@ function createChart() {
 		});
 
 		chart.on('created', function (context) {
-			console.log('draw', context);
 			if (firstTime) {
 				firstTime = false;
 				addEvents(context.svg._node);
@@ -96,8 +97,6 @@ function createChart() {
 			} else {
 				applyGroupFilters();
 			}
-
-
 		});
 
 	} else {
@@ -236,7 +235,10 @@ if (AJAX) {
 		}
 		urls = getURLs(response);
 		drawLegend(response);
-		
+
+		if (urls.length > 5) {
+			document.body.classList.add('crowded-house');
+		}
 
 		// Get the test results for each URL
 		return Promise.all(
@@ -254,11 +256,8 @@ if (AJAX) {
  * Process the tests coming from the tests/ Api call
  */
 function processTests(responses) {
-	// console.log(urls, currentTests);
 	var maxLength = 0;
 	chartData.series = [];
-	
-	console.log(groups);
 	
 	responses.forEach(function (response, i) {
 		var singleUrl = JSON.parse(response);
@@ -285,7 +284,6 @@ function processTests(responses) {
 	});
 
 	createChart();
-	// drawLegend();
 }
 
 /*
@@ -662,7 +660,10 @@ function applyUrlFilters() {
 	saveSelectionInLS();
 }
 
-
+function showError(error) {
+	console.log(arguments);
+	nodes.notification.textContent = error;
+}
 
 
 /** ****************   LOCAL STORAGE    ************************/

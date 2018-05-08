@@ -1915,5 +1915,63 @@
       "visuallyComplete": 0,
       "speedIndex": null
     }
+  },
+  {
+    "id": "2018-05-06",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180508_90_6V",
+    "domain": "https://www.tele2.nl/shop/verlengen/",
+    "connectivity": "Native",
+    "date": 1525564800,
+    "firstView": {
+      "requests": 570,
+      "bytesIn": 5399780.5,
+      "ttfb": 557,
+      "startRender": 0,
+      "domReadyEvent": 2475,
+      "loadEvent": 11821,
+      "totalTime": 11839.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 556,
+      "bytesIn": 263251,
+      "ttfb": 550.5,
+      "startRender": 0,
+      "domReadyEvent": 1052.5,
+      "loadEvent": 3730,
+      "totalTime": 3734,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-05-07",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180508_90_6V",
+    "domain": "https://www.tele2.nl/shop/verlengen/",
+    "connectivity": "Native",
+    "date": 1525651200,
+    "firstView": {
+      "requests": 578,
+      "bytesIn": 5467236,
+      "ttfb": 578,
+      "startRender": 0,
+      "domReadyEvent": 2037,
+      "loadEvent": 7823,
+      "totalTime": 7824,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 556,
+      "bytesIn": 263257,
+      "ttfb": 563,
+      "startRender": 0,
+      "domReadyEvent": 1150,
+      "loadEvent": 3748,
+      "totalTime": 3752,
+      "visuallyComplete": 0
+    }
   }
 ]
