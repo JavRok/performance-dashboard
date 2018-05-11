@@ -167,7 +167,7 @@ function launchTest(url, bestLocation) {
 	const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
 	const options = conf.get('testOptions');
 	const customScripts = conf.get('customScripts');
-	const scriptUrl = getCustomScript(url);
+	const scriptUrl = getCustomScript(url, wpt);
 
 	wpt.runTest(scriptUrl, options , (err, result) => {
 
@@ -194,9 +194,10 @@ function launchTest(url, bestLocation) {
 /*
  * Checks if there is a custom script for current url (in wpt format). If not returns same url
  * @param {string} url
+ * @param {object} wpt instance
  * @returns {string} url or customScript, as wpt.org understands it
  */
-function getCustomScript (url) {
+function getCustomScript (url, wpt) {
 	const customScripts = conf.get('customScripts');
 	const groups = conf.getUrlGroups(url); // There can be custom scripts for entire groups
 	let scriptUrl = url;
