@@ -1,51 +1,25 @@
-[
-  {
-    "id": "WinEUCentral_wptdriver",
-    "Label": "Agent in EC2 2018 (Chrome/Firefox/Safari/IE11)",
-    "location": "WinEUCentral_wptdriver",
-    "Browsers": "Chrome,Firefox",
-    "status": "OK",
-    "labelShort": "Test agent with wptdriver",
-    "default": 1,
-    "PendingTests": {
-      "p1": 0,
-      "p2": 0,
-      "p3": 0,
-      "p4": 0,
-      "p5": 0,
-      "p6": 0,
-      "p7": 0,
-      "p8": 0,
-      "p9": 0,
-      "Total": 0,
-      "HighPriority": 0,
-      "LowPriority": 0,
-      "Testing": 0,
-      "Idle": 1
-    }
-  },
-  {
-    "id": "DiemenTester_wptdriver",
-    "Label": "Agent in Diemen office Chrome/Firefox/IE11",
-    "location": "DiemenTester_wptdriver",
-    "Browsers": "Chrome,Firefox",
-    "status": "OK",
-    "labelShort": "Test agent with wptdriver",
-    "PendingTests": {
-      "p1": 0,
-      "p2": 0,
-      "p3": 0,
-      "p4": 0,
-      "p5": 0,
-      "p6": 0,
-      "p7": 0,
-      "p8": 0,
-      "p9": 0,
-      "Total": 0,
-      "HighPriority": 0,
-      "LowPriority": 0,
-      "Testing": 0,
-      "Idle": 1
-    }
+{
+  "id": "DiemenTester_wptdriver",
+  "Label": "Agent in Diemen office Chrome/Firefox/IE11",
+  "location": "DiemenTester_wptdriver",
+  "Browsers": "Chrome,Firefox",
+  "status": "OK",
+  "labelShort": "Test agent with wptdriver",
+  "default": 1,
+  "PendingTests": {
+    "p1": 0,
+    "p2": 0,
+    "p3": 0,
+    "p4": 0,
+    "p5": 0,
+    "p6": 0,
+    "p7": 0,
+    "p8": 0,
+    "p9": 0,
+    "Total": 0,
+    "HighPriority": 0,
+    "LowPriority": 0,
+    "Testing": 0,
+    "Idle": 1
   }
-]
+}

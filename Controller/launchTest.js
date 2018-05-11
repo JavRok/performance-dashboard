@@ -113,7 +113,6 @@ function getExistingTests(cb) {
 			} else {
 				cb(err);	
 			}
-			
 		}
 
 		files = files.map((file) => {return pendingDir + file});
@@ -159,7 +158,6 @@ function readStatusFile(fileName) {
 
 
 
-
 /*
  * Launches a test for the provided URL. Checks config for custom scripts
  * @param {string} url of the site to test
@@ -169,14 +167,7 @@ function launchTest(url, bestLocation) {
 	const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
 	const options = conf.get('testOptions');
 	const customScripts = conf.get('customScripts');
-	let scriptUrl = url;
-
-	options.location = bestLocation || locations.getBestLocation();
-
-    // Set custom script if existing (overwrites url)
-	if (customScripts && customScripts[url]) {
-		scriptUrl =  wpt.scriptToString(customScripts[url]);
-	}
+	const scriptUrl = getCustomScript(url);
 
 	wpt.runTest(scriptUrl, options , (err, result) => {
 
@@ -200,6 +191,33 @@ function launchTest(url, bestLocation) {
 	});
 }
 
+/*
+ * Checks if there is a custom script for current url (in wpt format). If not returns same url
+ * @param {string} url
+ * @returns {string} url or customScript, as wpt.org understands it
+ */
+function getCustomScript (url) {
+	const customScripts = conf.get('customScripts');
+	const groups = conf.getUrlGroups(url); // There can be custom scripts for entire groups
+	let scriptUrl = url;
+
+	// Set custom script if existing (overwrites url)
+	if (customScripts) {
+		let script;
+		if (customScripts[url]) {
+			script = customScripts[url];
+		} else if (groups.length && customScripts[groups[0]]) {
+			// There can be custom scripts for entire groups (we check only 1st one for now)
+			script = customScripts[groups[0]];
+		}
+		if (script) {
+			script.push({navigate: url});
+			scriptUrl =  wpt.scriptToString(script);
+		}
+	}
+
+	return scriptUrl;
+}
 
 
 // Run if file was invoked directly, otherwise leverage on outside script

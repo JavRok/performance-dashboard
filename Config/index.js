@@ -4,17 +4,13 @@
  */
 
 const fs = require('fs');
-const defaultConfig = __dirname + '/config.json';
 const apiFile = __dirname + '/api.key';
 const util = require('../Helper/util.js');
-
 let config;
 
-
 class Config {
-	constructor(filePath) {
-		filePath = filePath || defaultConfig;
-		this.config = require(filePath);			
+	constructor(config) {
+		this.config = require(__dirname + '/config.js');
 	}
 
 	getApiKey() {
@@ -25,19 +21,26 @@ class Config {
 	}
 
 	get(prop) {
-		return this.config[prop];
+		switch(prop) {
+			case 'sites':
+				return this.config.sites;
+			case 'customScripts':
+				return this.config.customScripts;
+			default:
+				return this.config.options[prop];
+		}
 	}
 
 	// Returns a folder path
 	getPath(folder) {
-		return this.config.outputFolder.path + '/' + this.config.outputFolder.subfolders[folder] + '/';
+		return this.config.options.outputFolder.path + '/' + this.config.options.outputFolder.subfolders[folder] + '/';
 	}
 
 	/*
 	 * @return {array} urls stripped down (no protocol or params) f.i. to save into file
 	 */
 	getTransformedURLs () {
-		const sites = this.get('sites');
+		const sites = this.config.sites;
 
 		if (sites.groups) {
 			// Rebuild object replacing urls with filenames
@@ -52,10 +55,23 @@ class Config {
 		return sites.map(util.urlToName);
 	}
 
-	getFilenames() {
-
+	/*
+	 * In case urls are organized in groups, get groups a single url belongs to
+	 * @param {string} url
+	 * @returns {array}
+	 */
+	getUrlGroups (url) {
+		let sites = this.config.sites;
+		let labels = [];
+		if (sites.groups) {
+			sites.groups.forEach((group) => {
+				if(group.urls.indexOf(url) > -1) {
+					labels.push(group.label);
+				}
+			});
+		}
+		return labels;
 	}
-
 
 	/**
 	 * Log everything with a timestamp
@@ -77,9 +93,9 @@ class Config {
 const createConfig = function createConfig() {
 	if (!config) {
 		try {
-			config = new Config(defaultConfig);			
+			config = new Config(config);
 		} catch (e) {
-			console.log('Hey, you need to create your config.json file first. Go to Config/ and rename and modify one of the examples');
+			console.log('Hey, you need to create your config.js file first. Go to Config/ and rename and modify one of the examples');
 			process.exit();
 		}
 		

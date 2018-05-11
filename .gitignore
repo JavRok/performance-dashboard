@@ -1,6 +1,7 @@
 node_modules
 .idea/
 config.json
+config.js
 wpt.org.json/history/*
 wpt.org.json/pending/*
 wpt.org.json/results/*
