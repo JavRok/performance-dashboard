@@ -169,7 +169,9 @@ function launchTest(url, bestLocation) {
 	const customScripts = conf.get('customScripts');
 	const scriptUrl = getCustomScript(url, wpt);
 
-	wpt.runTest(scriptUrl, options , (err, result) => {
+	options.location = bestLocation || locations.getBestLocation();
+
+	wpt.runTest(scriptUrl, options, (err, result) => {
 
 		if (err) return conf.log(err, true);
 		if (result.statusCode !== 200) return conf.log(result.statusText, true);
