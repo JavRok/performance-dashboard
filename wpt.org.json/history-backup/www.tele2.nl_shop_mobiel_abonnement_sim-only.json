@@ -1916,10 +1916,40 @@
     }
   },
   {
-    "id": "",
+    "id": "2018-05-05",
     "location": "DiemenTester_wptdriver:Chrome",
     "url": "http://52.28.134.156/results.php?test=180506_RA_9R",
     "domain": "https://www.tele2.nl/shop/mobiel/abonnement/sim-only/?data=1000&voice=100&binding=24",
+    "connectivity": "Native",
+    "date": 1525478400,
+    "firstView": {
+      "requests": 142,
+      "bytesIn": 1616576.5,
+      "ttfb": 350,
+      "startRender": 0,
+      "domReadyEvent": 1477.5,
+      "loadEvent": 2740,
+      "totalTime": 2755,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 50351.5,
+      "ttfb": 289,
+      "startRender": 0,
+      "domReadyEvent": 781.5,
+      "loadEvent": 1507,
+      "totalTime": 1526.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180508_RM_6X",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/sim-only/",
     "connectivity": "Native",
     "date": null,
     "firstView": {
@@ -1944,8 +1974,8 @@
   {
     "id": "2018-05-04",
     "location": "DiemenTester_wptdriver:Chrome",
-    "url": "http://52.28.134.156/results.php?test=180506_RA_9R",
-    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/sim-only/?data=1000&voice=100&binding=24",
+    "url": "http://52.28.134.156/results.php?test=180508_RM_6X",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/sim-only/",
     "connectivity": "Native",
     "date": 1525392000,
     "firstView": {
@@ -1974,8 +2004,8 @@
   {
     "id": "2018-05-05",
     "location": "DiemenTester_wptdriver:Chrome",
-    "url": "http://52.28.134.156/results.php?test=180506_RA_9R",
-    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/sim-only/?data=1000&voice=100&binding=24",
+    "url": "http://52.28.134.156/results.php?test=180508_RM_6X",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/sim-only/",
     "connectivity": "Native",
     "date": 1525478400,
     "firstView": {
@@ -1999,6 +2029,64 @@
       "totalTime": 1526.5,
       "visuallyComplete": 0,
       "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-05-06",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180508_RM_6X",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/sim-only/",
+    "connectivity": "Native",
+    "date": 1525564800,
+    "firstView": {
+      "requests": 142,
+      "bytesIn": 1616537.5,
+      "ttfb": 327,
+      "startRender": 0,
+      "domReadyEvent": 1326,
+      "loadEvent": 2319.5,
+      "totalTime": 2338,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 50354,
+      "ttfb": 289,
+      "startRender": 0,
+      "domReadyEvent": 766.5,
+      "loadEvent": 1483.5,
+      "totalTime": 1500,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-05-07",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180508_RM_6X",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/sim-only/",
+    "connectivity": "Native",
+    "date": 1525651200,
+    "firstView": {
+      "requests": 141,
+      "bytesIn": 1616309,
+      "ttfb": 315,
+      "startRender": 0,
+      "domReadyEvent": 1317,
+      "loadEvent": 2467,
+      "totalTime": 2466,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 50359,
+      "ttfb": 286,
+      "startRender": 0,
+      "domReadyEvent": 762,
+      "loadEvent": 1484,
+      "totalTime": 1485,
+      "visuallyComplete": 0
     }
   }
 ]

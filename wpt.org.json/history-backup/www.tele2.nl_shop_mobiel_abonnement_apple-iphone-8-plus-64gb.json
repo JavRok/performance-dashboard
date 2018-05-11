@@ -1608,60 +1608,6 @@
     }
   },
   {
-    "id": "",
-    "location": "DiemenTester_wptdriver:Chrome",
-    "url": "http://52.28.134.156/results.php?test=180506_P3_9T",
-    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-8-plus-64gb/",
-    "connectivity": "Native",
-    "date": null,
-    "firstView": {
-      "requests": 0,
-      "ttfb": 0,
-      "startRender": 0,
-      "domReadyEvent": 0,
-      "loadEvent": 0,
-      "totalTime": 0,
-      "visuallyComplete": 0
-    },
-    "repeatView": {
-      "requests": 0,
-      "ttfb": 0,
-      "startRender": 0,
-      "domReadyEvent": 0,
-      "loadEvent": 0,
-      "totalTime": 0,
-      "visuallyComplete": 0
-    }
-  },
-  {
-    "id": "2018-05-04",
-    "location": "DiemenTester_wptdriver:Chrome",
-    "url": "http://52.28.134.156/results.php?test=180506_P3_9T",
-    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-8-plus-64gb/",
-    "connectivity": "Native",
-    "date": 1525392000,
-    "firstView": {
-      "requests": 144,
-      "bytesIn": 1980396,
-      "ttfb": 296,
-      "startRender": 0,
-      "domReadyEvent": 1171,
-      "loadEvent": 2112,
-      "totalTime": 2122,
-      "visuallyComplete": 0
-    },
-    "repeatView": {
-      "requests": 19,
-      "bytesIn": 39195,
-      "ttfb": 281,
-      "startRender": 0,
-      "domReadyEvent": 799,
-      "loadEvent": 1556,
-      "totalTime": 1573,
-      "visuallyComplete": 0
-    }
-  },
-  {
     "id": "2018-05-05",
     "location": "DiemenTester_wptdriver:Chrome",
     "url": "http://52.28.134.156/results.php?test=180506_P3_9T",
@@ -1689,6 +1635,148 @@
       "totalTime": 1545.5,
       "visuallyComplete": 0,
       "speedIndex": null
+    }
+  },
+  {
+    "id": "",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180508_SR_6R",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": null,
+    "firstView": {
+      "requests": 0,
+      "ttfb": 0,
+      "startRender": 0,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 0,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 0,
+      "ttfb": 0,
+      "startRender": 0,
+      "domReadyEvent": 0,
+      "loadEvent": 0,
+      "totalTime": 0,
+      "visuallyComplete": 0
+    }
+  },
+  {
+    "id": "2018-05-04",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180508_SR_6R",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1525392000,
+    "firstView": {
+      "requests": 144,
+      "bytesIn": 1980396,
+      "ttfb": 296,
+      "startRender": 0,
+      "domReadyEvent": 1171,
+      "loadEvent": 2112,
+      "totalTime": 2122,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 39195,
+      "ttfb": 281,
+      "startRender": 0,
+      "domReadyEvent": 799,
+      "loadEvent": 1556,
+      "totalTime": 1573,
+      "visuallyComplete": 0
+    }
+  },
+  {
+    "id": "2018-05-05",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180508_SR_6R",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1525478400,
+    "firstView": {
+      "requests": 144,
+      "bytesIn": 1979544.5,
+      "ttfb": 296,
+      "startRender": 0,
+      "domReadyEvent": 1161.5,
+      "loadEvent": 2197.5,
+      "totalTime": 2207.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 39184,
+      "ttfb": 281.5,
+      "startRender": 0,
+      "domReadyEvent": 792.5,
+      "loadEvent": 1536,
+      "totalTime": 1545.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-05-06",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180508_SR_6R",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1525564800,
+    "firstView": {
+      "requests": 144,
+      "bytesIn": 1979650,
+      "ttfb": 291,
+      "startRender": 0,
+      "domReadyEvent": 1267.5,
+      "loadEvent": 2286,
+      "totalTime": 2296,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 39195.5,
+      "ttfb": 272.5,
+      "startRender": 0,
+      "domReadyEvent": 792,
+      "loadEvent": 1556,
+      "totalTime": 1572.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-05-07",
+    "location": "DiemenTester_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=180508_SR_6R",
+    "domain": "https://www.tele2.nl/shop/mobiel/abonnement/apple-iphone-8-plus-64gb/",
+    "connectivity": "Native",
+    "date": 1525651200,
+    "firstView": {
+      "requests": 144,
+      "bytesIn": 1979536,
+      "ttfb": 304,
+      "startRender": 0,
+      "domReadyEvent": 1243,
+      "loadEvent": 2241,
+      "totalTime": 2241,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 19,
+      "bytesIn": 39182,
+      "ttfb": 286,
+      "startRender": 0,
+      "domReadyEvent": 816,
+      "loadEvent": 1589,
+      "totalTime": 1589,
+      "visuallyComplete": 0
     }
   }
 ]
