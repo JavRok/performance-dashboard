@@ -171,6 +171,7 @@ function launchTest(url, bestLocation) {
 
 	options.location = bestLocation || locations.getBestLocation();
 
+	console.log('customScript', scriptUrl);
 	wpt.runTest(scriptUrl, options, (err, result) => {
 
 		if (err) return conf.log(err, true);
