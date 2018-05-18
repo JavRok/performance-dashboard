@@ -170,6 +170,8 @@ function launchTest(url, bestLocation) {
 	const scriptUrl = getCustomScript(url, wpt);
 
 	options.location = bestLocation || locations.getBestLocation();
+	console.log('Test launched', url);
+	return;
 
 	console.log('customScript', scriptUrl);
 	wpt.runTest(scriptUrl, options, (err, result) => {
@@ -209,10 +211,10 @@ function getCustomScript (url, wpt) {
 	if (customScripts) {
 		let script;
 		if (customScripts[url]) {
-			script = customScripts[url];
+			script = customScripts[url].slice();  // Array by value, not reference
 		} else if (groups.length && customScripts[groups[0]]) {
 			// There can be custom scripts for entire groups (we check only 1st one for now)
-			script = customScripts[groups[0]];
+			script = customScripts[groups[0]].slice();
 		}
 		if (script) {
 			script.push({navigate: url});
