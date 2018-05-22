@@ -99,7 +99,7 @@ class TestStatus {
 					case (data.statusCode > 200):
 					default:
 						// Failed test or invalid ID
-						reject(new Error(data.statusText));
+						reject(new Error('ID ' + testId + ' ' + data.statusText));
 						break;
 				}
 			});

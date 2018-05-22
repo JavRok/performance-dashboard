@@ -170,10 +170,7 @@ function launchTest(url, bestLocation) {
 	const scriptUrl = getCustomScript(url, wpt);
 
 	options.location = bestLocation || locations.getBestLocation();
-	console.log('Test launched', url);
-	return;
 
-	console.log('customScript', scriptUrl);
 	wpt.runTest(scriptUrl, options, (err, result) => {
 
 		if (err) return conf.log(err, true);

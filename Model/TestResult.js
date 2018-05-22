@@ -30,6 +30,10 @@ class TestResult {
 			this.date = test.runs['1'].firstView.date;
 
 			var run = test.runs['1'].firstView;
+			if (!run.requests) {
+				console.log('requests empty', test.id);
+				return;
+			}
 			this.firstView = {
 				requests        : run.requests.length,
 				bytesIn         : run.bytesIn,
