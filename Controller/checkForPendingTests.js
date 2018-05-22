@@ -51,7 +51,6 @@ function checkTestStatus(id, fileName) {
 
 				const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
 				const options = conf.get('testOptions');
-				console.log(options);
 
 				queuedTimes.set(id, util.parseDateFromFile(fileName));
 				wpt.results(id, options, processTestResult);

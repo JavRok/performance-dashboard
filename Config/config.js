@@ -79,14 +79,17 @@ const customScripts = {
 		{setCookie: ["https://www.tele2.nl", "ely_cc_answ={\"cookie-consent\":1}"]},
 	],			
 	"https://www.ziggo.nl/": [
-		{setCookie: ["https://www.ziggo.nl", "_syn={'c': cookiesPermission ,'ct':1473804921100}]}"]}
+		{setCookie: ["https://www.ziggo.nl", "_svs=%7B%22e%22%3A%7B%22152%22%3A%7B%22group%22%3A156%2C%22sent%22%3Atrue%7D%2C%22345%22%3A%7B%22group%22%3A346%2C%22sent%22%3Atrue%7D%2C%22403%22%3A%7B%22group%22%3A405%2C%22sent%22%3Atrue%7D%7D%2C%22c%22%3A%7B%221%22%3Atrue%2C%222%22%3Atrue%2C%223%22%3Atrue%2C%224%22%3Atrue%7D%2C%22ct%22%3A1526976543344%2C%22p%22%3A%7B%227%22%3A1626976543369%2C%224242%22%3A1626976543365%7D%2C%22m%22%3A%7B%22customOffer%22%3A%7B%22sent%22%3A1626976543312%7D%7D%7D"]}
 	],
 	"https://www.kpn.com/": [
 		{setCookie: ["https://www.kpn.com", "BCPermissionLevel=PERSONAL"]}
 	],
 	"https://www.t-mobile.nl": [
 		{setCookie: ["https://www.t-mobile.nl", "tm_cookie_setting=Tracking"]}
-	]		
+	],
+	"https://www.vodafone.nl/": [
+		{setCookie: ["https://www.vodafone.nl/", "dimml_consent={\"level\":2,\"version\":\"2.0.0\",\"contentHashConsumer\":422970128,\"contentHashBusiness\":-1158459282}"]}
+	]
 };
 
 module.exports =  {
