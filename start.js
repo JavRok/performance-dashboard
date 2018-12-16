@@ -54,7 +54,7 @@ const historyInterval = setInterval (() => {
 
 // Call it first time
 CheckForTests.run();
-// LaunchTests.run();
+LaunchTests.run();
 
 
 
