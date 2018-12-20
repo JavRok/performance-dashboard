@@ -9,34 +9,18 @@
 const sites = {
 	groups: [
 		{
-			label: "Wordpress",
+			label: "Social",
 			urls: [
-				"https://www.tele2.nl/",
-				"https://www.tele2.nl/shop/thuis/postcodecheck/",
-				"https://www.tele2.nl/klantenservice/mobiel/toestelhulp/",
-				"https://www.tele2.nl/klantenservice/",
-				"https://www.tele2.nl/klantenservice/contact/",
-				"https://forum.tele2.nl/"
+				"https://www.facebook.com/",
+				"https://www.twitter.com/"
 			]
 		},
 		{
-			label: "Magento",
+			label: "News",
 			urls: [
-				"https://www.tele2.nl/mobiel/sim-only/",
-				"https://www.tele2.nl/mobiel/smartphones/",
-				"https://www.tele2.nl/mobiel/smartphones/apple-iphone-x/",
-				"https://www.tele2.nl/mobiel/smartphones/apple-iphone-8/?data=2000&voice=100&installment=16&binding=24&cancelable=false&memory=64&color=silver&force=1"
-			]
-		},
-		{
-			label: "Competitors",
-			urls: [
-				"https://www.tele2.nl/",
-				"http://www.ziggo.nl/",
-				"https://www.t-mobile.nl",
-				"https://www.kpn.com/",
-				"https://www.vodafone.nl/",
-				"https://www.telfort.nl/"
+				"https://www.nytimes.com/",
+				"https://www.elespanol.com/",
+				"https://www.telegraph.co.uk/"
 			]
 		}
 	]
@@ -47,7 +31,7 @@ const sites = {
  */
 const options = {
 	intervalInHours: 1,
-	locations: ["DesktopT2_wptdriver:Chrome", "DesktopT2_wptdriver:Firefox"],
+	locations: ["SanJose_IE9:IE 9", "Dulles_MotoG4:Firefox"],
 	outputFolder: {
 		path: "wpt.org.json",
 		subfolders: {
@@ -59,8 +43,8 @@ const options = {
 	// testOptions are passed directly to the webpagetest module, docs: https://www.npmjs.com/package/webpagetest
 	testOptions: {
 		connectivity: "Cable",
-		server: "http://52.28.134.156"
-		// proxy: "proxy.dcn.versatel.net:3128"
+		server: "https://www.webpagetest.org/"
+		// proxy: "proxy.net:3128"
 	}
 };
 
