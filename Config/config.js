@@ -16,7 +16,6 @@ const sites = {
 				"https://www.tele2.nl/klantenservice/mobiel/toestelhulp/",
 				"https://www.tele2.nl/klantenservice/",
 				"https://www.tele2.nl/klantenservice/contact/",
-				"https://www.tele2.nl/klantenservice/mobiel/simkaart-activeren/",
 				"https://forum.tele2.nl/"
 			]
 		},
@@ -26,7 +25,7 @@ const sites = {
 				"https://www.tele2.nl/mobiel/sim-only/",
 				"https://www.tele2.nl/mobiel/smartphones/",
 				"https://www.tele2.nl/mobiel/smartphones/apple-iphone-x/",
-				"https://www.tele2.nl/mobiel/smartphones/apple-iphone-7/?data=2000&voice=100&installment=26&binding=24&cancelable=false&force=1&memory=128&color=red"
+				"https://www.tele2.nl/mobiel/smartphones/apple-iphone-8/?data=2000&voice=100&installment=16&binding=24&cancelable=false&memory=64&color=silver&force=1"
 			]
 		},
 		{
@@ -48,7 +47,7 @@ const sites = {
  */
 const options = {
 	intervalInHours: 1,
-	locations: ["DiemenTester_wptdriver:Chrome", "DiemenTester_wptdriver:Firefox"],
+	locations: ["DesktopT2_wptdriver:Chrome", "DesktopT2_wptdriver:Firefox"],
 	outputFolder: {
 		path: "wpt.org.json",
 		subfolders: {
