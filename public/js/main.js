@@ -583,6 +583,16 @@ function applyGroupFilters() {
 	}
 }
 
+
+/*
+ * Get current active groups
+ * @returns {array} like ['group-0', 'group-2']
+ */
+function getActiveGroups() {
+	const groups = Array.from(nodes.legendGroups.querySelectorAll('input[type=checkbox]:checked'));
+	return groups.map(input => input.name.replace('label-', ''));
+}
+
 /*
  * Applies a SINGLE group filter from the legend (because a graph refresh)
  * @param {Element} group checkbox
@@ -590,6 +600,8 @@ function applyGroupFilters() {
 function applyGroupFilter(groupNode) {
 	var group = groupNode.name.replace('label-', '');
 	var labels = nodes.legend.getElementsByClassName(group);
+
+	var activeGroups = getActiveGroups();
 
 	for (var i=0; i < labels.length; i++) {
 		var label = labels[i],
@@ -601,8 +613,11 @@ function applyGroupFilter(groupNode) {
 				activateUrl(input);
 			}
 		} else {
-			label.classList.add('hidden');
-			deactivateUrl(input);
+			// Deactivate url, only if it doesn't belong to another active group
+			if (!activeGroups.some(activeGroup => label.classList.contains(activeGroup))) {
+				label.classList.add('hidden');
+				deactivateUrl(input);
+			}
 		}
 	}
 }
