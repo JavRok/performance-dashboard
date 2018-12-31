@@ -59,7 +59,8 @@ const options = {
 	// testOptions are passed directly to the webpagetest module, docs: https://www.npmjs.com/package/webpagetest
 	testOptions: {
 		connectivity: "Cable",
-		server: "http://52.28.134.156"
+		server: "http://52.28.134.156",
+		video : true
 		// proxy: "proxy.dcn.versatel.net:3128"
 	}
 };

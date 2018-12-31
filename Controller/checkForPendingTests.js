@@ -60,7 +60,11 @@ function checkTestStatus(id, fileName) {
 				// result.position -> queue
 			}
 		})
-		.catch(conf.log);
+		.catch(err => {
+			conf.log('There was an error with test ' + id + '. Removing pending file');
+			fs.unlink(pendingDir + fileName, ()=>{});
+			conf.log(err);
+		});
 }
 
 
