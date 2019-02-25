@@ -1,6 +1,6 @@
 /*
  * Start point for the performance dashboard. Run with 'node start.js >> log/history.log'.
- * IMPORTANT: Tests are limited to 200 per day. Given a test per hour, we can run up to 8 sites. 
+ * IMPORTANT: Tests are limited to 200 per day in public instance. Given a test per hour, we can run up to 8 sites.
  */
 
 /** ************   Run express app to open the dashboard in a browser   **************/
@@ -64,8 +64,8 @@ const folderObj = conf.get('outputFolder');
 if (typeof folderObj.subfolders === 'object') {
 	for (let subfolder in folderObj.subfolders) {
     	if (folderObj.subfolders.hasOwnProperty(subfolder)) {
-		checkDirectory(conf.getPath(subfolder), () => {});
-	}
+			checkDirectory(conf.getPath(subfolder), () => {});
+		}
 	}
 }
 

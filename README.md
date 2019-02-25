@@ -1,1 +1,3 @@
-Performance Dashboard, that will use Webpagetest.org API
+### Performance Dashboard, an automatic webpagetest.org tester
+
+ 

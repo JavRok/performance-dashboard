@@ -611,7 +611,7 @@ function applyGroupFilter(groupNode) {
 			label.classList.remove('hidden');
 			if (input.checked) {
 				activateUrl(input);
-			}
+
 		} else {
 			// Deactivate url, only if it doesn't belong to another active group
 			if (!activeGroups.some(activeGroup => label.classList.contains(activeGroup))) {
