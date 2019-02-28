@@ -47,7 +47,7 @@ const sites = {
  */
 const options = {
 	intervalInHours: 1,
-	locations: ["DesktopT2_wptdriver:Chrome", "DesktopT2_wptdriver:Firefox"],
+	locations: ["LaptopT2_wptdriver:Chrome", "LaptopT2_wptdriver:Firefox"],
 	outputFolder: {
 		path: "wpt.org.json",
 		subfolders: {

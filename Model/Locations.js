@@ -51,7 +51,7 @@ class Locations {
 
 	/*
 	 * Updates the list of locations and waiting times. Saves it on locations.json file
-	 * Returns the list on the callback function
+	 * Returns error in the callback function
 	 */
 	update(cb) {
 		const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
@@ -69,17 +69,53 @@ class Locations {
 
 			// Fill the array with usage data.
 			self.locations = result.response.data.location;
+			// When only 1 location, only the object is returned, not the array
+			if (!Array.isArray(self.locations) && self.locations.Label) {
+				self.locations = [this.locations];
+			}
 			// Write the file
-			fs.writeFile(locationsFile, JSON.stringify(self.locations, null, 2), () => { });
+			fs.writeFile(locationsFile, JSON.stringify(self.locations, null, 2), () => {});
 			cb(null);
 		});
+	}
+
+	/*
+	 * Same as update(), but returns a promise with the result
+	 * @returns {Promise}
+	 */
+	getLocationsPromise() {
+		const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
+		const options = conf.get('testOptions');
+		return new Promise((resolve, reject) => {
+			wpt.getLocations(options, (err, result) => {
+				if (err) {
+					conf.log(err, true);
+					return reject(err);
+				}
+
+				if (result.response.statusCode !== 200) {
+					conf.log(result.response.statusText, true);
+					return reject(new Error(result.response.statusText));
+				}
+
+				// Fill the array with usage data.
+				this.locations = result.response.data.location;
+				// When only 1 location, only the object is returned, not the array
+				if (!Array.isArray(this.locations) && this.locations.Label) {
+					this.locations = [this.locations];
+				}
+
+				// Write the file
+				fs.writeFile(locationsFile, JSON.stringify(this.locations, null, 2), () => {});
+				resolve(this.locations);
+			});
+		})
 	}
 
 	/*
 	 * Call update() once before using this function
 	 */
 	getBestLocation() {
-
 		const locations = conf.get('locations');
 		const filteredLocations = this.filterConfigLocations(this.locations);		
 		const waitingTimes = filteredLocations.map(this.calculateWaitingTime);		

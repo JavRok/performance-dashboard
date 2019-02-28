@@ -1,25 +1,27 @@
-{
-  "id": "DesktopT2_wptdriver",
-  "Label": "Agent in Diement office (Chrome/Firefox/IE11)",
-  "location": "DesktopT2_wptdriver",
-  "Browsers": "Chrome,Firefox",
-  "status": "OK",
-  "labelShort": "Test agent with wptdriver",
-  "default": 1,
-  "PendingTests": {
-    "p1": 0,
-    "p2": 0,
-    "p3": 0,
-    "p4": 0,
-    "p5": 0,
-    "p6": 0,
-    "p7": 0,
-    "p8": 0,
-    "p9": 0,
-    "Total": 0,
-    "HighPriority": 0,
-    "LowPriority": 0,
-    "Testing": 0,
-    "Idle": 1
+[
+  {
+    "id": "LaptopT2_wptdriver",
+    "Label": "Laptop agent in Diemen office Chrome/Firefox/IE11",
+    "location": "LaptopT2_wptdriver",
+    "Browsers": "Chrome,Firefox,Chrome Beta,Chrome Canary,Firefox Nightly",
+    "status": "OK",
+    "labelShort": "Test agent with wptdriver",
+    "default": 1,
+    "PendingTests": {
+      "p1": 0,
+      "p2": 0,
+      "p3": 0,
+      "p4": 0,
+      "p5": 12,
+      "p6": 0,
+      "p7": 0,
+      "p8": 0,
+      "p9": 0,
+      "Total": 13,
+      "HighPriority": 0,
+      "LowPriority": 12,
+      "Testing": 1,
+      "Idle": 0
+    }
   }
-}
+]
