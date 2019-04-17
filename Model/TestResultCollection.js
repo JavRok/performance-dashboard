@@ -12,7 +12,7 @@ class TestResultCollection {
 		this.tests = [];
 
 		if (tests && tests.length > 0) {
-			tests.forEach( (test, i) => {
+			tests.forEach( (test) => {
 				this.addOrdered(new TestResult(test));
 			});
 		}
@@ -77,13 +77,19 @@ class TestResultCollection {
 		});
 	}
 
+	getTestAt(index) {
+		if (index > -1 && index < this.length()) {
+			return this.tests[index];
+		}
+		return null;
+	}
+
 
 	/*
 	 * Removes all tests happened in a certain day, specified by the parameter
 	 * @param [string] day in yyyy-mm-dd format
 	 */
 	removeTestsFromDay(day) {
-
 		this.tests = this.tests.filter((test) => {
 			return day !== util.getUniqueDay(test.date);
 		});
@@ -96,7 +102,6 @@ class TestResultCollection {
 	 * @return {array} Array of exactly 24 test objects, with possible null values
 	 */
 	get24hResults(day) {
-
 		const dateObj = new Date();
 		const result = {
 			'hours': [],
@@ -104,7 +109,7 @@ class TestResultCollection {
 		};
 
 		dateObj.setDate(dateObj.getDate() + day);
-		// Last 24h (includes today and possibly yesterday partly)
+		// Last 24h (includes today and possibly part of yesterday)
 		if (day === 0) {
 			let hour = new Date().getHours();  // Get current hour
 			for (let i = 0; i < 24; i++) {
@@ -195,7 +200,6 @@ class TestResultCollection {
 	}
 
 	/**
-	 *
 	 * Searches for a test with the specified timestamp, within the same day.
 	 * @param {number} timestamp
 	 * @return {*} or null

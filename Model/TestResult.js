@@ -29,7 +29,7 @@ class TestResult {
 			this.connectivity = test.connectivity;
 			this.date = test.runs['1'].firstView.date;
 
-			var run = test.runs['1'].firstView;
+			let run = test.runs['1'].firstView;
 			if (!run.requests) {
 				console.log('requests empty', test.id);
 				return;
@@ -66,14 +66,6 @@ class TestResult {
 			}
 
 		}
-	}
-
-	/*
-	 * @return [string] current timestamp in format yyyy-mm-dd
-	 */
-	getUniqueDay() {
-		var dateObj = new Date(this.date * 1000);
-		return dateObj.toISOString().substr(0, 10);
 	}
 
 	toString() {

@@ -13,11 +13,13 @@
   "license": "ISC",
   "scripts": {
     "build-css": "node-sass --include-path sass sass/start.scss public/css/style.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "test": "jest --verbose"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
+    "jest": "^24.7.1",
     "node-sass": "^4.7.2",
     "nodemon": "^1.12.5",
     "normalize.css": "^7.0.0"
