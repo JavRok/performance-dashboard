@@ -1,36 +1,5 @@
 [
   {
-    "id": "190411_R7_C",
-    "location": "LaptopT2_wptdriver:Chrome",
-    "url": "http://52.28.134.156/results.php?test=190411_R7_C",
-    "domain": "https://www.google.com/",
-    "connectivity": "Native",
-    "date": 1554984265.65,
-    "firstView": {
-      "requests": 79,
-      "bytesIn": 1873048,
-      "ttfb": 669,
-      "startRender": 3700,
-      "domReadyEvent": 4561,
-      "loadEvent": 27890,
-      "totalTime": 27890,
-      "visuallyComplete": 18800,
-      "speedIndex": 9457
-    },
-    "repeatView": {
-      "requests": 26,
-      "bytesIn": 125559,
-      "ttfb": 321,
-      "startRender": 2900,
-      "domReadyEvent": 5456,
-      "loadEvent": 12931,
-      "totalTime": 12931,
-      "visuallyComplete": 13000,
-      "speedIndex": 6868
-    },
-    "queuedTime": "2019-04-11T11:43:04.000Z"
-  },
-  {
     "id": "190411_0Y_1C",
     "location": "LaptopT2_wptdriver:Chrome",
     "url": "http://52.28.134.156/results.php?test=190411_0Y_1C",
@@ -59,38 +28,7 @@
       "visuallyComplete": 12800,
       "speedIndex": 7085
     },
-    "queuedTime": "2019-04-11T13:30:15.000Z"
-  },
-  {
-    "id": "190411_HY_X",
-    "location": "LaptopT2_wptdriver:Chrome",
-    "url": "http://52.28.134.156/results.php?test=190411_HY_X",
-    "domain": "https://www.google.com/",
-    "connectivity": "Native",
-    "date": 1554987233.739,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 1931398,
-      "ttfb": 354,
-      "startRender": 3500,
-      "domReadyEvent": 6586,
-      "loadEvent": 21561,
-      "totalTime": 21561,
-      "visuallyComplete": 12200,
-      "speedIndex": 7741
-    },
-    "repeatView": {
-      "requests": 27,
-      "bytesIn": 324751,
-      "ttfb": 771,
-      "startRender": 3200,
-      "domReadyEvent": 6467,
-      "loadEvent": 15726,
-      "totalTime": 15726,
-      "visuallyComplete": 15100,
-      "speedIndex": 8203
-    },
-    "queuedTime": "2019-04-11T12:30:15.000Z"
+    "queuedTime": "2019-04-11T15:30:15.000Z"
   },
   {
     "id": "190411_WJ_1V",
@@ -121,7 +59,7 @@
       "visuallyComplete": 12900,
       "speedIndex": 7129
     },
-    "queuedTime": "2019-04-11T14:30:15.000Z"
+    "queuedTime": "2019-04-11T16:30:15.000Z"
   },
   {
     "id": "190411_VM_28",
@@ -152,7 +90,7 @@
       "visuallyComplete": 13700,
       "speedIndex": 6979
     },
-    "queuedTime": "2019-04-11T15:30:15.000Z"
+    "queuedTime": "2019-04-11T17:30:15.000Z"
   },
   {
     "id": "190411_EA_2S",
@@ -183,7 +121,7 @@
       "visuallyComplete": 13900,
       "speedIndex": 6881
     },
-    "queuedTime": "2019-04-11T16:30:15.000Z"
+    "queuedTime": "2019-04-11T18:30:15.000Z"
   },
   {
     "id": "190411_VG_37",
@@ -214,7 +152,7 @@
       "visuallyComplete": 12700,
       "speedIndex": 6786
     },
-    "queuedTime": "2019-04-11T17:30:15.000Z"
+    "queuedTime": "2019-04-11T19:30:15.000Z"
   },
   {
     "id": "190411_F3_3Q",
@@ -245,7 +183,7 @@
       "visuallyComplete": 12800,
       "speedIndex": 6172
     },
-    "queuedTime": "2019-04-11T18:30:15.000Z"
+    "queuedTime": "2019-04-11T20:30:15.000Z"
   },
   {
     "id": "190411_12_45",
@@ -276,7 +214,7 @@
       "visuallyComplete": 11500,
       "speedIndex": 6385
     },
-    "queuedTime": "2019-04-11T19:30:15.000Z"
+    "queuedTime": "2019-04-11T21:30:15.000Z"
   },
   {
     "id": "190411_3M_4N",
@@ -307,7 +245,7 @@
       "visuallyComplete": 13700,
       "speedIndex": 7079
     },
-    "queuedTime": "2019-04-11T20:30:15.000Z"
+    "queuedTime": "2019-04-11T22:30:15.000Z"
   },
   {
     "id": "190411_M3_54",
@@ -337,68 +275,6 @@
       "totalTime": 12856,
       "visuallyComplete": 13400,
       "speedIndex": 6571
-    },
-    "queuedTime": "2019-04-11T21:30:15.000Z"
-  },
-  {
-    "id": "190411_W5_5J",
-    "location": "LaptopT2_wptdriver:Chrome",
-    "url": "http://52.28.134.156/results.php?test=190411_W5_5J",
-    "domain": "https://www.google.com/",
-    "connectivity": "Native",
-    "date": 1555023048.085,
-    "firstView": {
-      "requests": 79,
-      "bytesIn": 1873291,
-      "ttfb": 420,
-      "startRender": 3700,
-      "domReadyEvent": 6106,
-      "loadEvent": 16371,
-      "totalTime": 16371,
-      "visuallyComplete": 14200,
-      "speedIndex": 8014
-    },
-    "repeatView": {
-      "requests": 25,
-      "bytesIn": 114271,
-      "ttfb": 570,
-      "startRender": 2900,
-      "domReadyEvent": 4112,
-      "loadEvent": 10559,
-      "totalTime": 10560,
-      "visuallyComplete": 11300,
-      "speedIndex": 6113
-    },
-    "queuedTime": "2019-04-11T22:30:15.000Z"
-  },
-  {
-    "id": "190411_20_63",
-    "location": "LaptopT2_wptdriver:Chrome",
-    "url": "http://52.28.134.156/results.php?test=190411_20_63",
-    "domain": "https://www.google.com/",
-    "connectivity": "Native",
-    "date": 1555026953.945,
-    "firstView": {
-      "requests": 82,
-      "bytesIn": 1931435,
-      "ttfb": 644,
-      "startRender": 3300,
-      "domReadyEvent": 6787,
-      "loadEvent": 17369,
-      "totalTime": 17368,
-      "visuallyComplete": 13600,
-      "speedIndex": 8022
-    },
-    "repeatView": {
-      "requests": 25,
-      "bytesIn": 114272,
-      "ttfb": 569,
-      "startRender": 3000,
-      "domReadyEvent": 5318,
-      "loadEvent": 13378,
-      "totalTime": 13378,
-      "visuallyComplete": 14700,
-      "speedIndex": 7039
     },
     "queuedTime": "2019-04-11T23:30:15.000Z"
   },

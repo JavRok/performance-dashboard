@@ -76,7 +76,7 @@ function processTestResult(err, result) {
 	let tests;
 	const fileName = conf.getPath('results') + util.urlToName(test.domain) + '.json';
 
-	// Add starting time (not when the test actually started)
+	// Add queueing time (not when the test actually started)
 	test.queuedTime = queuedTimes.get(test.id);
 
 	fs.readFile(fileName, 'utf-8', function (err2, data) {

@@ -1,7 +1,7 @@
 const TestResult = require('../Model/TestResult');
 const TestResultCollection = require('../Model/TestResultCollection');
 const testResultJSON = require('./fixtures/testResultOriginal.json');
-const resultsCollectionJSON = require('./fixtures/results_sample_n52.json');
+const resultsCollectionJSON = require('./fixtures/results/results_sample_n50.json');
 
 let testResult;
 beforeEach(() => {
@@ -70,15 +70,11 @@ describe('Read existing JSON to a TestResultCollection object', () => {
         const count = countDayTests(dateStr, testResultCollection);
 
         // How many days separate today from the date of the test?
-        const days = getDaysDifference(+ new Date(), sampleTest.date * 1000);
-        // const count = countDayTests(dateStr, testResultCollection);
+        const days = getDaysDifference(new Date().getTime(), sampleTest.date * 1000);
         // subCollection = Only the tests from the specified day
         const subCollection = testResultCollection.get24hResults(-days);
-
-        console.log(countNotNullEntries(subCollection.tests), count);
-
-
-
+        // TODO: Why this works only some times?
+        // expect(countNotNullEntries(subCollection.tests)).toBe(count);
     });
 
 });
@@ -118,11 +114,11 @@ function countDayTests(dateStr, testCollection) {
 /*
  * @param {number} date1 timestamp
  * @param {number} date2 timestamp
- * @returns {number} number of days of difference between two dates (natural number)
+ * @returns {number} number of days of difference between two dates (natural number, decimals truncated)
  */
 function getDaysDifference (date1, date2) {
     const timeDiff = Math.abs(date2 - date1);
-    return Math.ceil(timeDiff / (1000 * 3600 * 24));
+    return Math.floor(timeDiff / (1000 * 3600 * 24));
 }
 
 function countNotNullEntries(arr) {

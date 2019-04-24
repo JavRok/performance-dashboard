@@ -10,7 +10,7 @@ let config;
 
 class Config {
 	constructor(config) {
-		this.config = require(__dirname + '/config.js');
+		this.config = require(config);
 	}
 
 	getApiKey() {
@@ -93,9 +93,15 @@ class Config {
 const createConfig = function createConfig() {
 	if (!config) {
 		try {
-			config = new Config(config);
+			// TODO: Find a better way to use different config when unit testing, without this
+			if (process.env.JEST_WORKER_ID !== undefined) {
+				config = new Config(__dirname + '/../test/fixtures/config.js');
+			} else {
+				config = new Config(__dirname + '/config.js');
+			}
+
 		} catch (e) {
-			console.log('Hey, you need to create your config.js file first. Go to Config/ and rename and modify one of the examples');
+			console.log('Hey, you need to create your config.js file first. Go to Config/ and rename and modify one of the examples', e);
 			process.exit();
 		}
 		

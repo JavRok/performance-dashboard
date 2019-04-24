@@ -60,15 +60,16 @@ function getDateTime() {
 }
 /*
  * Parses the date from a file with date format as returned by 'getDateTime()'
- * @return {Date}
+ * @return {string} with date and time, like '2019-04-17T21:52:34'
  */
 function parseDateFromFile(filename) {
-	return new Date(filename.substr(0, 19).replace(/_/g, ':'));
+	return filename.substr(0, 19).replace(/_/g, ':');
 }
 
 
 /*
- * @return [string] current timestamp in format yyyy-mm-dd
+ * @param {number} timestamp
+ * @return {string} current timestamp in format yyyy-mm-dd
  */
 function getUniqueDay(timestamp) {
 	if (!timestamp) return '';
@@ -79,7 +80,7 @@ function getUniqueDay(timestamp) {
 
 /*
  * Returns the position of the element with min/max value in an array
- * @param {array}
+ * @param {Array}
  */
 function minPos(arr) {
 	return arr.indexOf(Math.min(...arr));
@@ -87,7 +88,6 @@ function minPos(arr) {
 function maxPos(arr) {
 	return arr.indexOf(Math.max(...arr));
 }
-
 
 
 module.exports = {
