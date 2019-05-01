@@ -6,6 +6,8 @@ const GenericStorage = require('../Storage/GenericStorage');
 describe('Test FileSystem Storage class', () => {
 
     const resultsSample = 'results_sample_n50'; // .json
+    const historySample = 'history_sample_n79';
+    
     let fsStorage;
 
     beforeEach(() => {
@@ -51,5 +53,20 @@ describe('Test FileSystem Storage class', () => {
             fs.unlink(filePath, () => {});
             done();
         })
+    });
+
+
+    test('Check retrieveHistoryCollection, reading daily results from a file', async () => {
+        expect.assertions(3); // Needed for async testing
+
+        const tests = await fsStorage.retrieveHistoryCollection(historySample);
+        expect(tests).toBeInstanceOf(TestResultCollection);
+        expect(tests.length()).toBeGreaterThan(1);
+
+        const sampleTest = tests.getTestAt(0);
+        // Difference between Results and History, is that tests' ID is a date, format 'yyyy-mm-dd'
+        expect(isNaN(Date.parse(sampleTest.id))).toBe(false);
+
+
     });
 });

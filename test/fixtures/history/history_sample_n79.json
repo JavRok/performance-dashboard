@@ -1,0 +1,2315 @@
+[
+  {
+    "id": "2018-12-19",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=181220_8D_4R",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1545177600,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1678859,
+      "ttfb": 334.5,
+      "startRender": 0,
+      "domReadyEvent": 2942,
+      "loadEvent": 3904,
+      "totalTime": 3903.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 672268,
+      "ttfb": 248.5,
+      "startRender": 0,
+      "domReadyEvent": 789,
+      "loadEvent": 1691,
+      "totalTime": 1690.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-12-20",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=181221_0S_4S",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1545264000,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1678191,
+      "ttfb": 336,
+      "startRender": 0,
+      "domReadyEvent": 2964,
+      "loadEvent": 3874,
+      "totalTime": 3874,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 671881,
+      "ttfb": 248,
+      "startRender": 0,
+      "domReadyEvent": 738,
+      "loadEvent": 1679,
+      "totalTime": 1679,
+      "visuallyComplete": 0
+    }
+  },
+  {
+    "id": "2018-12-21",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=181222_38_4N",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1545350400,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1681950,
+      "ttfb": 341,
+      "startRender": 0,
+      "domReadyEvent": 2941,
+      "loadEvent": 3861,
+      "totalTime": 3861,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 672774,
+      "ttfb": 246,
+      "startRender": 0,
+      "domReadyEvent": 772,
+      "loadEvent": 1702,
+      "totalTime": 1702,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    }
+  },
+  {
+    "id": "2018-12-22",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=181223_54_49",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1545436800,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1681418.5,
+      "ttfb": 333.5,
+      "startRender": 0,
+      "domReadyEvent": 2946.5,
+      "loadEvent": 4004,
+      "totalTime": 4004,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 672065.5,
+      "ttfb": 245.5,
+      "startRender": 0,
+      "domReadyEvent": null,
+      "loadEvent": 1722,
+      "totalTime": null,
+      "visuallyComplete": null,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-12-23",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=181224_Z1_74",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1545523200,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1671544,
+      "ttfb": 336,
+      "startRender": 0,
+      "domReadyEvent": 2949,
+      "loadEvent": 3916,
+      "totalTime": 3917,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 673684,
+      "ttfb": 255,
+      "startRender": 0,
+      "domReadyEvent": 789,
+      "loadEvent": 1752,
+      "totalTime": 1752,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    }
+  },
+  {
+    "id": "2018-12-24",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=181225_3K_73",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1545609600,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1664691,
+      "ttfb": 338,
+      "startRender": 0,
+      "domReadyEvent": 2978,
+      "loadEvent": 3967,
+      "totalTime": 3968,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 672097,
+      "ttfb": 246,
+      "startRender": 0,
+      "domReadyEvent": 770,
+      "totalTime": 1840,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    }
+  },
+  {
+    "id": "2018-12-25",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=181226_V7_6Y",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1545696000,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1665070,
+      "ttfb": 334,
+      "startRender": 0,
+      "domReadyEvent": 3012,
+      "loadEvent": 4240,
+      "totalTime": 4241,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 672826,
+      "ttfb": 246,
+      "startRender": 0,
+      "domReadyEvent": 788,
+      "loadEvent": 1795,
+      "totalTime": 1796,
+      "visuallyComplete": 0
+    }
+  },
+  {
+    "id": "2018-12-26",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=181227_E5_7F",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1545782400,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1662939,
+      "ttfb": 336,
+      "startRender": 0,
+      "domReadyEvent": 2978,
+      "loadEvent": 3925,
+      "totalTime": 3925,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 668387,
+      "ttfb": 245,
+      "startRender": 0,
+      "domReadyEvent": 804,
+      "loadEvent": 1763,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    }
+  },
+  {
+    "id": "2018-12-27",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=181228_3P_70",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1545868800,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1665207.5,
+      "ttfb": 347.5,
+      "startRender": 0,
+      "domReadyEvent": 2941.5,
+      "loadEvent": 3914.5,
+      "totalTime": 3914.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 674088.5,
+      "ttfb": 247,
+      "startRender": 0,
+      "domReadyEvent": 712,
+      "loadEvent": 1761.5,
+      "totalTime": 1762,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-12-28",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=181229_5W_6F",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1545955200,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1669459,
+      "ttfb": 338,
+      "startRender": 0,
+      "domReadyEvent": 2950.5,
+      "loadEvent": 4016,
+      "totalTime": 4016.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 674791,
+      "ttfb": 247.5,
+      "startRender": 0,
+      "domReadyEvent": 715.5,
+      "loadEvent": 1763,
+      "totalTime": 1763,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-12-29",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=181230_0Z_6G",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1546041600,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1682127.5,
+      "ttfb": 337.5,
+      "startRender": 0,
+      "domReadyEvent": 2922,
+      "loadEvent": 3984.5,
+      "totalTime": 3985,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 674724,
+      "ttfb": 245,
+      "startRender": 0,
+      "domReadyEvent": 715,
+      "loadEvent": 1738.5,
+      "totalTime": 1738.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-12-30",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190101_E8_5M",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1546128000,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1669252.5,
+      "ttfb": 331.5,
+      "startRender": 0,
+      "domReadyEvent": 2976,
+      "loadEvent": 3997,
+      "totalTime": 3997.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 672275,
+      "ttfb": 243,
+      "startRender": 0,
+      "domReadyEvent": 702.5,
+      "loadEvent": 1755.5,
+      "totalTime": 1756,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2018-12-31",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190101_E8_5M",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1546214400,
+    "firstView": {
+      "requests": 81.5,
+      "bytesIn": 1672839,
+      "ttfb": 335,
+      "startRender": 0,
+      "domReadyEvent": 2935.5,
+      "loadEvent": 3945.5,
+      "totalTime": 3944.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 674996.5,
+      "ttfb": 246,
+      "startRender": 0,
+      "domReadyEvent": 709,
+      "loadEvent": 1744,
+      "totalTime": 1744,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2019-01-01",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190102_JB_5G",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1546300800,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1667803.5,
+      "ttfb": 333,
+      "startRender": 0,
+      "domReadyEvent": 2927,
+      "loadEvent": 3921.5,
+      "totalTime": 3921.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 676426.5,
+      "ttfb": 244.5,
+      "startRender": 0,
+      "domReadyEvent": 710.5,
+      "loadEvent": 1766.5,
+      "totalTime": 1766,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2019-01-02",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190103_1Q_5K",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1546387200,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1673347,
+      "ttfb": 332.5,
+      "startRender": 0,
+      "domReadyEvent": 2925.5,
+      "loadEvent": 3914.5,
+      "totalTime": 3914.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 672755,
+      "ttfb": 246.5,
+      "startRender": 0,
+      "domReadyEvent": 715,
+      "loadEvent": 1764,
+      "totalTime": 1764,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2019-01-03",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190104_4C_5K",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1546473600,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1683140.5,
+      "ttfb": 351,
+      "startRender": 0,
+      "domReadyEvent": 2966.5,
+      "loadEvent": 4000.5,
+      "totalTime": 4000.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 675078.5,
+      "ttfb": 249,
+      "startRender": 0,
+      "domReadyEvent": 717,
+      "loadEvent": 1762.5,
+      "totalTime": 1763,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2019-01-04",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190105_FQ_5K",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1546560000,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1686016,
+      "ttfb": 334.5,
+      "startRender": 0,
+      "domReadyEvent": 2956.5,
+      "loadEvent": 3949,
+      "totalTime": 3949,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 38.5,
+      "bytesIn": 673096.5,
+      "ttfb": 251,
+      "startRender": 0,
+      "domReadyEvent": 721.5,
+      "loadEvent": 1734.5,
+      "totalTime": 1735,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2019-01-05",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190106_CQ_5K",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1546646400,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1675608,
+      "ttfb": 330.5,
+      "startRender": 0,
+      "domReadyEvent": 2902,
+      "loadEvent": 3874,
+      "totalTime": 3874,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 673353,
+      "ttfb": 250,
+      "startRender": 0,
+      "domReadyEvent": 715,
+      "loadEvent": 1776.5,
+      "totalTime": 1776.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2019-01-06",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190108_HY_4H",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1546732800,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1681233,
+      "ttfb": 338,
+      "startRender": 0,
+      "domReadyEvent": 2932,
+      "loadEvent": 3909,
+      "totalTime": 3909,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 674307,
+      "ttfb": 248,
+      "startRender": 0,
+      "domReadyEvent": 722,
+      "loadEvent": 1712,
+      "totalTime": 1712,
+      "visuallyComplete": 0
+    }
+  },
+  {
+    "id": "2019-01-07",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190108_HY_4H",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1546819200,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1616302,
+      "ttfb": 331,
+      "startRender": 0,
+      "domReadyEvent": 2943,
+      "loadEvent": 3862,
+      "totalTime": 3862,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 674833,
+      "ttfb": 251,
+      "startRender": 0,
+      "domReadyEvent": 719,
+      "loadEvent": 1790,
+      "totalTime": 1790,
+      "visuallyComplete": 0
+    }
+  },
+  {
+    "id": "2019-01-08",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190109_DA_4J",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1546905600,
+    "firstView": {
+      "requests": 81.5,
+      "bytesIn": 1621724,
+      "ttfb": 333,
+      "startRender": 0,
+      "domReadyEvent": 2978.5,
+      "loadEvent": 3976,
+      "totalTime": 3975.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 674991,
+      "ttfb": 248,
+      "startRender": 0,
+      "domReadyEvent": 721,
+      "loadEvent": 1813,
+      "totalTime": 1813,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2019-01-09",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190110_TK_4K",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1546992000,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1626685.5,
+      "ttfb": 339.5,
+      "startRender": 0,
+      "domReadyEvent": 3001.5,
+      "loadEvent": 3992,
+      "totalTime": 3992,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 37.5,
+      "bytesIn": 665600.5,
+      "ttfb": 244.5,
+      "startRender": 0,
+      "domReadyEvent": 714,
+      "loadEvent": 1810,
+      "totalTime": 1810.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2019-01-10",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190111_3T_6P",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1547078400,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1613624,
+      "ttfb": 356,
+      "startRender": 0,
+      "domReadyEvent": 3077,
+      "loadEvent": 4039.5,
+      "totalTime": 4039.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 675998,
+      "ttfb": 249.5,
+      "startRender": 0,
+      "domReadyEvent": 725.5,
+      "loadEvent": 1697,
+      "totalTime": 1697,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2019-01-11",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190112_RX_6P",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1547164800,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1584624.5,
+      "ttfb": 344.5,
+      "startRender": 0,
+      "domReadyEvent": 3143,
+      "loadEvent": 4571.5,
+      "totalTime": 4571.5,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    },
+    "repeatView": {
+      "requests": 38.5,
+      "bytesIn": 646455,
+      "ttfb": 252,
+      "startRender": 0,
+      "domReadyEvent": 788,
+      "loadEvent": 1975,
+      "totalTime": 1975,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    }
+  },
+  {
+    "id": "2019-01-12",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190113_7P_6S",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1547251200,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1568502,
+      "ttfb": 361,
+      "startRender": 0,
+      "domReadyEvent": 3116,
+      "loadEvent": 4417,
+      "totalTime": 4416,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 642282,
+      "ttfb": 250,
+      "startRender": 0,
+      "domReadyEvent": 806,
+      "loadEvent": 1950,
+      "totalTime": 1950,
+      "visuallyComplete": 0
+    }
+  },
+  {
+    "id": "2019-01-13",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190114_KR_6P",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1547337600,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1581223,
+      "ttfb": 339,
+      "startRender": 0,
+      "domReadyEvent": 3153,
+      "loadEvent": 4395,
+      "totalTime": 4395,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 643595,
+      "ttfb": 254,
+      "startRender": 0,
+      "domReadyEvent": 784,
+      "loadEvent": 1871,
+      "totalTime": 1870,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    }
+  },
+  {
+    "id": "2019-01-14",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190115_PP_6W",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1547424000,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1567067,
+      "ttfb": 350,
+      "startRender": 0,
+      "domReadyEvent": 3116.5,
+      "loadEvent": 4448,
+      "totalTime": 4448,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 38.5,
+      "bytesIn": 643990.5,
+      "ttfb": 254.5,
+      "startRender": 0,
+      "domReadyEvent": 793.5,
+      "loadEvent": 1996.5,
+      "totalTime": 1996,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2019-01-15",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190116_D4_67",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1547510400,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1559761.5,
+      "ttfb": 332.5,
+      "startRender": 0,
+      "domReadyEvent": 2973.5,
+      "loadEvent": 3899.5,
+      "totalTime": 3899.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 643048,
+      "ttfb": 244.5,
+      "startRender": 0,
+      "domReadyEvent": 763,
+      "loadEvent": 1676.5,
+      "totalTime": null,
+      "visuallyComplete": null,
+      "speedIndex": 0
+    }
+  },
+  {
+    "id": "2019-01-16",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190117_03_6P",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1547596800,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1559311,
+      "ttfb": 337,
+      "startRender": 0,
+      "domReadyEvent": 2970,
+      "loadEvent": 4040,
+      "totalTime": 4039,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 38,
+      "ttfb": 249,
+      "startRender": 0,
+      "domReadyEvent": 749,
+      "loadEvent": 1787,
+      "totalTime": 1787,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    }
+  },
+  {
+    "id": "2019-01-17",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190118_RR_6N",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1547683200,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1582804,
+      "ttfb": 338,
+      "startRender": 0,
+      "domReadyEvent": 3015,
+      "loadEvent": 3970,
+      "totalTime": 3971,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 644738,
+      "ttfb": 249,
+      "startRender": 0,
+      "domReadyEvent": 719,
+      "loadEvent": 1733,
+      "totalTime": 1733,
+      "visuallyComplete": 0
+    }
+  },
+  {
+    "id": "2019-01-18",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190119_5Y_6R",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1547769600,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1583948,
+      "ttfb": 340,
+      "startRender": 0,
+      "domReadyEvent": 3001,
+      "loadEvent": 3899,
+      "totalTime": 3899,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 642380,
+      "ttfb": 246,
+      "startRender": 0,
+      "domReadyEvent": 737,
+      "loadEvent": 1750,
+      "visuallyComplete": 0
+    }
+  },
+  {
+    "id": "2019-01-19",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190120_YJ_6V",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1547856000,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1572000.5,
+      "ttfb": 340,
+      "startRender": 0,
+      "domReadyEvent": 2988.5,
+      "loadEvent": 3940,
+      "totalTime": 3940,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 37.5,
+      "bytesIn": 645439.5,
+      "ttfb": 248.5,
+      "startRender": 0,
+      "domReadyEvent": 717,
+      "loadEvent": 1688,
+      "totalTime": 1687.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2019-01-20",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190121_9X_6V",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1547942400,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1583744,
+      "ttfb": 342,
+      "startRender": 0,
+      "domReadyEvent": 2975,
+      "loadEvent": 3909.5,
+      "totalTime": 3909.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 645177,
+      "ttfb": 254.5,
+      "startRender": 0,
+      "domReadyEvent": 724.5,
+      "loadEvent": 1800,
+      "totalTime": 1800.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2019-01-21",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190122_ZG_6R",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1548028800,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1569181,
+      "ttfb": 344,
+      "startRender": 0,
+      "domReadyEvent": 3007,
+      "loadEvent": 3996,
+      "totalTime": 3996,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 642278,
+      "ttfb": 245,
+      "startRender": 0,
+      "domReadyEvent": 719,
+      "loadEvent": 1874,
+      "visuallyComplete": 0
+    }
+  },
+  {
+    "id": "2019-01-22",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190123_ZS_6T",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1548115200,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1569663.5,
+      "ttfb": 335.5,
+      "startRender": 0,
+      "domReadyEvent": 3005,
+      "loadEvent": 3931.5,
+      "totalTime": 3931.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 39,
+      "bytesIn": 642146.5,
+      "ttfb": 251,
+      "startRender": 0,
+      "domReadyEvent": 728.5,
+      "loadEvent": 1835,
+      "totalTime": 1835,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2019-01-23",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190123_P1_94",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1548201600,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1571152.5,
+      "ttfb": 337,
+      "startRender": 0,
+      "domReadyEvent": 3042,
+      "loadEvent": 3960.5,
+      "totalTime": 3960,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    },
+    "repeatView": {
+      "requests": 39,
+      "bytesIn": 645247.5,
+      "ttfb": 250.5,
+      "startRender": 0,
+      "domReadyEvent": 766.5,
+      "loadEvent": 1854.5,
+      "totalTime": 1854.5,
+      "visuallyComplete": 0,
+      "speedIndex": null
+    }
+  },
+  {
+    "id": "2019-01-25",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190126_W8_6Q",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1548374400,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1583935,
+      "ttfb": 336,
+      "startRender": 0,
+      "domReadyEvent": 3077,
+      "loadEvent": 4346,
+      "totalTime": 4346,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 644124,
+      "ttfb": 258,
+      "startRender": 0,
+      "domReadyEvent": 760,
+      "loadEvent": 1786,
+      "totalTime": 1787,
+      "visuallyComplete": 0,
+      "speedIndex": 2274
+    }
+  },
+  {
+    "id": "2019-01-26",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190127_S1_6T",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1548460800,
+    "firstView": {
+      "requests": 81.5,
+      "bytesIn": 1584293.5,
+      "ttfb": 340,
+      "startRender": 1300,
+      "domReadyEvent": 3139.5,
+      "loadEvent": 4494,
+      "totalTime": 4494.5,
+      "visuallyComplete": 3800,
+      "speedIndex": 2400
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 641058.5,
+      "ttfb": 250.5,
+      "startRender": 700,
+      "domReadyEvent": 842.5,
+      "loadEvent": 1812,
+      "totalTime": null,
+      "visuallyComplete": 1800,
+      "speedIndex": 2400
+    }
+  },
+  {
+    "id": "2019-01-27",
+    "location": "DesktopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190128_BG_70",
+    "domain": "https://www.google.com/",
+    "connectivity": "Cable",
+    "date": 1548547200,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1582711,
+      "ttfb": 344,
+      "startRender": 1300,
+      "domReadyEvent": 3065,
+      "loadEvent": 4412,
+      "totalTime": 4412,
+      "visuallyComplete": 3800,
+      "speedIndex": 2371
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 641657,
+      "ttfb": 256,
+      "startRender": 700,
+      "domReadyEvent": 840,
+      "loadEvent": 1863,
+      "totalTime": 1864,
+      "visuallyComplete": 1800
+    }
+  },
+  {
+    "id": "2019-01-28",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190130_QF_6G",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1548633600,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1577661,
+      "ttfb": 341,
+      "startRender": 0,
+      "domReadyEvent": 3049,
+      "loadEvent": 4320,
+      "totalTime": 4320,
+      "visuallyComplete": 0
+    },
+    "repeatView": {
+      "requests": 39,
+      "bytesIn": 646064,
+      "ttfb": 255,
+      "startRender": 0,
+      "domReadyEvent": 797,
+      "loadEvent": 1914,
+      "totalTime": 1914,
+      "visuallyComplete": 0,
+      "speedIndex": 2299
+    }
+  },
+  {
+    "id": "2019-01-29",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190130_QF_6G",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1548720000,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1549108,
+      "ttfb": 421.5,
+      "startRender": 0,
+      "domReadyEvent": 3685.5,
+      "loadEvent": 6691.5,
+      "totalTime": 6692,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    },
+    "repeatView": {
+      "requests": 39,
+      "bytesIn": 643930,
+      "ttfb": 433.5,
+      "startRender": 0,
+      "domReadyEvent": 2542.5,
+      "loadEvent": 4583.5,
+      "totalTime": 4583.5,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    }
+  },
+  {
+    "id": "2019-01-30",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190131_YC_6J",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1548806400,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1547541,
+      "ttfb": 340,
+      "startRender": 0,
+      "domReadyEvent": 3399.5,
+      "loadEvent": 5966,
+      "totalTime": 5966.5,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    },
+    "repeatView": {
+      "requests": 39,
+      "bytesIn": 643546,
+      "ttfb": 361,
+      "startRender": 0,
+      "domReadyEvent": 2642.5,
+      "loadEvent": 4510.5,
+      "totalTime": 4510.5,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    }
+  },
+  {
+    "id": "2019-01-31",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190201_NJ_6F",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1548892800,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1544381,
+      "ttfb": 295.5,
+      "startRender": 0,
+      "domReadyEvent": 2727,
+      "loadEvent": 5814.5,
+      "totalTime": 5814.5,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    },
+    "repeatView": {
+      "requests": 39,
+      "bytesIn": 638733,
+      "ttfb": 316.5,
+      "startRender": 0,
+      "domReadyEvent": 2358,
+      "loadEvent": 4005.5,
+      "totalTime": 4005,
+      "visuallyComplete": 0,
+      "speedIndex": 0
+    }
+  },
+  {
+    "id": "2019-02-01",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190202_NS_6G",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1548979200,
+    "firstView": {
+      "requests": 80,
+      "bytesIn": 1543860.5,
+      "ttfb": 294,
+      "startRender": 5800,
+      "domReadyEvent": 2859,
+      "loadEvent": 9685,
+      "totalTime": 9685,
+      "visuallyComplete": 8200,
+      "speedIndex": 6967.5
+    },
+    "repeatView": {
+      "requests": 39,
+      "bytesIn": 641238,
+      "ttfb": 309.5,
+      "startRender": 6950,
+      "domReadyEvent": 2489,
+      "loadEvent": 6243,
+      "totalTime": 6243,
+      "visuallyComplete": 8300,
+      "speedIndex": 6967.5
+    }
+  },
+  {
+    "id": "2019-02-02",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190203_NQ_C",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1549065600,
+    "firstView": {
+      "requests": 80,
+      "bytesIn": 1553066.5,
+      "ttfb": 306.5,
+      "startRender": 2650,
+      "domReadyEvent": 7741.5,
+      "loadEvent": 16059.5,
+      "totalTime": 16059.5,
+      "visuallyComplete": 14400,
+      "speedIndex": 7161.5
+    },
+    "repeatView": {
+      "requests": 41,
+      "bytesIn": 643060,
+      "ttfb": 437,
+      "startRender": 5750,
+      "domReadyEvent": 2560.5,
+      "loadEvent": 5696,
+      "totalTime": 5696,
+      "visuallyComplete": 7950,
+      "speedIndex": 7161.5
+    }
+  },
+  {
+    "id": "2019-02-03",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190203_NQ_C",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1549152000,
+    "firstView": {
+      "requests": 80,
+      "bytesIn": 1569020,
+      "ttfb": 267,
+      "startRender": 2400,
+      "domReadyEvent": 6083,
+      "loadEvent": 16593,
+      "totalTime": 16592,
+      "visuallyComplete": 8400,
+      "speedIndex": 5460
+    },
+    "repeatView": {
+      "requests": 41,
+      "bytesIn": 624163,
+      "ttfb": 358,
+      "startRender": 4800,
+      "domReadyEvent": 2763,
+      "loadEvent": 4094,
+      "totalTime": 4094,
+      "visuallyComplete": 4800,
+      "speedIndex": 5460
+    }
+  },
+  {
+    "id": "2019-02-11",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190212_7A_19",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1549843200,
+    "firstView": {
+      "requests": 78.5,
+      "bytesIn": 1713795,
+      "ttfb": 383,
+      "startRender": 1950,
+      "domReadyEvent": 7828.5,
+      "loadEvent": 18074,
+      "totalTime": 18074,
+      "visuallyComplete": 14000,
+      "speedIndex": 8023.5
+    },
+    "repeatView": {
+      "requests": 36,
+      "bytesIn": 639994.5,
+      "ttfb": 536,
+      "startRender": 1950,
+      "domReadyEvent": 4145,
+      "loadEvent": 15646.5,
+      "totalTime": 15646.5,
+      "visuallyComplete": 12550,
+      "speedIndex": 8023.5
+    }
+  },
+  {
+    "id": "2019-02-12",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190212_7A_19",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1549929600,
+    "firstView": {
+      "requests": 77,
+      "bytesIn": 1695949,
+      "ttfb": 1265,
+      "startRender": 2600,
+      "domReadyEvent": 4014,
+      "loadEvent": 21765,
+      "totalTime": 21765,
+      "visuallyComplete": 11800,
+      "speedIndex": 7322
+    },
+    "repeatView": {
+      "requests": 38,
+      "bytesIn": 638795,
+      "ttfb": 578,
+      "startRender": 2100,
+      "domReadyEvent": 4464,
+      "loadEvent": 14163,
+      "totalTime": 14163,
+      "visuallyComplete": 10401,
+      "speedIndex": 7322
+    }
+  },
+  {
+    "id": "2019-02-14",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190215_QS_63",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1550102400,
+    "firstView": {
+      "requests": 77,
+      "bytesIn": 1707933,
+      "ttfb": 300,
+      "startRender": 1900,
+      "domReadyEvent": 5056,
+      "loadEvent": 22998,
+      "totalTime": 22999,
+      "visuallyComplete": 13100,
+      "speedIndex": 5986
+    },
+    "repeatView": {
+      "requests": 36,
+      "bytesIn": 653563,
+      "ttfb": 534,
+      "startRender": 2100,
+      "domReadyEvent": 4922,
+      "loadEvent": 14371,
+      "totalTime": 14371,
+      "visuallyComplete": 11500,
+      "speedIndex": 5986
+    }
+  },
+  {
+    "id": "2019-02-15",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190216_7M_6H",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1550188800,
+    "firstView": {
+      "requests": 78,
+      "bytesIn": 1708089,
+      "ttfb": 330,
+      "startRender": 2000,
+      "domReadyEvent": 5116.5,
+      "loadEvent": 19816,
+      "totalTime": 19816.5,
+      "visuallyComplete": 13050,
+      "speedIndex": 6179
+    },
+    "repeatView": {
+      "requests": 36,
+      "bytesIn": 641887.5,
+      "ttfb": 490.5,
+      "startRender": 1900,
+      "domReadyEvent": 4516,
+      "loadEvent": 14722,
+      "totalTime": 14722,
+      "visuallyComplete": 12800,
+      "speedIndex": 6179
+    }
+  },
+  {
+    "id": "2019-02-16",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190217_QB_6J",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1550275200,
+    "firstView": {
+      "requests": 78,
+      "bytesIn": 1707012.5,
+      "ttfb": 292.5,
+      "startRender": 2000,
+      "domReadyEvent": 4026.5,
+      "loadEvent": 25269.5,
+      "totalTime": 25270,
+      "visuallyComplete": 12700,
+      "speedIndex": 5651
+    },
+    "repeatView": {
+      "requests": 36,
+      "bytesIn": 641438.5,
+      "ttfb": 505.5,
+      "startRender": 2000,
+      "domReadyEvent": 4185.5,
+      "loadEvent": 15588,
+      "totalTime": 15587.5,
+      "visuallyComplete": 11050,
+      "speedIndex": 5651
+    }
+  },
+  {
+    "id": "2019-02-17",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190218_6K_6G",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1550361600,
+    "firstView": {
+      "requests": 79,
+      "bytesIn": 1708392,
+      "ttfb": 309,
+      "startRender": 2050,
+      "domReadyEvent": 4664,
+      "loadEvent": 18590,
+      "totalTime": 18590,
+      "visuallyComplete": 12500,
+      "speedIndex": 5684
+    },
+    "repeatView": {
+      "requests": 36.5,
+      "bytesIn": 641709,
+      "ttfb": 490,
+      "startRender": 1950,
+      "domReadyEvent": 4567.5,
+      "loadEvent": 15276.5,
+      "totalTime": 15276,
+      "visuallyComplete": 12000,
+      "speedIndex": 5684
+    }
+  },
+  {
+    "id": "2019-02-18",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190219_P0_6M",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1550448000,
+    "firstView": {
+      "requests": 79.5,
+      "bytesIn": 1710135.5,
+      "ttfb": 298.5,
+      "startRender": 2200,
+      "domReadyEvent": 4209,
+      "loadEvent": 22159,
+      "totalTime": 22158.5,
+      "visuallyComplete": 12100,
+      "speedIndex": 5850.5
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 641725.5,
+      "ttfb": 466,
+      "startRender": 1850,
+      "domReadyEvent": 3878,
+      "loadEvent": 14714,
+      "totalTime": 14714.5,
+      "visuallyComplete": 10950,
+      "speedIndex": 5850.5
+    }
+  },
+  {
+    "id": "2019-02-19",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190220_S7_61",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1550534400,
+    "firstView": {
+      "requests": 79,
+      "bytesIn": 1709974,
+      "ttfb": 311.5,
+      "startRender": 2200,
+      "domReadyEvent": 3923,
+      "loadEvent": 22647.5,
+      "totalTime": 22648,
+      "visuallyComplete": 12750,
+      "speedIndex": 5611.5
+    },
+    "repeatView": {
+      "requests": 37,
+      "bytesIn": 638857,
+      "ttfb": 502.5,
+      "startRender": 2000,
+      "domReadyEvent": 4496,
+      "loadEvent": 14834.5,
+      "totalTime": 14835,
+      "visuallyComplete": 11450,
+      "speedIndex": 5611.5
+    }
+  },
+  {
+    "id": "2019-02-20",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190221_4R_6G",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1550620800,
+    "firstView": {
+      "requests": 78,
+      "bytesIn": 1707801,
+      "ttfb": 306,
+      "startRender": 2500,
+      "domReadyEvent": 4611,
+      "loadEvent": 21946,
+      "totalTime": 21946,
+      "visuallyComplete": 11900,
+      "speedIndex": 6021
+    },
+    "repeatView": {
+      "requests": 36,
+      "bytesIn": 641630,
+      "ttfb": 482,
+      "startRender": 2100,
+      "domReadyEvent": 4430,
+      "loadEvent": 15459,
+      "totalTime": 15459,
+      "visuallyComplete": 12500,
+      "speedIndex": 6021
+    }
+  },
+  {
+    "id": "2019-02-21",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190222_RA_6D",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1550707200,
+    "firstView": {
+      "requests": 79,
+      "bytesIn": 1710960,
+      "ttfb": 350.5,
+      "startRender": 2200,
+      "domReadyEvent": 4150.5,
+      "loadEvent": 23199,
+      "totalTime": 23199,
+      "visuallyComplete": 12050,
+      "speedIndex": 5742
+    },
+    "repeatView": {
+      "requests": 36,
+      "bytesIn": 638717,
+      "ttfb": 518.5,
+      "startRender": 2000,
+      "domReadyEvent": 3920,
+      "loadEvent": 14693,
+      "totalTime": 14693,
+      "visuallyComplete": 12150,
+      "speedIndex": 5742
+    }
+  },
+  {
+    "id": "2019-02-22",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190223_JF_6G",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1550793600,
+    "firstView": {
+      "requests": 78,
+      "bytesIn": 1711229.5,
+      "ttfb": 305,
+      "startRender": 2100,
+      "domReadyEvent": 3779.5,
+      "loadEvent": 21648.5,
+      "totalTime": 21648,
+      "visuallyComplete": 12500,
+      "speedIndex": 5755.5
+    },
+    "repeatView": {
+      "requests": 36,
+      "bytesIn": 641868.5,
+      "ttfb": 509,
+      "startRender": 1900,
+      "domReadyEvent": 4308,
+      "loadEvent": 15147,
+      "totalTime": 15147.5,
+      "visuallyComplete": 12750,
+      "speedIndex": 5755.5
+    }
+  },
+  {
+    "id": "2019-02-23",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190224_CZ_6H",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1550880000,
+    "firstView": {
+      "requests": 78,
+      "bytesIn": 1714425.5,
+      "ttfb": 311,
+      "startRender": 2050,
+      "domReadyEvent": 4166,
+      "loadEvent": 22757,
+      "totalTime": 22757.5,
+      "visuallyComplete": 12850,
+      "speedIndex": 5727.5
+    },
+    "repeatView": {
+      "requests": 36,
+      "bytesIn": 641219.5,
+      "ttfb": 515.5,
+      "startRender": 2100,
+      "domReadyEvent": 4549,
+      "loadEvent": 15493,
+      "totalTime": 15492.5,
+      "visuallyComplete": 12350,
+      "speedIndex": 5727.5
+    }
+  },
+  {
+    "id": "2019-02-24",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190226_6Q_71",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1550966400,
+    "firstView": {
+      "requests": 77,
+      "bytesIn": 1713632,
+      "ttfb": 301,
+      "startRender": 2100,
+      "domReadyEvent": 7494,
+      "loadEvent": 21616.5,
+      "totalTime": 21615.5,
+      "visuallyComplete": 14750,
+      "speedIndex": 7522
+    },
+    "repeatView": {
+      "requests": 36,
+      "bytesIn": 641240.5,
+      "ttfb": 492,
+      "startRender": 2000,
+      "domReadyEvent": 5114.5,
+      "loadEvent": 15794.5,
+      "totalTime": 15795,
+      "visuallyComplete": 13650,
+      "speedIndex": 7522
+    }
+  },
+  {
+    "id": "2019-02-25",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190226_6Q_71",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1551052800,
+    "firstView": {
+      "requests": 78,
+      "bytesIn": 1663981.5,
+      "ttfb": 333.5,
+      "startRender": 3400,
+      "domReadyEvent": 7487,
+      "loadEvent": 21443,
+      "totalTime": 21443,
+      "visuallyComplete": 14650,
+      "speedIndex": 8143
+    },
+    "repeatView": {
+      "requests": 23,
+      "bytesIn": 81301.5,
+      "ttfb": 579.5,
+      "startRender": 1900,
+      "domReadyEvent": 5644,
+      "loadEvent": 14213,
+      "totalTime": 14213.5,
+      "visuallyComplete": 13500,
+      "speedIndex": 8143
+    }
+  },
+  {
+    "id": "2019-02-26",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190227_JB_6Z",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1551139200,
+    "firstView": {
+      "requests": 78,
+      "bytesIn": 1664077,
+      "ttfb": 326,
+      "startRender": 2250,
+      "domReadyEvent": 5755,
+      "loadEvent": 21167.5,
+      "totalTime": 21167.5,
+      "visuallyComplete": 14500,
+      "speedIndex": 7293
+    },
+    "repeatView": {
+      "requests": 23,
+      "bytesIn": 81402,
+      "ttfb": 515.5,
+      "startRender": 1800,
+      "domReadyEvent": 6050.5,
+      "loadEvent": 15606,
+      "totalTime": 15606,
+      "visuallyComplete": 15400,
+      "speedIndex": 7293
+    }
+  },
+  {
+    "id": "2019-02-27",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190228_T8_70",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1551225600,
+    "firstView": {
+      "requests": 78,
+      "bytesIn": 1664238.5,
+      "ttfb": 305.5,
+      "startRender": 2400,
+      "domReadyEvent": 4209,
+      "loadEvent": 23176,
+      "totalTime": 23176,
+      "visuallyComplete": 12500,
+      "speedIndex": 6198.5
+    },
+    "repeatView": {
+      "requests": 23,
+      "bytesIn": 81410,
+      "ttfb": 569.5,
+      "startRender": 2000,
+      "domReadyEvent": 6316,
+      "loadEvent": 14579,
+      "totalTime": 14579,
+      "visuallyComplete": 14750,
+      "speedIndex": 6198.5
+    }
+  },
+  {
+    "id": "2019-02-28",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190301_T9_70",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1551312000,
+    "firstView": {
+      "requests": 78,
+      "bytesIn": 1664263,
+      "ttfb": 293,
+      "startRender": 2400,
+      "domReadyEvent": 5298,
+      "loadEvent": 22568.5,
+      "totalTime": 22568.5,
+      "visuallyComplete": 13400,
+      "speedIndex": 6497
+    },
+    "repeatView": {
+      "requests": 23,
+      "bytesIn": 81609,
+      "ttfb": 545,
+      "startRender": 2000,
+      "domReadyEvent": 5937.5,
+      "loadEvent": 14687,
+      "totalTime": 14687,
+      "visuallyComplete": 14900.5,
+      "speedIndex": 6497
+    }
+  },
+  {
+    "id": "2019-03-01",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190302_SJ_6Z",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1551398400,
+    "firstView": {
+      "requests": 79,
+      "bytesIn": 1664872.5,
+      "ttfb": 305.5,
+      "startRender": 2700,
+      "domReadyEvent": 6197.5,
+      "loadEvent": 21385,
+      "totalTime": 21385.5,
+      "visuallyComplete": 14050,
+      "speedIndex": 7306
+    },
+    "repeatView": {
+      "requests": 23,
+      "bytesIn": 81710,
+      "ttfb": 487,
+      "startRender": 2000,
+      "domReadyEvent": 5947.5,
+      "loadEvent": 14162,
+      "totalTime": 14161.5,
+      "visuallyComplete": 14800,
+      "speedIndex": 7306
+    }
+  },
+  {
+    "id": "2019-03-02",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190303_J2_70",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1551484800,
+    "firstView": {
+      "requests": 78,
+      "bytesIn": 1664409.5,
+      "ttfb": 301.5,
+      "startRender": 2300,
+      "domReadyEvent": 4321,
+      "loadEvent": 21969.5,
+      "totalTime": 21969.5,
+      "visuallyComplete": 11900,
+      "speedIndex": 5962.5
+    },
+    "repeatView": {
+      "requests": 23,
+      "bytesIn": 81705,
+      "ttfb": 551.5,
+      "startRender": 1950,
+      "domReadyEvent": 5644.5,
+      "loadEvent": 14408.5,
+      "totalTime": 14408.5,
+      "visuallyComplete": 14650,
+      "speedIndex": 5962.5
+    }
+  },
+  {
+    "id": "2019-03-03",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190304_4D_70",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1551571200,
+    "firstView": {
+      "requests": 79,
+      "bytesIn": 1664656.5,
+      "ttfb": 308.5,
+      "startRender": 2300,
+      "domReadyEvent": 6422,
+      "loadEvent": 21993.5,
+      "totalTime": 21994,
+      "visuallyComplete": 12500,
+      "speedIndex": 6753.5
+    },
+    "repeatView": {
+      "requests": 23,
+      "bytesIn": 81709.5,
+      "ttfb": 513.5,
+      "startRender": 1900,
+      "domReadyEvent": 5812.5,
+      "loadEvent": 13872,
+      "totalTime": 13872,
+      "visuallyComplete": 14200,
+      "speedIndex": 6753.5
+    }
+  },
+  {
+    "id": "2019-03-04",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190305_TB_6Z",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1551657600,
+    "firstView": {
+      "requests": 85,
+      "bytesIn": 1866797.5,
+      "ttfb": 308.5,
+      "startRender": 3200,
+      "domReadyEvent": 7004.5,
+      "loadEvent": 19513,
+      "totalTime": 19513,
+      "visuallyComplete": 16700,
+      "speedIndex": 8580
+    },
+    "repeatView": {
+      "requests": 27,
+      "bytesIn": 81632.5,
+      "ttfb": 583.5,
+      "startRender": 2750,
+      "domReadyEvent": 5382,
+      "loadEvent": 16428,
+      "totalTime": 16427.5,
+      "visuallyComplete": 16500,
+      "speedIndex": 8580
+    }
+  },
+  {
+    "id": "2019-03-05",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190306_F1_6Z",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1551744000,
+    "firstView": {
+      "requests": 84,
+      "bytesIn": 1838681.5,
+      "ttfb": 320.5,
+      "startRender": 3500,
+      "domReadyEvent": 6005.5,
+      "loadEvent": 20901,
+      "totalTime": 20900.5,
+      "visuallyComplete": 17000,
+      "speedIndex": 8953.5
+    },
+    "repeatView": {
+      "requests": 27,
+      "bytesIn": 81680,
+      "ttfb": 603.5,
+      "startRender": 2750,
+      "domReadyEvent": 5457,
+      "loadEvent": 17056.5,
+      "totalTime": 17056.5,
+      "visuallyComplete": 17250,
+      "speedIndex": 8953.5
+    }
+  },
+  {
+    "id": "2019-03-06",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190307_Q7_6Z",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1551830400,
+    "firstView": {
+      "requests": 86,
+      "bytesIn": 1838857,
+      "ttfb": 305,
+      "startRender": 3950,
+      "domReadyEvent": 7179.5,
+      "loadEvent": 22984.5,
+      "totalTime": 22984.5,
+      "visuallyComplete": 18150,
+      "speedIndex": 9379
+    },
+    "repeatView": {
+      "requests": 27,
+      "bytesIn": 81715,
+      "ttfb": 552,
+      "startRender": 2800,
+      "domReadyEvent": 5771.5,
+      "loadEvent": 16835,
+      "totalTime": 16834.5,
+      "visuallyComplete": 16850,
+      "speedIndex": 9379
+    }
+  },
+  {
+    "id": "2019-03-07",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190308_JR_6Y",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1551916800,
+    "firstView": {
+      "requests": 85.5,
+      "bytesIn": 1839264.5,
+      "ttfb": 312,
+      "startRender": 3400,
+      "domReadyEvent": 6084.5,
+      "loadEvent": 18338,
+      "totalTime": 18337.5,
+      "visuallyComplete": 16200,
+      "speedIndex": 8405.5
+    },
+    "repeatView": {
+      "requests": 27,
+      "bytesIn": 81711,
+      "ttfb": 602,
+      "startRender": 2750,
+      "domReadyEvent": 5594,
+      "loadEvent": 15959,
+      "totalTime": 15959.5,
+      "visuallyComplete": 16300,
+      "speedIndex": 8405.5
+    }
+  },
+  {
+    "id": "2019-03-08",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190309_0R_70",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1552003200,
+    "firstView": {
+      "requests": 85,
+      "bytesIn": 1863199,
+      "ttfb": 300.5,
+      "startRender": 3450,
+      "domReadyEvent": 6902.5,
+      "loadEvent": 21175,
+      "totalTime": 21174.5,
+      "visuallyComplete": 17250,
+      "speedIndex": 8614.5
+    },
+    "repeatView": {
+      "requests": 27,
+      "bytesIn": 81725.5,
+      "ttfb": 612,
+      "startRender": 2700,
+      "domReadyEvent": 5729.5,
+      "loadEvent": 17237.5,
+      "totalTime": 17236.5,
+      "visuallyComplete": 17250,
+      "speedIndex": 8614.5
+    }
+  },
+  {
+    "id": "2019-03-09",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190310_0C_6Z",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1552089600,
+    "firstView": {
+      "requests": 85,
+      "bytesIn": 1863272,
+      "ttfb": 326.5,
+      "startRender": 4550,
+      "domReadyEvent": 7963,
+      "loadEvent": 27443,
+      "totalTime": 27442.5,
+      "visuallyComplete": 21900,
+      "speedIndex": 10887
+    },
+    "repeatView": {
+      "requests": 27,
+      "bytesIn": 80748,
+      "ttfb": 560,
+      "startRender": 2900,
+      "domReadyEvent": 5416.5,
+      "loadEvent": 17133.5,
+      "totalTime": 17133.5,
+      "visuallyComplete": 17150,
+      "speedIndex": 10887
+    }
+  },
+  {
+    "id": "2019-03-10",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190311_B9_6Z",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1552176000,
+    "firstView": {
+      "requests": 84,
+      "bytesIn": 1863190,
+      "ttfb": 296,
+      "startRender": 3400,
+      "domReadyEvent": 7139.5,
+      "loadEvent": 19986,
+      "totalTime": 19985.5,
+      "visuallyComplete": 17700,
+      "speedIndex": 9189
+    },
+    "repeatView": {
+      "requests": 27,
+      "bytesIn": 80746.5,
+      "ttfb": 558,
+      "startRender": 2700,
+      "domReadyEvent": 5680.5,
+      "loadEvent": 16455.5,
+      "totalTime": 16455.5,
+      "visuallyComplete": 16600,
+      "speedIndex": 9189
+    }
+  },
+  {
+    "id": "2019-03-11",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190312_S5_6Z",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1552262400,
+    "firstView": {
+      "requests": 85,
+      "bytesIn": 1861683,
+      "ttfb": 327,
+      "startRender": 4300,
+      "domReadyEvent": 7918,
+      "loadEvent": 26391,
+      "totalTime": 26391,
+      "visuallyComplete": 19500,
+      "speedIndex": 11428.5
+    },
+    "repeatView": {
+      "requests": 27,
+      "bytesIn": 79105,
+      "ttfb": 611.5,
+      "startRender": 2800,
+      "domReadyEvent": 5485.5,
+      "loadEvent": 16746.5,
+      "totalTime": 16746.5,
+      "visuallyComplete": 17050,
+      "speedIndex": 11428.5
+    }
+  },
+  {
+    "id": "2019-03-12",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190412_FT_51",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1552348800,
+    "firstView": {
+      "requests": 84.5,
+      "bytesIn": 1861638,
+      "ttfb": 319.5,
+      "startRender": 3700,
+      "domReadyEvent": 6098,
+      "loadEvent": 24765.5,
+      "totalTime": 24765.5,
+      "visuallyComplete": 17100,
+      "speedIndex": 8644.5
+    },
+    "repeatView": {
+      "requests": 27,
+      "bytesIn": 79127,
+      "ttfb": 633,
+      "startRender": 2850,
+      "domReadyEvent": 5790.5,
+      "loadEvent": 16498,
+      "totalTime": 16498,
+      "visuallyComplete": 16600,
+      "speedIndex": 8644.5
+    }
+  },
+  {
+    "id": "2019-04-11",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190412_FT_51",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1554940800,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1931328,
+      "ttfb": 354,
+      "startRender": 3700,
+      "domReadyEvent": 6787,
+      "loadEvent": 19193,
+      "totalTime": 19193,
+      "visuallyComplete": 13600,
+      "speedIndex": 8022
+    },
+    "repeatView": {
+      "requests": 25,
+      "bytesIn": 114271,
+      "ttfb": 554,
+      "startRender": 3000,
+      "domReadyEvent": 5318,
+      "loadEvent": 12856,
+      "totalTime": 12856,
+      "visuallyComplete": 13000,
+      "speedIndex": 8022
+    }
+  },
+  {
+    "id": "2019-04-11",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190413_AE_55",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1554940800,
+    "firstView": {
+      "requests": 82,
+      "bytesIn": 1931328,
+      "ttfb": 354,
+      "startRender": 3700,
+      "domReadyEvent": 6787,
+      "loadEvent": 19193,
+      "totalTime": 19193,
+      "visuallyComplete": 13600,
+      "speedIndex": 8022
+    },
+    "repeatView": {
+      "requests": 25,
+      "bytesIn": 114271,
+      "ttfb": 554,
+      "startRender": 3000,
+      "domReadyEvent": 5318,
+      "loadEvent": 12856,
+      "totalTime": 12856,
+      "visuallyComplete": 13000,
+      "speedIndex": 8022
+    }
+  },
+  {
+    "id": "2019-04-12",
+    "location": "LaptopT2_wptdriver:Chrome",
+    "url": "http://52.28.134.156/results.php?test=190413_AE_55",
+    "domain": "https://www.google.com/",
+    "connectivity": "Native",
+    "date": 1555027200,
+    "firstView": {
+      "requests": 81,
+      "bytesIn": 1920032,
+      "ttfb": 337.5,
+      "startRender": 5000,
+      "domReadyEvent": 8668,
+      "loadEvent": 23749,
+      "totalTime": 23749,
+      "visuallyComplete": 21350,
+      "speedIndex": 11490
+    },
+    "repeatView": {
+      "requests": 25,
+      "bytesIn": 114271,
+      "ttfb": 583.5,
+      "startRender": 3100,
+      "domReadyEvent": 5781.5,
+      "loadEvent": 14642,
+      "totalTime": 14641.5,
+      "visuallyComplete": 15150,
+      "speedIndex": 11490
+    }
+  }
+]

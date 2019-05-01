@@ -52,6 +52,20 @@ class FileSystemStorage extends GenericStorage {
         }
     }
 
+    /*
+     * @param {string} id of the collection (url of the test)
+     * @returns {Promise<TestResultCollection>} collection found or null if it doesn't exist
+     */
+    async retrieveHistoryCollection (id) {
+        try {
+            const fileName = this.getFilePath(id, historyFolder);
+            const content = await readFileAsync(fileName, {encoding: 'utf8'});
+            return new TestResultCollection (JSON.parse(content));
+        } catch (err) {
+            throw Error(err);
+        }
+    }
+
     getFilePath (name, subfolder) {
         return `${this.path}/${subfolder}/${name}.json`;
     }
