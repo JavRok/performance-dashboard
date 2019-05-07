@@ -2,25 +2,28 @@
  * Updated list of locations, with info about test load and waiting times
  */
 
-const fs = require('fs');
+// const fs = require('fs');
 const WebPageTest = require('webpagetest');
 const conf = require('../Config');
 const util = require('../Helper/util.js');
 
-const locationsFile = conf.get('outputFolder').path + '/locations.json';
-let location;
+// const locationsFile = conf.get('outputFolder').path + '/locations.json';
+// let location;
 const averageTestTime = 40; // seconds
 const maxWaitingTime = 100; // mins
 
 class Locations {
 
-	constructor() {
-		try {
-			const data = fs.readFileSync(locationsFile, 'utf-8');
-			this.locations = JSON.parse(data);
-		} catch (e) {
-			this.locations = [];
-		}
+	constructor(Storage) {
+		this.storage = Storage;
+		this.locations = [];
+	}
+
+	/*
+	 * Constructor can't be async, so this fn needs to be called after 'new Locations()';
+	 */
+	async initFromStorage() {
+		this.locations = Storage.getLocations();
 	}
 
 	/*
@@ -83,7 +86,7 @@ class Locations {
 	 * Same as update(), but returns a promise with the result
 	 * @returns {Promise}
 	 */
-	getLocationsPromise() {
+	updatePromise() {
 		const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
 		const options = conf.get('testOptions');
 		return new Promise((resolve, reject) => {
@@ -106,7 +109,7 @@ class Locations {
 				}
 
 				// Write the file
-				fs.writeFile(locationsFile, JSON.stringify(this.locations, null, 2), () => {});
+				// fs.writeFile(locationsFile, JSON.stringify(this.locations, null, 2), () => {});
 				resolve(this.locations);
 			});
 		})
@@ -187,11 +190,11 @@ class Locations {
 }
 
 /* FIXME: Singleton pattern, probably doesn't work this way. Use symbols to make it real singleton */
-const createLocation = function createLocation() {
-	if (!location) {
-		location = new Locations();
-	}
-	return location;
-};
+// const createLocation = function createLocation() {
+// 	if (!location) {
+// 		location = new Locations();
+// 	}
+// 	return location;
+// };
 
-module.exports = createLocation();
+module.exports = Locations;

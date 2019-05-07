@@ -1,0 +1,16 @@
+{
+  "statusCode": 200,
+  "statusText": "Ok",
+  "data": {
+    "testId": "190502_8S_4Q",
+    "ownerKey": "8356ebe7b527fe7f7c7abe9a11ebb1b0ebddd7e7",
+    "jsonUrl": "http://52.28.134.156/jsonResult.php?test=190502_8S_4Q",
+    "xmlUrl": "http://52.28.134.156/xmlResult/190502_8S_4Q/",
+    "userUrl": "http://52.28.134.156/result/190502_8S_4Q/",
+    "summaryCSV": "http://52.28.134.156/result/190502_8S_4Q/page_data.csv",
+    "detailCSV": "http://52.28.134.156/result/190502_8S_4Q/requests.csv"
+  },
+  "url": "https://www.tele2.nl/",
+  "launchedOn": "2019-5-2 12:20:47",
+  "location": "test_wptdriver:Chrome"
+}

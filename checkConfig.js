@@ -8,7 +8,9 @@ const Locations = require('./Model/Locations.js');
 
 const getLocations = async () => {
 	try {
-		const serverLocations = await Locations.getLocationsPromise();
+		const storage = conf.getStorage();
+		const locations = new Locations(storage);
+		const serverLocations = await locations.updatePromise();
 		const configLocations = conf.get('locations');
 		const browsers = getBrowsers(serverLocations);
 

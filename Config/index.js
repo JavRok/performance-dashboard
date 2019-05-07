@@ -56,6 +56,22 @@ class Config {
 	}
 
 	/*
+	 * @return {array} urls to be tested
+	 */
+	getAllSites() {
+		const sites = this.config.sites;
+		// sites can be simple array, or an object with groups of sites
+		if (sites.groups) {
+			// Concatenate all urls
+			const urls = sites.groups.reduce((acc, group) => [...acc, ...group.urls], []);
+			// Remove duplicates
+			return [...new Set(urls)];
+		}
+
+		return sites;
+	}
+
+	/*
 	 * In case urls are organized in groups, get groups a single url belongs to
 	 * @param {string} url
 	 * @returns {array}
@@ -71,6 +87,30 @@ class Config {
 			});
 		}
 		return labels;
+	}
+
+	/*
+	 * @returns {GenericStorage} an instance of subclass of GenericStorage that is selected by config
+	 */
+	async getStorage() {
+		let storageType = 'FileSystem';  // default
+		const storageConf = this.config.options.storage;
+
+		if (storageConf && storageConf.type) {
+			storageType = storageConf.type;
+		}
+		try {
+			const Storage = require(`../Storage/${storageType}Storage`);
+			const storage = new Storage();
+			if (storageType === 'FileSystem') {
+				await storage.checkFolders();
+			}
+			return storage;
+		} catch(err) {
+			this.log('Error loading Storage class, please review the conf');
+			this.log(err);
+			process.exit();
+		}
 	}
 
 	/**

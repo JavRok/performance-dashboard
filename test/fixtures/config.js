@@ -31,7 +31,7 @@ const sites = {
  */
 const options = {
 	intervalInHours: 1,
-	locations: ["SanJose_IE9:IE 9", "Dulles_MotoG4:Firefox"],
+	locations: ["London_EC2:Chrome", "Dulles_Edge:Microsoft Edge (EdgeHTML)"],
 	storage: {
 		type: 'FileSystem',  // 'FileSystem' or 'MongoDB'
 		path: 'test/fixtures'

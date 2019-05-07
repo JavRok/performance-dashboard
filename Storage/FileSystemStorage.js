@@ -3,10 +3,14 @@ const fs = require('fs');
 const { promisify } = require('util');
 const readFileAsync = promisify(fs.readFile);
 const writeFileAsync = promisify(fs.writeFile);
+const readDirAsync = promisify(fs.readdir);
+const accessAsync = promisify(fs.access);
+const mkdirAsync = promisify(fs.mkdir);
 
 const conf = require('../Config');
 const GenericStorage = require('./GenericStorage');
 const TestResultCollection = require('../Model/TestResultCollection.js');
+const Util = require('../Helper/util');
 
 const resultsFolder = 'results';
 const historyFolder = 'history';
@@ -22,6 +26,67 @@ class FileSystemStorage extends GenericStorage {
         }
         this.path = storage.path || 'wpt.org.json';
     }
+
+    /*
+     * Check that the needed folders exist, otherwise create them
+     */
+    async checkFolders() {
+        if (this.foldersCreated) return;
+        const folders = [pendingFolder, resultsFolder, historyFolder];
+        for (const folder of folders) {
+            try {
+                await accessAsync(`${this.path}/${folder}`, fs.constants.F_OK);
+            } catch (err) {
+                if (err.code === 'ENOENT') {
+                    conf.log(`Folder ${err.path} doesn't exist, creating it`);
+                    await mkdirAsync(err.path);
+                } else {
+                    throw Error(err);
+                }
+            }
+        }
+        this.foldersCreated = true;
+    }
+
+    /*
+     * Get pending tests recently launched by reading the pending folder, where each test has one json file
+     * @returns {Promise<Map>} Map of pending objects, with url as named index ['www.google.es', {wpt api obj}]
+     */
+    async getPendingTests() {
+        try {
+            // Read the contents of the status directory to get test Ids
+            const path = `${this.path}/${pendingFolder}`;
+            const files = await readDirAsync(path);
+            // Let's use Promise.all to read the files in parallel
+            const promises = files.map(file => readFileAsync(`${path}/${file}`, {encoding: 'utf8'}));
+            const results = await Promise.all(promises);
+            return new Map(results.map(result => {
+                const obj = JSON.parse(result);
+                return [obj.url, obj]; // Array for Map constructor
+            }));
+        } catch (err) {
+            throw Error(err);
+        }
+    }
+
+    /*
+     * Adds a new recently launched test, with the JSON response from the wpt api
+     * @param {Object} wptResponse JSON response from the wpt api after a 'test' command
+     * @returns {Promise<String>} name of the file created, throws exception if error
+     */
+    async addPendingTest(wptResponse) {
+        try{
+            // File with url and ID
+            const fileName = this.getFilePath(Util.urlToName(wptResponse.url) + '-' + wptResponse.data.testId, pendingFolder);
+            // TODO: Check for duplicates
+            await writeFileAsync(fileName, JSON.stringify(wptResponse, null, 2), {encoding: 'utf8'});
+            conf.log(`Test launched for ${wptResponse.url} , file created in ${fileName} (location ${wptResponse.location})`);
+            return fileName;
+        } catch (err) {
+            throw Error(err);
+        }
+    }
+
 
     /*
      * @param {string} id of the collection (url of the test)
@@ -65,6 +130,50 @@ class FileSystemStorage extends GenericStorage {
             throw Error(err);
         }
     }
+
+    /*
+    * @param {string} id of the collection (url of the test)
+    * @param {TestResultCollection} collection to create/update
+    * @returns {Promise<boolean>} true if successful
+    */
+    async saveHistoryCollection (id, collection) {
+        try {
+            const fileName = this.getFilePath(id, historyFolder);
+            await writeFileAsync(fileName, collection, {encoding: 'utf8'});
+            return true;
+        } catch (err) {
+            throw Error(err);
+        }
+    }
+
+
+    /*
+    * @returns {Promise<Array>} array with wpt api format
+    */
+    async getLocations () {
+        try {
+            const fileName = `${this.path}/locations.json`;
+            const content = await readFileAsync(fileName, {encoding: 'utf8'});
+            return JSON.parse(content);
+        } catch (err) {
+            return [];
+        }
+    }
+
+    /*
+    * @param {Array} array with wpt api format
+    * @returns {Promise<boolean>} true if successful
+    */
+    async saveLocations (locations) {
+        try {
+            const fileName = `${this.path}/locations.json`;
+            await writeFileAsync(fileName, locations, {encoding: 'utf8'});
+            return true;
+        } catch (err) {
+            throw Error(err);
+        }
+    }
+
 
     getFilePath (name, subfolder) {
         return `${this.path}/${subfolder}/${name}.json`;

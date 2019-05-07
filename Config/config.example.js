@@ -31,15 +31,17 @@ const sites = {
  */
 const options = {
 	intervalInHours: 1,
-	locations: ["SanJose_IE9:IE 9", "Dulles_MotoG4:Firefox"],
-	outputFolder: {
-		path: "wpt.org.json",
-		subfolders: {
-			pending: "pending",
-			results: "results",
-			history: "history"
-		}
+	locations: ["London_EC2:Chrome", "Dulles_Edge:Microsoft Edge (EdgeHTML)"],
+	storage: {
+		type: 'FileSystem',
+		path: 'wpt.org.json'
 	},
+	// TODO: MongoDB
+	// storage: {
+	// 	type: 'MongoDB',
+	// 	...
+	// },
+
 	// testOptions are passed directly to the webpagetest module, docs: https://www.npmjs.com/package/webpagetest
 	testOptions: {
 		connectivity: "Cable",
