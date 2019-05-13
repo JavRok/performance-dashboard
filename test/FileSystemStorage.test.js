@@ -25,11 +25,10 @@ describe('Test FileSystem Storage class', () => {
         expect.assertions(6); // Needed for async testing
 
         const tests = await fsStorage.getPendingTests();
-        expect(tests).toBeInstanceOf(Map);
-        expect(tests.size).toBeGreaterThan(0);
-        // We get the 1st element with an iterator
-        const mapIter = tests.entries();
-        const sample = mapIter.next().value[1];
+        expect(tests).toBeInstanceOf(Array);
+        expect(tests.length).toBeGreaterThan(0);
+
+        const sample = tests[0];
         expect(sample).toHaveProperty('statusCode');
         expect(sample).toHaveProperty('data');
         expect(sample).toHaveProperty('data.testId');

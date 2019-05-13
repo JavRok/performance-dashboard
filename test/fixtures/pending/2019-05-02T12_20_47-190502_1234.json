@@ -1,0 +1,16 @@
+{
+  "statusCode": 200,
+  "statusText": "Ok",
+  "data": {
+    "testId": "190502_1234",
+    "ownerKey": "8356ebe7b527fe7f7c7abe9a11ebb1b0ebddd7e7",
+    "jsonUrl": "http://52.28.134.156/jsonResult.php?test=190502_1234",
+    "xmlUrl": "http://52.28.134.156/xmlResult/190502_1234/",
+    "userUrl": "http://52.28.134.156/result/190502_1234/",
+    "summaryCSV": "http://52.28.134.156/result/190502_1234/page_data.csv",
+    "detailCSV": "http://52.28.134.156/result/190502_1234/requests.csv"
+  },
+  "url": "https://www.facebook.com/",
+  "launchedOn": "2019-5-2 13:20:47",
+  "location": "test_wptdriver:Chrome"
+}

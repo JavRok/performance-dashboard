@@ -10,7 +10,7 @@
     "summaryCSV": "http://52.28.134.156/result/190502_BT_55/page_data.csv",
     "detailCSV": "http://52.28.134.156/result/190502_BT_55/requests.csv"
   },
-  "url": "https://www.telfort.nl/",
+  "url": "https://www.google.com/",
   "launchedOn": "2019-5-2 12:20:47",
   "location": "test_wptdriver:Chrome"
 }

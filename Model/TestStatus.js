@@ -10,6 +10,7 @@ class TestStatus {
 	 * @type {Object}
 	 * @property {bool} finished
 	 * @property {number} position - indicates current position in the server queue
+	 * @property {string} id - Test id
 	 */
 
 	/**
@@ -33,7 +34,7 @@ class TestStatus {
 
 				switch (true) {
 					case (data.statusCode === 200):
-						resolve({finished: true, position: -1});
+						resolve({finished: true, position: -1, id: testId});
 						break;
 
 					case (data.statusCode < 200):
@@ -42,7 +43,8 @@ class TestStatus {
 						resolve({
 							finished: false,
 							position: data.data.behindCount,
-							location: data.data.location
+							location: data.data.location,
+							id: testId
 						});
 						break;
 
@@ -67,6 +69,10 @@ class TestStatus {
 		if (!testIds || !Array.isArray(testIds)) return null;
 		return Promise.all(testIds.map(this.getStatus));
 	}
+
+	/*
+	 *
+	 */
 }
 
 // Singleton, no need for instances

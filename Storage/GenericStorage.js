@@ -12,7 +12,7 @@ class GenericStorage {
 
     /*
      * Get pending tests recently launched by reading the pending folder, where each test has one json file
-     * @returns {Promise<Object[]>} array of pending objects (as returned by wpt api)
+     * @returns {Promise<Object[]>} Array of pending objects, unordered and with possible duplicates
      */
     async getPendingTests() {
         throw new Error("Cannot call getPendingTests on abstract class directly");

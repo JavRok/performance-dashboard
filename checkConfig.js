@@ -5,6 +5,7 @@
  */
 const conf = require('./Config');
 const Locations = require('./Model/Locations.js');
+const WebPageTest = require('webpagetest');
 
 const getLocations = async () => {
 	try {
@@ -31,7 +32,14 @@ const getLocations = async () => {
 			}
 		});
 
-		console.log('\nCONFIG OK\n');
+		// Test the API Key, by launching a test that will be lost in space
+		const result = await wptRunTestPromise('www.google.com', conf);
+		if (result.statusCode === 400) {
+			console.log('\nERROR: Invalid API Key, please create the Config/api.key file with a correct Key ' +
+				'(go to https://www.webpagetest.org/getkey.php)');
+		} else {
+			console.log('\nCONFIG OK\n');
+		}
 
 	} catch (err) {
 		if (err.code) {
@@ -49,8 +57,8 @@ const getLocations = async () => {
 	}
 };
 
+
 function getBrowsers(locations) {
-	console.log('locations',locations);
 	return locations.map( location => {
 		return {
 			name: location.id,

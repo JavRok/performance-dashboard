@@ -6,6 +6,7 @@ const writeFileAsync = promisify(fs.writeFile);
 const readDirAsync = promisify(fs.readdir);
 const accessAsync = promisify(fs.access);
 const mkdirAsync = promisify(fs.mkdir);
+const unlinkAsync = promisify(fs.unlink);
 
 const conf = require('../Config');
 const GenericStorage = require('./GenericStorage');
@@ -50,7 +51,7 @@ class FileSystemStorage extends GenericStorage {
 
     /*
      * Get pending tests recently launched by reading the pending folder, where each test has one json file
-     * @returns {Promise<Map>} Map of pending objects, with url as named index ['www.google.es', {wpt api obj}]
+     * @returns {Promise<Object[]>} Array of pending objects, unordered and with possible duplicates
      */
     async getPendingTests() {
         try {
@@ -60,10 +61,7 @@ class FileSystemStorage extends GenericStorage {
             // Let's use Promise.all to read the files in parallel
             const promises = files.map(file => readFileAsync(`${path}/${file}`, {encoding: 'utf8'}));
             const results = await Promise.all(promises);
-            return new Map(results.map(result => {
-                const obj = JSON.parse(result);
-                return [obj.url, obj]; // Array for Map constructor
-            }));
+            return results.map(result => JSON.parse(result));
         } catch (err) {
             throw Error(err);
         }
@@ -82,6 +80,20 @@ class FileSystemStorage extends GenericStorage {
             await writeFileAsync(fileName, JSON.stringify(wptResponse, null, 2), {encoding: 'utf8'});
             conf.log(`Test launched for ${wptResponse.url} , file created in ${fileName} (location ${wptResponse.location})`);
             return fileName;
+        } catch (err) {
+            throw Error(err);
+        }
+    }
+
+    /*
+     * Removes a pending test, because we already gather the results or because of an error
+     * @param {string} id of the test
+     * @param {string} url of the test
+     */
+    async removePendingTest(id, url) {
+        try{
+            const fileName = this.getFilePath(Util.urlToName(url) + '-' + id, pendingFolder);
+            await unlinkAsync(fileName);
         } catch (err) {
             throw Error(err);
         }
