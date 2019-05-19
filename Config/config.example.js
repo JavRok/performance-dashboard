@@ -19,8 +19,7 @@ const sites = {
 			label: "News",
 			urls: [
 				"https://www.nytimes.com/",
-				"https://www.elespanol.com/",
-				"https://www.telegraph.co.uk/"
+				"https://www.elespanol.com/"
 			]
 		}
 	]

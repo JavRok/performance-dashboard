@@ -50,8 +50,8 @@ useful data. I run it on the same AWS machine where I have webpagetest, for inst
     - `intervalInHours: 1` -> Number, by default every url is tested every hour.
     - `locations: ["SanJose_IE9:IE 9", "Dulles_MotoG4:Firefox"]` -> Fill several options for public instance, an 
     algorithm will choose the most suitable at the moment. Don't forget to include the browser as `"<server>:<browser>"`
-    - `outputFolder` -> leave it as it is. You can rename the folders, but at it needs to have 3 subfolders: pending,
-    results and history.
+    - `storage` -> leave it as it is. Right now only 'FileSystem' works (Planning to add MongoDB). You can change 'path'
+      to a folder of your choice.
     - `testOptions: Object` -> Here you can pass the options that the webpagetest npm package accepts and passes to the
      server. Check the docs for more info: https://www.npmjs.com/package/webpagetest#options
 
