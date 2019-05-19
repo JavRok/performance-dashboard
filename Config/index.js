@@ -6,6 +6,7 @@
 const fs = require('fs');
 const apiFile = __dirname + '/api.key';
 const util = require('../Helper/util.js');
+const WebPageTest = require('webpagetest');
 let config;
 
 class Config {
@@ -89,6 +90,36 @@ class Config {
 		return labels;
 	}
 
+
+	/*
+	 * Checks if there is a custom script for passed url (in wpt format). If not returns same url
+	 * @param {string} url
+	 * @returns {string} url or customScript, as wpt.org understands it
+	 */
+	getCustomScript (url) {
+		const customScripts = this.get('customScripts');
+		const wpt = new WebPageTest('www.webpagetest.org', this.getApiKey());
+		const groups = this.getUrlGroups(url); // There can be custom scripts for entire groups
+		let scriptUrl = url;
+
+		// Set custom script if existing (overwrites url)
+		if (customScripts) {
+			let script;
+			if (customScripts[url]) {
+				script = customScripts[url].slice();  // Array by value, not reference
+			} else if (groups.length && customScripts[groups[0]]) {
+				// There can be custom scripts for entire groups (we check only 1st one for now)
+				script = customScripts[groups[0]].slice();
+			}
+			if (script) {
+				script.push({navigate: url});
+				scriptUrl =  wpt.scriptToString(script);
+			}
+		}
+
+		return scriptUrl;
+	}
+
 	/*
 	 * @returns {GenericStorage} an instance of subclass of GenericStorage that is selected by config
 	 */
@@ -107,16 +138,22 @@ class Config {
 			}
 			return storage;
 		} catch(err) {
-			this.log('Error loading Storage class, please review the conf');
-			this.log(err);
-			process.exit();
+			if (err.code === EEXIST) {
+				// Due to concurrence problem calling checkFolders(), don't exit
+				this.log(err);
+			} else {
+				this.log('Error loading Storage class, please review the conf');
+				this.log(err);
+				process.exit();
+			}
 		}
 	}
+
 
 	/**
 	 * Log everything with a timestamp
 	 * @param {string|Error} text
-	 * @param {bool=} error - is it an error text?
+	 * @param {boolean=} error - is it an error text?
 	 */
 	log(text, error) {
 		if (text instanceof Error) {

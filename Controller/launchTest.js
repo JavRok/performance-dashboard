@@ -3,14 +3,12 @@
  * The results are gathered by checkForPendingTests.js, that needs to be run periodically
  */
 
-const fs = require('fs');
-const WebPageTest = require('webpagetest');
-
 const conf = require('../Config');
 const Util = require('../Helper/util.js');
 const testStatus = require('../Model/TestStatus');
 const Locations = require('../Model/Locations.js');
 const PendingTests = require('../Model/PendingTests');
+const wptPromise = require('../Helper/wptPromise');
 
 // Limit where we consider the queue stuck, so we launch another test
 const stuckQueueLimit = 100;
@@ -74,13 +72,13 @@ async function run(storage) {
 			return false;   // checkForPendingTests will gather these results soon
 		}
 
-		// 2. If there's a recent test still pending, we wait a little bit more
-		const hoursAgo = new Date().getTime() - launchedOn / 1000 / 60 / 60;
+		// If there's a recent test still pending, we wait a little bit more
+        const hoursAgo = (new Date() - launchedOn) / 1000 / 60 / 60;
 		if (hoursAgo < conf.get('intervalInHours') * 2) {
 			return false;
 		}
 
-		// 3. If a test is considered stuck (queue or time), remove it
+		// If a test is considered stuck (queue or time), remove it
 		if (hoursAgo > stuckHoursLimit || status.position > stuckQueueLimit) {
 			await storage.removePendingTest(status.id, url);
 			conf.log(`Test ${status.id} with url ${url} was stuck, so had to be removed`);
@@ -96,61 +94,18 @@ async function run(storage) {
 	 * @param {string} already selected best location
 	 */
 	async function launchTest(url, bestLocation) {
-		const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
-		const options = conf.get('testOptions');
-		// const customScripts = conf.get('customScripts');
-		const scriptUrl = getCustomScript(url, wpt);
+		const scriptUrl = conf.getCustomScript(url);
+		const result = await wptPromise.runTest(scriptUrl, bestLocation);
+		if (result.statusCode !== 200) return conf.log(result.statusText, true);
+		// TODO: On error, select next location
 
-		options.location = bestLocation || locations.getBestLocation();
+		result.url = url;
+		result.launchedOn = new Date().toLocaleString();
+		result.location = bestLocation;
 
-		wpt.runTest(scriptUrl, options, async (err, result) => {
-
-			if (err) return conf.log(err, true);
-			if (result.statusCode !== 200) return conf.log(result.statusText, true);
-			// TODO: On error, select next location
-
-			result.url = url;
-			result.launchedOn = new Date().toLocaleString();
-			result.location = options.location;
-
-			await storage.addPendingTest(result);
-		});
-	}
-
-
-	/*
-	 * Checks if there is a custom script for current url (in wpt format). If not returns same url
-	 * @param {string} url
-	 * @param {object} wpt instance
-	 * @returns {string} url or customScript, as wpt.org understands it
-	 */
-	function getCustomScript (url, wpt) {
-		const customScripts = conf.get('customScripts');
-		const groups = conf.getUrlGroups(url); // There can be custom scripts for entire groups
-		let scriptUrl = url;
-
-		// Set custom script if existing (overwrites url)
-		if (customScripts) {
-			let script;
-			if (customScripts[url]) {
-				script = customScripts[url].slice();  // Array by value, not reference
-			} else if (groups.length && customScripts[groups[0]]) {
-				// There can be custom scripts for entire groups (we check only 1st one for now)
-				script = customScripts[groups[0]].slice();
-			}
-			if (script) {
-				script.push({navigate: url});
-				scriptUrl =  wpt.scriptToString(script);
-			}
-		}
-
-		return scriptUrl;
+		await storage.addPendingTest(result);
 	}
 }
-
-
-
-
 
 
 // Run if file was invoked directly, otherwise leverage on outside script

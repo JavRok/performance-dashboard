@@ -2,6 +2,7 @@ const fs = require('fs');
 const TestResultCollection = require('../Model/TestResultCollection');
 const FileSystemStorage = require('../Storage/FileSystemStorage');
 const GenericStorage = require('../Storage/GenericStorage');
+const Util = require('../Helper/util');
 
 describe('Test FileSystem Storage class', () => {
 
@@ -74,10 +75,10 @@ describe('Test FileSystem Storage class', () => {
         newCollection.addOrdered(tests.getTestAt(2));
         newCollection.addOrdered(tests.getTestAt(5));
 
-        const ret = await fsStorage.saveResultsCollection('test_file', newCollection);
+        const ret = await fsStorage.saveResultsCollection('http://testurl.com', newCollection);
         expect(ret).toBe(true);
         // We use internal getFilePath function to find the file
-        const filePath = fsStorage.getFilePath('test_file', 'results');
+        const filePath = fsStorage.getFilePath(Util.urlToName('http://testurl.com'), 'results');
         expect(filePath).toMatch('fixtures');
         fs.readFile(filePath, (err, content) => {
             expect(err).toBe(null);

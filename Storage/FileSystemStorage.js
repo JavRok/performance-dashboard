@@ -17,6 +17,15 @@ const resultsFolder = 'results';
 const historyFolder = 'history';
 const pendingFolder = 'pending';
 
+async function handleENOENTError(err) {
+    if (err.code === 'ENOENT') {
+        conf.log(`Folder ${err.path} doesn't exist, creating it`);
+        await mkdirAsync(err.path);
+    } else {
+        throw Error(err);
+    }
+}
+
 class FileSystemStorage extends GenericStorage {
 
     constructor() {
@@ -34,16 +43,16 @@ class FileSystemStorage extends GenericStorage {
     async checkFolders() {
         if (this.foldersCreated) return;
         const folders = [pendingFolder, resultsFolder, historyFolder];
+        try {
+            await accessAsync(this.path, fs.constants.F_OK);
+        } catch (err) {
+            await handleENOENTError(err);
+        }
         for (const folder of folders) {
             try {
                 await accessAsync(`${this.path}/${folder}`, fs.constants.F_OK);
             } catch (err) {
-                if (err.code === 'ENOENT') {
-                    conf.log(`Folder ${err.path} doesn't exist, creating it`);
-                    await mkdirAsync(err.path);
-                } else {
-                    throw Error(err);
-                }
+                await handleENOENTError(err);
             }
         }
         this.foldersCreated = true;
@@ -105,9 +114,9 @@ class FileSystemStorage extends GenericStorage {
      * @param {TestResultCollection} collection to create/update
      * @returns {Promise<boolean>} true if successful
      */
-    async saveResultsCollection (id, collection) {
+    async saveResultsCollection (url, collection) {
         try {
-            const fileName = this.getFilePath(id, resultsFolder);
+            const fileName = this.getFilePath(Util.urlToName(url), resultsFolder);
             await writeFileAsync(fileName, collection, {encoding: 'utf8'});
             return true;
         } catch (err) {
@@ -119,13 +128,17 @@ class FileSystemStorage extends GenericStorage {
      * @param {string} id of the collection (url of the test)
      * @returns {Promise<TestResultCollection>} collection found or null if it doesn't exist
      */
-    async retrieveResultsCollection (id) {
+    async retrieveResultsCollection (url) {
         try {
-            const fileName = this.getFilePath(id, resultsFolder);
+            const fileName = this.getFilePath(Util.urlToName(url), resultsFolder);
             const content = await readFileAsync(fileName, {encoding: 'utf8'});
             return new TestResultCollection (JSON.parse(content));
         } catch (err) {
-            throw Error(err);
+            if (err.code === 'ENOENT') {
+                return new TestResultCollection();
+            } else {
+                throw Error(err);
+            }
         }
     }
 
@@ -133,12 +146,15 @@ class FileSystemStorage extends GenericStorage {
      * @param {string} id of the collection (url of the test)
      * @returns {Promise<TestResultCollection>} collection found or null if it doesn't exist
      */
-    async retrieveHistoryCollection (id) {
+    async retrieveHistoryCollection (url) {
         try {
-            const fileName = this.getFilePath(id, historyFolder);
+            const fileName = this.getFilePath(Util.urlToName(url), historyFolder);
             const content = await readFileAsync(fileName, {encoding: 'utf8'});
             return new TestResultCollection (JSON.parse(content));
         } catch (err) {
+            if (err.code === 'ENOENT') {
+                throw Error(`There's no history data yet for ${url}`);
+            }
             throw Error(err);
         }
     }
@@ -148,9 +164,9 @@ class FileSystemStorage extends GenericStorage {
     * @param {TestResultCollection} collection to create/update
     * @returns {Promise<boolean>} true if successful
     */
-    async saveHistoryCollection (id, collection) {
+    async saveHistoryCollection (url, collection) {
         try {
-            const fileName = this.getFilePath(id, historyFolder);
+            const fileName = this.getFilePath(Util.urlToName(url), historyFolder);
             await writeFileAsync(fileName, collection, {encoding: 'utf8'});
             return true;
         } catch (err) {
@@ -179,7 +195,7 @@ class FileSystemStorage extends GenericStorage {
     async saveLocations (locations) {
         try {
             const fileName = `${this.path}/locations.json`;
-            await writeFileAsync(fileName, locations, {encoding: 'utf8'});
+            await writeFileAsync(fileName, JSON.stringify(locations, null, 2), {encoding: 'utf8'});
             return true;
         } catch (err) {
             throw Error(err);

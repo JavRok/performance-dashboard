@@ -5,11 +5,11 @@
  */
 const conf = require('./Config');
 const Locations = require('./Model/Locations.js');
-const WebPageTest = require('webpagetest');
+const wptPromise = require('./Helper/wptPromise');
 
 const getLocations = async () => {
 	try {
-		const storage = conf.getStorage();
+		const storage = await conf.getStorage();
 		const locations = new Locations(storage);
 		const serverLocations = await locations.updatePromise();
 		const configLocations = conf.get('locations');
@@ -33,10 +33,17 @@ const getLocations = async () => {
 		});
 
 		// Test the API Key, by launching a test that will be lost in space
-		const result = await wptRunTestPromise('www.google.com', conf);
+		const options = conf.get('testOptions');
+		const preferredLocation = conf.get('locations')[0];
+		const result = await wptPromise.runTest('www.google.com', preferredLocation);
 		if (result.statusCode === 400) {
-			console.log('\nERROR: Invalid API Key, please create the Config/api.key file with a correct Key ' +
-				'(go to https://www.webpagetest.org/getkey.php)');
+			if (result.statusText.includes('Invalid Location')) {
+				console.log('\nERROR: Invalid Location ' + options.location + ', please add a correct one ' +
+					'(go to https://www.webpagetest.org/getkey.php)\n');
+			} else if (result.statusText.includes('Invalid API Key')) {
+				console.log('\nERROR: Invalid API Key, please create the Config/api.key file with a correct Key ' +
+					'(go to https://www.webpagetest.org/getkey.php)\n');
+			}
 		} else {
 			console.log('\nCONFIG OK\n');
 		}

@@ -25,8 +25,8 @@ function urlToName(testUrl) {
 	const urlObj = url.parse(testUrl);
 	let path = urlObj.pathname.replace(/\//g, '_');
 	path = path.trimRight('_');
-
-	return urlObj.hostname + path;
+	const host = urlObj.hostname || '';
+	return host + path;
 }
 
 

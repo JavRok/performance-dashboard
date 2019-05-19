@@ -3,7 +3,5 @@ node_modules
 config.json
 Config/config.js
 api.key
-wpt.org.json/history/*
-wpt.org.json/pending/*
-wpt.org.json/results/*
+wpt.org.json
 log/*

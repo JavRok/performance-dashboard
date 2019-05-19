@@ -2,13 +2,10 @@
  * Updated list of locations, with info about test load and waiting times
  */
 
-// const fs = require('fs');
 const WebPageTest = require('webpagetest');
 const conf = require('../Config');
 const util = require('../Helper/util.js');
 
-// const locationsFile = conf.get('outputFolder').path + '/locations.json';
-// let location;
 const averageTestTime = 40; // seconds
 const maxWaitingTime = 100; // mins
 
@@ -23,7 +20,7 @@ class Locations {
 	 * Constructor can't be async, so this fn needs to be called after 'new Locations()';
 	 */
 	async initFromStorage() {
-		this.locations = Storage.getLocations();
+		this.locations = this.storage.getLocations();
 	}
 
 	/*
@@ -77,7 +74,7 @@ class Locations {
 				self.locations = [this.locations];
 			}
 			// Write the file
-			fs.writeFile(locationsFile, JSON.stringify(self.locations, null, 2), () => {});
+			// fs.writeFile(locationsFile, JSON.stringify(self.locations, null, 2), () => {});
 			cb(null);
 		});
 	}
@@ -89,6 +86,7 @@ class Locations {
 	updatePromise() {
 		const wpt = new WebPageTest('www.webpagetest.org', conf.getApiKey());
 		const options = conf.get('testOptions');
+		const storage = this.storage;
 		return new Promise((resolve, reject) => {
 			wpt.getLocations(options, (err, result) => {
 				if (err) {
@@ -108,8 +106,8 @@ class Locations {
 					this.locations = [this.locations];
 				}
 
-				// Write the file
-				// fs.writeFile(locationsFile, JSON.stringify(this.locations, null, 2), () => {});
+				// Save it to the storage
+				storage.saveLocations(this.locations);
 				resolve(this.locations);
 			});
 		})
@@ -174,8 +172,7 @@ class Locations {
 	}
 
 	/*
-	 * TODO: something with this
-	 * Set waiting time for a location, after a test has been retrieved
+	 * TODO: Set waiting time for a location, after a test has been retrieved
 	 * @return {bool}
 	 */
 	/*setLocationWaitingTime(locationId, minutes) {
@@ -189,12 +186,5 @@ class Locations {
 
 }
 
-/* FIXME: Singleton pattern, probably doesn't work this way. Use symbols to make it real singleton */
-// const createLocation = function createLocation() {
-// 	if (!location) {
-// 		location = new Locations();
-// 	}
-// 	return location;
-// };
 
 module.exports = Locations;
