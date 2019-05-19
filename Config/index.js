@@ -14,10 +14,19 @@ class Config {
 		this.config = require(config);
 	}
 
+	// TODO: make async
 	getApiKey() {
-		if (!this.ApiKey) {
-			this.ApiKey = fs.readFileSync(apiFile, 'utf-8');
+		try {
+			if (!this.ApiKey) {
+				this.ApiKey = fs.readFileSync(apiFile, 'utf-8');
+			}
+		} catch (err) {
+			if (err.code === 'ENOENT') {
+				this.log('Warning: api.key file not existing. Consider creating one like api.key_example. ');
+				this.ApiKey = '12345';
+			}
 		}
+
 		return this.ApiKey;
 	}
 

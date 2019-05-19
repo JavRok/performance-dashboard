@@ -40,9 +40,11 @@ const getLocations = async () => {
 			if (result.statusText.includes('Invalid Location')) {
 				console.log('\nERROR: Invalid Location ' + options.location + ', please add a correct one ' +
 					'(go to https://www.webpagetest.org/getkey.php)\n');
-			} else if (result.statusText.includes('Invalid API Key')) {
+			} else if (result.statusText.includes('API Key')) {
 				console.log('\nERROR: Invalid API Key, please create the Config/api.key file with a correct Key ' +
 					'(go to https://www.webpagetest.org/getkey.php)\n');
+			} else {
+				console.log('ERROR:', result);
 			}
 		} else {
 			console.log('\nCONFIG OK\n');
