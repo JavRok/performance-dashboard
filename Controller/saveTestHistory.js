@@ -3,91 +3,126 @@
  * value, calculated with the median, and saved to a file in history/
  */
 
-if ( global.v8debug ) {
-	global.v8debug.Debug.setBreakOnException(); // speaks for itself
-}
-
-var fs = require('fs');
+// const fs = require('fs');
 const conf = require('../Config');
-	// conf = Config();
-var util = require('../Helper/util.js');
-var TestResult = require('../Model/TestResult.js');
-var TestResultCollection = require('../Model/TestResultCollection.js');
+const util = require('../Helper/util.js');
+const TestResult = require('../Model/TestResult.js');
+// const TestResultCollection = require('../Model/TestResultCollection.js');
+// const wptPromise = require('../Helper/wptPromise');
 
 // Limit on the number of days stored with all the test information
-var limit24hDays = 7;
+const limit24hDays = 7;
 
-var resultsDir = conf.getPath('results');  // 24h results
-var historyDir = conf.getPath('history');  // days median result
+// const resultsDir = conf.getPath('results');  // 24h results
+// const historyDir = conf.getPath('history');  // days median result
 
-function run() {
+async function run(storage) {
 	// Calculate the limit date to exclude from the history saving
-	var today = new Date();
-	var limitDate = today.setDate(today.getDate() - limit24hDays);
+	const today = new Date();
+	const limitDate = today.setDate(today.getDate() - limit24hDays);
 
-	fs.readdir(resultsDir, function (err,  files) {
-		if (err) return conf.log(err, true);
 
-		files.forEach(function (file) {
+	const sites = conf.getAllSites();
+	let hourlyResults, dailyResults, days;
+	for (url of sites) {
+		try {
+			hourlyResults = await storage.retrieveResultsCollection(url);
+			dailyResults = await storage.retrieveHistoryCollection(url);
+			days = getDays(hourlyResults);
 
-			// For each domain, get both the results and the history file
-			Promise.all([getFileJsonResults(historyDir + file), getFileJsonResults(resultsDir + file)])
-				.then( (results) => {
+			// Now 'days' list all single days found in the hourly results
+			// We calculate median for those, store them in a file, and remove the oldest from original results
 
-					var dailyResults = results[0];
-					var hourlyResults = results[1];
-					var days = getDays(hourlyResults);
+			const today = util.getUniqueDay(Date.now() / 1000);
+			let dateObj;
+			if (days.length > 0) {
+				days.forEach((day) => {
+					if (day === today) return;
+					dailyResults.addOrdered(getMedianForDay(hourlyResults, day));
+					dateObj = new Date(day);
+					// If older than 7 days (by default), remove them
 
-					// Now 'days' list all single days found in the hourly results
-					// We calculate median for those, store them in a file, and remove the oldest from original results
-
-					var dateObj, today = util.getUniqueDay(Date.now() / 1000);
-					if (days.length > 0) {
-						days.forEach((day) => {
-							if (day === today) return;
-							dailyResults.addOrdered(getMedianForDay(hourlyResults, day));
-							dateObj = new Date(day);
-							// If older than 7 days (by default), remove them
-
-							if (dateObj < limitDate) {
-								hourlyResults.removeTestsFromDay(day);
-							}
-						});
-
-						setFileJsonResults(historyDir + file, dailyResults);
-						setFileJsonResults(resultsDir + file, hourlyResults);
+					if (dateObj < limitDate) {
+						hourlyResults.removeTestsFromDay(day);
 					}
-
-				})
-				.catch((err) => {
-					conf.log(`saveTestHistory: Error when retrieving ${file}. ${err}`);
 				});
-		});
-	});
 
-	conf.log('Saving daily history and removing old results');
+				await storage.saveHistoryCollection(dailyResults);
+				await storage.saveResultsCollection(hourlyResults);
+
+				conf.log('Saving daily history and removing old results for ' + url);
+			}
+		} catch (err) {
+			conf.log('Error on saveTestHistory for ' + url);
+			conf.log(err);
+		}
+	}
 }
+
+
+// fs.readdir(resultsDir, function (err,  files) {
+// 		if (err) return conf.log(err, true);
+//
+// 		files.forEach(function (file) {
+//
+// 			// For each domain, get both the results and the history file
+// 			Promise.all([getFileJsonResults(historyDir + file), getFileJsonResults(resultsDir + file)])
+// 				.then( (results) => {
+//
+// 					const dailyResults = results[0];
+// 					const hourlyResults = results[1];
+// 					const days = getDays(hourlyResults);
+//
+// 					// Now 'days' list all single days found in the hourly results
+// 					// We calculate median for those, store them in a file, and remove the oldest from original results
+//
+// 					let dateObj, today = util.getUniqueDay(Date.now() / 1000);
+// 					if (days.length > 0) {
+// 						days.forEach((day) => {
+// 							if (day === today) return;
+// 							dailyResults.addOrdered(getMedianForDay(hourlyResults, day));
+// 							dateObj = new Date(day);
+// 							// If older than 7 days (by default), remove them
+//
+// 							if (dateObj < limitDate) {
+// 								hourlyResults.removeTestsFromDay(day);
+// 							}
+// 						});
+//
+// 						setFileJsonResults(historyDir + file, dailyResults);
+// 						setFileJsonResults(resultsDir + file, hourlyResults);
+// 					}
+//
+// 				})
+// 				.catch((err) => {
+// 					conf.log(`saveTestHistory: Error when retrieving ${file}. ${err}`);
+// 				});
+// 		});
+// 	});
+//
+// 	conf.log('Saving daily history and removing old results');
+// }
 
 /*
  * Read a results file to a TestResultCollection object.
  * @return {Promise.<TestResultCollection>} If succeeds, returns a TestResultCollection object
  */
-function getFileJsonResults(fileName) {
-
-	return new Promise(function (resolve, reject) {
-		fs.readFile(fileName, 'utf-8', function (err, data) {
-			if (err) {
-				// Never reject, just return empty test collection
-				return resolve(new TestResultCollection ());
-			}
-			try {
-				resolve(new TestResultCollection (JSON.parse(data)));
-			} catch (ex) {
-				resolve(new TestResultCollection ());
-			}
-		});
-	});
-}
+// function getFileJsonResults(fileName) {
+//
+// 	return new Promise(function (resolve, reject) {
+// 		fs.readFile(fileName, 'utf-8', function (err, data) {
+// 			if (err) {
+// 				// Never reject, just return empty test collection
+// 				return resolve(new TestResultCollection ());
+// 			}
+// 			try {
+// 				resolve(new TestResultCollection (JSON.parse(data)));
+// 			} catch (ex) {
+// 				resolve(new TestResultCollection ());
+// 			}
+// 		});
+// 	});
+// }
 
 
 /*
@@ -95,9 +130,9 @@ function getFileJsonResults(fileName) {
  * @param {string} fileName
  * @param {TestResultCollection}
  */
-function setFileJsonResults(fileName, tests) {
-	fs.writeFile(fileName, tests, function () {});
-}
+// function setFileJsonResults(fileName, tests) {
+// 	fs.writeFile(fileName, tests, function () {});
+// }
 
 
 /*
@@ -113,8 +148,8 @@ function getMedianForDay(tests, day) {
 	}
 
 	// Temp chunk of tests from the total list of elements that matches the day
-	var dayTests1stView = [];
-	var dayTests2ndView = [];   // RepeatView
+	const dayTests1stView = [];
+	const dayTests2ndView = [];   // RepeatView
 	for (let test of tests) {
 		if (util.getUniqueDay(test.date) === day) {
 			dayTests1stView.push(test.firstView);
@@ -124,10 +159,10 @@ function getMedianForDay(tests, day) {
 		}
 	}
 
-	var timestamp = Math.floor(new Date(day).getTime() / 1000);
-	var sampleTest = tests.tests[tests.length() - 1];
+	const timestamp = Math.floor(new Date(day).getTime() / 1000);
+	const sampleTest = tests.tests[tests.length() - 1];
 
-	var medianObject = {
+	const medianObject = {
 		'id'          : day,
 		'location'    : sampleTest.location,
 		'url'         : sampleTest.url,
@@ -174,7 +209,7 @@ function getMedianForDay(tests, day) {
  */
 function getDays(testResults) {
 
-	var days = [];
+	const days = [];
 
 	// testResults is an Iterable
 	for (let test of testResults) {
@@ -191,7 +226,7 @@ function getDays(testResults) {
 
 // Run if file was invoked directly, otherwise leverage on outside script
 if (util.isCalledFromCommandLine('saveTestHistory.js')) {
-	run();
+	conf.getStorage().then(storage => run(storage));
 }
 
 module.exports = {run: run};

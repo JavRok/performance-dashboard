@@ -99,6 +99,12 @@ class Locations {
 					return reject(new Error(result.response.statusText));
 				}
 
+				if (!result.response.data) {
+					const err = 'Server has no active locations. Please check there\'s at least one';
+					conf.log(err, true);
+					return reject(new Error(err));
+				}
+
 				// Fill the array with usage data.
 				this.locations = result.response.data.location;
 				// When only 1 location, only the object is returned, not the array
